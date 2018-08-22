@@ -11,24 +11,42 @@
 #location_id,location_code,       #location_name
 
 #branchLoc sets the following attributes:
-#       branchcode, shelving_location, collection_code, sub_location
-1:  branchLoc(KK, KONVERSIO) #REVIEW","REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
-2:  branchLoc() #fennica","fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
-3:  branchLoc() #fenluv","fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
-4:  branchLoc() #mikrof","MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
-5:  branchLoc() #pienp","Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
-6:  branchLoc() #ennt","Ennakkotiedot","Ennakkotiedot",,,"N","1","0"
-7:  branchLoc() #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
-8:  branchLoc() #rv","RV-kokoelma","Kansalliskokoelma  -  RV. Fennica",,,"N","1","0"
-9:  branchLoc() #kvenn","KV Ennakkotiedot","Ennakkotieto","KVENN",,"N","1","0"
-10: branchLoc() #Vpkpl","Vapaakappaleet","Vapaakappaletoimisto","VPKPL",,"Y","1","1809"
-11: branchLoc() #digtain","digitoitu aineisto","KANSALLISKOKOELMA - Digitoitu aineisto","Digitoitu",,"N","1","0"
-12: branchLoc() #digiaan","digitoidut <E4><E4>nitteet","KANSALLISKOKOELMA - digitoidut <E4><E4>nitteet","digitoidut <E4><E4>nitteet",,"N","1","5"
-13: branchLoc() #mikkeli","digitoitavana Mikkeliss<E4>","digitoitavana",,,"N","1","0"
-14: branchLoc() #Lainaus","Fennican lainaus",,,,"Y","1","0"
-15: branchLoc() #evapaa","eVapaakappaleet","KANSALLISKOKOELMA - digitaaliset vapaakappaleet",,,"N","1","1347"
-16: branchLoc() #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
-17: branchLoc() #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
-18: branchLoc() #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
-_DEFAULT_: branchLoc(HAMK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
+#       branchcode, shelving_location, collection_code, sub_location, itemtype, notforloan-status
+1:  branchLoc(KK, KONVERSIO, REVIEW)    #REVIEW,"REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
+2:  branchLoc(KK_VAR, VAR, FENNICA)     #fennica,"fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
+3:  branchLoc(KK_VAR, VAR, FENLUV)      #fenluv,"fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
+
+#Tämä vaikuttaa itseasiassa aineistolajilta, Mikrofilmi (MF). Veikkaisin että ovat jossain varastossa/luolassa
+4:  branchLoc(KK_VAR, VAR, undef, undef, MF)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
+
+#Kokoelma voisi olla pienpainate (PP)?
+5:  branchLoc(KK_VAR, VAR, PP)                #pienp,"Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
+
+#Nämä ovat varmaankin tilauksessa olevia tietueita tai jotain muuta mitkä eivät ole vielä saapuneet kokoelmaan? Tällöin niteen tila on hankinnassa tms.
+6:  branchLoc(KK_VAR, VAR, undef, undef, undef, 'ACQ') #ennt","Ennakkotiedot","Ennakkotiedot",,,"N","1","0"
+
+#Miksi tälläinen on tarpeellinen? Jos jotain puuttuu kansalliskokoelmasta, ne saa selvillä tekemällä haun tietueista, joilla ei ole niteitä
+#ja jotka eivät ole osakohteita.
+7:  branchLoc(KK_VAR, KONVERSIO)    #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
+
+8:  branchLoc(KK_VAR, VAR, RV)      #rv","RV-kokoelma","Kansalliskokoelma  -  RV. Fennica",,,"N","1","0"
+9:  branchLoc(KK_VAR, VAR, KV)      #kvenn","KV Ennakkotiedot","Ennakkotieto","KVENN",,"N","1","0"
+10: branchLoc(KK, VAP)              #Vpkpl","Vapaakappaleet","Vapaakappaletoimisto","VPKPL",,"Y","1","1809"
+
+#Aineistolaji voisi olla digitaalinen/elektroninen aineisto (EA) tjtn?
+11: branchLoc(KK, LUK, undef, undef, EA)  #digtain","digitoitu aineisto","KANSALLISKOKOELMA - Digitoitu aineisto","Digitoitu",,"N","1","0"
+
+#Äänitteen tunnistaa YKL-luokituksesta tai MARC-kontrollikentistä.
+12: branchLoc(KK, LUK, undef, undef, EA)  #digiaan","digitoidut <E4><E4>nitteet","KANSALLISKOKOELMA - digitoidut <E4><E4>nitteet","digitoidut <E4><E4>nitteet",,"N","1","5"
+
+13: branchLoc(MIK, VAR)                   #mikkeli","digitoitavana Mikkeliss<E4>","digitoitavana",,,"N","1","0"
+14: branchLoc(KK, LUK)                    #Lainaus","Fennican lainaus",,,,"Y","1","0"
+15: branchLoc(KK, VAP, undef, undef, EA)  #evapaa","eVapaakappaleet","KANSALLISKOKOELMA - digitaaliset vapaakappaleet",,,"N","1","1347"
+16: branchLoc(KK_VAR, VAR, PP, undef, EA) #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
+
+#Äänitteet ja nuotit tunnistaa YKL- tai MARC-luokituksista
+17: branchLoc(KK_VAR, VAR)                #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
+18: branchLoc(KK_VAR, VAR)                #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
+
+_DEFAULT_: branchLoc(KK_VAR, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
 
