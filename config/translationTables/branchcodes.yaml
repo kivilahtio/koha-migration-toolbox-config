@@ -7,4 +7,4 @@
 ## it defines mappings from yet-unknown Voyager column to Koha's branchcode used in various tables.
 ##
 
-_DEFAULT_:      KK
+_DEFAULT_:      FABIAN
