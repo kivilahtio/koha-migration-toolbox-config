@@ -1,0 +1,14 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::ItemStatistics
+## it defines mappings from Voyager.item_stats.item_stat_id types to koha.items.ccode
+##
+
+#Voyager.ITEM_STAT_CODE
+#ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
+OST: ''  #"1","OST","Ulkofennica"
+_DEFAULT_: warning()
+

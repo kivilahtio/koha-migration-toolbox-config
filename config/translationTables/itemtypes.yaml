@@ -1,0 +1,15 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::ItemTypes
+## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
+##
+
+#voyager.ITEM_TYPE
+#ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
+1: REVIEW      #REVIEW","tarkistettava","virh. nide"
+2: FENIS       #fenis","fennide","Fennica-nide"
+3: PER         #periodical","periodical","periodial"
+

@@ -1,0 +1,34 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::LocationId
+## it defines mappings from voyager.location_id column to Koha's shelving_location and branchcode
+##
+
+#Voyager.LOCATION -table
+#location_id,location_code,       #location_name
+
+#branchLoc sets the following attributes:
+#       branchcode, shelving_location, collection_code, sub_location
+1:  branchLoc(KK, KONVERSIO) #REVIEW","REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
+2:  branchLoc() #fennica","fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
+3:  branchLoc() #fenluv","fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
+4:  branchLoc() #mikrof","MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
+5:  branchLoc() #pienp","Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
+6:  branchLoc() #ennt","Ennakkotiedot","Ennakkotiedot",,,"N","1","0"
+7:  branchLoc() #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
+8:  branchLoc() #rv","RV-kokoelma","Kansalliskokoelma  -  RV. Fennica",,,"N","1","0"
+9:  branchLoc() #kvenn","KV Ennakkotiedot","Ennakkotieto","KVENN",,"N","1","0"
+10: branchLoc() #Vpkpl","Vapaakappaleet","Vapaakappaletoimisto","VPKPL",,"Y","1","1809"
+11: branchLoc() #digtain","digitoitu aineisto","KANSALLISKOKOELMA - Digitoitu aineisto","Digitoitu",,"N","1","0"
+12: branchLoc() #digiaan","digitoidut <E4><E4>nitteet","KANSALLISKOKOELMA - digitoidut <E4><E4>nitteet","digitoidut <E4><E4>nitteet",,"N","1","5"
+13: branchLoc() #mikkeli","digitoitavana Mikkeliss<E4>","digitoitavana",,,"N","1","0"
+14: branchLoc() #Lainaus","Fennican lainaus",,,,"Y","1","0"
+15: branchLoc() #evapaa","eVapaakappaleet","KANSALLISKOKOELMA - digitaaliset vapaakappaleet",,,"N","1","1347"
+16: branchLoc() #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
+17: branchLoc() #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
+18: branchLoc() #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
+_DEFAULT_: branchLoc(HAMK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
+

@@ -1,0 +1,17 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronStatistics
+## it defines mappings from voyager.patron_stat_id -column to Koha's ExtendedPatronAttributes-feature repeatable attribute 'statistic'
+##
+
+#patron_stat_id,patron_stat_desc
+1: FAC #Faculty
+2: STU #Student
+3: STF #Staff
+4: AFF #Affiliate
+5: LIB #Library Staff
+6: ADM #Univ. Admin.
+
