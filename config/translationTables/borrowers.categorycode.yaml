@@ -1,0 +1,17 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronCategorycode
+## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
+##
+
+#VIOLA source values
+#PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME,PATRON_GROUP_DISPLAY,DEMERITS_APPLIES,MAX_DEMERITS,SUSPENSION_DAYS,CIRC_CLUSTER_ID,CHARGED_STATUS_DISPLAY,CHARGE_LIMIT,CHARGE_LIMIT_APPLY
+#"1","Cat","Luetteloijat",,"N","1","1","1","N",,
+
+1        : CAT                 #Koha uses uppercase
+UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
+_DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
+
