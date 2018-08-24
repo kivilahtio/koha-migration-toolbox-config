@@ -23,7 +23,7 @@
 5:  branchLoc(KK_VAR, VAR, PP)                #pienp,"Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
 
 #Nämä ovat varmaankin tilauksessa olevia tietueita tai jotain muuta mitkä eivät ole vielä saapuneet kokoelmaan? Tällöin niteen tila on hankinnassa tms.
-6:  branchLoc(KK_VAR, VAR, undef, undef, undef, 'ACQ') #ennt","Ennakkotiedot","Ennakkotiedot",,,"N","1","0"
+6:  branchLoc(KK_VAR, VAR, undef, undef, undef, '-2') #ennt","Ennakkotiedot","Ennakkotiedot",,,"N","1","0"
 
 #Miksi tälläinen on tarpeellinen? Jos jotain puuttuu kansalliskokoelmasta, ne saa selvillä tekemällä haun tietueista, joilla ei ole niteitä
 #ja jotka eivät ole osakohteita.
