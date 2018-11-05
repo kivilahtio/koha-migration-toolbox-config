@@ -7,20 +7,18 @@
 ## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
 ##
 
-#HAMK source values
-#PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME
-#"1","B","HAMK Opiskelijat"
-#"2","A","HAMK/HAMI Henkil<F6>kunta"
-#"3","BB","HAMI Opiskelijat"
-#"4","K","Muut","Muut"
-#"5","I","Kaukopalvelu"
-#"6","WD","Withdrawn"
+# Maybe these should be ignored and use the patron_stat.yaml translations instead?
 
-1        : B
+#source values
+#PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME
+#"1","General","General","General","Y","100","1","1","N",,
+#"2","henkilokun","henkilokun","henkilokun","Y","100","1","1","N",,
+#"3","kaukolaina","kaukolaina","kaukolaina","Y","100","1","1","N",,
+#"4","Pohjoismai","Pohjoismai","Pohjoismai","Y","100","1","1","N",,
+
+1        : K
 2        : A
-3        : BB
-4        : K
-5        : I
-6        : WD
-UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
+3        : I
+4        : PM
+UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when a Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.

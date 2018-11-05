@@ -33,6 +33,8 @@ holdingsTransformationModule: HAMK
 # If the item doesn't have a price or a replacementprice, use this default.
 defaultReplacementPrice: 25
 
+organizationISILCode: FI-Tila
+
 # Set the Patron home library to this value for all patrons. Leave empty to use the LocationId-translation table.
 patronHomeLibrary:
 
