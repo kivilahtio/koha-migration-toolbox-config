@@ -1,0 +1,48 @@
+---
+
+##
+## IN THIS FILE
+##
+## The main configurations for MMT Voyager
+##
+##
+## Configurations are introduced in the same order as they are needed by the migration tools
+
+############################
+### 1) Data export phase ###
+## Voyager DB dumps are fetched and delivered for the data transformation phase
+
+# Absolute/full path to the script used to extract data from the VoyagerDB-server into the Koha-server.
+# See the extractor-dir for example implementations.
+exportPipelineScript: '/home/koha/MMT-Voyager/secret/voyagerToTransformer_fetchDataViaSSHJumpHost.sh'
+
+# From where the files exported from Voyager are found?
+voyagerExportDir: /home/koha/MMT-Voyager/VoyagerExports
+
+####################################
+### 2) Data transformation phase ###
+## Exported DB rows are mangled into Koha-objects
+
+# Enable multithreading by defining workers.
+workers: 0
+
+# Holdings transformation strategy to use.
+# The way holdings records are used in various databases vary, hence one transformation set of rules wont work for all source databases.
+holdingsTransformationModule: HAMK
+
+# If the item doesn't have a price or a replacementprice, use this default.
+defaultReplacementPrice: 25
+
+# Set the Patron home library to this value for all patrons. Leave empty to use the LocationId-translation table.
+patronHomeLibrary:
+
+#############################
+### 3) Data loading phase ###
+## Exported DB rows are mangled into Koha-objects
+
+# Absolute path to the script used to import the transformed data into Koha
+# See the importer-dir for example implementations.
+importPipelineScript: '/home/koha/MMT-Voyager/secret/transformerToKoha_loadDataViaSSHJumpHosts.sh'
+
+# Where the built library system objects are stored to be transported to Koha?
+kohaImportDir: '/home/koha/MMT-Voyager/KohaImports'
