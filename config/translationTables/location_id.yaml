@@ -18,13 +18,13 @@
 
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status, item.circulation_level
-2:   branchLoc(KK, AVO,,,,,28) #"101","KK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","101","Y","N","1","137348"
+2:   branchLoc(KK_AVOK, Kansalliskirjasto avokokoelma,AVOK_LAINA,Rotunda,itsepalvelu,,kotilaina) #"101","KK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","101","Y","N","1","137348"
 +101: ref(2)
-3:   branchLoc(KK, AVO,,,,,0) #"102","KK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","102","Y","N","1","51475"
+3:   branchLoc(KK_AVOK,Kansalliskirjasto avokokoelma,Rotunda,AVOK_LUKUS,itsepalvelu,,lukusalikäyttö) #"102","KK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","102","Y","N","1","51475"
 +102: ref(3)
-4:   branchLoc(KK, VAR,,,,,28) #"103","KK H s28vrk","Kansalliskirjasto Varasto, 28 vrk","103","Y","N","1","385149"
+4:   branchLoc(KK_HUMVAR_KOTIL,tilattava varastosta,Kansalliskirjasto varastokokoelma,,toimitetaan Rotundan noutohyllyyn,,kotilaina) #"103","KK H s28vrk","Kansalliskirjasto Varasto, 28 vrk","103","Y","N","1","385149"
 +103: ref(4)
-5:   branchLoc(KK, VAR,,,,,0) #"104","KK H s0vrk","Kansalliskirjasto Varasto, ei kotilainaan","104","Y","N","1","96394"
+5:   branchLoc(KK_HUMVAR_LUKUSALIL,tilattava varastosta,Kansalliskirjasto varastokokoelma,,toimitetaan Rotundan lukusalilainahyllyyn,,lukusalilaina) #"104","KK H s0vrk","Kansalliskirjasto Varasto, ei kotilainaan","104","Y","N","1","96394"
 +104: ref(5)
 6:   branchLoc(KK_SLA, AVO,,,,,0) #"122","KK H2 0vrk","Kansalliskirjasto Slavica Avokokoelma, ei kotilainaan","122","Y","N","1","13501"
 +122: ref(6)
@@ -57,6 +57,7 @@
 247: branchLoc(KK, ERI) #"110","KK erikoislukusali","Kansalliskirjasto, k�ytt� vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247)
 
+#Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129!!! Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
 #Poistoja varten voi Kohassa tehdä esimerkiksi yhteisen jaetun listan, johon poistetut tietueet menevät.
 253: branchLoc(EI_KOHAAN, ERROR) #"03100","KK H Poistot","Kansalliskirjasto, poistettavat niteet",,,"Y","1","0"
 +03100: ref(253)
