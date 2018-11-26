@@ -20,15 +20,15 @@
 #       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status, item.circulation_level
 2:   branchLoc(KK_AVOK, Kansalliskirjasto avokokoelma,AVOK_LAINA,Rotunda,itsepalvelu,,kotilaina) #"101","KK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","101","Y","N","1","137348"
 +101: ref(2)
-3:   branchLoc(KK_AVOK,Kansalliskirjasto avokokoelma,Rotunda,AVOK_LUKUS,itsepalvelu,,lukusalikäyttö) #"102","KK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","102","Y","N","1","51475"
+3:   branchLoc(KK_AVOK,Kansalliskirjasto avokokoelma,AVOK_LUKUS,Rotunda,itsepalvelu,,lukusalikäyttö) #"102","KK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","102","Y","N","1","51475"
 +102: ref(3)
 4:   branchLoc(KK_HUMVAR_KOTIL,tilattava varastosta,Kansalliskirjasto varastokokoelma,,toimitetaan Rotundan noutohyllyyn,,kotilaina) #"103","KK H s28vrk","Kansalliskirjasto Varasto, 28 vrk","103","Y","N","1","385149"
 +103: ref(4)
 5:   branchLoc(KK_HUMVAR_LUKUSALIL,tilattava varastosta,Kansalliskirjasto varastokokoelma,,toimitetaan Rotundan lukusalilainahyllyyn,,lukusalilaina) #"104","KK H s0vrk","Kansalliskirjasto Varasto, ei kotilainaan","104","Y","N","1","96394"
 +104: ref(5)
-6:   branchLoc(KK_SLA, AVO,,,,,0) #"122","KK H2 0vrk","Kansalliskirjasto Slavica Avokokoelma, ei kotilainaan","122","Y","N","1","13501"
+6:   branchLoc(KK_AVOK,Kansalliskirjasto avokokoelma,Slavica,AVOK_LUKUS,itsepalvelu,,lukusalikäyttö) #"122","KK H2 0vrk","Kansalliskirjasto Slavica Avokokoelma, ei kotilainaan","122","Y","N","1","13501"
 +122: ref(6)
-7:   branchLoc(KK_SLA, AVO,,,,,28) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
+7:   branchLoc(KK_AVOK,Kansalliskirjasto avokokolema,Slavica,AVOK_LAINA,,,28) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
 +121: ref(7)
 8:   branchLoc(KK_SLA, VAR,,,,,0) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
 +124: ref(8)
