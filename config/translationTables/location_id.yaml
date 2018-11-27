@@ -43,19 +43,19 @@
 158: branchLoc(EI_KOHAAN, KONVERSIO) #"HYKACQ","KK konversiov. hankinta","Kansalliskirjasto, konversiovaiheen hankintakokoelma",,,"Y","1","0"
 +HYKACQ: ref(158)
 173: branchLoc(KK, LAI) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
-+02100: ref(173)
++02100: ref(173) #tekninen kokoelma
 211: branchLoc(KK, LUK) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
-+105: ref(211)
++105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
 231: branchLoc(KK, TYO) #"106","KK ty�huoneet","Kansalliskirjasto,  ty�huonek�yt�ss�",,,"N","1","1942"
-+106: ref(231)
++106: ref(231) #pysyväiskäyttö
 234: branchLoc(KK, UUT) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
-+107: ref(234)
++107: ref(234) # temp location
 238: branchLoc(KK, TIE) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalveluk�yt�ss�",,,"N","1","0"
-+108: ref(238)
++108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
 245: branchLoc(KK, LUK) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
-+02101: ref(245)
++02101: ref(245) #tekninen kokoelma, ei käytössä
 247: branchLoc(KK, ERI) #"110","KK erikoislukusali","Kansalliskirjasto, k�ytt� vain erikoislukusalissa",,,"N","1","66567"
-+110: ref(247)
++110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
 #Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129!!! Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
 #Poistoja varten voi Kohassa tehdä esimerkiksi yhteisen jaetun listan, johon poistetut tietueet menevät.
