@@ -16,39 +16,42 @@
 #Voyager.LOCATION -table
 #location_id,location_code,       #location_name
 
-#branchLoc sets the following attributes:
+#statisticsLibrary sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
-1: branchLoc(TK, REVIEW) #"REVIEW","REVIEW","REVIEW","REVIEW","Y","N","1","0"
-REVIEW: ref(1)
-2: branchLoc(TK, LEH) #"Lehdet","Lehdet","Lehdet","Lehdet","Y","N","1","93"
-Lehdet: ref(2)
-3: branchLoc(TK, VAR) #"Varasto","Varasto","Varasto","Varasto","Y","N","1","2506"
-Varasto: ref(3)
-4: branchLoc(TK, TIL, SUOMEN) #"FItilastot","Suomen tilastot","Suomen tilastot","FItilastot","Y","N","1","9052"
-FItilastot: ref(4)
-5: branchLoc(TK, TIL, MAITTAIN) #"Tilastot","Maittaiset tilastot","Maittaiset tilastot","Tilastot","Y","N","1","2453"
-Tilastot: ref(5)
-6: branchLoc(TK, KIR) #"Kirjat","Tietokirjat","Tietokirjat","Kirjat","Y","N","1","5130"
-Kirjat: ref(6)
-7: branchLoc(TK, REF) #"Ref","Hakuteokset","Hakuteokset (Ei lainata)","Ref","Y","N","1","528"
-Ref: ref(7)
-8: branchLoc(TK, TIL, KV) #"KVtilastot","Kansainv<E4>liset tilastot","Kansainv<E4>liset tilastot","KVtilastot","Y","N","1","4990"
-KVtilastot: ref(8)
-9: branchLoc(TK, LAI) #"Lainaus","Lainaus","Lainaus",,,"Y","1","0"
-Lainaus: ref(9)
-10: branchLoc(TK, KIR,,,-1) #"Hankinta","Hankinta","Hankinta",,,"Y","1","0"
-Hankinta: ref(10)
-11: branchLoc(TK, KIR,,,4) #"Luetteloin","Luettelointi","Luettelointi",,,"Y","1","0"
-Luetteloin: ref(11)
-12: branchLoc(TK, VER) #"Verkkoj","Verkkojulkaisut","Verkkojulkaisut","Verkkoj",,"N","1","2063"
-Verkkoj: ref(12)
-13: branchLoc(TK, TIL, YKSKT) #"TilYks","Tilastoyksikot","Tilastoyksikot",,,"N","1","0"
-TilYks: ref(13)
-14: branchLoc(TK, ART, EILIN) #"EiLindaan","EiLindaan","Artikkeli",,,"Y","1","0"
-EiLindaan: ref(14)
-15: branchLoc(TK, ART) #"Artikkelit","Artikkelit","Artikkelit",,,"N","1","7103"
-Artikkelit: ref(15)
-16: branchLoc(TK, VIR) #"Virk","Virkakirjat (Ei lainata)","Virkakirjat (Ei lainata)","Virk",,"N","1","493"
-Virk: ref(16)
+1: statisticsLibrary(TK,, KONVERSIO) #"REVIEW","REVIEW","REVIEW","REVIEW","Y","N","1","0"
++REVIEW: ref(1)
+2: statisticsLibrary(TK,, LEH)       #"Lehdet","Lehdet","Lehdet","Lehdet","Y","N","1","93"
++Lehdet: ref(2)
+3: statisticsLibrary(TK)             #"Varasto","Varasto","Varasto","Varasto","Y","N","1","2506"
++Varasto: ref(3)
+4: statisticsLibrary(TK,, SUTI)      #"FItilastot","Suomen tilastot","Suomen tilastot","FItilastot","Y","N","1","9052"
++FItilastot: ref(4)
+5: statisticsLibrary(TK,, MATI)      #"Tilastot","Maittaiset tilastot","Maittaiset tilastot","Tilastot","Y","N","1","2453"
++Tilastot: ref(5)
+6: statisticsLibrary(TK,, TIKI)      #"Kirjat","Tietokirjat","Tietokirjat","Kirjat","Y","N","1","5130"
++Kirjat: ref(6)
+7: statisticsLibrary(TK,, HAKU)      #"Ref","Hakuteokset","Hakuteokset (Ei lainata)","Ref","Y","N","1","528"
++Ref: ref(7)
+8: statisticsLibrary(TK,, KVTI)      #"KVtilastot","Kansainv<E4>liset tilastot","Kansainv<E4>liset tilastot","KVtilastot","Y","N","1","4990"
++KVtilastot: ref(8)
+9: statisticsLibrary(TK)             #"Lainaus","Lainaus","Lainaus",,,"Y","1","0"
++Lainaus: ref(9)
+# Ei pitäisi olla käytössä??
+10: statisticsLibrary(EI_KOHAAN)     #"Hankinta","Hankinta","Hankinta",,,"Y","1","0"
++Hankinta: ref(10)
+11: statisticsLibrary(TK,,,,,4)      #"Luetteloin","Luettelointi","Luettelointi",,,"Y","1","0"
++Luetteloin: ref(11)
+12: statisticsLibrary(TK,, VER)      #"Verkkoj","Verkkojulkaisut","Verkkojulkaisut","Verkkoj",,"N","1","2063"
++Verkkoj: ref(12)
+# Ei pitäisi olla käytössä
+13: statisticsLibrary(EI_KOHAAN)     #"TilYks","Tilastoyksikot","Tilastoyksikot",,,"N","1","0"
++TilYks: ref(13)
+# Ei ole enää käytössä Voyagerissa
+14: statisticsLibrary(EI_KOHAAN)     #"EiLindaan","EiLindaan","Artikkeli",,,"Y","1","0"
++EiLindaan: ref(14)
+15: statisticsLibrary(TK,, ART)      #"Artikkelit","Artikkelit","Artikkelit",,,"N","1","7103"
++Artikkelit: ref(15)
+16: statisticsLibrary(TK,, VIR)      #"Virk","Virkakirjat (Ei lainata)","Virkakirjat (Ei lainata)","Virk",,"N","1","493"
++Virk: ref(16)
 
-_DEFAULT_: branchLoc(TK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
+_DEFAULT_: statisticsLibrary(TK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
