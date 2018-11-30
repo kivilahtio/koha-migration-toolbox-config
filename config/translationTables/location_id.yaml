@@ -55,3 +55,10 @@
 +Virk: ref(16)
 
 _DEFAULT_: statisticsLibrary(TK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
+
+# Location-codes are given from the statisticsLibrary custom translator.
+#2.K
+#LUK
+#VARA
+#VARB
+#VARS

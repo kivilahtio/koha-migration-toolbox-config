@@ -12,7 +12,7 @@
 1: RV #"REVIEW","REVIEW","REVIEW"
 2: AR #"Article","Article","Article"
 3: BK #"Book","Book","Book"
-4: SR #"Serial","Serial","Serial"
+4: SR #"Serial","Serial","Serial" #Also created from the location/call_number mapping rules in location_id translation table
 
 # Compund values from other sources. Noted here to remember them more easily, and possibly later on automigrate config to Koha.
 5: MC # Microcard, not in Voyager directly, but created from the location/call_number mapping rules in location_id translation table
