@@ -16,9 +16,10 @@
 #"3","kaukolaina","kaukolaina","kaukolaina","Y","100","1","1","N",,
 #"4","Pohjoismai","Pohjoismai","Pohjoismai","Y","100","1","1","N",,
 
-1        : K
-2        : A
-3        : I
+1        : MUU
+2        : TK   #Tilastokeskus (entinen Henkilökunta)
+3        : KAU  #kaukolaina (entinen sama)
+5        : KIR  #kirjasto (uusi)
 4        : $DELETE             #Discussing with stat.fi on week 47. Decided to drop this.
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when a Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
