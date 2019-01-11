@@ -1,0 +1,10 @@
+secret
+VoyagerExports
+KohaImports
+logs
+.bak
+~$
+.vstags
+*.komodoproject
+.vscode
+*.swp
