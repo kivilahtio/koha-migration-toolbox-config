@@ -1,6 +1,6 @@
 secret
-VoyagerExports
-KohaImports
+VoyagerExport*
+KohaImport*
 logs
 .bak
 ~$
