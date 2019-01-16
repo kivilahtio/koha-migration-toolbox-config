@@ -15,11 +15,22 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-1: TIL #,"Tilastokeskus"
-2: STU #,"Opiskelija"
-3: OPE #,"Opetus Tutkimus"
-4: YKS #,"Yksityishenkilo"
-5: KAU #,"Kaukopalvelu"
-6: ELI #,"Elinkeinoelama"
-7: JUL #,"Julkishallinto"
-8: MUU #,"Muu"
+#1: TIL #,"Tilastokeskus"
+#2: STU #,"Opiskelija"
+#3: OPE #,"Opetus Tutkimus"
+#4: YKS #,"Yksityishenkilo"
+#5: KAU #,"Kaukopalvelu"
+#6: ELI #,"Elinkeinoelama"
+#7: JUL #,"Julkishallinto"
+#8: MUU #,"Muu"
+
+# Stat 3616 - Asiakaslajien ja tilastollisten ryhmittelyjen yhdistäminen
+# Tilastollisia ryhmittelyjä ei käytetä.
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:
