@@ -31,7 +31,7 @@ workers: 0
 holdingsTransformationModule: HAMK
 
 # If the item doesn't have a price or a replacementprice, use this default.
-defaultReplacementPrice: 25
+defaultReplacementPrice: 0
 
 organizationISILCode: FI-C
 
