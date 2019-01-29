@@ -34,21 +34,21 @@
 +124: ref(8)
 9:   branchLoc(KK_SLAVAR_KOTIL,Kansalliskirjasto varastokokoelma,SLAVAR_KOTIL,tilattava varastosta,toimitetaan Rotundan noutohyllyyn,,kotilaina) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
-51:  branchLoc(KK, AVO,,,,,0) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
+51:  branchLoc(EI_KOHAAN, POISTETTU,) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
 +126: ref(51)
-52:  branchLoc(KK, AVO,,,,,28) #"127","zKK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","127","Y","N","1","0"
+52:  branchLoc(EI_KOHAAN, POISTETTU) #"127","zKK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","127","Y","N","1","0"
 +127: ref(52)
-148: branchLoc(KK_HL, VAR) #"01100","KK H H ja L","Kansalliskirjasto, hankinta ja luettelointi",,,"N","1","0"
+148: branchLoc(EI KOHAAN, TEKNINEN) #"01100","KK H H ja L","Kansalliskirjasto, hankinta ja luettelointi",,,"N","1","0"
 +01100: ref(148)
 158: branchLoc(EI_KOHAAN, KONVERSIO) #"HYKACQ","KK konversiov. hankinta","Kansalliskirjasto, konversiovaiheen hankintakokoelma",,,"Y","1","0"
 +HYKACQ: ref(158)
-173: branchLoc(KK, LAI) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
+173: branchLoc(EI_KOHAAN, TEKNINEN) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
 +02100: ref(173) #tekninen kokoelma
-211: branchLoc(KK, LUK) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
+211: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
-231: branchLoc(KK, TYO) #"106","KK ty�huoneet","Kansalliskirjasto,  ty�huonek�yt�ss�",,,"N","1","1942"
+231: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"106","KK ty�huoneet","Kansalliskirjasto,  ty�huonek�yt�ss�",,,"N","1","1942"
 +106: ref(231) #pysyväiskäyttö
-234: branchLoc(KK, UUT) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
+234: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
 +107: ref(234) # temp location
 238: branchLoc(KK, TIE) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalveluk�yt�ss�",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
