@@ -27,11 +27,11 @@
 5:   branchLoc(KK_HUMVAR_LUKUS,Kansalliskirjasto varastokokoelma,HUMVAR_LUKUSALIL,tilattava varastosta,toimitetaan Rotundan lukusalilainahyllyyn,,lukusalilaina) #"104","KK H s0vrk","Kansalliskirjasto Varasto, ei kotilainaan","104","Y","N","1","96394"
 +104: ref(5)
 6:   branchLoc(KK_AVOK,Kansalliskirjasto avokokoelma,AVOK_LUKUS,Slavica,itsepalvelu,,lukusalikäyttö) #"122","KK H2 0vrk","Kansalliskirjasto Slavica Avokokoelma, ei kotilainaan","122","Y","N","1","13501"
-+122: ref(6)
++122: ref(6) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN!
 7:   branchLoc(KK_AVOK,Kansalliskirjasto avokokoelema,AVOK_LAINA,Slavica,itsepalvelu,,kotilaina) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
 +121: ref(7)
 8:   branchLoc(KK_SLAVAR_LUKUS,Kansalliskirjasto varastokokoelma,SLAVAR_LUKUS,tilattava varastosta,toimitetaan Slavican lukusalilainahyllyyn,,lukusalikäyttö) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
-+124: ref(8)
++124: ref(8) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN!
 9:   branchLoc(KK_SLAVAR_KOTIL,Kansalliskirjasto varastokokoelma,SLAVAR_KOTIL,tilattava varastosta,toimitetaan Rotundan noutohyllyyn,,kotilaina) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
 51:  branchLoc(EI_KOHAAN, POISTETTU,) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
@@ -50,14 +50,14 @@
 +106: ref(231) #pysyväiskäyttö
 234: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
 +107: ref(234) # temp location
-238: branchLoc(KK, TIE) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalveluk�yt�ss�",,,"N","1","0"
+238: branchLoc(EI_KOHAAN, EI KÄYTÖSSÄ) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalveluk�yt�ss�",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
-245: branchLoc(KK, LUK) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
+245: branchLoc(EI_KOHAAN, TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 +02101: ref(245) #tekninen kokoelma, ei käytössä
 247: branchLoc(KK, ERI) #"110","KK erikoislukusali","Kansalliskirjasto, k�ytt� vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
-#Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129!!! Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
+#Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129. Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
 #Poistoja varten voi Kohassa tehdä esimerkiksi yhteisen jaetun listan, johon poistetut tietueet menevät.
 253: branchLoc(EI_KOHAAN, ERROR) #"03100","KK H Poistot","Kansalliskirjasto, poistettavat niteet",,,"Y","1","0"
 +03100: ref(253)
