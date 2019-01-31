@@ -54,7 +54,7 @@
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
 245: branchLoc(EI_KOHAAN, TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 +02101: ref(245) #tekninen kokoelma, ei käytössä
-247: branchLoc(KK, ERI) #"110","KK erikoislukusali","Kansalliskirjasto, k�ytt� vain erikoislukusalissa",,,"N","1","66567"
+247: branchLoc(KK_ERIK, Kansalliskirjasto erikoislukusali,ERIK,tilattava varastosta, toimitetaan erikoislukusaliin,,lukusaliaina) #"110","KK erikoislukusali","Kansalliskirjasto, k�ytt� vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
 #Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129. Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
