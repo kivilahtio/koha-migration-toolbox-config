@@ -7,55 +7,48 @@
 ## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
 ##
 
-###
-#
-#
-# Huomaan että Diakissa on asiakaslajeja kirjastokohtaisesti. Kohassa asiakkailla on kotikirjasto, ja sen mukaan voidaan jaotella.
-# Mikähän mahtaa olla syy tälle jaottelulle?
-#
-#
+#Voy PATRON_GROUP_ID
+#  categoryAndBranch(Kohan Patron Category, Koha Home Library)
+#    Voy PATRON_GROUP_CODE, Voy PATRON_GROUP_NAME
 
-#Diak source values
-#PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME
-1: HENK    # diajhen       , JÄ henkilökunta
-2: OTHER   # diajmuu       , JÄ muut
-3: STUDENT # diajopi       , JÄ opiskelija
-5: HENK    # diahehen      , DIAK_HE henkilökunta
-4: OTHER   # diahemuu      , DIAK_HE muut
-6: STUDENT # diaheopi      , DIAK_HE opiskelija
-7: HENK    # diaphen       , PI henkilökunta
-8: STUDENT # diapopi       , PI opiskelija
-9: OTHER   # diapmuu       , PI muut
-10: STUDENT # diatopi       , TU opiskelija
-11: POIS    # diaropi       , XEI KÄYTÖSSÄPO opiskelija
-12: HENK    # diathen       , TU henkilökunta
-13: HENK    # diakhen       , KA henkilökunta
-14: STUDENT # diakopi       , KA opiskelija
-15: POIS    # diakyks       , XEI KÄYT.  Yksikkö
-16: POIS    # diarhen       , XEI KÄYT.PO henkilökunta
-17: POIS    # diarmuu       , XEI KÄYTÖSSÄ PO muut
-18: OTHER   # diakmuu       , KA muut
-19: POIS    # diapkau       , XEI KÄYT. PI kaukopalvelu
-20: OTHER   # diatmuu       , TU muut
-21: POIS    # diarkau       , XEI KÄYT. PO kaukopalvelu
-22: POIS    # diatkau       , XEI KÄYT. TU kaukopalvelu
-23: OTHER   # diaomuu       , OU muut
-24: STUDENT # diaoopi       , OU opiskelija
-25: HENK    # diaohen       , OU henkilökunta
-26: POIS    # diaakau       , XEI KÄYT. HE kaukopalvelu
-27: POIS    # diajkau       , XEI KÄYT. JÄ kaukopalvelu
-28: POIS    # diaokau       , XEI KÄYT. OU kaukopalvelu
-29: TEST    # test          , Testi Patron Group
-30: POIS    # diakkt        , XEI KÄYDiak kirjastotädit
-31: POIS    # diapeikar     , LASKUT VARAUKSET 
-32: LIBRARY # diakkauko     , DIAK kaukopalvelu
-33: POIS    # dialasi       , XEI KÄYT. Lahden
-34: TEST    # diatestiopi   , Testiopiskelija pieksämäk
-35: TEST    # diatestimuu   , Testimuut Pieksämäki
-36: TEST    # diatestiope   , Testihenkilökunta PI
-37: STAFF    # Keppi elikkäs sauva
+1:  categoryAndBranch(HENK, DIAKHKI)     # diajhen	JÄ henkilökunta
+2:  categoryAndBranch(OTHER, DIAKHKI)    # diajmuu	JÄ muut
+3:  categoryAndBranch(STUDENT, DIAKHKI)  # diajopi	JÄ opiskelija
+4:  categoryAndBranch(OTHER, DIAKHKI)    # diahemuu	DIAK_HE muut
+5:  categoryAndBranch(HENK, DIAKHKI)     # diahehen	DIAK_HE henkilökunta
+6:  categoryAndBranch(STUDENT, DIAKHKI)  # diaheopi	DIAK_HE opiskelija
+7:  categoryAndBranch(HENK, DIAKPM)      # diaphen	PI henkilökunta
+8:  categoryAndBranch(STUDENT, DIAKPM)   # diapopi	PI opiskelija
+9:  categoryAndBranch(OTHER, DIAKPM)     # diapmuu	PI muut
+10: categoryAndBranch(STUDENT, DIAKHKI)  # diatopi	TU opiskelija
+11: categoryAndBranch(DELETE, DELETE)    # diaropi	XEI KÄYTÖSSÄPO opiskelija
+12: categoryAndBranch(HENK, DIAKHKI)     # diathen	TU henkilökunta
+13: categoryAndBranch(HENK, DIAKHKI)     # diakhen	KA henkilökunta
+14: categoryAndBranch(STUDENT, DIAKHKI)  # diakopi	KA opiskelija
+15: categoryAndBranch(DELETE, DELETE)    # diakyks	XEI KÄYT.  Yksikkö
+16: categoryAndBranch(DELETE, DELETE)    # diarhen	XEI KÄYT.PO henkilökunta
+17: categoryAndBranch(DELETE, DELETE)    # diarmuu	XEI KÄYTÖSSÄ PO muut
+18: categoryAndBranch(OTHER, DIAKHKI)    # diakmuu	KA muut
+19: categoryAndBranch(DELETE, DELETE)    # diapkau	XEI KÄYT. PI kaukopalvelu
+20: categoryAndBranch(OTHER, DIAKHKI)    # diatmuu	TU muut
+21: categoryAndBranch(DELETE, DELETE)    # diarkau	XEI KÄYT. PO kaukopalvelu
+22: categoryAndBranch(DELETE, DELETE)    # diatkau	XEI KÄYT. TU kaukopalvelu
+23: categoryAndBranch(OTHER, DIAKOULU)   # diaomuu	OU muut
+24: categoryAndBranch(STUDENT, DIAKOULU) # diaoopi	OU opiskelija
+25: categoryAndBranch(HENK, DIAKOULU)    # diaohen	OU henkilökunta
+26: categoryAndBranch(DELETE, DELETE)    # diaakau	XEI KÄYT. HE kaukopalvelu
+27: categoryAndBranch(DELETE, DELETE)    # diajkau	XEI KÄYT. JÄ kaukopalvelu
+28: categoryAndBranch(DELETE, DELETE)    # diaokau	XEI KÄYT. OU kaukopalvelu
+29: categoryAndBranch(TEST, DIAK)        # test	Testi Patron Group
+30: categoryAndBranch(DELETE, DELETE)    # diakkt	XEI KÄYDiak kirjastotädit
+31: categoryAndBranch(DELETE, DELETE)    # diapeikar	LASKUT VARAUKSET
+32: categoryAndBranch(LIBRARY, DIAK)     # diakkauko	DIAK kaukopalvelu
+33: categoryAndBranch(DELETE, DELETE)    # dialasi	XEI KÄYT. Lahden
+34: categoryAndBranch(TEST, DIAK)        # pitestiopi	Testiopiskelija pieksämäk
+35: categoryAndBranch(TEST, DIAK)        # pitestimuu	Testimuut Pieksämäki
+36: categoryAndBranch(TEST, DIAK)        # pitestiope	Testihenkilökunta PI
+37: categoryAndBranch(STAFF, DIAK)       # staff	Kirjastohenkilökunta Kohaan
 
-
-UNKNOWN: $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when a Patron has no patron_group_id
+UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
 
