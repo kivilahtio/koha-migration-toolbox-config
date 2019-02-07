@@ -1,0 +1,51 @@
+---
+
+
+
+## Jos mapping-sarakkeessa on tyhjÃ¤Ã¤, kyseisen rivin FINE_FEE_TYPE:n voi jÃ¤ttÃ¤Ã¤ pois konversiosta.
+## fine_fee_type.yaml
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::FineType
+## it defines mappings from voyager.fine_fee.fine_fee_type to koha.accountlines.accounttype
+## 
+##
+
+
+
+#voyager.FINE_FEE_TYPE.csv
+#FINE_FEE_TYPE,               FINE_FEE_DESC, FINE_FEE_CODE
+
+#   mapping
+1:  O                        #"Overdue","F1"
+2:  L                        #"Lost Item Replacement", "F2"
+3:  L                        #"Lost Item Processing", "F3"
+4:  F                        #"Media Booking Late Charge","F4"
+5:  Rent                                     #"Media Booking Usage Fee","F5"
+6:  Rep                      #"Equipment Replacement","F6"
+7:  L                        #"Lost Equipment Processing","F7"
+8:  FU                       #"Accrued Fine","F8"
+9:  FU                       #"Accrued Demerit","F9"
+10: F                        #"Demerit","F10"
+11: Pay                      #"KAUKOLAINAT","A1"
+12:                          #"xz","xz"
+13:                          #"ZY","zy"
+14:                          #"yx","yx"
+15:                          #"yc","yc"
+16:                          #"yxz","yxz"
+17:                          #"yy","yy"
+18:                          #"xy","x"
+19:                          #"z","F99"
+20: Pay                      #"Laskutuskulut","A10"
+21:                          #"Postitus/kaukolaina maksu","x"
+22:                          #"yz","yz"
+23:                          #"y","y"
+24:                          #"zy","zy"
+25:     Rep                                      #"Aineistokorvausmaksut","F88"
+
+
+
+
+
+# For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
+

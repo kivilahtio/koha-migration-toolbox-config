@@ -1,0 +1,60 @@
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::ItemTypes
+## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
+##
+
+
+1:       POIS           # diapolyh,diaporef,diatlai,testikoko
+2:       POIS           # diaavar 
+3:       REFLAINA       # diaaref,diajkas,diapitse,diaplehei,diapvareme ja diatkir pitää saada näistä POIS. vain diapasi on REFLAINA 
+4:       POIS           # diaavareme, diajhan 
+5:       POIS           # diajhen 
+6:       POIS           # diaaope,diaaproj,diakakirb,diappoi 
+8:       POIS           # diajvar  
+9:       POIS           # diaakireme 
+10:      POIS           # diajpaja,diaplai 
+11:      POIS           # diajkirb 
+12:      POIS           # diapkau 
+16:      POIS           # diaahen 
+21:      KONVERSIO      # diakelehti     -- Tarvitaanko e-aineiston bib-tietueelle varasto- tai nidetietue? Jos ei, siirretään vain Bib
+22:      KONVERSIO      # diaktie  
+23:      POIS           # diahelai 
+41:      KONVERSIO      # diakele        -- Tarvitaanko e-aineiston bib-tietueelle varasto- tai nidetietue? Jos ei, siirretään vain Bib
+45:      PERUSLAINA     # diaoleh  
+53:      POIS           # diaokireme  
+55:      POIS           # diaptyo        -- Ei siirretä - voi poistaa, jos onnistuu
+59:      POIS           # diaoopeeme  
+63:      POIS           # diapaar        -- Siirretään diapsis
+64:      POIS           # diakakir  
+104:     REFLAINA       # diaoref  
+116:     POIS           # diapokirb      -- pori
+123:     POIS           # diajlehei  
+124:     POIS           # diaolai  
+136:     POIS           # diapkireme 
+160:     EILAINA        # diapleh. Samassa diapvar joka siirretään muihin kokoelmiin / POIS 
+163:     OPELAINA       # piperus 
+167:     POIS           # diappro 
+197:     POIS           # diaaleh  
+215:     POIS           # diapokir       -- pori
+216:     EILAINA        # diapei = Diakin julkaisujen näyttely. Samassa diaokirb joka pitää saada tyypiksi LYHYTLAINA
+226:     POIS           # diaklasku  
+232:     OPELAINA       # diapsis 
+242:     POIS           # diapopeeme     -- siirretään OPElainaksi
+269:     POIS           # diajkir  
+279:     POIS           # diaakir 
+281:     OPELAINA       # diaoope 
+378:     OPELAINA       # diapope        -- PMK: opetuskokoelma
+423:     LYHYTLAINA     # diahekirb     
+538:     POIS           # diakjul  
+571:     PERUSLAINA     # diapkirb 
+653:     OPELAINA       # diaheope 
+904:     EILAINA        # diaheei  
+922:     KONVERSIO      # diakekirja     -- Tarvitaanko e-aineiston bib-tietueelle varasto- tai nidetietue? Jos ei, siirretään vain Bib, niteitä ei ole
+2835:    PERUSLAINA     # diaokir 
+4123:    KONVERSIO      # diakver 
+18639:   PERUSLAINA     # diapkir 
+24024:   PERUSLAINA     # diahekir 
+
+

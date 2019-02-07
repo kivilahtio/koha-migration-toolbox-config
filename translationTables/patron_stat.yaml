@@ -1,0 +1,112 @@
+---
+## patron_stat.yaml
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronStatistics
+## it defines mappings from voyager.patron_stat_id -column to Koha's ExtendedPatronAttributes-feature repeatable attribute 'STAT_CAT'
+##
+
+## HS: Diakilla jostain syystä 94 tilastoryhmää asiakkaille! Otetaan Diakissa käyttöön yksinkertainen KITT-tilastointi.
+## Oletuksena on, että tarkempi tilasto voidaan ottaa yhdistämällä tämä Asiakasmääre ja kotikirjasto.
+
+#Asiakkaiden tilastoryhmissä (STAT_CAT Statistinen ryhmittely) pitäisi käyttää auktorisoituja arvoja. Lisäsin tilastoryhmät Auktorisoiduiksi arvoiksi nimeltä PATRON_STAT_GROUPS
+#Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin (HS: miksi?):
+#HS: miksei, kuten yllä sanotaan "voyager.patron_stat_id -column to Koha's ExtendedPatronAttributes-feature repeatable attribute 'STAT_CAT'"
+# Voisiko se mappaus mennä näin:
+
+#PATRON_STAT_ID Voyagerissa     : Atribuutti KITT-tilastoinnin mukaan STAT_CATiin # Sen kuvaus
+1: A       #        DIAK henkilökunta
+2: U       #        Muu asiakas
+3: U       #        Muu asiakas
+4: U       #        Muu asiakas
+5: U       #        Muu asiakas
+6: D       #        DIAK opiskelija
+7: U       #        Muu asiakas
+8: R       #        Elinkeinoelämän edustaja
+9: U       #        Muu asiakas
+10: U       #        Muu asiakas
+11: D       #        DIAK opiskelija
+12: U       #        Muu asiakas
+13: L       #        Toisen asteen henkilökunta
+14: A       #        DIAK henkilökunta
+15: D       #        DIAK opiskelija
+16: K       #        YO Opisk./ Henkilökunta
+17: M       #        Toisen asteen opiskelija
+18: U       #        Muu asiakas
+19: D       #        DIAK opiskelija
+20: D       #        DIAK opiskelija
+21: D       #        DIAK opiskelija
+22: U       #        Muu asiakas
+23: S       #        Julkishallinnon edustaja
+24: U       #        Muu asiakas
+25: A       #        DIAK henkilökunta
+26: R       #        Elinkeinoelämän edustaja
+27: U       #        Muu asiakas
+28: A       #        DIAK henkilökunta
+29: S       #        Julkishallinnon edustaja
+30: G       #        Ulkopuol. AMK opiskelija
+31: A       #        DIAK henkilökunta
+32: A       #        DIAK henkilökunta
+33: D       #        DIAK opiskelija
+34: R       #        Elinkeinoelämän edustaja
+35: U       #        Muu asiakas
+36: A       #        DIAK henkilökunta
+37: G       #        Ulkopuol. AMK opiskelija
+38: U       #        Muu asiakas
+39: R       #        Elinkeinoelämän edustaja
+40: U       #        Muu asiakas
+41: U       #        Muu asiakas
+42: N       #        Kotimainen kaukopalveluas
+43: K       #        YO Opisk./ Henkilökunta
+44: R       #        Elinkeinoelämän edustaja
+45: U       #        Muu asiakas
+46: S       #        Julkishallinnon edustaja
+47: R       #        Elinkeinoelämän edustaja
+48: K       #        YO Opisk./ Henkilökunta
+49: G       #        Ulkopuol. AMK opiskelija
+50: G       #        Ulkopuol. AMK opiskelija
+51: U       #        Muu asiakas
+52: U       #        Muu asiakas
+53: N       #        Kotimainen kaukopalveluas
+54: N       #        Kotimainen kaukopalveluas
+55: U       #        Muu asiakas
+56: G       #        Ulkopuol. AMK opiskelija
+57: K       #        YO Opisk./ Henkilökunta
+58: U       #        Muu asiakas
+59: D       #        DIAK opiskelija
+60: G       #        Ulkopuol. AMK opiskelija
+61: D       #        DIAK opiskelija
+62: A       #        DIAK henkilökunta
+63: R       #        Elinkeinoelämän edustaja
+64: U       #        Muu asiakas
+65: U       #        Muu asiakas
+66: U       #        Muu asiakas
+67: S       #        Julkishallinnon edustaja
+68: U       #        Muu asiakas
+69: D       #        DIAK opiskelija
+70: U       #        Muu asiakas
+71: K       #        YO Opisk./ Henkilökunta
+72: K       #        YO Opisk./ Henkilökunta
+73: U       #        Muu asiakas
+74: U       #        Muu asiakas
+75: U       #        Muu asiakas
+76: U       #        Muu asiakas
+77: U       #        Muu asiakas
+78: U       #        Muu asiakas
+79: U       #        Muu asiakas
+80: S       #        Julkishallinnon edustaja
+81: S       #        Julkishallinnon edustaja
+82: U       #        Muu asiakas
+83: N       #        Kotimainen kaukopalveluas
+94: D       #        DIAK opiskelija
+85: N       #        Kotimainen kaukopalveluas
+95: D       #        DIAK opiskelija
+96: D       #        DIAK opiskelija
+97: U       #        Muu asiakas
+98: U       #        Muu asiakas
+92: N       #        Kotimainen kaukopalveluas
+93: O       #        Ulkomainen kaukopalveluas
+99: U       #        Muu asiakas
+100: D       #        DIAK opiskelija
+101: R       #        Elinkeinoelämän edustaja
+

@@ -1,0 +1,61 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronCategorycode
+## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
+##
+
+###
+#
+#
+# Huomaan että Diakissa on asiakaslajeja kirjastokohtaisesti. Kohassa asiakkailla on kotikirjasto, ja sen mukaan voidaan jaotella.
+# Mikähän mahtaa olla syy tälle jaottelulle?
+#
+#
+
+#Diak source values
+#PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME
+1: HENK    # diajhen       , JÄ henkilökunta
+2: OTHER   # diajmuu       , JÄ muut
+3: STUDENT # diajopi       , JÄ opiskelija
+5: HENK    # diahehen      , DIAK_HE henkilökunta
+4: OTHER   # diahemuu      , DIAK_HE muut
+6: STUDENT # diaheopi      , DIAK_HE opiskelija
+7: HENK    # diaphen       , PI henkilökunta
+8: STUDENT # diapopi       , PI opiskelija
+9: OTHER   # diapmuu       , PI muut
+10: STUDENT # diatopi       , TU opiskelija
+11: POIS    # diaropi       , XEI KÄYTÖSSÄPO opiskelija
+12: HENK    # diathen       , TU henkilökunta
+13: HENK    # diakhen       , KA henkilökunta
+14: STUDENT # diakopi       , KA opiskelija
+15: POIS    # diakyks       , XEI KÄYT.  Yksikkö
+16: POIS    # diarhen       , XEI KÄYT.PO henkilökunta
+17: POIS    # diarmuu       , XEI KÄYTÖSSÄ PO muut
+18: OTHER   # diakmuu       , KA muut
+19: POIS    # diapkau       , XEI KÄYT. PI kaukopalvelu
+20: OTHER   # diatmuu       , TU muut
+21: POIS    # diarkau       , XEI KÄYT. PO kaukopalvelu
+22: POIS    # diatkau       , XEI KÄYT. TU kaukopalvelu
+23: OTHER   # diaomuu       , OU muut
+24: STUDENT # diaoopi       , OU opiskelija
+25: HENK    # diaohen       , OU henkilökunta
+26: POIS    # diaakau       , XEI KÄYT. HE kaukopalvelu
+27: POIS    # diajkau       , XEI KÄYT. JÄ kaukopalvelu
+28: POIS    # diaokau       , XEI KÄYT. OU kaukopalvelu
+29: TEST    # test          , Testi Patron Group
+30: POIS    # diakkt        , XEI KÄYDiak kirjastotädit
+31: POIS    # diapeikar     , LASKUT VARAUKSET 
+32: LIBRARY # diakkauko     , DIAK kaukopalvelu
+33: POIS    # dialasi       , XEI KÄYT. Lahden
+34: TEST    # diatestiopi   , Testiopiskelija pieksämäk
+35: TEST    # diatestimuu   , Testimuut Pieksämäki
+36: TEST    # diatestiope   , Testihenkilökunta PI
+37: STAFF    # Keppi elikkäs sauva
+
+
+UNKNOWN: $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when a Patron has no patron_group_id
+_DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
+

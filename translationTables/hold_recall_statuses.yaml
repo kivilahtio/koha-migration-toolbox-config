@@ -1,0 +1,24 @@
+---
+
+## hold_recall_statuses.yaml
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::HoldStatuses
+## it defines mappings from voyager.hold_recall.hold_recall_status to koha.reserves.found et. al.
+##
+
+#voyager.HOLD_RECALL_STATUS.csv
+#HR_STATUS_DESC                              # HR_STATUS_ID (_TYPE)
+
+#  mapping
+Active:    isWaitingForFulfilment()          # 1
+Pending:   isWaitingForPickup()              # 2
+## MitÃ¤hÃ¤n seuraavissa voisi olla? En lÃ¶ydÃ¤ mahdollisia Kohan arvoja tai suositusta.
+## esim. isCancelled() 
+Cancelled: $DELETE                           # 3
+Charged:   $DELETE                           # 4
+Expired:   $DELETE                           # 5
+Pending In Transit: isInTransitForPickup()   # 6
+_DEFAULT_: warning()
+
+

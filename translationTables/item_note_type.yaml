@@ -1,0 +1,17 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::ItemNoteType
+## it defines mappings from voyager.item_note_type integer to koha.items.itemnotes|itemnotes_nonpublic
+##
+
+#voyager.item_note_type
+#note_type,                  note_desc
+#    mapping
+1: toItemnotes_nonpublic() # regular (sisäinen huomautus, ei haluta asiakaliittymään näkyviin)
+2: toItemnotes_nonpublic() # charge
+3: toItemnotes_nonpublic() # discharge
+_DEFAULT_: warning()
+                     

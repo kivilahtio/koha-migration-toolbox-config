@@ -1,0 +1,30 @@
+---
+##
+### IN THIS FILE
+###
+### This mapping table is used by the module MMT::TranslationTable::ItemTypes
+### it defines mappings from voyager.item.item_type_id integer to koha.items.itype
+###
+### Voyagerin
+###ITEM_TYPE_ID :       Item Type Code Kohassa
+1: POIS
+2: OPELAINA
+3: REFLAINA
+4: PERUSLAINA
+5: EILAINA
+6: EILAINA
+7: POIS
+9: LYHYTLAINA
+10: EILAINA
+11: POIS
+14: OPELAINA
+15: OPELAINA
+16: OPELAINA
+17: EILAINA
+18: POIS
+19: POIS
+20: POIS
+21: PERUSLAINA
+22: OPELAINA
+24: OPELAINA
+
