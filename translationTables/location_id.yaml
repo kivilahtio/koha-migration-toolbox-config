@@ -1,185 +1,321 @@
-##LOCATION_ID	:	1 Holding branch = homebranch 2 location 3 CCODE - EI KÄYTETÄ 4 sub_location - EI KÄYTETÄ 5	itype = Kohan Item Type Code
-2:	branchLoc(POIS,POIS,,,POIS)
-3:	branchLoc(POIS,POIS,,,POIS)
-4:	branchLoc(POIS,POIS,,,POIS)
-6:	branchLoc(POIS,POIS,,,POIS)
-7:	branchLoc(POIS,POIS,,,POIS)
-8:	branchLoc(POIS,POIS,,,POIS)
-9:	branchLoc(POIS,POIS,,,POIS)
-10:	branchLoc(POIS,POIS,,,POIS)
-11:	branchLoc(POIS,POIS,,,POIS)
-12:	branchLoc(POIS,POIS,,,POIS)
-13:	branchLoc(POIS,POIS,,,POIS)
-14:	branchLoc(POIS,POIS,,,POIS)
-15:	branchLoc(POIS,POIS,,,POIS)
-17:	branchLoc(POIS,POIS,,,POIS)
-19:	branchLoc(POIS,POIS,,,POIS)
-21:	branchLoc(POIS,POIS,,,POIS)
-25:	branchLoc(DIAKOULU,DIAKOULU,,,OPELAINA)
-26:	branchLoc(DIAKOULU,DIAKOULU,,,REFLAINA)
-27:	branchLoc(DIAKOULU,DIAKOULU,,,PERUSLAINA)
-28:	branchLoc(DIAKOULU,DIAKOULU,,,PERUSLAINA)
-30:	branchLoc(POIS,POIS,,,POIS)
-31:	branchLoc(DIAKPM,DIAKPM,,,OPELAINA)
-32:	branchLoc(DIAKPM,DIAKPM,,,PERUSLAINA)
-33:	branchLoc(DIAKPM,DIAKPM,,,EILAINA)
-34:	branchLoc(DIAKPM,DIAKPM,,,EILAINA)
-36:	branchLoc(POIS,POIS,,,POIS)
-37:	branchLoc(DIAK,DIAK,,WWW)
-38:	branchLoc(POIS,POIS,,,POIS)
-39:	branchLoc(POIS,POIS,,,POIS)
-41:	branchLoc(POIS,POIS,,,POIS)
-42:	branchLoc(POIS,POIS,,,POIS)
-46:	branchLoc(POIS,POIS,,,POIS)
-55:	branchLoc(POIS,POIS,,,POIS)
-56:	branchLoc(POIS,POIS,,,POIS)
-58:	branchLoc(POIS,POIS,,,POIS)
-66:	branchLoc(POIS,POIS,,,POIS)
-68:	branchLoc(POIS,POIS,,,POIS)
-71:	branchLoc(POIS,POIS,,,POIS)
-79:	branchLoc(POIS,POIS,,,POIS)
-85:	branchLoc(DIAKPM,DIAKPM,,,OPELAINA)
-99:	branchLoc(POIS,POIS,,,POIS)
-102:	branchLoc(POIS,POIS,,,POIS)
-103:	branchLoc(POIS,POIS,,,POIS)
-105:	branchLoc(DIAKPM,DIAKPM,,,REFLAINA)
-106:	branchLoc(POIS,POIS,,,POIS)
-109:	branchLoc(DIAK,DIAK,,WWW)
-112:	branchLoc(DIAKPM,DIAKPM,,,PERUSLAINA)
-113:	branchLoc(DIAK,DIAK,,WWW)
-114:	branchLoc(DIAK,DIAK,,WWW)
-116:	branchLoc(DIAKPM,DIAKPM,,,EILAINA)
-118:	branchLoc(DIAKHKI,DIAKHKI,,,EILAINA) #diahekir
-138:	branchLoc(POIS,POIS,,,POIS)
-144:	branchLoc(POIS,POIS,,,POIS)
-146:	branchLoc(POIS,POIS,,,POIS)
-147:	branchLoc(POIS,POIS,,,POIS)
-151:	branchLoc(DIAKOULU,DIAKOULU,,,LYHYTLAINA)
-152:	branchLoc(DIAKHKI,DIAKHKI,,,PERUSLAINA)
-153:	branchLoc(DIAKHKI,DIAKHKI,,,LYHYTLAINA)
-154:	branchLoc(DIAKHKI,DIAKHKI,,,EILAINA)
-155:	branchLoc(DIAKHKI,DIAKHKI,,,OPELAINA)
-156:	branchLoc(POIS,POIS,,,POIS)
-159:	branchLoc(DIAK,DIAK,,,WWW)
+---
+
+## location_id.yaml
+## IN THIS FILE
+## PALJON MUUTOKSIA 180119 by HS
+## This mapping table is used by the module MMT::TranslationTable::LocationId
+## it defines mappings from voyager.location_id column to Koha's shelving_location and branchcode
+##
+
+##
+## ref(101) - Refer another value instead.
+##
+## Used to alias various values to make accessing this table with different values from different data sources.
+## Mainly the MARC-records refer using string-key, and other parts refer with the id.
+
+#Voyager.LOCATION -table
+#location_id,location_code,       #location_name
 
 
+###
+#
+# 
+# Item Typen avulla kohdennetaan lainauskiertosäännöt.
+# item_stat_code.yml -muunnostaulussa on paljon tietoa Diak:lla -> jätetään ne kokonaan pois. Ne asettavat ccode-tiedon myös, joten päällekäisyyden vaara on.
+#
+
+
+#(statisticsLibrary sets the following attributes:
+#       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status)
+# diakLibrary tarvitsee vain branchcodet DIAK, DIAKHKI, DIAKOULU, DIAKPM 
+# shelving_location ei käytetä (on hyllyluokat Voyagerin varastotietueissa 852h (ja niteissä)) 
+# collection_code vain 1: Aarnisalo-kokoelma (diapaar, joka OPELAINA)
+# Miksiköhän diahe-alkuiset Voyager-locationit (isoimmat kokoelmat) puuttuivat kokonaan? Lisäsin LOPPUUN - onko numeroinnilla väliä?
+# 
+# 
+1:  branchLoc(POIS, KONVERSIO) # REVIEW , REVIEW
 +REVIEW: ref(1)
+5:  branchLoc(POIS, TUTKI) # diaahdl , Helsinki tutkimuskäyttään, lainaus sop. muk.
 +diaahdl: ref(5)
+2:  branchLoc(POIS, HENK) # diaahen , Helsinki, vain henkiläkunnalle; laina-aika sop. muk.
 +diaahen: ref(2)
+4:  branchLoc(POIS, PERUSLAINA) # diaakir , Helsinki, laina-aika 28 vrk
 +diaakir: ref(4)
+3:  branchLoc(POIS, REFLAINA) # diaaref , Helsinki käsikirjasto, yä- ja viikonloppulainaan
 +diaaref: ref(3)
+6:  branchLoc(POIS, EILAINA) # diaaleh , Helsinki lehdet, laina-aika 28 vrk, uusinta nroa ei lainata
 +diaaleh: ref(6)
+7:  branchLoc(POIS, OPE) # diaaope , Helsinki, opetuskäyttään; lainaus sop. muk.
 +diaaope: ref(7)
+8:  branchLoc(POIS, PROJ) # diaaproj , Helsinki projektit, ei lainata
 +diaaproj: ref(8)
+9:  branchLoc(POIS, VAR) # diaavar , Helsinki varasto, laina-aika 28 vrk
 +diaavar: ref(9)
+10: branchLoc(POIS, HENK) # diajhen , Järvenpää henkiläkunta; ei lainata
 +diajhen: ref(10)
+11: branchLoc(POIS, REFLAINA) # diajkas , Järvenpää käsikirjasto, vain yä- ja viikonloppulainaan
 +diajkas: ref(11)
+15: branchLoc(POIS, TYPA) # diajpaja , Järvenpää tyäpaja, ei lainata
 +diajpaja: ref(15)
+12: branchLoc(POIS, PERUSLAINA) # diajkir , Järvenpää, laina-aika 28 vrk
 +diajkir: ref(12)
+14: branchLoc(POIS, EILAINA) # diajlehei , Järvenpää lehtisali, ei lainata
 +diajlehei: ref(14)
+13: branchLoc(POIS, PERUSLAINA) # diajkirb , Järvenpää, laina-aika 14 vrk
 +diajkirb: ref(13)
+17: branchLoc(POIS, VAR) # diajvar , Järvenpää varasto, laina-aika 28 vrk
 +diajvar: ref(17)
+16: branchLoc(POIS, LYHYTLAINA) # diajvid , Järvenpää, laina-aika 14 vrk
 +diajvid: ref(16)
+22: branchLoc(POIS, PERUSLAINA, OPI_POIS) # diakaopi , Kauniainen opinnäytteet, laina-aika 28 vrk
 +diakaopi: ref(22)
+20: branchLoc(POIS, REFLAINA) # diakaei , Kauniainen käsikirjasto, ei lainata
 +diakaei: ref(20)
+23: branchLoc(POIS, EILAINA) # diakaleh , Kauniainen lehdet, sidotut vuosikerrat, laina-aika 28 vrk
 +diakaleh: ref(23)
+19: branchLoc(POIS, PERUSLAINA) # diakakir , Kauniainen, laina-aika 28 vrk
 +diakakir: ref(19)
+18: branchLoc(POIS, HENK) # diakahen , Kauniainen henkiläkunta, ei lainata
 +diakahen: ref(18)
+21: branchLoc(POIS, LYHYTLAINA) # diakakirb , Kauniainen tenttikirjat, laina-aika 14 vrk
 +diakakirb: ref(21)
+24: branchLoc(POIS, VAR) # diakavar , Kauniainen varasto, laina-aika 28 vrk
 +diakavar: ref(24)
+#seuravakin puuttui 
+123: branchLoc(DIAKOULU, LYHYTLAINA) # diaokirb , Oulu laina-aika 14 vrk
 +diaoleh: ref(123)
+25: branchLoc(DIAKOULU, OPELAINA) # diaoope , Oulu opetus, lainataan vain henkiläkunnalle
 +diaoope: ref(25)
+27: branchLoc(DIAKOULU, PERUSLAINA) # diaokir , Oulu, laina-aika 28 vrk
 +diaokir: ref(27)
+26: branchLoc(DIAKOULU, REFLAINA) # diaoref , Oulu käsikirjasto, vain yä- ja viikonloppulainaan
 +diaoref: ref(26)
+28: branchLoc(DIAKOULU, PERUSLAINA) # diaoleh , Oulu lehdet, laina-aika 28 vrk, uusinta numeroa ei lainata
 +diaoleh: ref(28)
+29: branchLoc(POIS, PERUSLAINA, OPI_OUL) # diaoopi , Oulu omat opinnäytteet, laina-aika 28 vrk
 +diaoopi: ref(29)
+33: branchLoc(DIAKPM, EILAINA) # diapei , Pieksämäki, ei kotilainaan
 +diapei: ref(33)
+32: branchLoc(DIAKPM, PERUSLAINA) # diapkir , Pieksämäki, laina-aika 28 vrk
 +diapkir: ref(32)
+31: branchLoc(DIAKPM, OPELAINA) # diapope , Pieksämäki opetus, lainataan vain henkiläkunnalle
 +diapope: ref(31)
+34: branchLoc(DIAKPM, EILAINA) # diapleh , Pieksämäki lehdet, laina-aika 28 vrk (kul. vsk. lyhytlaina)
 +diapleh: ref(34)
+35: branchLoc(POIS, REFLAINA) # diaplyh , Pieksämäki, vain yä- ja viikonloppulainaan
 +diaplyh: ref(35)
+30: branchLoc(POIS, TUTKI) # diappro , Pieksämäki: tutkimuskäyttään, kysy neuvonnasta
 +diappro: ref(30)
+36: branchLoc(POIS, VAR) # diapvar , Pieksämäki varasto, laina-aika 28 vrk
 +diapvar: ref(36)
+
+# Verkkoaineistolla ei liene niteitä vaan linkki 856-kentässä verkkoon?
+# Jos virtuaalisia niteitä, pitää vähän miettiä sitten miten niiden kanssa tehdään.
+37: branchLoc(DIAK, WWW) # diakver , Verkkojulkaisut, vapaasti luettavissa Internetissä
 +diakver: ref(37)
+
+40: branchLoc(POIS, OPELAINA) # diaponeu , Pori opetus, ei lainata
 +diaponeu: ref(40)
+39: branchLoc(POIS, PERUSLAINA) # diapokir , Pori, laina-aika 28 vrk
 +diapokir: ref(39)
+41: branchLoc(POIS) # diapokirb , Pori kurssikirjat, laina-aika 14 vrk
 +diapokirb: ref(41)
+38: branchLoc(POIS, REFLAINA) # diaporef , Pori käsikirjat, vain yä- ja viikonloppulainaan
 +diaporef: ref(38)
+42: branchLoc(POIS, LYHYTLAINA) # diapolyh , Pori lyhytlainat, vain yä- ja viikonloppulainaan
 +diapolyh: ref(42)
+43: branchLoc(POIS, VAR) # diapovar , Pori varasto, laina-aika 28 vrk
 +diapovar: ref(43)
+46: branchLoc(POIS, PERUSLAINA) # diatkir , Turku, laina-aika 28 vrk
 +diatkir: ref(46)
+47: branchLoc(POIS, LYHYTLAINA) # diatlyh , Turku lyhytlainat, laina-aika 7 vrk
 +diatlyh: ref(47)
+45: branchLoc(POIS, REFLAINA) # diatref , Turku käsikirjasto, vain yä- ja viikonloppulainaan
 +diatref: ref(45)
+44: branchLoc(POIS, HENK) # diathen , Turku, vain henkiläkunnalle; laina-aika sop. muk.
 +diathen: ref(44)
+48: branchLoc(POIS, OPE) # diatope , Turku opetus, ei lainata
 +diatope: ref(48)
+49: branchLoc(POIS, VAR) # diatvar , Turku varasto, laina-aika 28 vrk
 +diatvar: ref(49)
+51: branchLoc(POIS, KONVERSIO) # testcirc , Testcirculation
 +testcirc: ref(51)
+50: branchLoc(POIS, KONVERSIO) # testcat , 9
 +testcat: ref(50)
+52: branchLoc(POIS, LAI) # diaalai , Helsinki lainaus
 +diaalai: ref(52)
+53: branchLoc(POIS, LAI) # diajlai , Järvenpää lainaus
 +diajlai: ref(53)
+54: branchLoc(POIS, LAI) # diaklai , Kauniainen lainaus
 +diaklai: ref(54)
+55: branchLoc(POIS, LAI) # diaolai , Oulu lainaus
 +diaolai: ref(55)
+56: branchLoc(POIS, LAI) # diaplai , Pieksämäki lainaus
 +diaplai: ref(56)
+57: branchLoc(POIS, LAI) # diapolai , Pori lainaus
 +diapolai: ref(57)
+58: branchLoc(POIS, LAI) # diatlai , Turku lainaus
 +diatlai: ref(58)
+
+# Nämä luetteloitavana olemiset voi Kohassa ilmaista myös yleiskortilla "luettelointi", jolle lainataan luetteloinnissa olevat niteet.
+# Kohan käyttöliittymässä tuo luettelointi-hyllypaikka näkyy, mutta Finnan päässä se voidaan onneksi piilottaa.
+# Voi olla helpompi Kohassa vain lainata nide luettelointikortille, tai korjaukortille, kuin muokata yksittäisen niteen tietoihin hyllypaikkatieto.
+59: branchLoc(DIAKHKI, KONVERSIO) # diaalue , Helsinki luettelointi
 +diaalue: ref(59)
+60: branchLoc(POIS, KONVERSIO) # diajlue , Järvenpää luettelointi
 +diajlue: ref(60)
+61: branchLoc(POIS, KONVERSIO) # diakalue , Kauniainen luettelointi
 +diakalue: ref(61)
+62: branchLoc(POIS, KONVERSIO) # diaolue , Oulu luettelointi
 +diaolue: ref(62)
+63: branchLoc(POIS, KONVERSIO) # diaplue , Pieksämäki luettelointi
 +diaplue: ref(63)
+64: branchLoc(POIS, KONVERSIO) # diapolue , Pori luettelointi
 +diapolue: ref(64)
+65: branchLoc(POIS, KONVERSIO) # diatlue , Turku luettelointi
 +diatlue: ref(65)
+
+# Onko itsepalvelu fyysisesti erillinen osasto missä on oma kokoelmansa? EI
+# Jos näin on ne kannattaa laittaa omaan osastoon/hyllypaikkaan (Kohassa location)
+# Muutoin venkslataan lainauskiertosäännöillä.
+# Lisäksi Kohassa ei kannata tehdä kirjastokohtaisia hyllypaikkoja, vaikka sekin jollakin tavalla on mahdollista.
+# On tärkeää yhdessä sopia yhteiset hyllypaikat (Kohassa location) kaikille kirjastoille, niin hakeminen on helpompaa.
+#hs: Itsepalvelulainaus tilastoidaan ilmeisesti jatkossa sitä kautta, että automaatit ovat STAFFin jäseniä.
+66: branchLoc(POIS, PERUSLAINA) # diapitse , Pieksämäki itsepalvelu
 +diapitse: ref(66)
+67: branchLoc(POIS, PERUSLAINA) # diakaitse , Kauniainen itsepalvelu
 +diakaitse: ref(67)
+68: branchLoc(POIS, KONVERSIO) # testikoko , Testikokoelma
 +testikoko: ref(68)
+
+# Katso yllä Voyagerin 'diakver'
+69: branchLoc(DIAK, WWW) # opac , opac
 +opac: ref(69)
+
+# Kohassa hankinnat tehdään suoraan niihin toimipisteisiin ja hyllypaikkoihin mihin ne aineistot tilataan.
+# Niteiden tila on 'tilauksessa' ja kotikirjasto se lopullinen päämäärä. Tilatessa pitää tietä mihin aineisto on menossa.
+# Hankintamoduulista näkee avoimet tilaukset.
+70: branchLoc(POIS, PERUSLAINA) # diaahan , Helsinki hankinta
 +diaahan: ref(70)
+71: branchLoc(POIS, PERUSLAINA) # diajhan , Järvenpää hankinta
 +diajhan: ref(71)
+72: branchLoc(POIS, PERUSLAINA) # diakahan , Kauniainen hankinta
 +diakahan: ref(72)
+73: branchLoc(POIS, PERUSLAINA) # diaohan , Oulu hankinta
 +diaohan: ref(73)
+74: branchLoc(POIS, PERUSLAINA) # diaphan , Pieksämäki hankinta
 +diaphan: ref(74)
+75: branchLoc(POIS, PERUSLAINA) # diapohan , Pori hankinta
 +diapohan: ref(75)
+76: branchLoc(POIS, PERUSLAINA) # diathan , Turku hankinta
 +diathan: ref(76)
+
+# Kohassa poistot voi laittaa ali-sijaintiin (sub_location) tai käyttää jotain tilastollista ryhmittelyä. Ei ole pakko olla omaa hyllypaikkaa.
+# 0 - Withdrawn status
+# 7 - Not for loan
+# voisivat olla sellaisia mihin laitetaan tieto poistoista.
+# Käytänteistä kannattaa keskustella yleisten kirjastojen pääkäyttäjien kanssa.
+#
+# Voyagerissa on myös withdrawn-tile, joka mäppäytyy Kohan items.withdrawn -tilaan, eli 0 - Withdrawn status
+77: branchLoc(POIS, KONVERSIO) # diaapoi , 2
 +diaapoi: ref(77)
+78: branchLoc(POIS, KONVERSIO) # diajpoi , 3
 +diajpoi: ref(78)
+79: branchLoc(POIS, KONVERSIO) # diappoi , Pieksämäki poistot
 +diappoi: ref(79)
+80: branchLoc(POIS, KONVERSIO) # diakpoi , 4
 +diakpoi: ref(80)
+81: branchLoc(POIS, KONVERSIO) # diatpoi , 8
 +diatpoi: ref(81)
+82: branchLoc(POIS, KONVERSIO) # diaopoi , 5
 +diaopoi: ref(82)
+
+84: branchLoc(POIS, ERI) # diakaeri , KA erityisaineisto
 +diakaeri: ref(84)
+
+# Pieksämänen poistot?
+83: branchLoc(POIS, KONVERSIO) # diapopoi , 7
 +diapopoi: ref(83)
+
+85: branchLoc(POIS, KONVERSIO) # diapsis , 6
 +diapsis: ref(85)
+86: branchLoc(POIS, PERUSLAINA) # diaahan1 , Helsinki hankinnassa
 +diaahan1: ref(86)
+87: branchLoc(POIS, PERUSLAINA) # diajhan1 , Järvenpää hankinnassa
 +diajhan1: ref(87)
+
+###
+# Tästä eteenpäin on hajanaisemmin noita samoja asioita kuin yllä, ja jotain erikoisempia sijantipaikkoja.
+# Näistä en osaa ottaa selkoa että onko nämä tarpeellisia vai ei.
+# Keskustellaan näistä lisää sitten yhdessä.
+#
+
+# Mikäs tää on? hyvä kysymys! Näitä on saanut ihmetellä.
+94: branchLoc(POIS, KONVERSIO) # diaplas , 6
 +diaplas: ref(94)
+
+89: branchLoc(POIS, PERUSLAINA) # diaphan1 , Pieksämäki hankinnassa
 +diaphan1: ref(89)
+90: branchLoc(POIS, PERUSLAINA) # diaohan1 , Oulu hankinnassa
 +diaohan1: ref(90)
+91: branchLoc(POIS, PERUSLAINA) # diapohan1 , Pori hankinnassa
 +diapohan1: ref(91)
+93: branchLoc(POIS, PERUSLAINA) # diaaauto , 2
 +diaaauto: ref(93)
+92: branchLoc(POIS, PERUSLAINA) # diatha1 , Turku hankinnassa
 +diatha1: ref(92)
+95: branchLoc(POIS, OPE) # diapoope , Pori opetuskäyttään, lainaus sop. muk.
 +diapoope: ref(95)
+96: branchLoc(POIS, KONVERSIO) # diapkau , 6
 +diapkau: ref(96)
+97: branchLoc(POIS, KONVERSIO) # diatcou , Turku verkkotyäpaja
 +diatcou: ref(97)
+98: branchLoc(POIS, KONVERSIO) # diajsolas , 3
 +diajsolas: ref(98)
+
+# Kohassa on niteen ei-lainata (notforloan)-tila = 6  ->  laskutettu
+99: branchLoc(POIS, KONVERSIO, , , , 6) # diaklasku , 1
 +diaklasku: ref(99)
+102: branchLoc(DIAKPM, OPELAINA, AARNI) # diapaar , Pieksämäki Aarnisalo-kokoelma, vain tutkimuskäyttään
 +diapaar: ref(102)
+103: branchLoc(POIS, TYPA) # diaptyo , Pieksämäki Tyäpajat, vain yä- ja viikoloppulainaan
 +diaptyo: ref(103)
+104: branchLoc(POIS, EILAINA) # diapoleh , Pori lehdet, laina-aika 28 vrk, uusinta numeroa ei lainata
 +diapoleh: ref(104)
+105: branchLoc(DIAKPM, REFLAINA ) # diapasi , Pieksämäki, asiakaspalvelupiste
 +diapasi: ref(105)
+106: branchLoc(POIS, EILAINA, EIKOTI) # diaplehei , Pieksämäki lehdet, ei kotilainaan
 +diaplehei: ref(106)
+114: branchLoc(DIAK, WWW) # diakele , 1
 +diakele: ref(114)
+115: branchLoc(POIS, KONVERSIO) # diallah , 10
 +diallah: ref(115)
+109: branchLoc(DIAK, WWW) # diakelehti , E-lehdet, luettavissa Diakin verkossa
 +diakelehti: ref(109)
+110: branchLoc(POIS, WWW) # diapotver , 
 +diapotver: ref(110)
+111: branchLoc(POIS, VAR) # diaovar , Oulu varasto
 +diaovar: ref(111)
+113: branchLoc(DIAK, WWW) # diakekirja , E-kirjat, Diakin kirjaston asiakkaiden käytettävissä
 +diakekirja: ref(113)
+112: branchLoc(DIAKPM, PERUSLAINA) # diapkirb , Pieksämäki, laina-aika 28 vrk
 +diapkirb: ref(112)
+116: branchLoc(DIAKPM, OPELAINA) # piperus , Pieksämäki peruskoululinjan kirjat, lainaus sop. mukaan
 +piperus: ref(116)
+117: branchLoc(POIS, KONVERSIO) # diakhan , 1
 +diakhan: ref(117)
+
+# Lisätty puuttuvat holdingit
+118:  branchLoc(DIAKHKI, PERUSLAINA) # diahekir , Helsinki, laina-aika 28 vrk
 +diahekir: ref(118)
+119:  branchLoc(DIAKHKI, REFLAINA) # diaheei , Helsinki käsikirjasto, yölaina / Lehtiä ei lainata
 +diaheei: ref(119)
+120:  branchLoc(DIAKHKI, LYHYTLAINA) # diahekirb , Helsinki, laina-aika 14 vrk
 +diahekirb: ref(120)
+121:  branchLoc(DIAKHKI, OPELAINA) # diaheope , Helsinki, henkilökuntalaina 90 vrk
 +diaheope: ref(121)
+122:  branchLoc(POIS, OPELAINA) # diahelai , Helsinki, henkilökuntalaina 90 vrk
 +diahelai: ref(122)
 
+_DEFAULT_: branchLoc(POIS, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
 
