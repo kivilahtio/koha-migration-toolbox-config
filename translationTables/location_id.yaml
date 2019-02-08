@@ -317,7 +317,7 @@
 +diaoopeeme: ref(147)
 151: branchLoc(DIAKOULU,,,, LYHYTLAINA)
 +diaokirb: ref(151)
-152: branchLoc(DIAKHKI,,, PERUSLAINA)
+152: branchLoc(DIAKHKI,,,, PERUSLAINA)
 +diahekir: ref(152)
 153: branchLoc(DIAKHKI,,,, LYHYTLAINA)
 +diahekirb: ref(153)
