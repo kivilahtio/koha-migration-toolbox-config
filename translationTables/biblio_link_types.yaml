@@ -22,6 +22,10 @@
 #  @attribute reverseLookup {Boolean} Use the reverse lookup table to handle this link type
 #
 
+# DIAK has a peculiar empty mapping category. It looks like it was sometimes used for component-parent linking, but was deprecated.
+'':
+  do: 0
+
 #Component part 773$w to parent 001 && 003, This is what Koha supports atm. Make sure this child record has 773$w and it points to the correct record
 COMP:
   do: 1
@@ -78,3 +82,5 @@ ALEPH2:
   do: 0
 
 _DEFAULT_: warning()
+
+
