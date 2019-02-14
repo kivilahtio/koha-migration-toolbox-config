@@ -8,22 +8,56 @@
 ##
 ## Configurations are introduced in the same order as they are needed by the migration tools
 
-### 1) Data export phase
+############################
+### 1) Data export phase ###
 ## Voyager DB dumps are fetched and delivered for the data transformation phase
 
-# Absolute/full path to the script used to extract data from the VoyagerDB-server into the Koha-server.
+# Name of the script in directory $MMT_HOME/secret used to extract data from the VoyagerDB-server into the Koha-server.
 # See the extractor-dir for example implementations.
-exportPipelineScript: '/home/koha/MMT-Voyager/secret/voyagerToTransformer_fetchDataViaSSHJumpHost.sh'
-
-# Absolute path to the script used to import the transformed data into Koha
-# See the importer-dir for example implementations.
-importPipelineScript: '/home/koha/MMT-Voyager/secret/transformerToKoha_loadData.sh'
+exportPipelineScript: 'voyagerToTransformer.sh'
 
 # From where the files exported from Voyager are found?
-voyagerExportDir: /home/koha/MMT-Voyager/VoyagerExports
+voyagerExportDir: 'VoyagerExports'
 
-### 2) Data transformation phase
+####################################
+### 2) Data transformation phase ###
 ## Exported DB rows are mangled into Koha-objects
 
+# Enable multithreading by defining workers.
+workers: 0
+
+# Load ssns to Hetula instead of storing them in Koha as plain text.
+# Boolean value
+useHetula: false
+
+# Holdings transformation strategy to use.
+# The way holdings records are used in various databases vary, hence one transformation set of rules wont work for all source databases.
+holdingsTransformationModule: HAMK
+
+# If the item doesn't have a price or a replacementprice, use this default.
+defaultReplacementPrice: 25
+
+# ISIL-code for the migrated organization
+# Used primarily in the MARC record transformations.
+organizationISILCode: FI-Hamk
+
+# Set the Patron home library to this value for all patrons. Leave empty to use the LocationId-translation table.
+patronHomeLibrary:
+
+# How many expiry years to add for patron account if expiry date is not defined in Voyager
+patronAddExpiryYears: 0
+
+# Which strategy to use to validate phone numbers
+# See MMT::Validator::Phone for available strategies
+phoneNumberValidationStrategy: HAMK
+
+#############################
+### 3) Data loading phase ###
+## Exported DB rows are mangled into Koha-objects
+
+# Name of the script in directory $MMT_HOME/secret used to import the transformed data into Koha
+# See the importer-dir for example implementations.
+importPipelineScript: 'transformerToKoha.sh'
+
 # Where the built library system objects are stored to be transported to Koha?
-kohaImportDir: /home/koha/MMT-Voyager/KohaImports
+kohaImportDir: 'KohaImports'
