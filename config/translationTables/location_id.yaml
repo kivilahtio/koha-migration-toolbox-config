@@ -1,256 +1,47 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivillä.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-7:   branchLoc()		#Heliaoav  ,ZOulunk Av
-+Heliaoav: ref(7)
-3:   branchLoc()		#Heliaoref ,ZOulunk Käsiksto
-+Heliaoref: ref(3)
-4:   branchLoc()		#Heliaoread,ZOulunk Lukusali
-+Heliaoread: ref(4)
-5:   branchLoc()		#Heliaothes,ZOulunk Opinnäyte
-+Heliaothes: ref(5)
-6:   branchLoc()		#Heliaotext,ZOulunk Pikalaina
-+Heliaotext: ref(6)
-8:   branchLoc()		#Heliaosecr,ZOulunk Salainen
-+Heliaosecr: ref(8)
-2:   branchLoc()		#Heliaomain,ZOulunk Yleiskok
-+Heliaomain: ref(2)
-14:  branchLoc()		#Heliapav  ,Pasila Av
-+Heliapav: ref(14)
-10:  branchLoc()		#Heliapref ,Pasila Käsiksto
-+Heliapref: ref(10)
-11:  branchLoc()		#Heliapread,Pasila Lukusali
-+Heliapread: ref(11)
-12:  branchLoc()		#Heliapthes,Pasila Opinnäyte
-+Heliapthes: ref(12)
-13:  branchLoc()		#Heliaptext,Pasila Pikalaina
-+Heliaptext: ref(13)
-15:  branchLoc()		#Heliapsecr,Pasila Salainen
-+Heliapsecr: ref(15)
-9:   branchLoc()		#Heliapmain,Pasila Yleiskok
-+Heliapmain: ref(9)
-21:  branchLoc()		#Heliubav  ,Point Av
-+Heliubav: ref(21)
-23:  branchLoc()		#Heliubcour,Point Kurssikirja
-+Heliubcour: ref(23)
-17:  branchLoc()		#Heliubref ,Point Käsiksto
-+Heliubref: ref(17)
-18:  branchLoc()		#Heliubread,Point Lukusali
-+Heliubread: ref(18)
-19:  branchLoc()		#Heliubthes,Point Opinnäyte
-+Heliubthes: ref(19)
-20:  branchLoc()		#Heliubtext,Point Pikalaina
-+Heliubtext: ref(20)
-22:  branchLoc()		#Heliubsecr,Point Salainen
-+Heliubsecr: ref(22)
-16:  branchLoc()		#Heliubmain,Point Yleiskok
-+Heliubmain: ref(16)
-27:  branchLoc()		#Heliupav  ,Pomo Av
-+Heliupav: ref(27)
-29:  branchLoc()		#Heliupcour,Pomo Kurssikirja
-+Heliupcour: ref(29)
-25:  branchLoc()		#Heliupthes,Pomo Opinnäyte
-+Heliupthes: ref(25)
-26:  branchLoc()		#Heliuptext,Pomo Pikalaina
-+Heliuptext: ref(26)
-28:  branchLoc()		#Heliupsecr,Pomo Salainen
-+Heliupsecr: ref(28)
-24:  branchLoc()		#Heliupmain,Pomo Yleiskok
-+Heliupmain: ref(24)
-30:  branchLoc()		#Autom     ,ZPasilan automaatti
-+Autom: ref(30)
-31:  branchLoc()		#Cat1      ,Luettelointi Pasila
-+Cat1: ref(31)
-32:  branchLoc()		#Cat3      ,ZLuettelointi Oulunkylä
-+Cat3: ref(32)
-33:  branchLoc()		#Cat4      ,Luettelointi Point
-+Cat4: ref(33)
-34:  branchLoc()		#Cat5      ,Luettelointi Pomo
-+Cat5: ref(34)
-35:  branchLoc()		#Circ1     ,Pasilan toimipiste
-+Circ1: ref(35)
-36:  branchLoc()		#Circ3     ,ZLainatiski Oulunkylä
-+Circ3: ref(36)
-37:  branchLoc()		#Circ4     ,Porvoon toimipiste Point
-+Circ4: ref(37)
-38:  branchLoc()		#Circ5     ,Porvoon toimipiste Pomo
-+Circ5: ref(38)
-39:  branchLoc()		#Acq1      ,Hankinta Pasila
-+Acq1: ref(39)
-40:  branchLoc()		#Acq3      ,ZHankinta Oulunkylä
-+Acq3: ref(40)
-41:  branchLoc()		#Acq4      ,Hankinta Point
-+Acq4: ref(41)
-42:  branchLoc()		#Acq5      ,Hankinta Pomo
-+Acq5: ref(42)
-43:  branchLoc()		#Web       ,WebVoyage
-+Web: ref(43)
-44:  branchLoc()		#Heliaebook,Verkkojulkaisut
-+Heliaebook: ref(44)
-45:  branchLoc()		#Heliupread,Pomo Lukusali
-+Heliupread: ref(45)
-46:  branchLoc()		#Camera    ,Digikamerat
-+Camera: ref(46)
-48:  branchLoc()		#HLI-ark   ,HLI-arkisto
-+HLI-ark: ref(48)
-49:  branchLoc()		#HLI-henk  ,HLI-henkilöstö
-+HLI-henk: ref(49)
-50:  branchLoc()		#HLI-lehdet,HLI-lehdet
-+HLI-lehdet: ref(50)
-51:  branchLoc()		#HLI-optyot,HLI-opinnäytteet
-+HLI-optyot: ref(51)
-52:  branchLoc()		#HLI-kirjat,HLI-kirjat
-+HLI-kirjat: ref(52)
-53:  branchLoc()		#HLI-Ref   ,HLI-käsikirjat
-+HLI-Ref: ref(53)
-54:  branchLoc()		#HLI-videot,HLI-videot
-+HLI-videot: ref(54)
-55:  branchLoc()		#HLI-kurssi,HLI-kurssikirjat
-+HLI-kurssi: ref(55)
-56:  branchLoc()		#HI-ark    ,HI-arkisto
-+HI-ark: ref(56)
-57:  branchLoc()		#HI-CD     ,HI-CD-ROM
-+HI-CD: ref(57)
-58:  branchLoc()		#HI-kirjat ,HI-kirjat
-+HI-kirjat: ref(58)
-59:  branchLoc()		#HI-henk   ,HI-henkilöstö
-+HI-henk: ref(59)
-60:  branchLoc()		#HI-vitr   ,HI-vitriini
-+HI-vitr: ref(60)
-61:  branchLoc()		#HI-kurssik,HI-kurssikirjat
-+HI-kurssik: ref(61)
-62:  branchLoc()		#HI-Ref    ,HI-käsikirjat
-+HI-Ref: ref(62)
-63:  branchLoc()		#HI-lehdet ,HI-lehdet
-+HI-lehdet: ref(63)
-64:  branchLoc()		#HI-optyot ,HI-opinnäytteet
-+HI-optyot: ref(64)
-65:  branchLoc()		#HI-varasto,HI-varasto
-+HI-varasto: ref(65)
-66:  branchLoc()		#HI-videot ,HI-videot
-+HI-videot: ref(66)
-67:  branchLoc()		#MLI-ark   ,MLI-arkisto
-+MLI-ark: ref(67)
-68:  branchLoc()		#MLI-kirjat,MLI-kirjat
-+MLI-kirjat: ref(68)
-69:  branchLoc()		#MLI-lehdet,MLI-lehdet
-+MLI-lehdet: ref(69)
-70:  branchLoc()		#MLI-optyot,MLI-opinnäytteet
-+MLI-optyot: ref(70)
-71:  branchLoc()		#MLI-videot,MLI-videot
-+MLI-videot: ref(71)
-72:  branchLoc()		#MLI-Ref   ,MLI-käsikirjat
-+MLI-Ref: ref(72)
-73:  branchLoc()		#MLI-henk  ,MLI-henkilöstö
-+MLI-henk: ref(73)
-74:  branchLoc()		#MLI-kurssi,MLI-kurssikirjat
-+MLI-kurssi: ref(74)
-75:  branchLoc()		#VLI-kurssi,VLI-kurssikirjat
-+VLI-kurssi: ref(75)
-76:  branchLoc()		#VLI-kirjat,VLI-kirjat
-+VLI-kirjat: ref(76)
-77:  branchLoc()		#VLI-Ref   ,VLI-käsikirjat
-+VLI-Ref: ref(77)
-78:  branchLoc()		#VLI-lehdet,VLI-lehdet
-+VLI-lehdet: ref(78)
-79:  branchLoc()		#VLI-optyot,VLI-opinnäytteet
-+VLI-optyot: ref(79)
-80:  branchLoc()		#VLI-videot,VLI-videot
-+VLI-videot: ref(80)
-81:  branchLoc()		#HI-acq    ,HI-hankinta
-+HI-acq: ref(81)
-82:  branchLoc()		#HI-cat    ,HI-luettelointi
-+HI-cat: ref(82)
-83:  branchLoc()		#HI-circ   ,Haagan toimipiste
-+HI-circ: ref(83)
-84:  branchLoc()		#HI-aut    ,ZHaagan automaatti
-+HI-aut: ref(84)
-85:  branchLoc()		#HLI-acq   ,HLI-hankinta
-+HLI-acq: ref(85)
-86:  branchLoc()		#HLI-cat   ,HLI-luettelonti
-+HLI-cat: ref(86)
-87:  branchLoc()		#HLI-circ  ,Vallilan toimipiste
-+HLI-circ: ref(87)
-88:  branchLoc()		#HLI-aut   ,ZVallilan automaatti
-+HLI-aut: ref(88)
-89:  branchLoc()		#MLI-acq   ,MLI-hankinta
-+MLI-acq: ref(89)
-90:  branchLoc()		#MLI-cat   ,MLI-luettelointi
-+MLI-cat: ref(90)
-91:  branchLoc()		#MLI-circ  ,Malmin toimipiste
-+MLI-circ: ref(91)
-92:  branchLoc()		#MLI-aut   ,ZMalmin automaatti
-+MLI-aut: ref(92)
-93:  branchLoc()		#VLI-acq   ,VLI-hankinta
-+VLI-acq: ref(93)
-94:  branchLoc()		#VLI-cat   ,VLI-luettelointi
-+VLI-cat: ref(94)
-95:  branchLoc()		#VLI-circ  ,Vierumaen toimipiste
-+VLI-circ: ref(95)
-96:  branchLoc()		#HAAGA-e   ,HAAGA Verkkoaineisto
-+HAAGA-e: ref(96)
-97:  branchLoc()		#HAAGA-julk,HAAGA Julkaisurekisteri
-+HAAGA-julk: ref(97)
-108: branchLoc()		#HI-pika   ,HI-pikalainat
-+HI-pika: ref(108)
-125: branchLoc()		#HLI-nauhur,HLI-sanelukoneet
-+HLI-nauhur: ref(125)
-126: branchLoc()		#Porvoonauh,Porvoo sanelukoneet
-+Porvoonauh: ref(126)
-98:  branchLoc()		#HI-av     ,HI-videot
-+HI-av: ref(98)
-99:  branchLoc()		#HLI-av    ,HLI-av-aineisto
-+HLI-av: ref(99)
-100: branchLoc()		#MLI-av    ,MLI-av-aineisto
-+MLI-av: ref(100)
-101: branchLoc()		#VLI-av    ,VLI-av-aineisto
-+VLI-av: ref(101)
-102: branchLoc()		#Epubl     ,Verkkojulkaisut
-+Epubl: ref(102)
-103: branchLoc()		#VLI-varast,VLI-varasto
-+VLI-varast: ref(103)
-105: branchLoc()		#Heliapstor,Pasila Varasto
-+Heliapstor: ref(105)
-106: branchLoc()		#HI-oplaina,HI-opinnäytelainattava
-+HI-oplaina: ref(106)
-119: branchLoc()		#Porvoolain,Porvoon toimipiste
-+Porvoolain: ref(119)
-120: branchLoc()		#Heliapjapa,Pasila Japania
-+Heliapjapa: ref(120)
-121: branchLoc()		#Heliapcour,Pasila kurssik
-+Heliapcour: ref(121)
-122: branchLoc()		#MLI-cour  ,Malmi kurssik
-+MLI-cour: ref(122)
-123: branchLoc()		#HLI-cour  ,Vallila kurssik
-+HLI-cour: ref(123)
-47:  branchLoc()		#Nauhuri   ,Sanelukoneet
-+Nauhuri: ref(47)
-109: branchLoc()		#LAPTOP    ,Kannettavat
-+LAPTOP: ref(109)
-124: branchLoc()		#MLI-read  ,MLI-lukusali
-+MLI-read: ref(124)
-104: branchLoc()		#VLI-LPT   ,VLI-LPT-kurssikirjat
-+VLI-LPT: ref(104)
-107: branchLoc()		#MLI-pikala,MLI-pikalainat
-+MLI-pikala: ref(107)
-110: branchLoc()		#Porvoosecr,Porvoo Salainen
-+Porvoosecr: ref(110)
-111: branchLoc()		#Porvoocour,Porvoo Tenttikirja
-+Porvoocour: ref(111)
-112: branchLoc()		#Porvooav  ,Porvoo Av
-+Porvooav: ref(112)
-113: branchLoc()		#Porvoojour,Porvoo Lehdet
-+Porvoojour: ref(113)
-114: branchLoc()		#Porvoomain,Porvoo Yleiskok
-+Porvoomain: ref(114)
-115: branchLoc()		#Porvooref ,Porvoo Lukukirja
-+Porvooref: ref(115)
-116: branchLoc()		#Porvooshor,Porvoo Lyhyt
-+Porvooshor: ref(116)
-117: branchLoc()		#Porvoostaf,Porvoo Hkunta
-+Porvoostaf: ref(117)
-118: branchLoc()		#Porvoothes,Porvoo Opinnäyte
-+Porvoothes: ref(118)
+1:  branchLoc()		#REVIEW    #REVIEW
++REVIEW: ref(1)
+13: branchLoc()		#t-mono    #zt-monografi
++t-mono: ref(13)
+14: branchLoc()		#v-exarb   #v-examensarbete
++v-exarb: ref(14)
+15: branchLoc()		#v-hand    #v-handbiblioteket
++v-hand: ref(15)
+16: branchLoc()		#v-mono    #v-monografi
++v-mono: ref(16)
+17: branchLoc()		#v-inst    #v-institutionsexemplar
++v-inst: ref(17)
+18: branchLoc()		#v-lager   #v-lager
++v-lager: ref(18)
+19: branchLoc()		#v-ref     #v-referens
++v-ref: ref(19)
+20: branchLoc()		#v-av      #v-AV-material
++v-av: ref(20)
+25: branchLoc()		#T-LANEDISK#zt-lånedisk
++T-LANEDISK: ref(25)
+24: branchLoc()		#H-LANEDISK#zh-lånedisk
++H-LANEDISK: ref(24)
+26: branchLoc()		#V-KATAL   #v-katalogisering
++V-KATAL: ref(26)
+27: branchLoc()		#V-LANEDISK#Lånedisken
++V-LANEDISK: ref(27)
+28: branchLoc()		#SELF      #låneautomaten
++SELF: ref(28)
+29: branchLoc()		#v-kurs    #v-kursbok
++v-kurs: ref(29)
+34: branchLoc()		#MAKSU     #Verkkomaksaminen
++MAKSU: ref(34)
+31: branchLoc()		#v-ebok    #v-elektronisk bok
++v-ebok: ref(31)
+30: branchLoc()		#v-video   #v-video
++v-video: ref(30)
+32: branchLoc()		#v-tidskr  #v-tidskrift
++v-tidskr: ref(32)
+33: branchLoc()		#v-etidskr #Elektronisk tidskrift
++v-etidskr: ref(33)
+35: branchLoc()		#v-databas #v-databas
++v-databas: ref(35)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
-
