@@ -1,4 +1,4 @@
-##  branchLoc-sulkujen v‰liin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill‰.
+##  branchLoc-sulkujen v√§liin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill‰.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
 1:   branchLoc()		#REVIEW    ,Ip-lainaus
@@ -228,5 +228,4 @@
 128: branchLoc()		#HE-SELFLOG,KUUROJEN LIITTO./HELSINKI
 +HE-SELFLOG: ref(128)
 
-_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa lˆyt‰m‰ttˆm‰t
-
+_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa l√∂yt√§m√§tt√∂m√§t
