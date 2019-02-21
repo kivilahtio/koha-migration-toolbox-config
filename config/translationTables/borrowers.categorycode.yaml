@@ -1,0 +1,30 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronCategorycode
+## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
+##
+
+#JYU source values
+# patron_group_id,patron_group_name
+# 1,Personal
+# 2,Studenter
+# 3,Övriga
+# 4,Fjärrlån
+# 5,Timlärare
+# 6,Test
+# 7,Prakticum
+# 8,Student Långlån
+
+1: PERSONAL
+2: STUDENT
+3: OVRIGA
+4: FJARRLAN
+5: PERSONAL
+6: $DELETE
+7: OVRIGA
+8: LANG
+UNKNOWN: $DELETE         # Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
+_DEFAULT_: warning()       # Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.

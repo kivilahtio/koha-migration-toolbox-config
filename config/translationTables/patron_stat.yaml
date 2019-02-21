@@ -1,0 +1,27 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronStatistics
+## it defines mappings from voyager.patron_stat_id -column to Koha's ExtendedPatronAttributes-feature repeatable attribute 'statistic'
+##
+
+
+
+#Asiakkaiden tilastoryhmissä (STAT_CAT Statistinen ryhmittely) pitäisi käyttää auktorisoituja arvoja. Lisäsin tilastoryhmät Auktorisoiduiksi arvoiksi nimeltä PATRON_STAT_GROUPS
+
+#Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
+#PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
+
+7:  A   # Arcadas Personal
+8:  B   # Arcadas studenter
+9:  KKA   # Arcadas fortbildning
+10:  U   # Övriga
+11:  "N"   # Inhemska fjärrlån
+12:  P   # Arcadas utbytesstudenter
+13:  S   # Offentlig förvaltning
+14:  K   # Universitetsstudenter
+15:  G   # Övriga yh-studenter
+18:  R   # Näringslivsrepresentanter
+16:  PPP # Prakticum

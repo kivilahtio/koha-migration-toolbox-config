@@ -1,0 +1,16 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::NoteType
+## it defines mappings from voyager.note_type integer to plain text descriptions, prepended to Koha's notes-fields
+##
+# Arcadassa käytössä vain 1 ja 5
+
+1:       General
+2:       Address
+3:       Barcode
+4:       Phone
+5:       popUp()
+6: Universal Borrowing

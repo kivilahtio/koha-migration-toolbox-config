@@ -1,0 +1,68 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::ItemStatus
+## it defines mappings from voyager.item_status_type to koha.items.*
+##
+
+# ARCADA source values:
+
+#ITEM_STATUS_TYPE	ITEM_STATUS_DESC
+#1	Not Charged
+#2	Charged
+#3	Renewed
+#4	Overdue
+#5	Recall Request
+#6	Hold Request
+#7	On Hold
+#8	In Transit
+#9	In Transit Discharged
+#10	In Transit On Hold
+#11	Discharged
+#12	Missing
+#13	Lost--Library Applied
+#14	Lost--System Applied
+#15	Claims Returned
+#16	Damaged
+#17	Withdrawn
+#18	At Bindery
+#19	Cataloging Review
+#20	Circulation Review
+#21	Scheduled
+#22	In Process
+#23	Call Slip Request
+#24	Short Loan Request
+#25	Remote Storage Request
+
+## Hamkin tiedosto pohjana. Keskimmäinen arvo (itemlost=4 etc) ei vielä muutettu.
+
+#Voyager.ITEM_STATUS_TYPE
+#ITEM_STATUS_DESC,                    ITEM_STATUS_TYPE
+Not Charged:            ''           # 1
+Charged:                ''           # 2
+Renewed:                ''           # 3
+Overdue:                ''           # 4
+Recall Request:         ''           # 5
+Hold Request:           ''           # 6 #varauspyyntö, jonka pitäisi kohdistua nimekkeelle tai varauskokoelmaan.
+On Hold:                ''           # 7 #Varaushyllyssä oleva
+In Transit:             ''           # 8 #Ei käytössä
+In Transit Discharged:  ''           # 9 #Ei käytössä
+In Transit On Hold:     ''           # 10 #Ei käytössä
+Discharged:             ''           # 11
+Missing:                itemlost=4   # 12
+Lost--Library Applied:  itemlost=1   # 13
+Lost--System Applied:   itemlost=2   # 14
+Claims Returned:        itemlost=4   # 15 #Ei käytössä?
+Damaged:                damaged=1    # 16
+Withdrawn:              withdrawn=1  # 17
+At Bindery:             notforloan=2 # 18 #Ei käytössä
+Cataloging Review:      notforloan=-4 # 19 #Ei käytössä
+Circulation Review:     notforloan=5 # 20 #Ei käytössä
+Scheduled:              ''           # 21 #Ei käytössä
+In Process:             notforloan=-2 # 22 #Ei käytössä
+Call Slip Request:      ''           # 23 #Ei käytössä
+Short Loan Request:     ''           # 24 #Ei käytössä
+Remote Storage Request: ''           # 25 #Ei käytössä
+_DEFAULT_: warning()

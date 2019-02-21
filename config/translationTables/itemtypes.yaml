@@ -1,0 +1,27 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::ItemTypes
+## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
+##
+
+#voyager.ITEM_TYPE
+#ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
+1: REVIEW
+2: EXARB0
+3: HAND1
+4: MONO14
+5: INST0
+6: KURS14
+7: REF0
+8: MONO28
+9: AV1
+10: TIDSKR0
+11: EBOK
+12: VIDEO7
+
+# If you have mappings such as these, one should carefully consider to instead use item type as a
+# description of the Item's external appearance. Koha has many levels to organize and categorize items
+# and their respective circulation rules

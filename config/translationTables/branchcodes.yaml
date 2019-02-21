@@ -1,0 +1,14 @@
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::Branchcodes
+## it defines mappings from yet-unknown Voyager column to Koha's branchcode used in various tables.
+##
+## The Patrons transformation uses this to default all Patrons to one branch
+## and
+## the pop_up notes need a branch in Koha.messages.branchcode. So default from here.
+##
+
+_DEFAULT_: ARCADA
