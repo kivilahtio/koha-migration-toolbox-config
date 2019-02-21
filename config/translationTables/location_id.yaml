@@ -1,9 +1,9 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivillä.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1:  branchLoc()		#REVIEW    #REVIEW
+1:  branchLoc(POIS)		#REVIEW    #REVIEW
 +REVIEW: ref(1)
-13: branchLoc()		#t-mono    #zt-monografi
+13: branchLoc(POIS)		#t-mono    #zt-monografi
 +t-mono: ref(13)
 14: branchLoc()		#v-exarb   #v-examensarbete
 +v-exarb: ref(14)
@@ -19,11 +19,11 @@
 +v-ref: ref(19)
 20: branchLoc()		#v-av      #v-AV-material
 +v-av: ref(20)
-25: branchLoc()		#T-LANEDISK#zt-lånedisk
+25: branchLoc(POIS)		#T-LANEDISK#zt-lånedisk
 +T-LANEDISK: ref(25)
-24: branchLoc()		#H-LANEDISK#zh-lånedisk
+24: branchLoc(POIS)		#H-LANEDISK#zh-lånedisk
 +H-LANEDISK: ref(24)
-26: branchLoc()		#V-KATAL   #v-katalogisering
+26: branchLoc(POIS)		#V-KATAL   #v-katalogisering
 +V-KATAL: ref(26)
 27: branchLoc()		#V-LANEDISK#Lånedisken
 +V-LANEDISK: ref(27)
@@ -44,4 +44,4 @@
 35: branchLoc()		#v-databas #v-databas
 +v-databas: ref(35)
 
-_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
+_DEFAULT_: branchLoc(KONVERSIO,KONVERSIO,ERROR,ERROR) #Oletusarvot / paikkaansa löytämättömät
