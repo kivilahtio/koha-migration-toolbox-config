@@ -1,6 +1,8 @@
 secret
 VoyagerExport*
 KohaImport*
+KohaMigration*
+tests
 logs
 .bak
 ~$
