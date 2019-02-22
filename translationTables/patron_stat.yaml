@@ -13,15 +13,25 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-1:  D   # HAMK opiskelija
-2:  M   # Toisen asteen opiskelija
-3:  A   # Oman amk:n henkil?kunta
-4:  G   # Ulkopuol. AMK opiskelija
-5:  F   # Ulkopuol. AMK henkil?kunt
-6:  K   # Yo Opisk./Henkil?kunta
-7:  P   # Muu oppilaitos
-8:  S   # Julkishallinnon edustaja
-9:  R   # Elinkeinoel?m?n edustaja
-10: "N" # Kotimainen kaukopalveluas (N might get confused with NULL, yamllint suggests using "N")
-11: O   # Ulkomainen kaukopalveluas
-12: U   # Muu asiakas
+7: Pal # Alkio/opiston opiskelija
+9: G   # Ulkopuolisen amk:n opisk.
+21: U  #   Muut
+22: "N"  #   .Kaukolaina-asiakas
+26: Pps  # P-Savo/opiston opiskelija
+27: S  #   Julkishallinnon edustaja
+41: Ppa  # Pkivi/opiston opiskelija
+42: Pta  # Akatemia/opiston opiskeli
+43: Pla  # Alkio/opiston hkunta
+46: Pat  # Akatemia/opiston hkunta
+50: Pap  # PKivi/opiston hkunta
+52: Psp  # P-Savo/opiston hkunta
+53: Pik  # Kiljava/opiston hkunta
+55: Uop  # Opistojen kirjastot
+57: F  #   muun AMK:n henkil�kunta
+58: K  #   yliopiston opisk./hkunta
+61: Amu  # .Humak/henkil�kunta
+62: Dmo  # .Humak/opiskelijat
+63: Uko  # Kuurojen liitto
+64: Uvt  # Valkea talo / muut
+65: Pkh  # Kuurojen opiston hkunta
+66: Pko  # Kuurojen opiston opiskeli
