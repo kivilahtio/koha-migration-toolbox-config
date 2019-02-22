@@ -21,14 +21,5 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
-11: F                        #"Myohastymismaksu","RenameF8"
-13: Kauko                    #"Kaukolaina","RenameF10"
-12: N                        #"Kirjastokortti","RenameF9"
-14: M                        #"K�sittelymaksu","F11"
-15: ODUEC                    #"Laskutettu","F12"
-16: HE                       #"Noutamaton varaus","F13"
-17: HE                       #"Noutamaton kaukolaina","F14"
-18: F                        #"Lyhytlaina -1. pv (5 eur)","F15"
-19: F                        #"Lyhytlaina -muut (1 eur)","F16"
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
