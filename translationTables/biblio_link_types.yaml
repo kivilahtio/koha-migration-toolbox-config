@@ -76,5 +76,7 @@ ALEPH:
   do: 0
 ALEPH2:
   do: 0
+'':
+  do: 0
 
 _DEFAULT_: warning()
