@@ -1,235 +1,92 @@
-##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
+##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivillä.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1:   branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#REVIEW    ,Ip-lainaus
-+REVIEW: ref(1)
-6:   branchLoc(AL,,OPE)		#Al-opet   ,Alkio henkilkunta
-+Al-opet: ref(6)
-7:   branchLoc(AL,,REF)		#Al-ref    ,Alkio ksikirjat
-+Al-ref: ref(7)
-5:   branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Al-luku   ,Alkio lukusali
-+Al-luku: ref(5)
-4:   branchLoc(AL,,KURSSI)		#Al-kurssi ,Alkio Kurssikirjat
-+Al-kurssi: ref(4)
-3:   branchLoc(AL,,VAR)		#Al-varasto,Alkio varasto
-+Al-varasto: ref(3)
-2:   branchLoc(AL,,YLEIS)		#Al-yleis  ,Alkio yleiskokoelma
-+Al-yleis: ref(2)
-105: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KU-CIRC   ,TKI-OTTO/KUOPIO
-+KU-CIRC: ref(105)
-110: branchLoc(HE,,YLEIS)		#He-yleis  ,Helsinki yleiskokoelma
-+He-yleis: ref(110)
-111: branchLoc(HE,,REF)		#He-ref    ,Helsinki ksikirjat
-+He-ref: ref(111)
-8:   branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ha-yleis  ,H:vesi yleiskokoelma
-+Ha-yleis: ref(8)
-63:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Jo-av     ,Joutseno Av
-+Jo-av: ref(63)
-112: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#He-opet   ,Helsinki opetuskappale
-+He-opet: ref(112)
-14:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Jo-kurssi ,Joutseno kurssikirjat
-+Jo-kurssi: ref(14)
-113: branchLoc(HE,,VAR)		#He-varasto,Helsinki varasto
-+He-varasto: ref(113)
-17:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Jo-opin   ,Joutseno opinnytteet
-+Jo-opin: ref(17)
-13:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Jo-varasto,Joutseno varasto
-+Jo-varasto: ref(13)
-12:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Jo-yleis  ,Joutseno yleiskokoelma
-+Jo-yleis: ref(12)
-19:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ka-kurssi ,K:jrvi kurssikirjat
-+Ka-kurssi: ref(19)
-114: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#He-av     ,Helsinki Av
-+He-av: ref(114)
-21:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ka-opin   ,K:jrvi opinnäytteet
-+Ka-opin: ref(21)
-18:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ka-yleis  ,K:jrvi yleiskokoelma
-+Ka-yleis: ref(18)
-26:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-av     ,Kiljava Av
-+Ki-av: ref(26)
-23:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-kurssi ,Kiljava kurssikirjat
-+Ki-kurssi: ref(23)
-25:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-ref    ,Kiljava käsikirjat
-+Ki-ref: ref(25)
-115: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#HE-CIRC   ,KUUROJEN LIITTO/HELSINKI
-+HE-CIRC: ref(115)
-22:  branchLoc(KI,,YLEIS)		#Ki-yleis  ,Kiljava yleiskokoelma
-+Ki-yleis: ref(22)
-29:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ks-opet   ,K-Suomi henkiläkunta
-+Ks-opet: ref(29)
-30:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ks-ref    ,K-Suomi käsikirjat
-+Ks-ref: ref(30)
-28:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ks-varasto,K-Suomi varasto
-+Ks-varasto: ref(28)
-27:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ks-yleis  ,K-Suomi yleiskokoelma
-+Ks-yleis: ref(27)
-32:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pa-opet   ,Paasikivi henkilökunta
-+Pa-opet: ref(32)
-33:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pa-ref    ,Paasikivi käsikirjat
-+Pa-ref: ref(33)
-31:  branchLoc(PA,,YLEIS)		#Pa-yleis  ,Paasikivi yleiskokoelma
-+Pa-yleis: ref(31)
-40:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-av     ,P-Karjala Av
-+Pk-av: ref(40)
-38:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-opet   ,P-Karjala henkilökunta
-+Pk-opet: ref(38)
-36:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-kurssi ,P-Karjala kurssikirjat
-+Pk-kurssi: ref(36)
-39:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-ref    ,P-Karjala ksikirjat
-+Pk-ref: ref(39)
-37:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-luku   ,P-Karjala lukusali
-+Pk-luku: ref(37)
-41:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PK-opin   ,P-Karjala opinnytteet
-+PK-opin: ref(41)
-35:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-varasto,P-Karjala varasto
-+Pk-varasto: ref(35)
-34:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-yleis  ,P-Karjala yleiskokoelma
-+Pk-yleis: ref(34)
-47:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pp-av     ,P-Pohjola Av
-+Pp-av: ref(47)
-116: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#HE-CAT    ,HELSINKI LUETTELOINTI
-+HE-CAT: ref(116)
-44:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pp-kurssi ,P-Pohjola kurssikirjat
-+Pp-kurssi: ref(44)
-42:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pp-yleis  ,P-Pohjola yleiskokoelma
-+Pp-yleis: ref(42)
-53:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ps-opet   ,P-Savo henkilkunta
-+Ps-opet: ref(53)
-50:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ps-kurssi ,P-Savo kurssikirjat
-+Ps-kurssi: ref(50)
-54:  branchLoc(PS,,REF)		#Ps-ref    ,P-Savo ksikirjat
-+Ps-ref: ref(54)
-52:  branchLoc(PS,,LEHDET)		#Ps-lehdet ,P-Savo lehdet
-+Ps-lehdet: ref(52)
-51:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ps-varasto,P-Savo varasto
-+Ps-varasto: ref(51)
-49:  branchLoc(PS,,YLEIS)		#Ps-yleis  ,P-Savo yleiskokoelma
-+Ps-yleis: ref(49)
-61:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ta-av     ,Akatemia Av
-+Ta-av: ref(61)
-59:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ta-opet   ,Akatemia henkilkunta
-+Ta-opet: ref(59)
-58:  branchLoc(TA,,KURSSI)		#Ta-kurssi ,Akatemia kurssikirjat
-+Ta-kurssi: ref(58)
-60:  branchLoc(TA,,REF)		#Ta-ref    ,Akatemia ksikirjat
-+Ta-ref: ref(60)
-57:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ta-lehdet ,Akatemia lehdet
-+Ta-lehdet: ref(57)
-62:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ta-opin   ,Akatemia opinnytteet
-+Ta-opin: ref(62)
-56:  branchLoc(TA,,VAR)		#Ta-varasto,Akatemia varasto
-+Ta-varasto: ref(56)
-55:  branchLoc(TA,,YLEIS)		#Ta-yleis  ,Akatemia yleiskokoelma
-+Ta-yleis: ref(55)
-64:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#AL-CAT    ,ALKIO LUETTELOINTI
-+AL-CAT: ref(64)
-66:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KI-CAT    ,KILJAVA LUETTELOINTI
-+KI-CAT: ref(66)
-68:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#AL-CIRC   ,ALKIO-OPISTO / JYVSKYL
-+AL-CIRC: ref(68)
-69:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#HA-CIRC   ,HAAPAVEDEN OPISTO
-+HA-CIRC: ref(69)
-70:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#JO-CIRC   ,JOUTSENON OPISTO
-+JO-CIRC: ref(70)
-72:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KA-CIRC   ,KANNELJRVEN OP. / LOHJA
-+KA-CIRC: ref(72)
-73:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KI-CIRC   ,KILJAVAN OP. / NURMIJÄRVI
-+KI-CIRC: ref(73)
-74:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KS-CAT    ,K-SUOMI LUETTELOINTI
-+KS-CAT: ref(74)
-75:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KS-CIRC   ,K-S OPISTO / ÄÄNEKOSKI
-+KS-CIRC: ref(75)
-76:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PA-CAT    ,PAASIKIVI LUETTELOINTI
-+PA-CAT: ref(76)
-77:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PA-CIRC   ,PAASIKIVI-OPISTO / TURKU
-+PA-CIRC: ref(77)
-78:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PK-CAT    ,P-KARJALA LUETTELOINTI
-+PK-CAT: ref(78)
-79:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PK-CIRC   ,P-KARJALAN OP. / JOENSUU
-+PK-CIRC: ref(79)
-81:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PP-CIRC   ,PERÄPOHJOLAN OP. / TORNIO
-+PP-CIRC: ref(81)
-82:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PS-CAT    ,P-SAVO LUETTELOINTI
-+PS-CAT: ref(82)
-83:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PS-CIRC   ,P-SAVON OPISTO/KUOPIO
-+PS-CIRC: ref(83)
-84:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#TA-CAT    ,AKATEMIA LUETTELOINTI
-+TA-CAT: ref(84)
-85:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#TA-CIRC   ,TYVEN AKAT./KAUNIAINEN
-+TA-CIRC: ref(85)
-86:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#OPAC      ,OPAC
-+OPAC: ref(86)
-88:  branchLoc(HUM,,ELEOA)		#ELE       ,eAineistot
-+ELE: ref(88)
-89:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-ref     ,Varasto pp-ref
-+V-ref: ref(89)
-90:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-opet    ,Varasto pp-opet
-+V-opet: ref(90)
-87:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Al-opin   ,Alkio opinnäytteet
-+Al-opin: ref(87)
-91:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-av      ,Varasto pp-av
-+V-av: ref(91)
-97:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pa-opin   ,Paasikivi opinnäytteet
-+Pa-opin: ref(97)
-125: branchLoc(HUM,,ELET)		#ELET      ,eAineistot, tietokannat
-+ELET: ref(125)
-100: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ta-lpr    ,Akatemia Lappeenrannan op
-+Ta-lpr: ref(100)
-101: branchLoc(HUM,,ELEM)		#ELEE      ,eAineistot, Ellibs
-+ELEE: ref(101)
-102: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pa-kurssi ,Paasikivi kurssikirjat
-+Pa-kurssi: ref(102)
-103: branchLoc(HUM,,ELEM)		#ELEM      ,eAineistot, kirjauduttava
-+ELEM: ref(103)
-106: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ku-yleis  ,Kuopio TKI- yleiskokoelma
-+Ku-yleis: ref(106)
-107: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ku-kurssi ,Kuopio TKI-kurssikirjat
-+Ku-kurssi: ref(107)
-108: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Tu-yleis  ,Turku yleiskokoelma
-+Tu-yleis: ref(108)
-109: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#TU-CIRC   ,TURKU/LOGOMO
-+TU-CIRC: ref(109)
-126: branchLoc(PS,,AUTOM)		#KU-SELFLOG,P-SAVON OPISTO/KUOPIO.
-+KU-SELFLOG: ref(126)
-127: branchLoc(JKL,,AUTOM)		#JY-SELFLOG,JYVÄSKYLÄ/AKSELI.
-+JY-SELFLOG: ref(127)
-129: branchLoc(PA,,LEHDET)		#Pa-lehdet ,Paasikivi lehdet
-+Pa-lehdet: ref(129)
-104: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-opit   ,Kiljava Kauniaisten opinn
-+Ki-opit: ref(104)
-117: branchLoc(JKL,,YLEIS)		#Al-tki    ,Jyvskyl TKI-yleiskokoel
-+Al-tki: ref(117)
-120: branchLoc(KI,,AUTOM)		#KI-SELFLOG,KILJAVAN OP./NURMIJÄRVI.
-+KI-SELFLOG: ref(120)
-119: branchLoc(PA,,AUTOM)		#TU-SELFLOG,PAASIKIVI-OPISTO/TURKU.
-+TU-SELFLOG: ref(119)
-124: branchLoc(HUM,,PDA)		#ELEPDA    ,eAineistot, PDA/DDA
-+ELEPDA: ref(124)
-95:  branchLoc(HUM,,ELEM)		#ELER      ,eAineistot, rajoitettu
-+ELER: ref(95)
-96:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-tiede  ,P-Karjala TIEDEPUISTO
-+Pk-tiede: ref(96)
-99:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-opin   ,Kiljava opinnäytteet
-+Ki-opin: ref(99)
-121: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI
-+JY-CIRC: ref(121)
-123: branchLoc(TA,,HUMAK)		#Ta-humak  ,Akatemia humak
-+Ta-humak: ref(123)
-92:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-varasto ,Varasto pp-varasto
-+V-varasto: ref(92)
-93:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-kurssi  ,Varasto pp-kurssi
-+V-kurssi: ref(93)
-94:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-yleis   ,Varasto pp-yleis
-+V-yleis: ref(94)
-118: branchLoc(JKL,,REF)		#Al-TKK    ,Jyväskylä TKI-käsikirjat
-+Al-TKK: ref(118)
-122: branchLoc(HUM,,ELEM)		#ELEV      ,eAineistot, Vkirjahylly
-+ELEV: ref(122)
-128: branchLoc(HE,,AUTOM)		#HE-SELFLOG,KUUROJEN LIITTO./HELSINKI
-+HE-SELFLOG: ref(128)
-130: branchLoc(KI,,LEHDET)       #lehdet, Kiljava
-+Ki-lehdet: ref(130)
-131: branchLoc(HE,,LEHDET)       #lehdet, Helsinki
-+He-lehdet: ref(131)
+38: branchLoc()		#AVSKRIV	,AVSKRIVNING
++AVSKRIV: ref(38)
+43: branchLoc()		#TEXTLABBET	,TEXTLABBET
++TEXTLABBET: ref(43)
+42: branchLoc()		#DATABASER	,DATABASER
++DATABASER: ref(42)
+36: branchLoc()		#AVHARKIV	,AVHARKIV
++AVHARKIV: ref(36)
+37: branchLoc()		#EBOK2		,EBOK2
++EBOK2: ref(37)
+40: branchLoc()		#BETALNING	,Natbetalning
++BETALNING: ref(40)
+2:  branchLoc()		#TIDSKRIFT	,TIDSKRIFT
++TIDSKRIFT: ref(2)
+3:  branchLoc()		#SERIER		,SERIER
++SERIER: ref(3)
+4:  branchLoc()		#AVHNYA		,AVHNYA
++AVHNYA: ref(4)
+5:  branchLoc()		#AVHGAMLA	,AVHGAMLA
++AVHGAMLA: ref(5)
+7:  branchLoc()		#MONOLASE	,MONOLASE
++MONOLASE: ref(7)
+6:  branchLoc()		#MONOGRAFI	,MONOGRAFI
++MONOGRAFI: ref(6)
+9:  branchLoc()		#KURSHEM	,KURSHEM
++KURSHEM: ref(9)
+10: branchLoc()		#KURSLASE	,KURSLASE
++KURSLASE: ref(10)
+11: branchLoc()		#BIBLIOGRAF	,BIBLIOGRAF
++BIBLIOGRAF: ref(11)
+12: branchLoc()		#ZEKONPOL	,ZEKONPOL
++ZEKONPOL: ref(12)
+13: branchLoc()		#ZFINEKON	,ZFINEKON
++ZFINEKON: ref(13)
+14: branchLoc()		#ZHANDELSR	,ZHANDELSR
++ZHANDELSR: ref(14)
+15: branchLoc()		#ZMARKGEO	,ZMARKGEO
++ZMARKGEO: ref(15)
+16: branchLoc()		#ZNATEKON	,ZNATEKON
++ZNATEKON: ref(16)
+17: branchLoc()		#ZREDOVISN	,ZREDOVISN
++ZREDOVISN: ref(17)
+18: branchLoc()		#ZSPRAK		,ZSPRAK
++ZSPRAK: ref(18)
+19: branchLoc()		#ZSTATISTIK	,ZSTATISTIK
++ZSTATISTIK: ref(19)
+20: branchLoc()		#ZINFOBEH	,ZINFOBEH
++ZINFOBEH: ref(20)
+21: branchLoc()		#ZDATACENTR	,ZDATACENTR
++ZDATACENTR: ref(21)
+22: branchLoc()		#ZFORVALTN	,ZFORVALTN
++ZFORVALTN: ref(22)
+23: branchLoc()		#ZFLO		,ZFLO
++ZFLO: ref(23)
+24: branchLoc()		#ZFORSKINT	,ZFORSKINT
++ZFORSKINT: ref(24)
+25: branchLoc()		#VASA		,VASA
++VASA: ref(25)
+1:  branchLoc()		#ZDUMMY		,ZDUMMY
++ZDUMMY: ref(1)
+26: branchLoc()		#LANEDISK	,Service Desk
++LANEDISK: ref(26)
+27: branchLoc()		#rosk		,rosk
++rosk: ref(27)
+28: branchLoc()		#acq		,Anskaffning
++acq: ref(28)
+29: branchLoc()		#AVHHEMLIG	,AVHHEMLIGA
++AVHHEMLIG: ref(29)
+31: branchLoc()		#SELF		,L�neutomaten
++SELF: ref(31)
+30: branchLoc()		#ELEKTRON	,ELEKTRON
++ELEKTRON: ref(30)
+8:  branchLoc()		#REFERENS	,REFERENS
++REFERENS: ref(8)
+32: branchLoc()		#EGNASERIER	,EGNASERIER
++EGNASERIER: ref(32)
+33: branchLoc()		#AABOCKER	,�A B�CKER
++AABOCKER: ref(33)
+34: branchLoc()		#EBOK		,EBOK
++EBOK: ref(34)
+35: branchLoc()		#INFOBITEN	,INFOBITEN
++INFOBITEN: ref(35)
+39: branchLoc()		#MOTESRUM	,MOTESRUM
++MOTESRUM: ref(39)
+41: branchLoc()		#LJUDBOK	,LJUDBOK
++LJUDBOK: ref(41)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
+
