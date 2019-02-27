@@ -18,20 +18,20 @@
 21: U  #   Muut
 22: "N"  #   .Kaukolaina-asiakas
 26: Pps  # P-Savo/opiston opiskelija
-27: S  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
+27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
 41: Ppa  # Pkivi/opiston opiskelija
 42: Pta  # Akatemia/opiston opiskeli
 43: Pla  # Alkio/opiston hkunta
 46: Pat  # Akatemia/opiston hkunta
 50: Pap  # PKivi/opiston hkunta
 52: Psp  # P-Savo/opiston hkunta
-53: Pik  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: Uop  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
+53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
+55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
 57: F  #   muun AMK:n henkil�kunta
 58: K  #   yliopiston opisk./hkunta
 61: Amu  # .Humak/henkil�kunta
 62: Dmo  # .Humak/opiskelijat
 63: Uko  # Kuurojen liitto
 64: Uvt  # Valkea talo / muut
-65: Pkh  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Pko  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
+66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
