@@ -159,7 +159,7 @@
 +TA-CIRC: ref(85)
 86:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#OPAC      ,OPAC
 +OPAC: ref(86)
-88:  branchLoc(HUMAK,,ELEOA)		#ELE       ,eAineistot
+88:  branchLoc(HUM,,ELEOA)		#ELE       ,eAineistot
 +ELE: ref(88)
 89:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#V-ref     ,Varasto pp-ref
 +V-ref: ref(89)
@@ -171,15 +171,15 @@
 +V-av: ref(91)
 97:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pa-opin   ,Paasikivi opinnäytteet
 +Pa-opin: ref(97)
-125: branchLoc(HUMAK,,ELET)		#ELET      ,eAineistot, tietokannat
+125: branchLoc(HUM,,ELET)		#ELET      ,eAineistot, tietokannat
 +ELET: ref(125)
 100: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ta-lpr    ,Akatemia Lappeenrannan op
 +Ta-lpr: ref(100)
-101: branchLoc(HUMAK,,ELEM)		#ELEE      ,eAineistot, Ellibs
+101: branchLoc(HUM,,ELEM)		#ELEE      ,eAineistot, Ellibs
 +ELEE: ref(101)
 102: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pa-kurssi ,Paasikivi kurssikirjat
 +Pa-kurssi: ref(102)
-103: branchLoc(HUMAK,,ELEM)		#ELEM      ,eAineistot, kirjauduttava
+103: branchLoc(HUM,,ELEM)		#ELEM      ,eAineistot, kirjauduttava
 +ELEM: ref(103)
 106: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ku-yleis  ,Kuopio TKI- yleiskokoelma
 +Ku-yleis: ref(106)
@@ -203,9 +203,9 @@
 +KI-SELFLOG: ref(120)
 119: branchLoc(PA,,AUTOM)		#TU-SELFLOG,PAASIKIVI-OPISTO/TURKU.
 +TU-SELFLOG: ref(119)
-124: branchLoc(HUMAK,,PDA)		#ELEPDA    ,eAineistot, PDA/DDA
+124: branchLoc(HUM,,PDA)		#ELEPDA    ,eAineistot, PDA/DDA
 +ELEPDA: ref(124)
-95:  branchLoc(HUMAK,,ELEM)		#ELER      ,eAineistot, rajoitettu
+95:  branchLoc(HUM,,ELEM)		#ELER      ,eAineistot, rajoitettu
 +ELER: ref(95)
 96:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Pk-tiede  ,P-Karjala TIEDEPUISTO
 +Pk-tiede: ref(96)
@@ -223,7 +223,7 @@
 +V-yleis: ref(94)
 118: branchLoc(JKL,,REF)		#Al-TKK    ,Jyväskylä TKI-käsikirjat
 +Al-TKK: ref(118)
-122: branchLoc(HUMAK,,ELEM)		#ELEV      ,eAineistot, Vkirjahylly
+122: branchLoc(HUM,,ELEM)		#ELEV      ,eAineistot, Vkirjahylly
 +ELEV: ref(122)
 128: branchLoc(HE,,AUTOM)		#HE-SELFLOG,KUUROJEN LIITTO./HELSINKI
 +HE-SELFLOG: ref(128)
