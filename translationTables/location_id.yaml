@@ -227,9 +227,9 @@
 +ELEV: ref(122)
 128: branchLoc(HUMHE,,AUTOM)		#HE-SELFLOG,KUUROJEN LIITTO./HELSINKI
 +HE-SELFLOG: ref(128)
-xxx: branchLoc(HUMKI,,LEHDET)       #lehdet, Kiljava
-+Ki-lehdet: ref(xxx)
-xxx: branchLoc(HUMHE,,LEHDET)       #lehdet, Helsinki
-+He-lehdet: ref(xxx)
+130: branchLoc(HUMKI,,LEHDET)       #lehdet, Kiljava
++Ki-lehdet: ref(130)
+131: branchLoc(HUMHE,,LEHDET)       #lehdet, Helsinki
++He-lehdet: ref(131)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
