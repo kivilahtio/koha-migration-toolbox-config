@@ -11,10 +11,10 @@
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
 1: REVIEW
 4: LAINA0
-3: LAINA21
+3: LAINA21  #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
 2: LAINA28
 5: LAINA14
-6: LAINA7
+6: LAINA7   #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
