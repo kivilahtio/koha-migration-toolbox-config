@@ -35,7 +35,7 @@ useHetula: false
 holdingsTransformationModule: HAMK
 
 # If the item doesn't have a price or a replacementprice, use this default.
-defaultReplacementPrice: 25
+defaultReplacementPrice: 50
 
 # ISIL-code for the migrated organization
 # Used primarily in the MARC record transformations.
@@ -45,11 +45,11 @@ organizationISILCode: FI-Arcada
 patronHomeLibrary:
 
 # How many expiry years to add for patron account if expiry date is not defined in Voyager
-patronAddExpiryYears: 0
+patronAddExpiryYears: 6
 
 # Which strategy to use to validate phone numbers
 # See MMT::Validator::Phone for available strategies
-phoneNumberValidationStrategy: HAMK
+phoneNumberValidationStrategy: 
 
 #############################
 ### 3) Data loading phase ###
