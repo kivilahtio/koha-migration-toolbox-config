@@ -15,7 +15,7 @@
 +Al-varasto: ref(3)
 2:   branchLoc(AL,,YLEIS)		#Al-yleis  ,Alkio yleiskokoelma
 +Al-yleis: ref(2)
-105: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KU-CIRC   ,TKI-OTTO/KUOPIO
+105: branchLoc(EI_KOHAAN, EI_KOHAAN, EI_KOHAAN)		#KU-CIRC   ,TKI-OTTO/KUOPIO
 +KU-CIRC: ref(105)
 110: branchLoc(HE,,YLEIS)		#He-yleis  ,Helsinki yleiskokoelma
 +He-yleis: ref(110)
@@ -51,7 +51,7 @@
 +Ki-kurssi: ref(23)
 25:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-ref    ,Kiljava käsikirjat
 +Ki-ref: ref(25)
-115: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#HE-CIRC   ,KUUROJEN LIITTO/HELSINKI
+115: branchLoc(HE)		#HE-CIRC   ,KUUROJEN LIITTO/HELSINKI #happening location, asiakastiedot yhteydessä tähän
 +HE-CIRC: ref(115)
 22:  branchLoc(KI,,YLEIS)		#Ki-yleis  ,Kiljava yleiskokoelma
 +Ki-yleis: ref(22)
@@ -125,7 +125,7 @@
 +AL-CAT: ref(64)
 66:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KI-CAT    ,KILJAVA LUETTELOINTI
 +KI-CAT: ref(66)
-68:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#AL-CIRC   ,ALKIO-OPISTO / JYVSKYL
+68:  branchLoc(AL)		#AL-CIRC   ,ALKIO-OPISTO / JYVSKYL #happening location, asiakastietoja
 +AL-CIRC: ref(68)
 69:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#HA-CIRC   ,HAAPAVEDEN OPISTO
 +HA-CIRC: ref(69)
@@ -133,7 +133,7 @@
 +JO-CIRC: ref(70)
 72:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KA-CIRC   ,KANNELJRVEN OP. / LOHJA
 +KA-CIRC: ref(72)
-73:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KI-CIRC   ,KILJAVAN OP. / NURMIJÄRVI
+73:  branchLoc(KI)		#KI-CIRC   ,KILJAVAN OP. / NURMIJÄRVI #happening location, asiakastietoja
 +KI-CIRC: ref(73)
 74:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#KS-CAT    ,K-SUOMI LUETTELOINTI
 +KS-CAT: ref(74)
@@ -141,7 +141,7 @@
 +KS-CIRC: ref(75)
 76:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PA-CAT    ,PAASIKIVI LUETTELOINTI
 +PA-CAT: ref(76)
-77:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PA-CIRC   ,PAASIKIVI-OPISTO / TURKU
+77:  branchLoc(PA)		#PA-CIRC   ,PAASIKIVI-OPISTO / TURKU #happening location, asiakastietoja
 +PA-CIRC: ref(77)
 78:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PK-CAT    ,P-KARJALA LUETTELOINTI
 +PK-CAT: ref(78)
@@ -151,11 +151,11 @@
 +PP-CIRC: ref(81)
 82:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PS-CAT    ,P-SAVO LUETTELOINTI
 +PS-CAT: ref(82)
-83:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#PS-CIRC   ,P-SAVON OPISTO/KUOPIO
+83:  branchLoc(PS)		#PS-CIRC   ,P-SAVON OPISTO/KUOPIO #happening location, asiakastietoja
 +PS-CIRC: ref(83)
 84:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#TA-CAT    ,AKATEMIA LUETTELOINTI
 +TA-CAT: ref(84)
-85:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#TA-CIRC   ,TYVEN AKAT./KAUNIAINEN
+85:  branchLoc(TA)		#TA-CIRC   ,TYVEN AKAT./KAUNIAINEN #happening location, asiakastietoja
 +TA-CIRC: ref(85)
 86:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#OPAC      ,OPAC
 +OPAC: ref(86)
@@ -211,7 +211,7 @@
 +Pk-tiede: ref(96)
 99:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-opin   ,Kiljava opinnäytteet
 +Ki-opin: ref(99)
-121: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI
+121: branchLoc(JY)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI #happening location, asiakastietoja
 +JY-CIRC: ref(121)
 123: branchLoc(TA,,HUMAK)		#Ta-humak  ,Akatemia humak
 +Ta-humak: ref(123)
