@@ -9,6 +9,7 @@
 
 # Helkassa olevat item_stat -tiedot näyttävät aika kokoelmatietoisilta
 # Koetetaan miten one-to-one mäppäys toimisi
+# TÄLLÄ EI MERKITYSTÄ KK:SSA - NOITA ON KÄYTETTY LÄHINNÄ VAIN KUMPULAN KAMPUKSELLA KURSSIAINEISTON RYHMITTELYSSÄ, EI KK:SSA
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_CODE,          ITEM_STAT_ID,      #ITEM_STAT_CODE_DESC
