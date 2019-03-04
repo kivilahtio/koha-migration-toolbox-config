@@ -1,3 +1,1 @@
-Omnibus for all koha-migration-toolbox configurations.
-
-Each migration has it's own branch.
+Configuration files in these directories are templates only. Use the INSTALL.sh to deploy the templates and configure those instead.
