@@ -1,17 +1,19 @@
-  1 ---
-  2 
-  3 ##
-  4 ## IN THIS FILE
-  5 ##
-  6 ## This mapping table is used by the module MMT::TranslationTable::PatronCategorycode
-  7 ## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
-  8 ##
-  9 
- 10 1: LSTUDENT      #Opiskelijat
- 11 2: LSTAFF        #Henkilokunta
- 12 3: LOTHER        #Ulkopuoliset asiakkaat
- 13 4: LKIRJASTO     #Kaukopalveluasiakkaat
- 14 
- 15 UNKNOWN: $DELETE         # Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
- 16 _DEFAULT_: warning()       # Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value
+---
+
+##
+## IN THIS FILE
+##
+## This mapping table is used by the module MMT::TranslationTable::PatronCategorycode
+## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
+##
+ 
+1: LSTUDENT      #Opiskelijat
+2: LSTAFF        #Henkilokunta
+3: LOTHER        #Ulkopuoliset asiakkaat
+4: LKIRJASTO     #Kaukopalveluasiakkaat
+
+#UNKNOWN: $DELETE         # Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
+UNKNOWN: KONVERSIO         # Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
+#_DEFAULT_: warning()       # Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value
+_DEFAULT_: KONVERSIO       # Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value
 
