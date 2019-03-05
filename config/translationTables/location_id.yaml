@@ -1,47 +1,47 @@
-##  branchLoc-sulkujen v‰liin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill‰.
+##  branchLoc-sulkujen v√§liin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill√§.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
 1:  branchLoc(POIS)		#REVIEW    #REVIEW
 +REVIEW: ref(1)
 13: branchLoc(POIS)		#t-mono    #zt-monografi
 +t-mono: ref(13)
-14: branchLoc()		#v-exarb   #v-examensarbete
+14: branchLoc(HEL,EXA)		#v-exarb   #v-examensarbete
 +v-exarb: ref(14)
-15: branchLoc()		#v-hand    #v-handbiblioteket
+15: branchLoc(HEL,HAND)		#v-hand    #v-handbiblioteket
 +v-hand: ref(15)
-16: branchLoc()		#v-mono    #v-monografi
+16: branchLoc(HEL,MONO)		#v-mono    #v-monografi
 +v-mono: ref(16)
-17: branchLoc()		#v-inst    #v-institutionsexemplar
+17: branchLoc(HEL,INST)		#v-inst    #v-institutionsexemplar
 +v-inst: ref(17)
-18: branchLoc()		#v-lager   #v-lager
+18: branchLoc(HEL,LAG)		#v-lager   #v-lager
 +v-lager: ref(18)
-19: branchLoc()		#v-ref     #v-referens
+19: branchLoc(HEL,REF)		#v-ref     #v-referens
 +v-ref: ref(19)
-20: branchLoc()		#v-av      #v-AV-material
+20: branchLoc(HEL,AV)		#v-av      #v-AV-material
 +v-av: ref(20)
-25: branchLoc(POIS)		#T-LANEDISK#zt-lÂnedisk
+25: branchLoc(POIS)		#T-LANEDISK#zt-l√•nedisk
 +T-LANEDISK: ref(25)
-24: branchLoc(POIS)		#H-LANEDISK#zh-lÂnedisk
+24: branchLoc(POIS)		#H-LANEDISK#zh-l√•nedisk
 +H-LANEDISK: ref(24)
 26: branchLoc(POIS)		#V-KATAL   #v-katalogisering
 +V-KATAL: ref(26)
-27: branchLoc()		#V-LANEDISK#LÂnedisken
+27: branchLoc(POIS)		#V-LANEDISK#L√•nedisken
 +V-LANEDISK: ref(27)
-28: branchLoc()		#SELF      #lÂneautomaten
+28: branchLoc(POIS)		#SELF      #l√•neautomaten
 +SELF: ref(28)
-29: branchLoc()		#v-kurs    #v-kursbok
+29: branchLoc(HEL,KURS)		#v-kurs    #v-kursbok
 +v-kurs: ref(29)
-34: branchLoc()		#MAKSU     #Verkkomaksaminen
+34: branchLoc(POIS)		#MAKSU     #Verkkomaksaminen
 +MAKSU: ref(34)
-31: branchLoc()		#v-ebok    #v-elektronisk bok
+31: branchLoc(HEL,EBOK)		#v-ebok    #v-elektronisk bok
 +v-ebok: ref(31)
-30: branchLoc()		#v-video   #v-video
+30: branchLoc(HEL,VID)		#v-video   #v-video
 +v-video: ref(30)
-32: branchLoc()		#v-tidskr  #v-tidskrift
+32: branchLoc(HEL,TIDS)		#v-tidskr  #v-tidskrift
 +v-tidskr: ref(32)
-33: branchLoc()		#v-etidskr #Elektronisk tidskrift
+33: branchLoc(HEL,ETID)		#v-etidskr #Elektronisk tidskrift
 +v-etidskr: ref(33)
-35: branchLoc()		#v-databas #v-databas
+35: branchLoc(HEL,DB)		#v-databas #v-databas
 +v-databas: ref(35)
 
-_DEFAULT_: branchLoc(KONVERSIO,KONVERSIO,ERROR,ERROR) #Oletusarvot / paikkaansa lˆyt‰m‰ttˆm‰t
+_DEFAULT_: branchLoc(KONVERSIO,KONVERSIO,ERROR,ERROR) #Oletusarvot / paikkaansa l√∂yt√§m√§tt√∂m√§t
