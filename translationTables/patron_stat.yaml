@@ -13,25 +13,26 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: Pal # Alkio/opiston opiskelija
-9: G   # Ulkopuolisen amk:n opisk.
-21: U  #   Muut
-22: "N"  #   .Kaukolaina-asiakas
-26: Pps  # P-Savo/opiston opiskelija
-27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
-41: Ppa  # Pkivi/opiston opiskelija
-42: Pta  # Akatemia/opiston opiskeli
-43: Pla  # Alkio/opiston hkunta
-46: Pat  # Akatemia/opiston hkunta
-50: Pap  # PKivi/opiston hkunta
-52: Psp  # P-Savo/opiston hkunta
-53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
-58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
-62: Dmo  # .Humak/opiskelijat
-63: Uko  # Kuurojen liitto
-64: Uvt  # Valkea talo / muut
-65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+7: U    # 12  �vriga
+8: BH   # 03 Hankenpersonal, Hfrs
+9: EH   # 01 Hankenstuderande, Hfrs
+10: EO  # 20 Hankenstuderande, �U
+11: HV  # 25Utomst. yh-stud, (VTLS)
+12: N   # 13 Inhemska fj�rrl�n
+13: BV  # 04 Hankenpersonal, Vasa
+14: EV  # 02 Hankenstuderande, Vasa
+15: TI  # 15 Hankens inst.
+16: JA  # 26 Utomst.stud Aalto/T�l�
+17: JB  # 27 Utomst.stud HY
+18: JC  # 28 Utomst.stud Aalto/Otn�
+19: JZ  # 05 �vriga univ., student
+20: I   # 06 �vriga univ., personal
+21: HA  # 23Utomst. yh-stud, Arcada
+22: HB  # 24 Utomst. yh-stud, Helia
+23: HZ  # 07 Yrkesh�gskola, student
+24: P   # 09 Annan skola, stud/pers
+25: S   # 11 Offentliga sektorn
+26: R   # 10 N�ringsliv
+27: O   # 14 Utl�ndska fj�rrl�n
+28: E   # B
+29: F   # 08 Yrkesh�gskola,personal
