@@ -7,14 +7,21 @@
 ## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
 ##
 
-#voyager.ITEM_TYPE
-#ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW
-4: LAINA0
-3: LAINA14  #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
-2: LAINA28
-5: LAINA14
-6: LAINA14   #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
+1: XDUMMY     # XDUMMY
+2: TIDSK_0    # TIDSK_0                 
+3: SER_28     # SER_28                  
+4: AVH_0      # AVH_0                   
+5: MONO_28    # MONO_28                 
+6: MONO_0     # MONO_0                  
+7: REF_0      # REF_0                   
+8: KURS_7     # KURS_7                  
+9: KURS_0     # KURSLASE                
+10: BIB_0     # BIB_0                  
+11: ZINST_0   # ZINST_0                
+12: ELEKT_0   # Elektronisk publikation
+13: SER_0     # SER_0               
+14: CDROM_2   # CDROM_2             
+15: IPAD_7    # Datacentralens Ipads
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
