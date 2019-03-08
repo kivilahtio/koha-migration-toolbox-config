@@ -1,91 +1,91 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivillä.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-38: branchLoc()		#AVSKRIV	,AVSKRIVNING
+38: branchLoc(HEL,AVSKRIV)		#AVSKRIV	,AVSKRIVNING
 +AVSKRIV: ref(38)
-43: branchLoc()		#TEXTLABBET	,TEXTLABBET
+43: branchLoc(HEL,TEXTLABBET)		#TEXTLABBET	,TEXTLABBET
 +TEXTLABBET: ref(43)
-42: branchLoc()		#DATABASER	,DATABASER
+42: branchLoc(HEL,DATABASER)		#DATABASER	,DATABASER
 +DATABASER: ref(42)
-36: branchLoc()		#AVHARKIV	,AVHARKIV
+36: branchLoc(HEL,AVHARKIV)		#AVHARKIV	,AVHARKIV
 +AVHARKIV: ref(36)
-37: branchLoc()		#EBOK2		,EBOK2
+37: branchLoc(HEL,EBOK2)		#EBOK2		,EBOK2
 +EBOK2: ref(37)
-40: branchLoc()		#BETALNING	,Natbetalning
+40: branchLoc(HEL,BETALNING)		#BETALNING	,Natbetalning
 +BETALNING: ref(40)
-2:  branchLoc()		#TIDSKRIFT	,TIDSKRIFT
+2:  branchLoc(HEL,TIDSKRIFT)		#TIDSKRIFT	,TIDSKRIFT
 +TIDSKRIFT: ref(2)
-3:  branchLoc()		#SERIER		,SERIER
+3:  branchLoc(HEL,SERIER)		#SERIER		,SERIER
 +SERIER: ref(3)
-4:  branchLoc()		#AVHNYA		,AVHNYA
+4:  branchLoc(HEL,AVHNYA)		#AVHNYA		,AVHNYA
 +AVHNYA: ref(4)
-5:  branchLoc()		#AVHGAMLA	,AVHGAMLA
+5:  branchLoc(HEL,AVHGAMLA)		#AVHGAMLA	,AVHGAMLA
 +AVHGAMLA: ref(5)
-7:  branchLoc()		#MONOLASE	,MONOLASE
+7:  branchLoc(HEL,MONOLASE)		#MONOLASE	,MONOLASE
 +MONOLASE: ref(7)
-6:  branchLoc()		#MONOGRAFI	,MONOGRAFI
+6:  branchLoc(HEL,MONOGRAFI)		#MONOGRAFI	,MONOGRAFI
 +MONOGRAFI: ref(6)
-9:  branchLoc()		#KURSHEM	,KURSHEM
+9:  branchLoc(HEL,KURSHEM)		#KURSHEM	,KURSHEM
 +KURSHEM: ref(9)
-10: branchLoc()		#KURSLASE	,KURSLASE
+10: branchLoc(HEL,KURSLASE)		#KURSLASE	,KURSLASE
 +KURSLASE: ref(10)
-11: branchLoc()		#BIBLIOGRAF	,BIBLIOGRAF
+11: branchLoc(HEL,BIBLIOGRAF)		#BIBLIOGRAF	,BIBLIOGRAF
 +BIBLIOGRAF: ref(11)
-12: branchLoc()		#ZEKONPOL	,ZEKONPOL
+12: branchLoc(HEL,ZEKONPOL)		#ZEKONPOL	,ZEKONPOL
 +ZEKONPOL: ref(12)
-13: branchLoc()		#ZFINEKON	,ZFINEKON
+13: branchLoc(HEL,ZFINEKON)		#ZFINEKON	,ZFINEKON
 +ZFINEKON: ref(13)
-14: branchLoc()		#ZHANDELSR	,ZHANDELSR
+14: branchLoc(HEL,ZHANDELSR)		#ZHANDELSR	,ZHANDELSR
 +ZHANDELSR: ref(14)
-15: branchLoc()		#ZMARKGEO	,ZMARKGEO
+15: branchLoc(HEL,ZMARKGEO)		#ZMARKGEO	,ZMARKGEO
 +ZMARKGEO: ref(15)
-16: branchLoc()		#ZNATEKON	,ZNATEKON
+16: branchLoc(HEL,ZNATEKON)		#ZNATEKON	,ZNATEKON
 +ZNATEKON: ref(16)
-17: branchLoc()		#ZREDOVISN	,ZREDOVISN
+17: branchLoc(HEL,ZREDOVISN)		#ZREDOVISN	,ZREDOVISN
 +ZREDOVISN: ref(17)
-18: branchLoc()		#ZSPRAK		,ZSPRAK
+18: branchLoc(HEL,ZSPRAK)		#ZSPRAK		,ZSPRAK
 +ZSPRAK: ref(18)
-19: branchLoc()		#ZSTATISTIK	,ZSTATISTIK
+19: branchLoc(HEL,ZSTATISTIK)		#ZSTATISTIK	,ZSTATISTIK
 +ZSTATISTIK: ref(19)
-20: branchLoc()		#ZINFOBEH	,ZINFOBEH
+20: branchLoc(HEL,ZINFOBEH)		#ZINFOBEH	,ZINFOBEH
 +ZINFOBEH: ref(20)
-21: branchLoc()		#ZDATACENTR	,ZDATACENTR
+21: branchLoc(HEL,ZDATACENTR)		#ZDATACENTR	,ZDATACENTR
 +ZDATACENTR: ref(21)
-22: branchLoc()		#ZFORVALTN	,ZFORVALTN
+22: branchLoc(HEL,ZFORVALTN)		#ZFORVALTN	,ZFORVALTN
 +ZFORVALTN: ref(22)
-23: branchLoc()		#ZFLO		,ZFLO
+23: branchLoc(HEL,ZFLO)		#ZFLO		,ZFLO
 +ZFLO: ref(23)
-24: branchLoc()		#ZFORSKINT	,ZFORSKINT
+24: branchLoc(HEL,ZFORSKINT)		#ZFORSKINT	,ZFORSKINT
 +ZFORSKINT: ref(24)
-25: branchLoc()		#VASA		,VASA
+25: branchLoc(HEL,VASA)		#VASA		,VASA
 +VASA: ref(25)
-1:  branchLoc()		#ZDUMMY		,ZDUMMY
+1:  branchLoc(HEL,ZDUMMY)		#ZDUMMY		,ZDUMMY
 +ZDUMMY: ref(1)
-26: branchLoc()		#LANEDISK	,Service Desk
+26: branchLoc(HEL,LANEDISK)		#LANEDISK	,Service Desk
 +LANEDISK: ref(26)
-27: branchLoc()		#rosk		,rosk
+27: branchLoc(HEL,ROSK)		#rosk		,rosk
 +rosk: ref(27)
-28: branchLoc()		#acq		,Anskaffning
+28: branchLoc(HEL,ACQ)		#acq		,Anskaffning
 +acq: ref(28)
-29: branchLoc()		#AVHHEMLIG	,AVHHEMLIGA
+29: branchLoc(HEL,AVHHEMLIG)		#AVHHEMLIG	,AVHHEMLIGA
 +AVHHEMLIG: ref(29)
-31: branchLoc()		#SELF		,L�neutomaten
+31: branchLoc(HEL,SELF)		#SELF		,L�neutomaten
 +SELF: ref(31)
-30: branchLoc()		#ELEKTRON	,ELEKTRON
+30: branchLoc(HEL,ELEKTRON)		#ELEKTRON	,ELEKTRON
 +ELEKTRON: ref(30)
-8:  branchLoc()		#REFERENS	,REFERENS
+8:  branchLoc(HEL,REFERENS)		#REFERENS	,REFERENS
 +REFERENS: ref(8)
-32: branchLoc()		#EGNASERIER	,EGNASERIER
+32: branchLoc(HEL,EGNASERIER)		#EGNASERIER	,EGNASERIER
 +EGNASERIER: ref(32)
-33: branchLoc()		#AABOCKER	,�A B�CKER
+33: branchLoc(HEL,AABOCKER)		#AABOCKER	,�A B�CKER
 +AABOCKER: ref(33)
-34: branchLoc()		#EBOK		,EBOK
+34: branchLoc(HEL,EBOK)		#EBOK		,EBOK
 +EBOK: ref(34)
-35: branchLoc()		#INFOBITEN	,INFOBITEN
+35: branchLoc(HEL,INFOBITEN)		#INFOBITEN	,INFOBITEN
 +INFOBITEN: ref(35)
-39: branchLoc()		#MOTESRUM	,MOTESRUM
+39: branchLoc(HEL,MOTESRUM)		#MOTESRUM	,MOTESRUM
 +MOTESRUM: ref(39)
-41: branchLoc()		#LJUDBOK	,LJUDBOK
+41: branchLoc(HEL,LJUDBOK)		#LJUDBOK	,LJUDBOK
 +LJUDBOK: ref(41)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
