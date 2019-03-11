@@ -1,203 +1,203 @@
 ##  branchLoc-sulkujen valiin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivilla.
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1:  branchLoc()		#REVIEW    ,REVIEW
+1:  branchLoc(KONVERSIO,KONVERSIO)		#REVIEW    ,REVIEW
 +REVIEW: ref(1)
-2:  branchLoc()		#0-Av      ,Otaniemi av-aineisto
+2:  branchLoc(KONVERSIO,KONVERSIO)		#0-Av      ,Otaniemi av-aineisto
 +0-Av: ref(2)
-3:  branchLoc()		#0-Hkunta  ,Otaniemi henkilokunta
+3:  branchLoc(KONVERSIO,KONVERSIO)		#0-Hkunta  ,Otaniemi henkilokunta
 +0-Hkunta: ref(3)
-4:  branchLoc()		#0-Kurssi  ,Otaniemi lyhytlaina
+4:  branchLoc(KONVERSIO,KONVERSIO)		#0-Kurssi  ,Otaniemi lyhytlaina
 +0-Kurssi: ref(4)
-5:  branchLoc()		#0-Ref     ,Otaniemi kasikirjat
+5:  branchLoc(KONVERSIO,KONVERSIO)		#0-Ref     ,Otaniemi kasikirjat
 +0-Ref: ref(5)
-6:  branchLoc()		#0-Lehdet  ,Otaniemi lehdet
+6:  branchLoc(KONVERSIO,KONVERSIO)		#0-Lehdet  ,Otaniemi lehdet
 +0-Lehdet: ref(6)
-7:  branchLoc()		#0-Thesis  ,Otaniemi opinnaytetyot
+7:  branchLoc(KONVERSIO,KONVERSIO)		#0-Thesis  ,Otaniemi opinnaytetyot
 +0-Thesis: ref(7)
-8:  branchLoc()		#0-Sarjat  ,Otaniemi sarjat
+8:  branchLoc(KONVERSIO,KONVERSIO)		#0-Sarjat  ,Otaniemi sarjat
 +0-Sarjat: ref(8)
-9:  branchLoc()		#0-Varasto ,Otaniemi varasto
+9:  branchLoc(KONVERSIO,KONVERSIO)		#0-Varasto ,Otaniemi varasto
 +0-Varasto: ref(9)
-10: branchLoc()		#0-Yleis   ,Otaniemi yleiskokoelma
+10: branchLoc(KONVERSIO,KONVERSIO)		#0-Yleis   ,Otaniemi yleiskokoelma
 +0-Yleis: ref(10)
-11: branchLoc()		#1-Hkunta  ,Leppavaara henkilokunta
+11: branchLoc(KONVERSIO,KONVERSIO)		#1-Hkunta  ,Leppavaara henkilokunta
 +1-Hkunta: ref(11)
-12: branchLoc()		#1-Kurssi  ,Leppavaara lyhytlaina
+12: branchLoc(KONVERSIO,KONVERSIO)		#1-Kurssi  ,Leppavaara lyhytlaina
 +1-Kurssi: ref(12)
-13: branchLoc()		#1-Ref     ,Leppavaara kasikirjat
+13: branchLoc(KONVERSIO,KONVERSIO)		#1-Ref     ,Leppavaara kasikirjat
 +1-Ref: ref(13)
-14: branchLoc()		#1-Lehdet  ,Leppavaara lehdet
+14: branchLoc(KONVERSIO,KONVERSIO)		#1-Lehdet  ,Leppavaara lehdet
 +1-Lehdet: ref(14)
-15: branchLoc()		#1-Thesis  ,Leppavaara opinnaytetyot
+15: branchLoc(KONVERSIO,KONVERSIO)		#1-Thesis  ,Leppavaara opinnaytetyot
 +1-Thesis: ref(15)
-16: branchLoc()		#1-Varasto ,Leppavaara varasto
+16: branchLoc(KONVERSIO,KONVERSIO)		#1-Varasto ,Leppavaara varasto
 +1-Varasto: ref(16)
-17: branchLoc()		#1-Yleis   ,Leppavaara yleiskokoelma
+17: branchLoc(KONVERSIO,KONVERSIO)		#1-Yleis   ,Leppavaara yleiskokoelma
 +1-Yleis: ref(17)
-18: branchLoc()		#2-Av      ,Hyvinkaa av-aineisto
+18: branchLoc(KONVERSIO,KONVERSIO)		#2-Av      ,Hyvinkaa av-aineisto
 +2-Av: ref(18)
-19: branchLoc()		#2-Hkunta  ,Hyvinkaa henkilokunta
+19: branchLoc(KONVERSIO,KONVERSIO)		#2-Hkunta  ,Hyvinkaa henkilokunta
 +2-Hkunta: ref(19)
-20: branchLoc()		#2-Kurssi  ,Hyvinkaa lyhytlaina
+20: branchLoc(KONVERSIO,KONVERSIO)		#2-Kurssi  ,Hyvinkaa lyhytlaina
 +2-Kurssi: ref(20)
-21: branchLoc()		#2-Ref     ,Hyvinkaa kasikirjat
+21: branchLoc(KONVERSIO,KONVERSIO)		#2-Ref     ,Hyvinkaa kasikirjat
 +2-Ref: ref(21)
-22: branchLoc()		#2-Lehdet  ,Hyvinkaa lehdet
+22: branchLoc(KONVERSIO,KONVERSIO)		#2-Lehdet  ,Hyvinkaa lehdet
 +2-Lehdet: ref(22)
-23: branchLoc()		#2-Thesis  ,Hyvinkaa opinnaytetyot
+23: branchLoc(KONVERSIO,KONVERSIO)		#2-Thesis  ,Hyvinkaa opinnaytetyot
 +2-Thesis: ref(23)
-24: branchLoc()		#2-Varasto ,Hyvinkaa varasto
+24: branchLoc(KONVERSIO,KONVERSIO)		#2-Varasto ,Hyvinkaa varasto
 +2-Varasto: ref(24)
-25: branchLoc()		#2-Yleis   ,Hyvinkaa yleiskokoelma
+25: branchLoc(KONVERSIO,KONVERSIO)		#2-Yleis   ,Hyvinkaa yleiskokoelma
 +2-Yleis: ref(25)
-26: branchLoc()		#3-Av      ,Kerava av-aineisto
+26: branchLoc(KONVERSIO,KONVERSIO)		#3-Av      ,Kerava av-aineisto
 +3-Av: ref(26)
-27: branchLoc()		#3-Hkunta  ,Kerava henkilokunta
+27: branchLoc(KONVERSIO,KONVERSIO)		#3-Hkunta  ,Kerava henkilokunta
 +3-Hkunta: ref(27)
-28: branchLoc()		#3-Kurssi  ,Kerava lyhytlaina
+28: branchLoc(KONVERSIO,KONVERSIO)		#3-Kurssi  ,Kerava lyhytlaina
 +3-Kurssi: ref(28)
-29: branchLoc()		#3-Ref     ,Kerava kasikirjat
+29: branchLoc(KONVERSIO,KONVERSIO)		#3-Ref     ,Kerava kasikirjat
 +3-Ref: ref(29)
-30: branchLoc()		#3-Lehdet  ,Kerava lehdet
+30: branchLoc(KONVERSIO,KONVERSIO)		#3-Lehdet  ,Kerava lehdet
 +3-Lehdet: ref(30)
-31: branchLoc()		#3-Thesis  ,Kerava opinnaytetyot
+31: branchLoc(KONVERSIO,KONVERSIO)		#3-Thesis  ,Kerava opinnaytetyot
 +3-Thesis: ref(31)
-32: branchLoc()		#3-Yleis   ,Kerava yleiskokoelma
+32: branchLoc(KONVERSIO,KONVERSIO)		#3-Yleis   ,Kerava yleiskokoelma
 +3-Yleis: ref(32)
-33: branchLoc()		#4-Av      ,Lohja av-aineisto
+33: branchLoc(KONVERSIO,KONVERSIO)		#4-Av      ,Lohja av-aineisto
 +4-Av: ref(33)
-34: branchLoc()		#4-Hkunta  ,Lohja henkilokunta
+34: branchLoc(KONVERSIO,KONVERSIO)		#4-Hkunta  ,Lohja henkilokunta
 +4-Hkunta: ref(34)
-35: branchLoc()		#4-Yleis   ,Lohja yleiskokoelma
+35: branchLoc(KONVERSIO,KONVERSIO)		#4-Yleis   ,Lohja yleiskokoelma
 +4-Yleis: ref(35)
-36: branchLoc()		#4-Ref     ,Lohja kasikirjat
+36: branchLoc(KONVERSIO,KONVERSIO)		#4-Ref     ,Lohja kasikirjat
 +4-Ref: ref(36)
-37: branchLoc()		#4-Lehdet  ,Lohja lehdet
+37: branchLoc(KONVERSIO,KONVERSIO)		#4-Lehdet  ,Lohja lehdet
 +4-Lehdet: ref(37)
-38: branchLoc()		#4-Thesis  ,Lohja opinnaytetyot
+38: branchLoc(KONVERSIO,KONVERSIO)		#4-Thesis  ,Lohja opinnaytetyot
 +4-Thesis: ref(38)
-39: branchLoc()		#4-Sarjat  ,Lohja sarjat
+39: branchLoc(KONVERSIO,KONVERSIO)		#4-Sarjat  ,Lohja sarjat
 +4-Sarjat: ref(39)
-40: branchLoc()		#4-Varasto ,Lohja varasto
+40: branchLoc(KONVERSIO,KONVERSIO)		#4-Varasto ,Lohja varasto
 +4-Varasto: ref(40)
-41: branchLoc()		#5-Av      ,Porvoo av-aineisto
+41: branchLoc(KONVERSIO,KONVERSIO)		#5-Av      ,Porvoo av-aineisto
 +5-Av: ref(41)
-42: branchLoc()		#5-Hkunta  ,Porvoo henkilokunta
+42: branchLoc(KONVERSIO,KONVERSIO)		#5-Hkunta  ,Porvoo henkilokunta
 +5-Hkunta: ref(42)
-43: branchLoc()		#5-Ref     ,Porvoo kasikirjat
+43: branchLoc(KONVERSIO,KONVERSIO)		#5-Ref     ,Porvoo kasikirjat
 +5-Ref: ref(43)
-44: branchLoc()		#5-Lehdet  ,Porvoo lehdet
+44: branchLoc(KONVERSIO,KONVERSIO)		#5-Lehdet  ,Porvoo lehdet
 +5-Lehdet: ref(44)
-45: branchLoc()		#5-Thesis  ,Porvoo opinnaytetyot
+45: branchLoc(KONVERSIO,KONVERSIO)		#5-Thesis  ,Porvoo opinnaytetyot
 +5-Thesis: ref(45)
-46: branchLoc()		#5-Sarjat  ,Porvoo sarjat
+46: branchLoc(KONVERSIO,KONVERSIO)		#5-Sarjat  ,Porvoo sarjat
 +5-Sarjat: ref(46)
-47: branchLoc()		#5-Varasto ,Porvoo varasto
+47: branchLoc(KONVERSIO,KONVERSIO)		#5-Varasto ,Porvoo varasto
 +5-Varasto: ref(47)
-48: branchLoc()		#5-Yleis   ,Porvoo yleiskokoelma
+48: branchLoc(KONVERSIO,KONVERSIO)		#5-Yleis   ,Porvoo yleiskokoelma
 +5-Yleis: ref(48)
-49: branchLoc()		#6-Av      ,Jarvenpaa av-aineisto
+49: branchLoc(KONVERSIO,KONVERSIO)		#6-Av      ,Jarvenpaa av-aineisto
 +6-Av: ref(49)
-50: branchLoc()		#6-Hkunta  ,Jarvenpaa henkilokunta
+50: branchLoc(KONVERSIO,KONVERSIO)		#6-Hkunta  ,Jarvenpaa henkilokunta
 +6-Hkunta: ref(50)
-51: branchLoc()		#6-Kurssi  ,Jarvenpaa lyhytlaina
+51: branchLoc(KONVERSIO,KONVERSIO)		#6-Kurssi  ,Jarvenpaa lyhytlaina
 +6-Kurssi: ref(51)
-52: branchLoc()		#6-Ref     ,Jarvenpaa kasikirjat
+52: branchLoc(KONVERSIO,KONVERSIO)		#6-Ref     ,Jarvenpaa kasikirjat
 +6-Ref: ref(52)
-53: branchLoc()		#6-Lehdet  ,Jarvenpaa lehdet
+53: branchLoc(KONVERSIO,KONVERSIO)		#6-Lehdet  ,Jarvenpaa lehdet
 +6-Lehdet: ref(53)
-54: branchLoc()		#6-Thesis  ,Jarvenpaa opinnaytetyot
+54: branchLoc(KONVERSIO,KONVERSIO)		#6-Thesis  ,Jarvenpaa opinnaytetyot
 +6-Thesis: ref(54)
-55: branchLoc()		#6-Varasto ,Jarvenpaa varasto
+55: branchLoc(KONVERSIO,KONVERSIO)		#6-Varasto ,Jarvenpaa varasto
 +6-Varasto: ref(55)
-56: branchLoc()		#6-Yleis   ,Jarvenpaa yleiskokoelma
+56: branchLoc(KONVERSIO,KONVERSIO)		#6-Yleis   ,Jarvenpaa yleiskokoelma
 +6-Yleis: ref(56)
-57: branchLoc()		#7-Av      ,Tikkurila av-aineisto
+57: branchLoc(KONVERSIO,KONVERSIO)		#7-Av      ,Tikkurila av-aineisto
 +7-Av: ref(57)
-58: branchLoc()		#7-Hkunta  ,Tikkurila henkilokunta
+58: branchLoc(KONVERSIO,KONVERSIO)		#7-Hkunta  ,Tikkurila henkilokunta
 +7-Hkunta: ref(58)
-59: branchLoc()		#7-Ref     ,Tikkurila kasikirjat
+59: branchLoc(KONVERSIO,KONVERSIO)		#7-Ref     ,Tikkurila kasikirjat
 +7-Ref: ref(59)
-60: branchLoc()		#7-Lehdet  ,Tikkurila lehdet
+60: branchLoc(KONVERSIO,KONVERSIO)		#7-Lehdet  ,Tikkurila lehdet
 +7-Lehdet: ref(60)
-61: branchLoc()		#7-Thesis  ,Tikkurila opinnaytetyot
+61: branchLoc(KONVERSIO,KONVERSIO)		#7-Thesis  ,Tikkurila opinnaytetyot
 +7-Thesis: ref(61)
-62: branchLoc()		#7-Sarjat  ,Tikkurila sarjat
+62: branchLoc(KONVERSIO,KONVERSIO)		#7-Sarjat  ,Tikkurila sarjat
 +7-Sarjat: ref(62)
-63: branchLoc()		#7-Yleis   ,Tikkurila yleiskokoelma
+63: branchLoc(KONVERSIO,KONVERSIO)		#7-Yleis   ,Tikkurila yleiskokoelma
 +7-Yleis: ref(63)
-64: branchLoc()		#CAT 0     ,OTANIEMI LUETTELOINTI
+64: branchLoc(KONVERSIO,KONVERSIO)		#CAT 0     ,OTANIEMI LUETTELOINTI
 +CAT0: ref(64)
-65: branchLoc()		#CAT 1     ,LEPPAVAARA LUETTELOINTI
+65: branchLoc(KONVERSIO,KONVERSIO)		#CAT 1     ,LEPPAVAARA LUETTELOINTI
 +CAT1: ref(65)
-66: branchLoc()		#CAT 2     ,HYVINKAA LUETTELOINTI
+66: branchLoc(KONVERSIO,KONVERSIO)		#CAT 2     ,HYVINKAA LUETTELOINTI
 +CAT2: ref(66)
-67: branchLoc()		#CAT 3     ,KERAVA LUETTELOINTI
+67: branchLoc(KONVERSIO,KONVERSIO)		#CAT 3     ,KERAVA LUETTELOINTI
 +CAT3: ref(67)
-68: branchLoc()		#CAT 4     ,LOHJA LUETTELOINTI
+68: branchLoc(KONVERSIO,KONVERSIO)		#CAT 4     ,LOHJA LUETTELOINTI
 +CAT4: ref(68)
-69: branchLoc()		#CAT 5     ,PORVOO LUETTELOINTI
+69: branchLoc(KONVERSIO,KONVERSIO)		#CAT 5     ,PORVOO LUETTELOINTI
 +CAT5: ref(69)
-70: branchLoc()		#CAT 6     ,JARVENPAA LUETTELOINTI
+70: branchLoc(KONVERSIO,KONVERSIO)		#CAT 6     ,JARVENPAA LUETTELOINTI
 +CAT6: ref(70)
-71: branchLoc()		#CAT 7     ,TIKKURILA LUETTELOINTI
+71: branchLoc(KONVERSIO,KONVERSIO)		#CAT 7     ,TIKKURILA LUETTELOINTI
 +CAT7: ref(71)
-72: branchLoc()		#CIRC 0    ,OTANIEMI LAINAUS
+72: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 0    ,OTANIEMI LAINAUS
 +CIRC0: ref(72)
-73: branchLoc()		#CIRC 1    ,LEPPAVAARA LAINAUS
+73: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 1    ,LEPPAVAARA LAINAUS
 +CIRC1: ref(73)
-74: branchLoc()		#CIRC 2    ,HYVINKAA LAINAUS
+74: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 2    ,HYVINKAA LAINAUS
 +CIRC2: ref(74)
-75: branchLoc()		#CIRC 3    ,KERAVA LAINAUS
+75: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 3    ,KERAVA LAINAUS
 +CIRC3: ref(75)
-76: branchLoc()		#CIRC 4    ,LOHJA LAINAUS
+76: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 4    ,LOHJA LAINAUS
 +CIRC4: ref(76)
-77: branchLoc()		#CIRC 5    ,PORVOO LAINAUS
+77: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 5    ,PORVOO LAINAUS
 +CIRC5: ref(77)
-78: branchLoc()		#CIRC 6    ,JARVENPAA LAINAUS
+78: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 6    ,JARVENPAA LAINAUS
 +CIRC6: ref(78)
-79: branchLoc()		#CIRC 7    ,TIKKURILA LAINAUS
+79: branchLoc(KONVERSIO,KONVERSIO)		#CIRC 7    ,TIKKURILA LAINAUS
 +CIRC7: ref(79)
-80: branchLoc()		#ACQ 0     ,OTANIEMI HANKINTA
+80: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 0     ,OTANIEMI HANKINTA
 +ACQ0: ref(80)
-81: branchLoc()		#ACQ 1     ,LEPPAVAARA HANKINTA
+81: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 1     ,LEPPAVAARA HANKINTA
 +ACQ1: ref(81)
-82: branchLoc()		#ACQ 2     ,HYVINKAA HANKINTA
+82: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 2     ,HYVINKAA HANKINTA
 +ACQ2: ref(82)
-83: branchLoc()		#ACQ 3     ,KERAVA HANKINTA
+83: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 3     ,KERAVA HANKINTA
 +ACQ3: ref(83)
-84: branchLoc()		#ACQ 4     ,LOHJA HANKINTA
+84: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 4     ,LOHJA HANKINTA
 +ACQ4: ref(84)
-85: branchLoc()		#ACQ 5     ,PORVOO HANKINTA
+85: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 5     ,PORVOO HANKINTA
 +ACQ5: ref(85)
-86: branchLoc()		#ACQ 6     ,JARVENPAA HANKINTA
+86: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 6     ,JARVENPAA HANKINTA
 +ACQ6: ref(86)
-87: branchLoc()		#ACQ 7     ,TIKKURILA HANKINTA
+87: branchLoc(KONVERSIO,KONVERSIO)		#ACQ 7     ,TIKKURILA HANKINTA
 +ACQ7: ref(87)
-88: branchLoc()		#4-Kurssi  ,Lohja lyhytlaina
+88: branchLoc(KONVERSIO,KONVERSIO)		#4-Kurssi  ,Lohja lyhytlaina
 +4-Kurssi: ref(88)
-89: branchLoc()		#CIRCAUTO1 ,LEPPAVAARA AUTOMAATTI
+89: branchLoc(KONVERSIO,KONVERSIO)		#CIRCAUTO1 ,LEPPAVAARA AUTOMAATTI
 +CIRCAUTO1: ref(89)
-90: branchLoc()		#5-Kurssi  ,Porvoo lyhytlaina
+90: branchLoc(KONVERSIO,KONVERSIO)		#5-Kurssi  ,Porvoo lyhytlaina
 +5-Kurssi: ref(90)
-91: branchLoc()		#CIRCAUTO2 ,HYVINKAA AUTOMAATTI
+91: branchLoc(KONVERSIO,KONVERSIO)		#CIRCAUTO2 ,HYVINKAA AUTOMAATTI
 +CIRCAUTO2: ref(91)
-92: branchLoc()		#7-Varasto ,Tikkurila varasto
+92: branchLoc(KONVERSIO,KONVERSIO)		#7-Varasto ,Tikkurila varasto
 +7-Varasto: ref(92)
-96: branchLoc()		#CIRCAUTO3 ,KERAVA LAINAUSAUTOMAATTI
+96: branchLoc(KONVERSIO,KONVERSIO)		#CIRCAUTO3 ,KERAVA LAINAUSAUTOMAATTI
 +CIRCAUTO3: ref(96)
-98: branchLoc()		#CIRCAUTO8 ,LOHJA LAINAUSAUTOMAATTI
+98: branchLoc(KONVERSIO,KONVERSIO)		#CIRCAUTO8 ,LOHJA LAINAUSAUTOMAATTI
 +CIRCAUTO8: ref(98)
-94: branchLoc()		#7-Kurssi  ,Tikkurila lyhytlaina
+94: branchLoc(KONVERSIO,KONVERSIO)		#7-Kurssi  ,Tikkurila lyhytlaina
 +7-Kurssi: ref(94)
-93: branchLoc()		#CIRCAUTO7 ,TIKKURILA AUTOMAATTI
+93: branchLoc(KONVERSIO,KONVERSIO)		#CIRCAUTO7 ,TIKKURILA AUTOMAATTI
 +CIRCAUTO7: ref(93)
-95: branchLoc()		#CIRCAUTO0 ,OTANIEMI AUTOMAATTI
+95: branchLoc(KONVERSIO,KONVERSIO)		#CIRCAUTO0 ,OTANIEMI AUTOMAATTI
 +CIRCAUTO0: ref(95)
-97: branchLoc()		#LAUEL     ,Verkkoaineistot
+97: branchLoc(KONVERSIO,KONVERSIO)		#LAUEL     ,Verkkoaineistot
 +LAUEL: ref(97)
-99: branchLoc()		#LAUVEMA   ,Laurea verkkomaksu
+99: branchLoc(KONVERSIO,KONVERSIO)		#LAUVEMA   ,Laurea verkkomaksu
 +LAUVEMA: ref(99)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa loytamattomat
