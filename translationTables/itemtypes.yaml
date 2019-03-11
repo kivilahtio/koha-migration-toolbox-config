@@ -15,4 +15,4 @@
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
 # and their respective circulation rules
- _DEFAULT_: KONVERSIO
+_DEFAULT_: KONVERSIO
