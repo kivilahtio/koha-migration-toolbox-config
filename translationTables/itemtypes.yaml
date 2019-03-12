@@ -7,10 +7,10 @@
 ## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
 ##
 
-2: EiLaina
-3: Lyhyt
-4: Yleis
-5: Lehti
+2: LEILAINA
+3: LLYHYT
+4: LYLEIS
+5: LLEHTI
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
