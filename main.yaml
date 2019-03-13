@@ -49,7 +49,7 @@ patronAddExpiryYears: 6
 
 # Which strategy to use to validate phone numbers
 # See MMT::Validator::Phone for available strategies
-phoneNumberValidationStrategy: 
+phoneNumberValidationStrategy: HAMK
 
 #############################
 ### 3) Data loading phase ###
