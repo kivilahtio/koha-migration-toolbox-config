@@ -211,7 +211,7 @@
 +Pk-tiede: ref(96)
 99:  branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN)		#Ki-opin   ,Kiljava opinnäytteet
 +Ki-opin: ref(99)
-121: branchLoc(JY)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI #happening location, asiakastietoja
+121: branchLoc(JKL)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI #happening location, asiakastietoja
 +JY-CIRC: ref(121)
 123: branchLoc(TA,,HUMAK)		#Ta-humak  ,Akatemia humak
 +Ta-humak: ref(123)
