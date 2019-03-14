@@ -19,15 +19,15 @@
 +v-ref: ref(19)
 20: branchLoc(HEL,AV)		#v-av      #v-AV-material
 +v-av: ref(20)
-25: branchLoc(POIS)		#T-LANEDISK#zt-lånedisk
+25: branchLoc(HEL)		#T-LANEDISK#zt-lånedisk
 +T-LANEDISK: ref(25)
-24: branchLoc(POIS)		#H-LANEDISK#zh-lånedisk
+24: branchLoc(HEL)		#H-LANEDISK#zh-lånedisk
 +H-LANEDISK: ref(24)
 26: branchLoc(POIS)		#V-KATAL   #v-katalogisering
 +V-KATAL: ref(26)
-27: branchLoc(POIS)		#V-LANEDISK#Lånedisken
+27: branchLoc(HEL)		#V-LANEDISK#Lånedisken
 +V-LANEDISK: ref(27)
-28: branchLoc(POIS)		#SELF      #låneautomaten
+28: branchLoc(HEL)		#SELF      #låneautomaten
 +SELF: ref(28)
 29: branchLoc(HEL,KURS)		#v-kurs    #v-kursbok
 +v-kurs: ref(29)
