@@ -46,15 +46,15 @@
 +02100: ref(173) #tekninen kokoelma
 211: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
-231: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"106","KK ty�huoneet","Kansalliskirjasto,  ty�huonek�yt�ss�",,,"N","1","1942"
+231: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
 +106: ref(231) #pysyväiskäyttö
 234: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
 +107: ref(234) # temp location
-238: branchLoc(EI_KOHAAN, EI KÄYTÖSSÄ) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalveluk�yt�ss�",,,"N","1","0"
+238: branchLoc(EI_KOHAAN, EI KÄYTÖSSÄ) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
 245: branchLoc(EI_KOHAAN, TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 +02101: ref(245) #tekninen kokoelma, ei käytössä
-247: branchLoc(KK_ERIK, Kansalliskirjasto erikoislukusali,ERIK,tilattava varastosta, toimitetaan erikoislukusaliin,,lukusaliaina) #"110","KK erikoislukusali","Kansalliskirjasto, k�ytt� vain erikoislukusalissa",,,"N","1","66567"
+247: branchLoc(KK_ERIK, Kansalliskirjasto erikoislukusali,ERIK,tilattava varastosta, toimitetaan erikoislukusaliin,,lukusaliaina) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
 #Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129. Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
@@ -66,17 +66,17 @@
 +111: ref(281)
 
 #Jos on projektikäytössä, olisi varmaan parempi lainata niteet projektin kortille.
-295: branchLoc() #"112","KK projektik�yt�ss�","Kansalliskirjasto, PROJEKTIK�YT�SS�",,,"N","1","0"
+295: branchLoc() #"112","KK projektikaytassa","Kansalliskirjasto, PROJEKTIKaYTaSSa",,,"N","1","0"
 +112: ref(295)
 #Jos on tutkijakäytössä, olisi varmaan parempi lainata niteet projektin kortille.
-296: branchLoc() #"113","KK tutkijak�yt�ss�","Kansalliskirjasto, lukusali, tutkijak�yt�ss�",,,"N","1","0"
+296: branchLoc() #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
 +113: ref(296)
 
-297: branchLoc(KK, KAS) #"115","KK k�sikirjoitukset","Kansalliskirjaston k�sikirjoituskokoelma",,,"N","1","699"
+297: branchLoc(KK, KAS) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
 +115: ref(297)
 324: branchLoc(KK_FEN, AVO) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
 +109: ref(324)
-449: branchLoc(KK, KON) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei k�ytett�viss�","119",,"N","1","0"
+449: branchLoc(KK, KON) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"
 +119: ref(449)
 
 
@@ -87,129 +87,129 @@
 ## Nämä sijainnit eivät tule Kohaan ##
 ##                                  ##
 
-1: $DELETE #"REVIEW","REVIEW","Ei k�ytett�viss� / Inte i bruk / Not available","REVIEW","Y","Y","1","0"
+1: $DELETE #"REVIEW","REVIEW","Ei kaytettavissa / Inte i bruk / Not available","REVIEW","Y","Y","1","0"
 +REVIEW: ref(1)
 10: $DELETE #"141","Ht 28vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +141: ref(10)
 11: $DELETE #"142","Ht 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +142: ref(11)
-12: $DELETE #"143","Ht K2vrk","Teologia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+12: $DELETE #"143","Ht K2vrk","Teologia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +143: ref(12)
-13: $DELETE #"144","Htort 0vrk","Teologia, K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+13: $DELETE #"144","Htort 0vrk","Teologia, KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +144: ref(13)
-14: $DELETE #"145","Ht Opin Lukusali 28vrk","Teologia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+14: $DELETE #"145","Ht Opin Lukusali 28vrk","Teologia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +145: ref(14)
-15: $DELETE #"146","Ht 14vrk","Teologia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+15: $DELETE #"146","Ht 14vrk","Teologia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +146: ref(15)
-16: $DELETE #"147","Htlai","Teologinen tdk osastot, vain laitosk�ytt��n","147","Y","N","1","5923"
+16: $DELETE #"147","Htlai","Teologinen tdk osastot, vain laitoskayttaan","147","Y","N","1","5923"
 +147: ref(16)
 17: $DELETE #"148","Htort","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +148: ref(17)
-18: $DELETE #"212","Hhu38 28vrk","Topelia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+18: $DELETE #"212","Hhu38 28vrk","Topelia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +212: ref(18)
 19: $DELETE #"911","Kotus 0vrk","Kotimaisten kielten keskus, Kirjasto, ei kotilainaan",,"Y","N","1","34479"
 +911: ref(19)
 20: $DELETE #"912","Hc exKotus 28vrk","Kaisa-talo","912","Y","N","1","2"
 +912: ref(20)
-21: $DELETE #"913","Kotus S0vrk","Kotimaisten kielten keskus, vain virkak�ytt�, ei saatavana","913","Y","N","1","11486"
+21: $DELETE #"913","Kotus S0vrk","Kotimaisten kielten keskus, vain virkakaytta, ei saatavana","913","Y","N","1","11486"
 +913: ref(21)
-22: $DELETE #"161","Hk 28vrk","Ei k�ytett�viss�","161","Y","N","1","1330"
+22: $DELETE #"161","Hk 28vrk","Ei kaytettavissa","161","Y","N","1","1330"
 +161: ref(22)
-23: $DELETE #"162","Hk 2vrk","Ei k�ytett�viss�","162","Y","N","1","3"
+23: $DELETE #"162","Hk 2vrk","Ei kaytettavissa","162","Y","N","1","3"
 +162: ref(23)
-24: $DELETE #"163","Hk 0vrk","Ei k�ytett�viss�","163","Y","N","1","9"
+24: $DELETE #"163","Hk 0vrk","Ei kaytettavissa","163","Y","N","1","9"
 +163: ref(24)
-25: $DELETE #"168","Hk1norssi","Helsingin normaalilyseo,  saatavissa vain laitosk�ytt��n","168","Y","N","1","0"
+25: $DELETE #"168","Hk1norssi","Helsingin normaalilyseo,  saatavissa vain laitoskayttaan","168","Y","N","1","0"
 +168: ref(25)
-26: $DELETE #"169","Hk2norssi","Helsingin II normaalikoulu, saatavissa vain laitosk�ytt��n","169","Y","Y","1","0"
+26: $DELETE #"169","Hk2norssi","Helsingin II normaalikoulu, saatavissa vain laitoskayttaan","169","Y","Y","1","0"
 +169: ref(26)
-27: $DELETE #"171","Hv 28vrk","Valtiotieteet K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+27: $DELETE #"171","Hv 28vrk","Valtiotieteet KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +171: ref(27)
 28: $DELETE #"172","Hv 7vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +172: ref(28)
-29: $DELETE #"173","Hv 2vrk","Valtiotieteet K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+29: $DELETE #"173","Hv 2vrk","Valtiotieteet KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +173: ref(29)
-30: $DELETE #"175","Hv opin","Valtiotieteet K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+30: $DELETE #"175","Hv opin","Valtiotieteet KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +175: ref(30)
-31: $DELETE #"174","Hv 0vrk","Valtiotieteet K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+31: $DELETE #"174","Hv 0vrk","Valtiotieteet KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +174: ref(31)
-32: $DELETE #"178","Hveur","Eurooppa-tutkimus, saatavissa vain laitosk�ytt��n","178","Y","N","1","1307"
+32: $DELETE #"178","Hveur","Eurooppa-tutkimus, saatavissa vain laitoskayttaan","178","Y","N","1","1307"
 +178: ref(32)
-33: $DELETE #"209","Hhfil 7vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+33: $DELETE #"209","Hhfil 7vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +209: ref(33)
-34: $DELETE #"208","Hhfil 0vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+34: $DELETE #"208","Hhfil 0vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +208: ref(34)
-35: $DELETE #"179","Hvlait","Valtiotieteellisen tdk:n laitokset, vain laitosk�ytt��n","179","Y","N","1","257"
+35: $DELETE #"179","Hvlait","Valtiotieteellisen tdk:n laitokset, vain laitoskayttaan","179","Y","N","1","257"
 +179: ref(35)
-36: $DELETE #"183","Sk tidskrifter","Svenska social- och kommunalh�gskolan, Tidskrifter ej heml�n","183","Y","N","1","60"
+36: $DELETE #"183","Sk tidskrifter","Svenska social- och kommunalhagskolan, Tidskrifter ej hemlan","183","Y","N","1","60"
 +183: ref(36)
 37: $DELETE #"181","Sk Hc-hankinnat","Kaisa-talo","181","Y","N","1","0"
 +181: ref(37)
-38: $DELETE #"182","Sk referens","Svenska social- och kommunalh�gskolan, Referens, ej heml�n","182","Y","N","1","2077"
+38: $DELETE #"182","Sk referens","Svenska social- och kommunalhagskolan, Referens, ej hemlan","182","Y","N","1","2077"
 +182: ref(38)
-39: $DELETE #"184","Sk kursb�cker","Svenska social- och kommunalh�gskolan, Kursb�cker, ej heml�n","184","Y","N","1","1340"
+39: $DELETE #"184","Sk kursbacker","Svenska social- och kommunalhagskolan, Kursbacker, ej hemlan","184","Y","N","1","1340"
 +184: ref(39)
 40: $DELETE #"191","Ho 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +191: ref(40)
-41: $DELETE #"193","Ho 28vrk","Oikeustiede K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+41: $DELETE #"193","Ho 28vrk","Oikeustiede KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +193: ref(41)
-42: $DELETE #"192","Ho 2vrk","Oikeustiede K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+42: $DELETE #"192","Ho 2vrk","Oikeustiede KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +192: ref(42)
-43: $DELETE #"196","HoEU 0vrk","Oikeustiede K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+43: $DELETE #"196","HoEU 0vrk","Oikeustiede KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +196: ref(43)
-44: $DELETE #"201","Hh 0vrkopin","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+44: $DELETE #"201","Hh 0vrkopin","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +201: ref(44)
 45: $DELETE #"202","Hh 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +202: ref(45)
-46: $DELETE #"203","Hh 28vrk","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+46: $DELETE #"203","Hh 28vrk","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +203: ref(46)
-47: $DELETE #"204","Hh 2vrk","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+47: $DELETE #"204","Hh 2vrk","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +204: ref(47)
-48: $DELETE #"216","Hhlitt 2vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+48: $DELETE #"216","Hhlitt 2vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +216: ref(48)
 49: $DELETE #"217","Hhlitt 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +217: ref(49)
-50: $DELETE #"207","Hh Uutuushylly","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+50: $DELETE #"207","Hh Uutuushylly","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +207: ref(50)
 53: $DELETE #"215","Hhu38 L0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +215: ref(53)
 54: $DELETE #"211","Hhu38 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","1"
 +211: ref(54)
-55: $DELETE #"214","Hhu38 opin","Topelia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+55: $DELETE #"214","Hhu38 opin","Topelia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +214: ref(55)
-56: $DELETE #"213","Hhu38 2vrk","Topelia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+56: $DELETE #"213","Hhu38 2vrk","Topelia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +213: ref(56)
-57: $DELETE #"221","Hhkki 0vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+57: $DELETE #"221","Hhkki 0vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +221: ref(57)
-58: $DELETE #"230","Hhkou 28vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+58: $DELETE #"230","Hhkou 28vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +230: ref(58)
 59: $DELETE #"220","Hhlai","Topelian laitosten aineistoa, ei saatavana","220","Y","N","1","1014"
 +220: ref(59)
-60: $DELETE #"223","Hhpsy","Hk psykologia, saatavissa vain laitosk�ytt��n","223","Y","N","1","1"
+60: $DELETE #"223","Hhpsy","Hk psykologia, saatavissa vain laitoskayttaan","223","Y","N","1","1"
 +223: ref(60)
-61: $DELETE #"224","Hhsug 28vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+61: $DELETE #"224","Hhsug 28vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +224: ref(61)
-62: $DELETE #"225","Hhsug Lapponica","Hum tdk kirjasto Lapponica, K�YTT� VAIN SUS:N LUVALLA","POISTETTU","Y","N","1","0"
+62: $DELETE #"225","Hhsug Lapponica","Hum tdk kirjasto Lapponica, KaYTTa VAIN SUS:N LUVALLA","POISTETTU","Y","N","1","0"
 +225: ref(62)
-63: $DELETE #"226","Hhsug 0vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+63: $DELETE #"226","Hhsug 0vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +226: ref(63)
-64: $DELETE #"240","Hhsuo 2vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+64: $DELETE #"240","Hhsuo 2vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +240: ref(64)
 65: $DELETE #"241","Hhsuo th0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +241: ref(65)
-66: $DELETE #"281","Hhmus 28vrk","Musiikkitiede K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+66: $DELETE #"281","Hhmus 28vrk","Musiikkitiede KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +281: ref(66)
 67: $DELETE #"282","Hhmus 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +282: ref(67)
-68: $DELETE #"284","Hhfon 28vrk","K�ytt�ytymistiet. tdk:n kirjasto, Vironk., laina-aika 28 vrk","POISTETTU","Y","N","1","0"
+68: $DELETE #"284","Hhfon 28vrk","Kayttaytymistiet. tdk:n kirjasto, Vironk., laina-aika 28 vrk","POISTETTU","Y","N","1","0"
 +284: ref(68)
-69: $DELETE #"283","Hhfon 0vrk","K�ytt�ytymistiet. tdk:n kirjasto, Vironk., ei kotilainaan","POISTETTU","Y","N","1","0"
+69: $DELETE #"283","Hhfon 0vrk","Kayttaytymistiet. tdk:n kirjasto, Vironk., ei kotilainaan","POISTETTU","Y","N","1","0"
 +283: ref(69)
-70: $DELETE #"290","Hhtai 28vrk","P��rak 4. K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+70: $DELETE #"290","Hhtai 28vrk","Paarak 4. KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +290: ref(70)
 71: $DELETE #"940","TUG","Baltia-kirjasto","940","Y","N","1","29078"
 +940: ref(71)
-72: $DELETE #"921","S pk 0 vrk","SKS:n kirjasto; arkistokappale - ei asiakask�ytt��n","921","Y","N","1","3051"
+72: $DELETE #"921","S pk 0 vrk","SKS:n kirjasto; arkistokappale - ei asiakaskayttaan","921","Y","N","1","3051"
 +921: ref(72)
 73: $DELETE #"922","S 28 vrk","SKS:n kirjasto, avokokoelma; 28 vrk","922","Y","N","1","59538"
 +922: ref(73)
@@ -231,7 +231,7 @@
 +909: ref(81)
 82: $DELETE #"601","Hb 28vrk","Viikin kampuskirjasto, 28 vrk","601","Y","N","1","95583"
 +601: ref(82)
-83: $DELETE #"602","Hb 7vrk","Viikin kampuskirjasto, lehti� ei lainata 2.9.2013 alkaen","602","Y","N","1","0"
+83: $DELETE #"602","Hb 7vrk","Viikin kampuskirjasto, lehtia ei lainata 2.9.2013 alkaen","602","Y","N","1","0"
 +602: ref(83)
 84: $DELETE #"603","Hb k28vrk","Viikin kampuskirjasto kurssikirjat, 28 vrk","603","Y","N","1","0"
 +603: ref(84)
@@ -241,9 +241,9 @@
 +610: ref(86)
 87: $DELETE #"701","Ek 14vrk","Viikin kampuskirjasto, 7 vrk","701","Y","N","1","8"
 +701: ref(87)
-88: $DELETE #"702","Ek 28 vrk","El�inl��ketieteellinen kirjasto, 28 vrk","702","Y","N","1","0"
+88: $DELETE #"702","Ek 28 vrk","Elainlaaketieteellinen kirjasto, 28 vrk","702","Y","N","1","0"
 +702: ref(88)
-89: $DELETE #"703","Ek 1vrk","El�inl��ketieteellinen kirjasto kurssikirja laina-aika 1 vrk","703","Y","N","1","0"
+89: $DELETE #"703","Ek 1vrk","Elainlaaketieteellinen kirjasto kurssikirja laina-aika 1 vrk","703","Y","N","1","0"
 +703: ref(89)
 90: $DELETE #"705","Eklai","Department use only, Viikki campus","705","Y","N","1","3270"
 +705: ref(90)
@@ -253,13 +253,13 @@
 +981: ref(92)
 93: $DELETE #"980","I 28vrk","Ilmatieteen laitos, ei lainausta, kirjasto lopettaa 1.5.2009","980","Y","N","1","0"
 +980: ref(93)
-94: $DELETE #"470","Hs et�varasto sarjat","Kumpulan kampuskirjasto, t�htitieteen laitossarjat ","470","Y","N","1","0"
+94: $DELETE #"470","Hs etavarasto sarjat","Kumpulan kampuskirjasto, tahtitieteen laitossarjat ","470","Y","N","1","0"
 +470: ref(94)
-95: $DELETE #"165","Hkpsy 0vrk","K�ytt. tdk:n kirjasto - k�ytett�viss� 16.5.05",,"Y","N","1","0"
+95: $DELETE #"165","Hkpsy 0vrk","Kaytt. tdk:n kirjasto - kaytettavissa 16.5.05",,"Y","N","1","0"
 +165: ref(95)
-96: $DELETE #"166","Hk siirto Kaisa-taloon","Hk, k�sittelyss�, ei saatavana","166","Y","N","1","0"
+96: $DELETE #"166","Hk siirto Kaisa-taloon","Hk, kasittelyssa, ei saatavana","166","Y","N","1","0"
 +166: ref(96)
-97: $DELETE #"164","Hk G 0vrk","Minerva, 28 vrk, ei varattavissa - k�ytt��n syksyll� 2015 ","164","Y","N","1","0"
+97: $DELETE #"164","Hk G 0vrk","Minerva, 28 vrk, ei varattavissa - kayttaan syksylla 2015 ","164","Y","N","1","0"
 +164: ref(97)
 98: $DELETE #"401","Hs 28vrk","Kumpulan kampuskirjasto, laina-aika 28 vrk","401","Y","N","1","26468"
 +401: ref(98)
@@ -279,21 +279,21 @@
 +408: ref(105)
 106: $DELETE #"410","Hs 0vrkselv","Kumpulan kampuskirjasto, ei kotilainaan","410","Y","N","1","0"
 +410: ref(106)
-108: $DELETE #"430","Hmmat 28vrk","Matematiikan laitos, saatavissa vain laitosk�ytt��n","POISTETTU","Y","N","1","0"
+108: $DELETE #"430","Hmmat 28vrk","Matematiikan laitos, saatavissa vain laitoskayttaan","POISTETTU","Y","N","1","0"
 +430: ref(108)
-109: $DELETE #"440","Hmtk� 28 vrk","Tietojenk�sittelytieteen kirjasto, Laina-aika 28 vrk","POISTETTU","Y","N","1","0"
+109: $DELETE #"440","Hmtka 28 vrk","Tietojenkasittelytieteen kirjasto, Laina-aika 28 vrk","POISTETTU","Y","N","1","0"
 +440: ref(109)
-110: $DELETE #"422","Hmetf 7vrk","Biotiet.laitos. El�infysiol. Viikinkaari 1","422","Y","N","1","79"
+110: $DELETE #"422","Hmetf 7vrk","Biotiet.laitos. Elainfysiol. Viikinkaari 1","422","Y","N","1","79"
 +422: ref(110)
-111: $DELETE #"420","Hmetm","LUOMUS - el�intieteen yksikk�, vain lukusalik�ytt��n","420","Y","N","1","3347"
+111: $DELETE #"420","Hmetm","LUOMUS - elaintieteen yksikka, vain lukusalikayttaan","420","Y","N","1","3347"
 +420: ref(111)
-112: $DELETE #"421","Hmetf 0vrk","Biotiet.laitos. El�infysiol. Viikinkaari 1, ei kotilainaan","421","Y","N","1","2042"
+112: $DELETE #"421","Hmetf 0vrk","Biotiet.laitos. Elainfysiol. Viikinkaari 1, ei kotilainaan","421","Y","N","1","2042"
 +421: ref(112)
 113: $DELETE #"481","Hmkti 0vrk","Kasvimuseon kirjasto, ei kotilainaan","481","Y","N","1","2741"
 +481: ref(113)
-114: $DELETE #"480","Hmkti 28vrk","Kasvimuseon kirjasto, saatavissa vain laitosk�ytt��n","480","Y","N","1","11841"
+114: $DELETE #"480","Hmkti 28vrk","Kasvimuseon kirjasto, saatavissa vain laitoskayttaan","480","Y","N","1","11841"
 +480: ref(114)
-115: $DELETE #"490","Hmtutk","Tutkimusasemien kirjastot, Kilpisj�rvi, Lammi, Tv�rminne","490","Y","N","1","1126"
+115: $DELETE #"490","Hmtutk","Tutkimusasemien kirjastot, Kilpisjarvi, Lammi, Tvarminne","490","Y","N","1","1126"
 +490: ref(115)
 116: $DELETE #"501","Hl 0vrk","Terkko Meilahti, ei kotilainaan","501","Y","N","1","9131"
 +501: ref(116)
@@ -305,63 +305,63 @@
 +505: ref(119)
 120: $DELETE #"504","Hl E","Terkko Meilahti, elektroninen aineisto","504","Y","N","1","8963"
 +504: ref(120)
-121: $DELETE #"510","Hlok","L��ketieteellisen tdk:n oppimiskeskukset, ei kotilainaan","510","Y","N","1","176"
+121: $DELETE #"510","Hlok","Laaketieteellisen tdk:n oppimiskeskukset, ei kotilainaan","510","Y","N","1","176"
 +510: ref(121)
-122: $DELETE #"521","Hlham 0vrk","Suu- ja leukasairauksien os., saatavissa vain laitosk�ytt��n","521","Y","N","1","503"
+122: $DELETE #"521","Hlham 0vrk","Suu- ja leukasairauksien os., saatavissa vain laitoskayttaan","521","Y","N","1","503"
 +521: ref(122)
-123: $DELETE #"522","Hlham 28vrk","Hammasl��ketieteen kirjasto, 28 vrk","522","Y","N","1","0"
+123: $DELETE #"522","Hlham 28vrk","Hammaslaaketieteen kirjasto, 28 vrk","522","Y","N","1","0"
 +522: ref(123)
-124: $DELETE #"523","Hlham 7vrk","Hammasl��ketieteen kirjasto, 7vrk","523","Y","N","1","0"
+124: $DELETE #"523","Hlham 7vrk","Hammaslaaketieteen kirjasto, 7vrk","523","Y","N","1","0"
 +523: ref(124)
-125: $DELETE #"580","Hlklin 0vrk","Hl HYKS-klinikat saatavissa vain laitosk�ytt��n","580","Y","N","1","739"
+125: $DELETE #"580","Hlklin 0vrk","Hl HYKS-klinikat saatavissa vain laitoskayttaan","580","Y","N","1","739"
 +580: ref(125)
 126: $DELETE #"570","Hlbio 0vrk","Biomedicum, ei kotilainaan","570","Y","N","1","0"
 +570: ref(126)
-127: $DELETE #"590","Hlt 0vrk","Hl L��k. teor. lait. saatavissa vain laitosk�ytt��n","590","Y","N","1","0"
+127: $DELETE #"590","Hlt 0vrk","Hl Laak. teor. lait. saatavissa vain laitoskayttaan","590","Y","N","1","0"
 +590: ref(127)
-128: $DELETE #"520","Hlhlm","Helsingin yliopistomuseo, L��ketieteen historian kirjasto","520","Y","N","1","33"
+128: $DELETE #"520","Hlhlm","Helsingin yliopistomuseo, Laaketieteen historian kirjasto","520","Y","N","1","33"
 +520: ref(128)
-129: $DELETE #"550","Hlla1, Hllpn 28vrk","Lasten ja nuorten sairaala,saatavissa vain laitosk�ytt��n","550","Y","N","1","1382"
+129: $DELETE #"550","Hlla1, Hllpn 28vrk","Lasten ja nuorten sairaala,saatavissa vain laitoskayttaan","550","Y","N","1","1382"
 +550: ref(129)
-130: $DELETE #"551","Hlla1, Hllpn, 0vrk","Lasten ja nuorten sairaala,saatavissa vain laitosk�ytt��n","551","Y","N","1","456"
+130: $DELETE #"551","Hlla1, Hllpn, 0vrk","Lasten ja nuorten sairaala,saatavissa vain laitoskayttaan","551","Y","N","1","456"
 +551: ref(130)
-131: $DELETE #"540","Hloik 0vrk","Oikeusl��ketiede, saatavissa vain laitosk�ytt��n","540","Y","N","1","396"
+131: $DELETE #"540","Hloik 0vrk","Oikeuslaaketiede, saatavissa vain laitoskayttaan","540","Y","N","1","396"
 +540: ref(131)
-132: $DELETE #"530","Hlps1 0vrk","Psykiatrian klinikka,saatavissa vain laitosk�ytt��n(0 vrk)","530","Y","N","1","74"
+132: $DELETE #"530","Hlps1 0vrk","Psykiatrian klinikka,saatavissa vain laitoskayttaan(0 vrk)","530","Y","N","1","74"
 +530: ref(132)
-133: $DELETE #"531","Hlps1 28vrk","Psykiatrian klinikka,saatavissa vain laitosk�ytt��n(28vrk)","531","Y","N","1","1251"
+133: $DELETE #"531","Hlps1 28vrk","Psykiatrian klinikka,saatavissa vain laitoskayttaan(28vrk)","531","Y","N","1","1251"
 +531: ref(133)
-134: $DELETE #"235","Hxkie","Kielikeskus, saatavissa vain laitosk�ytt��n","235","Y","Y","1","289"
+134: $DELETE #"235","Hxkie","Kielikeskus, saatavissa vain laitoskayttaan","235","Y","Y","1","289"
 +235: ref(134)
-135: $DELETE #"198","HoEU 28vrk","Oikeustiede K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+135: $DELETE #"198","HoEU 28vrk","Oikeustiede KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +198: ref(135)
-136: $DELETE #"197","Horpo","Rikos- ja prosessioikeus, saatavissa vain laitosk�ytt��n","197","Y","N","1","2541"
+136: $DELETE #"197","Horpo","Rikos- ja prosessioikeus, saatavissa vain laitoskayttaan","197","Y","N","1","2541"
 +197: ref(136)
-137: $DELETE #"151","H3 28vrk","Opiskelijakirjasto K�YTETT�VISS� 3.9.2012 KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+137: $DELETE #"151","H3 28vrk","Opiskelijakirjasto KaYTETTaVISSa 3.9.2012 KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +151: ref(137)
 138: $DELETE #"152","H3 Osakuntakokoelma 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU","Y","N","1","0"
 +152: ref(138)
-139: $DELETE #"153","H3 2vrk","Opiskelijakirjasto K�YTETT�VISS� 3.9.2012 KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+139: $DELETE #"153","H3 2vrk","Opiskelijakirjasto KaYTETTaVISSa 3.9.2012 KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +153: ref(139)
-140: $DELETE #"150","H3 28vrk/14vrk","Opiskelijakirjasto K�YTETT�VISS� 3.9.2012 KAISA-TALOSSA","POISTETTU","Y","N","1","0"
+140: $DELETE #"150","H3 28vrk/14vrk","Opiskelijakirjasto KaYTETTaVISSa 3.9.2012 KAISA-TALOSSA","POISTETTU","Y","N","1","0"
 +150: ref(140)
-141: $DELETE #"159","H3 Pakattavana","Opiskelijakirjasto, K�YTETT�VISS� 3.9.2012","POISTETTU","Y","N","1","0"
+141: $DELETE #"159","H3 Pakattavana","Opiskelijakirjasto, KaYTETTaVISSa 3.9.2012","POISTETTU","Y","N","1","0"
 +159: ref(141)
-142: $DELETE #"990","OPM 28vrk","Vain viraston sis�iseen k�ytt��n","990","Y","Y","2","0"
+142: $DELETE #"990","OPM 28vrk","Vain viraston sisaiseen kayttaan","990","Y","Y","2","0"
 +990: ref(142)
 149: $DELETE #"01140","Ht H ja L","Teologia, hankinta- ja luettelointi","POISTETTU",,"Y","1","0"
 +01140: ref(149)
 150: $DELETE #"01150","H3 H ja L","Opiskelijakirjasto, hankinta- ja luettelointi","POISTETTU",,"N","1","0"
 +01150: ref(150)
-151: $DELETE #"01160","Hk H ja L","K�ytt�ytymistieteet / Minerva, hankinta- ja luetteloint",,,"N","1","0"
+151: $DELETE #"01160","Hk H ja L","Kayttaytymistieteet / Minerva, hankinta- ja luetteloint",,,"N","1","0"
 +01160: ref(151)
 152: $DELETE #"01170","Hv H ja L","Valtiotieteet, hankinta- ja luettelointi","POISTETTU",,"N","1","0"
 +01170: ref(152)
-153: $DELETE #"01180","Sk H ja L","Soc&koms l�rocenter, ink�p och katalogisering ",,,"N","1","0"
+153: $DELETE #"01180","Sk H ja L","Soc&koms larocenter, inkap och katalogisering ",,,"N","1","0"
 +01180: ref(153)
 154: $DELETE #"01190","Ho H ja L","Oikeustiede, hankinta- ja luettelointi","POISTETTU",,"N","1","0"
 +01190: ref(154)
-155: $DELETE #"01200","Hh L ja H","Mets�talo, hankinta ja luettelointi","POISTETTU",,"N","1","0"
+155: $DELETE #"01200","Hh L ja H","Metsatalo, hankinta ja luettelointi","POISTETTU",,"N","1","0"
 +01200: ref(155)
 156: $DELETE #"01400","Hs H ja L","Kumpulan kampuskirjasto, hankinta ja luettelointi",,,"N","1","0"
 +01400: ref(156)
@@ -387,13 +387,13 @@
 +01600: ref(170)
 171: $DELETE #"02150","Opiskelijakirjasto (H3)","Kaisa-talo, asiakaspalvelu",,,"Y","1","0"
 +02150: ref(171)
-172: $DELETE #"01700","Ek H ja L","El�inl��ketieteellinen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
+172: $DELETE #"01700","Ek H ja L","Elainlaaketieteellinen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
 +01700: ref(172)
 174: $DELETE #"02140","Ht Teologia kirjasto","Teologia, lainaus","POISTETTU",,"Y","1","0"
 +02140: ref(174)
 175: $DELETE #"02170","Hv Valtiotieteet kirjasto","Valtiotieteet, lainaus","POISTETTU",,"Y","1","0"
 +02170: ref(175)
-176: $DELETE #"02160","Hk Minerva","K�ytt�ytymistieteet / Minerva, lainaus",,,"Y","1","0"
+176: $DELETE #"02160","Hk Minerva","Kayttaytymistieteet / Minerva, lainaus",,,"Y","1","0"
 +02160: ref(176)
 177: $DELETE #"02600","Hb Viikin tiedekirjasto","Viikin kampuskirjasto, lainaus",,,"Y","1","0"
 +02600: ref(177)
@@ -403,13 +403,13 @@
 +02400: ref(179)
 180: $DELETE #"02500","Hl Terkko","Terkko Meilahti, lainaus",,,"Y","1","0"
 +02500: ref(180)
-181: $DELETE #"02700","zEk El�inl��ketiet. kirj.","El�inl��ketieteellinen kirjasto, lainaus",,,"Y","1","0"
+181: $DELETE #"02700","zEk Elainlaaketiet. kirj.","Elainlaaketieteellinen kirjasto, lainaus",,,"Y","1","0"
 +02700: ref(181)
 182: $DELETE #"02900","B Museovirasto","Museoviraston kirjasto, lainaus",,,"Y","1","0"
 +02900: ref(182)
-183: $DELETE #"02180","Sk Soc. och komm. bibl ","Soc. och kommunalh�gskolans bibliotek, l�ne",,,"Y","1","0"
+183: $DELETE #"02180","Sk Soc. och komm. bibl ","Soc. och kommunalhagskolans bibliotek, lane",,,"Y","1","0"
 +02180: ref(183)
-184: $DELETE #"02200","Hh Mets�talo","Mets�talo lainaus","POISTETTU",,"Y","1","0"
+184: $DELETE #"02200","Hh Metsatalo","Metsatalo lainaus","POISTETTU",,"Y","1","0"
 +02200: ref(184)
 185: $DELETE #"02210","Hhu38 Topelia kirjasto","Topelia lainaus",,,"Y","1","0"
 +02210: ref(185)
@@ -423,13 +423,13 @@
 +02920: ref(190)
 191: $DELETE #"02910","Su Kotus-kirjasto","Kotimaisten kielten keskuksen kirjasto, lainaus",,,"Y","1","0"
 +02910: ref(191)
-192: $DELETE #"02470","Hmt�h Observatorion kirj.","Observatorion kirjasto, lainaus",,,"Y","1","0"
+192: $DELETE #"02470","Hmtah Observatorion kirj.","Observatorion kirjasto, lainaus",,,"Y","1","0"
 +02470: ref(192)
 193: $DELETE #"01940","TUG H ja L","Baltia-kirjaston hankinta ja luettelointi",,,"Y","1","0"
 +01940: ref(193)
 194: $DELETE #"01920","SKS H ja L","SKS:n kirjaston hankinta ja luettelointi",,,"N","1","0"
 +01920: ref(194)
-195: $DELETE #"01470","Hmt�h H ja L","Observatorion kirjaston hankinta ja luettelointi",,,"Y","1","0"
+195: $DELETE #"01470","Hmtah H ja L","Observatorion kirjaston hankinta ja luettelointi",,,"Y","1","0"
 +01470: ref(195)
 197: $DELETE #"01430","Hmmat H ja L","Matematiikan laitoksen kirjaston hankinta ja luettelointi","POISTETTU",,"Y","1","0"
 +01430: ref(197)
@@ -439,13 +439,13 @@
 +02420: ref(199)
 200: $DELETE #"02208","Hhfil Philosophica","Kaisa-talo",,,"Y","1","0"
 +02208: ref(200)
-201: $DELETE #"02165","Hknil Kasvatustiet Nilsi�","Kasv. tdk:n kirjasto Nilsi�nkatu, lainaus",,,"Y","1","0"
+201: $DELETE #"02165","Hknil Kasvatustiet Nilsia","Kasv. tdk:n kirjasto Nilsiankatu, lainaus",,,"Y","1","0"
 +02165: ref(201)
-202: $DELETE #"02520","Hlham Hammasl��ket. kirj.","Terkko Meilahti, lainaus",,,"Y","1","0"
+202: $DELETE #"02520","Hlham Hammaslaaket. kirj.","Terkko Meilahti, lainaus",,,"Y","1","0"
 +02520: ref(202)
 203: $DELETE #"02550","Hllas Lasten ...sairaala","Lasten ja nuorten sairaala",,,"Y","1","0"
 +02550: ref(203)
-205: $DELETE #"02990","OPM lainaus","Opetusministeri�n kirjasto, lainaus",,,"Y","2","0"
+205: $DELETE #"02990","OPM lainaus","Opetusministerian kirjasto, lainaus",,,"Y","2","0"
 +02990: ref(205)
 206: $DELETE #"01980","I H ja L","Ilmatieteen laitoksen kirjasto, hankinta ja luettelointi",,,"N","1","0"
 +01980: ref(206)
@@ -459,69 +459,69 @@
 +01290: ref(210)
 212: $DELETE #"02601","Hb EI VARAUSTEN NOUTOA","Viikin kampuskirjaston itsepalvelu",,,"Y","1","0"
 +02601: ref(212)
-213: $DELETE #"01440","Hmtk� H ja L","Tietojenk�sittelytieteen laitos, hankinta luettelointi","POISTETTU",,"N","1","0"
+213: $DELETE #"01440","Hmtka H ja L","Tietojenkasittelytieteen laitos, hankinta luettelointi","POISTETTU",,"N","1","0"
 +01440: ref(213)
-214: $DELETE #"471","Hs et�varasto kirjat","Kumpulan kampuskirjasto, t�htitieteen kirjat, ei kotilainaan",,,"N","1","682"
+214: $DELETE #"471","Hs etavarasto kirjat","Kumpulan kampuskirjasto, tahtitieteen kirjat, ei kotilainaan",,,"N","1","682"
 +471: ref(214)
-215: $DELETE #"01420","Hmarkadia","El�inmuseon kirjasto, laina 28 vrk",,,"N","1","0"
+215: $DELETE #"01420","Hmarkadia","Elainmuseon kirjasto, laina 28 vrk",,,"N","1","0"
 +01420: ref(215)
 216: $DELETE #"485","Hmktp0vrk","Kasvitieteellinen puutarha, ei kotilainaan",,,"N","1","76"
 +485: ref(216)
-217: $DELETE #"950","TYL 28 vrk","Ty�v�enliikkeen kirjasto, 28 vrk. S�rn�isten rantatie 25.",,,"N","1","63418"
+217: $DELETE #"950","TYL 28 vrk","Tyavaenliikkeen kirjasto, 28 vrk. Sarnaisten rantatie 25.",,,"N","1","63418"
 +950: ref(217)
-218: $DELETE #"951","TYL 0vrk","Ty�v�enliikkeen kirjasto, 0 vrk. S�rn�isten rantatie 25.",,,"N","1","5770"
+218: $DELETE #"951","TYL 0vrk","Tyavaenliikkeen kirjasto, 0 vrk. Sarnaisten rantatie 25.",,,"N","1","5770"
 +951: ref(218)
-219: $DELETE #"01950","TYL H ja L","Ty�v�enliikkeen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
+219: $DELETE #"01950","TYL H ja L","Tyavaenliikkeen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
 +01950: ref(219)
-220: $DELETE #"524","Hlham kurssik","Hammasl��ketieteen kirjasto kurssikirjat, 14 vrk",,,"N","1","0"
+220: $DELETE #"524","Hlham kurssik","Hammaslaaketieteen kirjasto kurssikirjat, 14 vrk",,,"N","1","0"
 +524: ref(220)
-221: $DELETE #"02950","TYL Ty�venliikkeen kirj.","Ty�v�enliikkeen kirjasto. S�rn�isten rantatie 25.",,,"N","1","0"
+221: $DELETE #"02950","TYL Tyavenliikkeen kirj.","Tyavaenliikkeen kirjasto. Sarnaisten rantatie 25.",,,"N","1","0"
 +02950: ref(221)
-222: $DELETE #"506","Hl SyOp","L��ketieteellisen tdk:n opinn�ytteet, ei kotilainaan",,,"N","1","4587"
+222: $DELETE #"506","Hl SyOp","Laaketieteellisen tdk:n opinnaytteet, ei kotilainaan",,,"N","1","4587"
 +506: ref(222)
-223: $DELETE #"194","Ho Uutuushylly","Oikeustiede K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+223: $DELETE #"194","Ho Uutuushylly","Oikeustiede KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +194: ref(223)
-224: $DELETE #"9991","E-Thesis","Ethesis, Helsingin yliopiston elektroniset v�it�skirjat ",,,"N","1","1942"
+224: $DELETE #"9991","E-Thesis","Ethesis, Helsingin yliopiston elektroniset vaitaskirjat ",,,"N","1","1942"
 +9991: ref(224)
-225: $DELETE #"250","Hhyki 7 vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+225: $DELETE #"250","Hhyki 7 vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +250: ref(225)
-226: $DELETE #"487","Hmekosys","Ekologia ja systematiikka saatavissa vain laitosk�ytt��n",,,"N","1","3852"
+226: $DELETE #"487","Hmekosys","Ekologia ja systematiikka saatavissa vain laitoskayttaan",,,"N","1","3852"
 +487: ref(226)
 227: $DELETE #"941","TUG 7vrk","Baltia-kirjasto, laina-aika 7vrk",,,"N","1","0"
 +941: ref(227)
-228: $DELETE #"01520","Hlham H ja L","Hammasl��ketieteen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
+228: $DELETE #"01520","Hlham H ja L","Hammaslaaketieteen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
 +01520: ref(228)
-229: $DELETE #"205","Hh Sul Var","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+229: $DELETE #"205","Hh Sul Var","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +205: ref(229)
-230: $DELETE #"605","Hb Tutkijahylly","Viikin kampuskirjasto, varattu tutkimusk�ytt��n",,,"N","1","1"
+230: $DELETE #"605","Hb Tutkijahylly","Viikin kampuskirjasto, varattu tutkimuskayttaan",,,"N","1","1"
 +605: ref(230)
-232: $DELETE #"525","Hlham tutkijahylly","Hammasl��ketieteen kirjasto, vain tutkimusk�ytt��n",,,"N","1","0"
+232: $DELETE #"525","Hlham tutkijahylly","Hammaslaaketieteen kirjasto, vain tutkimuskayttaan",,,"N","1","0"
 +525: ref(232)
 233: $DELETE #"01199","Hojul H ja L","Julkisoikeuden laitos, hankinta ja luettelointi",,,"N","1","0"
 +01199: ref(233)
-235: $DELETE #"199","Hojul","Julkisoikeuden laitos, saatavissa vain laitosk�ytt��n",,,"N","1","1443"
+235: $DELETE #"199","Hojul","Julkisoikeuden laitos, saatavissa vain laitoskayttaan",,,"N","1","1443"
 +199: ref(235)
 236: $DELETE #"9992","Julki/Helka","Julki-tietokanta-aineistoa, ei saatavana",,,"Y","1","0"
 +9992: ref(236)
 237: $DELETE #"158","H3 Poistot","Opiskelijakirjasto, poistettavat niteet","POISTETTU",,"Y","1","0"
 +158: ref(237)
-239: $DELETE #"167","Hklait","K�ytt�ytymistiet. tiedekunta, vain laitosk�ytt��n",,,"N","1","429"
+239: $DELETE #"167","Hklait","Kayttaytymistiet. tiedekunta, vain laitoskayttaan",,,"N","1","429"
 +167: ref(239)
 240: $DELETE #"218","Hhant 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU",,"N","1","0"
 +218: ref(240)
-241: $DELETE #"219","Hhant 28vrk","P��rak.5 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+241: $DELETE #"219","Hhant 28vrk","Paarak.5 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +219: ref(241)
-242: $DELETE #"222","Hhkki 2vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+242: $DELETE #"222","Hhkki 2vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +222: ref(242)
-243: $DELETE #"02220","Hhpaa P��rakennus","Hum. tdk:n kirjasto, P��rakennus ",,,"Y","1","0"
+243: $DELETE #"02220","Hhpaa Paarakennus","Hum. tdk:n kirjasto, Paarakennus ",,,"Y","1","0"
 +02220: ref(243)
-244: $DELETE #"472","Hmt�h EK","Observatorion kirjasto, saatavissa vain laitosk�ytt��n","POISTETTU",,"Y","1","0"
+244: $DELETE #"472","Hmtah EK","Observatorion kirjasto, saatavissa vain laitoskayttaan","POISTETTU",,"Y","1","0"
 +472: ref(244)
-246: $DELETE #"210","Hhfil y�laina - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+246: $DELETE #"210","Hhfil yalaina - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +210: ref(246)
 248: $DELETE #"606","Hb EL","Viikin kampuskirjasto elektroninen aineisto",,,"N","1","3633"
 +606: ref(248)
-249: $DELETE #"185","Hv SkMag","Valtiotieteet K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+249: $DELETE #"185","Hv SkMag","Valtiotieteet KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +185: ref(249)
 250: $DELETE #"992","HelkaSC",,,,"N","1","0"
 +992: ref(250)
@@ -547,7 +547,7 @@
 +03500: ref(262)
 263: $DELETE #"03600","Hb Poistot 2003","Viikin kampuskirjasto, poistettavat niteet","POISTETTU",,"Y","1","0"
 +03600: ref(263)
-264: $DELETE #"03700","Ek Poistot","El�inl��ketieteellinen kirjasto, poistettavat niteet","POISTETTU",,"Y","1","0"
+264: $DELETE #"03700","Ek Poistot","Elainlaaketieteellinen kirjasto, poistettavat niteet","POISTETTU",,"Y","1","0"
 +03700: ref(264)
 265: $DELETE #"03900","B Poistot","Museoviraston kirjasto, poistettavat niteet",,,"Y","1","93"
 +03900: ref(265)
@@ -557,7 +557,7 @@
 +03920: ref(267)
 268: $DELETE #"03940","TUG Poistot","Baltia-kirjasto, poistettavat niteet",,,"Y","1","0"
 +03940: ref(268)
-269: $DELETE #"03950","TYL Poistot","Ty�v�enliikkeen kirjasto, poistettavat niteet",,,"Y","1","0"
+269: $DELETE #"03950","TYL Poistot","Tyavaenliikkeen kirjasto, poistettavat niteet",,,"Y","1","0"
 +03950: ref(269)
 270: $DELETE #"03980","I Poistot","Ilmatieteen laitoksen kirjasto, poistettavat niteet","POISTETTU",,"Y","1","0"
 +03980: ref(270)
@@ -573,7 +573,7 @@
 +03401: ref(275)
 276: $DELETE #"SELVITYS","Selvityskokoelma","Kokoelmasiirtojen selvityskokoelma",,,"Y","1","0"
 +SELVITYS: ref(276)
-277: $DELETE #"X9993","xEi k�yt�ss� - Ex HY EL","Ei k�ytett�viss�","POISTETTU",,"N","1","0"
+277: $DELETE #"X9993","xEi kaytassa - Ex HY EL","Ei kaytettavissa","POISTETTU",,"N","1","0"
 +X9993: ref(277)
 278: $DELETE #"02224","Hhsug Franzenia","Hum.tdk:n kirjasto Franzenia",,,"Y","1","0"
 +02224: ref(278)
@@ -581,11 +581,11 @@
 +0500: ref(279)
 280: $DELETE #"904","B E-aineisto","Museoviraston kirjasto, elektroninen aineisto",,,"N","1","70"
 +904: ref(280)
-282: $DELETE #"441","Hmtk� 0vrk","Tietojenk�sittelytieteen kirjasto, Ei kotilainaan","POISTETTU",,"N","1","0"
+282: $DELETE #"441","Hmtka 0vrk","Tietojenkasittelytieteen kirjasto, Ei kotilainaan","POISTETTU",,"N","1","0"
 +441: ref(282)
-283: $DELETE #"442","Hmtk� kausi","Tiet.k�s.tieteen. kirjasto, Kausijulkaisut, ei kotilainaan","POISTETTU",,"N","1","0"
+283: $DELETE #"442","Hmtka kausi","Tiet.kas.tieteen. kirjasto, Kausijulkaisut, ei kotilainaan","POISTETTU",,"N","1","0"
 +442: ref(283)
-284: $DELETE #"02440","Hmtk� Tietojenk�sitt kirj","Tietojenk�sittelytieteen lts:n kirjasto, lainaus","POISTETTU",,"Y","1","0"
+284: $DELETE #"02440","Hmtka Tietojenkasitt kirj","Tietojenkasittelytieteen lts:n kirjasto, lainaus","POISTETTU",,"Y","1","0"
 +02440: ref(284)
 285: $DELETE #"300","Hc 300 K4 0vrk","Kaisa-talo, ei kotilainaan","300",,"N","1","743"
 +300: ref(285)
@@ -595,67 +595,67 @@
 +01951: ref(287)
 288: $DELETE #"02730","Hxai Aleksanteri-instit.","Aleksanteri-instituutti, lainaus",,,"Y","1","0"
 +02730: ref(288)
-289: $DELETE #"9995","HY E-aineisto A-�","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","74145"
+289: $DELETE #"9995","HY E-aineisto A-a","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","74145"
 +9995: ref(289)
-290: $DELETE #"289","Hhvir projektit","Vironkatu 1, projektik�yt�ss�, ei saatavana",,,"N","1","0"
+290: $DELETE #"289","Hhvir projektit","Vironkatu 1, projektikaytassa, ei saatavana",,,"N","1","0"
 +289: ref(290)
-291: $DELETE #"251","Hhyki 0 vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+291: $DELETE #"251","Hhyki 0 vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +251: ref(291)
-292: $DELETE #"252","Hhyki y�laina - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+292: $DELETE #"252","Hhyki yalaina - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +252: ref(292)
-293: $DELETE #"925","S henkil�kunta 0 vrk","SKS:n kirjasto; vain henkil�kunnan k�ytt��n",,,"N","1","2"
+293: $DELETE #"925","S henkilakunta 0 vrk","SKS:n kirjasto; vain henkilakunnan kayttaan",,,"N","1","2"
 +925: ref(293)
-294: $DELETE #"9994","HY SFX-lehdet","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","54150"
+294: $DELETE #"9994","HY SFX-lehdet","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","54150"
 +9994: ref(294)
 298: $DELETE #"607","Hb k14vrk","Viikin kampuskirjasto kurssikirjat, 14 vrk",,,"N","1","2684"
 +607: ref(298)
-299: $DELETE #"608","Hb k y�laina","Viikin kampuskirjasto kurssikirjat,y�-ja viikonloppulaina",,,"N","1","7"
+299: $DELETE #"608","Hb k yalaina","Viikin kampuskirjasto kurssikirjat,ya-ja viikonloppulaina",,,"N","1","7"
 +608: ref(299)
-300: $DELETE #"02164","Hkpsy K�ytt.tiet. kirjast","K�ytt�ytymistieteellisen tdk:n kirjasto Siltavuori, lainaus",,,"Y","1","0"
+300: $DELETE #"02164","Hkpsy Kaytt.tiet. kirjast","Kayttaytymistieteellisen tdk:n kirjasto Siltavuori, lainaus",,,"Y","1","0"
 +02164: ref(300)
-301: $DELETE #"242","Hhsuo 28vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+301: $DELETE #"242","Hhsuo 28vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +242: ref(301)
-302: $DELETE #"227","Hhlitt 28vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+302: $DELETE #"227","Hhlitt 28vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +227: ref(302)
-303: $DELETE #"228","Hhkki 28vrk","P��rak.3 K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+303: $DELETE #"228","Hhkki 28vrk","Paarak.3 KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +228: ref(303)
 304: $DELETE #"291","Hhtai 0 vrk","Kaisa-talo, ei kotilainaan","POISTETTU",,"N","1","0"
 +291: ref(304)
-305: $DELETE #"292","Hhtai virkak�ytt�","Taidehistoria, saatavissa vain laitosk�ytt��n",,,"N","1","0"
+305: $DELETE #"292","Hhtai virkakaytta","Taidehistoria, saatavissa vain laitoskayttaan",,,"N","1","0"
 +292: ref(305)
-306: $DELETE #"299","Hhyht Ty�huoneet","Hum tdk:n ty�huoneissa, saatavissa vain laitosk�ytt��n",,,"N","1","14677"
+306: $DELETE #"299","Hhyht Tyahuoneet","Hum tdk:n tyahuoneissa, saatavissa vain laitoskayttaan",,,"N","1","14677"
 +299: ref(306)
-307: $DELETE #"PERINTA","Perintakokoelma","Yksi kappale perinn�ss�","Perintakokoelma",,"Y","1","1"
+307: $DELETE #"PERINTA","Perintakokoelma","Yksi kappale perinnassa","Perintakokoelma",,"Y","1","1"
 +PERINTA: ref(307)
-308: $DELETE #"231","Hhkou 7 vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+308: $DELETE #"231","Hhkou 7 vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +231: ref(308)
-309: $DELETE #"232","Hhkou y�laina - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+309: $DELETE #"232","Hhkou yalaina - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +232: ref(309)
-310: $DELETE #"233","Hhkou 0vrk - �L� K�YT�","Mets�talo K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+310: $DELETE #"233","Hhkou 0vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +233: ref(310)
-311: $DELETE #"149","Ht virkak�ytt�","Teologia, vain laitosk�ytt��n",,,"N","1","0"
+311: $DELETE #"149","Ht virkakaytta","Teologia, vain laitoskayttaan",,,"N","1","0"
 +149: ref(311)
-312: $DELETE #"02230","Hhkou Kouvola","Humanistisen tdk:n kirjasto, Kouvola - Ei k�ytett�viss�",,,"Y","1","0"
+312: $DELETE #"02230","Hhkou Kouvola","Humanistisen tdk:n kirjasto, Kouvola - Ei kaytettavissa",,,"Y","1","0"
 +02230: ref(312)
-313: $DELETE #"952","TYL 14vrk","Ty�v�enliikkeen kirjasto, 14 vrk. S�rn�isten rantatie 25.",,,"N","1","0"
+313: $DELETE #"952","TYL 14vrk","Tyavaenliikkeen kirjasto, 14 vrk. Sarnaisten rantatie 25.",,,"N","1","0"
 +952: ref(313)
 314: $DELETE #"409","Hs EL","Kumpulan kampuskirjaston elektroninen aineisto",,,"N","1","764"
 +409: ref(314)
-315: $DELETE #"906","0 B Aluetoim.p.","Museovirasto, aluetoimipisteet, vain sis�iseen k�ytt��n",,,"N","1","288"
+315: $DELETE #"906","0 B Aluetoim.p.","Museovirasto, aluetoimipisteet, vain sisaiseen kayttaan",,,"N","1","288"
 +906: ref(315)
-316: $DELETE #"195","Hoyks","Yksityisoikeuden laitoksen kirjasto, vain laitosk�ytt��n",,,"N","1","3087"
+316: $DELETE #"195","Hoyks","Yksityisoikeuden laitoksen kirjasto, vain laitoskayttaan",,,"N","1","3087"
 +195: ref(316)
-317: $DELETE #"9996","HY E-aineisto Ebrary","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","146013"
+317: $DELETE #"9996","HY E-aineisto Ebrary","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","146013"
 +9996: ref(317)
 318: $DELETE #"926","S varasto 28 vrk","SKS:n kirjasto, varasto; 28 vrk - Tee varastotilaus",,,"N","1","37449"
 +926: ref(318)
 319: $DELETE #"927","S varasto 0 vrk","SKS:n kirjasto, varasto; ei kotilainaan - Tee varastotilaus",,,"N","1","8740"
 +927: ref(319)
-320: $DELETE #"02000","HELKA-palvelut","HELKA - tekninen yll�pito","HELKA-palvelut",,"Y","1","0"
+320: $DELETE #"02000","HELKA-palvelut","HELKA - tekninen yllapito","HELKA-palvelut",,"Y","1","0"
 +02000: ref(320)
-321: $DELETE #"02001","OODI","OODI-j�rjestelm�",,,"Y","1","0"
+321: $DELETE #"02001","OODI","OODI-jarjestelma",,,"Y","1","0"
 +02001: ref(321)
-322: $DELETE #"928","S et�varasto 28 vrk","SKS:n kirjasto, et�varasto; 28 vrk - Tee aineistopyynt�",,,"N","1","0"
+322: $DELETE #"928","S etavarasto 28 vrk","SKS:n kirjasto, etavarasto; 28 vrk - Tee aineistopyynta",,,"N","1","0"
 +928: ref(322)
 323: $DELETE #"03151","H3 Poistot 2008","Kaisa-talo, poistettavat niteet","POISTETTU",,"Y","1","0"
 +03151: ref(323)
@@ -669,35 +669,35 @@
 +411: ref(328)
 329: $DELETE #"412","Hs Opin 28 vrk","Kumpulan kampuskirjasto, ML-tdk:n opinn., laina-aika 28 vrk","412",,"N","1","2357"
 +412: ref(329)
-330: $DELETE #"KUOPIOON","Matkalla Kuopioon","SIIRRETTY / SIIRTYM�SS�  KUOPION VARASTOKIRJASTOON",,,"N","1","0"
+330: $DELETE #"KUOPIOON","Matkalla Kuopioon","SIIRRETTY / SIIRTYMaSSa  KUOPION VARASTOKIRJASTOON",,,"N","1","0"
 +KUOPIOON: ref(330)
-331: $DELETE #"KARSINTA","Karsintakokoelma","Karsintakokoelma, ei k�ytett�viss�","Karsintakokoelma",,"Y","1","0"
+331: $DELETE #"KARSINTA","Karsintakokoelma","Karsintakokoelma, ei kaytettavissa","Karsintakokoelma",,"Y","1","0"
 +KARSINTA: ref(331)
-332: $DELETE #"155","H3 Varasto","Opiskelijakirjasto, K�YTETT�VISS� syyskuussa 2012","POISTETTU",,"N","1","0"
+332: $DELETE #"155","H3 Varasto","Opiskelijakirjasto, KaYTETTaVISSa syyskuussa 2012","POISTETTU",,"N","1","0"
 +155: ref(332)
-333: $DELETE #"234","Hhu38 Uutuushylly","Topelia K�YTETT�VISS� 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
+333: $DELETE #"234","Hhu38 Uutuushylly","Topelia KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +234: ref(333)
 334: $DELETE #"907","0 B Varastokok 0 vrk","Museovirasto Varasto 0 vrk",,,"N","1","3211"
 +907: ref(334)
-335: $DELETE #"156","H3 hakuteokset 0vrk","Opiskelijakirjasto K�YTETT�VISS� 3.9.2012 KAISA-TALOSSA","POISTETTU",,"N","1","0"
+335: $DELETE #"156","H3 hakuteokset 0vrk","Opiskelijakirjasto KaYTETTaVISSa 3.9.2012 KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +156: ref(335)
-336: $DELETE #"157","H3 Osakuntakok. 28vrk","Opiskelijakirjasto, K�YTETT�VISS� syyskuussa 2012","POISTETTU",,"N","1","0"
+336: $DELETE #"157","H3 Osakuntakok. 28vrk","Opiskelijakirjasto, KaYTETTaVISSa syyskuussa 2012","POISTETTU",,"N","1","0"
 +157: ref(336)
 337: $DELETE #"507","Hl lyhytlaina","Terkko Meilahti, 2 vrk","507",,"N","1","278"
 +507: ref(337)
-338: $DELETE #"526","Hlham lyhytlaina","Hammasl��ketieteen kirjasto, 2 vrk","526",,"N","1","0"
+338: $DELETE #"526","Hlham lyhytlaina","Hammaslaaketieteen kirjasto, 2 vrk","526",,"N","1","0"
 +526: ref(338)
 339: $DELETE #"01390","Hq H ja L","HUL Hq Hankinta- ja metadatapalvelut","01390",,"Y","1","0"
 +01390: ref(339)
 340: $DELETE #"03390","Hq Poistot","Hq Poistot","03390",,"Y","1","4095"
 +03390: ref(340)
-341: $DELETE #"390","Hq Keskitetyt, ty�huone","HULib, saatavissa vain laitosk�ytt��n","390",,"N","1","146"
+341: $DELETE #"390","Hq Keskitetyt, tyahuone","HULib, saatavissa vain laitoskayttaan","390",,"N","1","146"
 +390: ref(341)
 342: $DELETE #"680","0HULTMP Hb mono","Viikin kampuskirjasto, monografiat (T)","680",,"N","1","3"
 +680: ref(342)
 343: $DELETE #"681","0HULTMP Hb kurs","Viikin kampuskirjasto, kurssikirjat (T)","681",,"N","1","32"
 +681: ref(343)
-344: $DELETE #"682","0HULTMP Hb lait","Viikin kampuskirjasto, vain laitosten k�ytt��n (T)","682",,"N","1","18"
+344: $DELETE #"682","0HULTMP Hb lait","Viikin kampuskirjasto, vain laitosten kayttaan (T)","682",,"N","1","18"
 +682: ref(344)
 345: $DELETE #"3850","zHULTMP H3 28/14vrk","Kaisa-talo, 28 vrk (T)","3850",,"N","1","0"
 +3850: ref(345)
@@ -707,9 +707,9 @@
 +3853: ref(347)
 348: $DELETE #"3856","zHULTMP H3 0vrk","Kaisa-talo, ei kotilainaan (T)","3856",,"N","1","0"
 +3856: ref(348)
-349: $DELETE #"3861","0HULTMP Hk 28vrk","K�ytt�ytymistieteet / Minerva, 28vrk (T)","3861",,"N","1","0"
+349: $DELETE #"3861","0HULTMP Hk 28vrk","Kayttaytymistieteet / Minerva, 28vrk (T)","3861",,"N","1","0"
 +3861: ref(349)
-350: $DELETE #"3863","0HULTMP Hk 0vrk","K�ytt�ytymistieteet / Minerva, 0vrk (T)","3863",,"N","1","0"
+350: $DELETE #"3863","0HULTMP Hk 0vrk","Kayttaytymistieteet / Minerva, 0vrk (T)","3863",,"N","1","0"
 +3863: ref(350)
 351: $DELETE #"3891","zHULTMP Ho 0vrk","Kaisa-talo, ei kotilainaan (T)","3891",,"N","1","0"
 +3891: ref(351)
@@ -761,45 +761,45 @@
 +3825: ref(374)
 375: $DELETE #"3828","zHULTMP Hhsuo 2vrk","Kaisa-talo, 2 vrk (T)","3828",,"N","1","0"
 +3828: ref(375)
-376: $DELETE #"3862","0HULTMP Hk 2vrk","K�ytt�ytymistieteet / Minerva, laina-aika 2vrk (T)","3862",,"N","1","0"
+376: $DELETE #"3862","0HULTMP Hk 2vrk","Kayttaytymistieteet / Minerva, laina-aika 2vrk (T)","3862",,"N","1","0"
 +3862: ref(376)
-377: $DELETE #"3864","0HULTMP Hk 14vrk","K�ytt�ytymistieteet / Minerva, laina-aika 14vrk (T)","3864",,"N","1","0"
+377: $DELETE #"3864","0HULTMP Hk 14vrk","Kayttaytymistieteet / Minerva, laina-aika 14vrk (T)","3864",,"N","1","0"
 +3864: ref(377)
-378: $DELETE #"3809","0HULTMP Hhyht Lait 0vrk","Hum. tdk, vain laitosten k�ytt��n (T)","3809",,"N","1","42"
+378: $DELETE #"3809","0HULTMP Hhyht Lait 0vrk","Hum. tdk, vain laitosten kayttaan (T)","3809",,"N","1","42"
 +3809: ref(378)
-379: $DELETE #"3847","0HULTMP Htlait 0vrk","Teol. tdk, vain tiedekunnan henkil�st�n k�ytt��n (T)","3847",,"N","1","6"
+379: $DELETE #"3847","0HULTMP Htlait 0vrk","Teol. tdk, vain tiedekunnan henkilastan kayttaan (T)","3847",,"N","1","6"
 +3847: ref(379)
-380: $DELETE #"3867","0HULTMP Hklait 0vrk","K�ytt. tdk, vain laitosten k�ytt��n (T)","3867",,"N","1","0"
+380: $DELETE #"3867","0HULTMP Hklait 0vrk","Kaytt. tdk, vain laitosten kayttaan (T)","3867",,"N","1","0"
 +3867: ref(380)
-381: $DELETE #"3890","0HULTMP Holait 0vrk","Oik. tdk, vain laitosten k�ytt��n (T)","3890",,"N","1","62"
+381: $DELETE #"3890","0HULTMP Holait 0vrk","Oik. tdk, vain laitosten kayttaan (T)","3890",,"N","1","62"
 +3890: ref(381)
-382: $DELETE #"9002","0 B 14vrk (9002)","Museoviraston kirjasto, k�sitelt�v�n�, ei lainata","9002",,"Y","1","544"
+382: $DELETE #"9002","0 B 14vrk (9002)","Museoviraston kirjasto, kasiteltavana, ei lainata","9002",,"Y","1","544"
 +9002: ref(382)
-383: $DELETE #"9001","0 B Ty�huone","Museovirasto, Ty�huonekirjat, vain sis�iseen k�ytt��n","9001",,"N","1","442"
+383: $DELETE #"9001","0 B Tyahuone","Museovirasto, Tyahuonekirjat, vain sisaiseen kayttaan","9001",,"N","1","442"
 +9001: ref(383)
 384: $DELETE #"9009","0 B RHO (9009)","Museoviraston kirjasto, ei kotilainaan",,,"N","1","1613"
 +9009: ref(384)
 385: $DELETE #"259","Hteku 0vrk","Kaisa-talo, ei kotilainaan","POISTETTU",,"N","1","0"
 +259: ref(385)
-386: $DELETE #"929","S et�varasto 0 vrk","SKS:n kirjasto, et�varasto; ei kotilainaan - Aineistopyynt�","929",,"N","1","0"
+386: $DELETE #"929","S etavarasto 0 vrk","SKS:n kirjasto, etavarasto; ei kotilainaan - Aineistopyynta","929",,"N","1","0"
 +929: ref(386)
 387: $DELETE #"03310","Hc Poistot 03310","Kaisa-talo, poistettu aineisto","POISTETTU",,"Y","1","0"
 +03310: ref(387)
-388: $DELETE #"186","Sk Tritonia","Svenska social- och kommunalh�gskolan, Tritonia Vasa","186",,"Y","1","26"
+388: $DELETE #"186","Sk Tritonia","Svenska social- och kommunalhagskolan, Tritonia Vasa","186",,"Y","1","26"
 +186: ref(388)
-389: $DELETE #"99920","HY EL OSO EBA 2018","Elektroninen aineisto - k�ytt� HY:n verkossa","HY EL Testi 0",,"N","1","15337"
+389: $DELETE #"99920","HY EL OSO EBA 2018","Elektroninen aineisto - kaytta HY:n verkossa","HY EL Testi 0",,"N","1","15337"
 +99920: ref(389)
-390: $DELETE #"99921","HY EL Cambridge TMP","Elektroninen aineisto - k�ytt� HY:n verkossa","HY EL Testi 1",,"N","1","0"
+390: $DELETE #"99921","HY EL Cambridge TMP","Elektroninen aineisto - kaytta HY:n verkossa","HY EL Testi 1",,"N","1","0"
 +99921: ref(390)
-391: $DELETE #"99922","HY EL PDA TMP","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","0"
+391: $DELETE #"99922","HY EL PDA TMP","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","0"
 +99922: ref(391)
-392: $DELETE #"953","TYL EL","Ty�v�enliikkeen kirjasto, elektroninen aineisto",,,"N","1","136"
+392: $DELETE #"953","TYL EL","Tyavaenliikkeen kirjasto, elektroninen aineisto",,,"N","1","136"
 +953: ref(392)
 393: $DELETE #"508","Hl esineet","Terkko Meilahti, lainattavat esineet","508",,"N","1","0"
 +508: ref(393)
 394: $DELETE #"611","Hb esineet","Viikin kampuskirjasto, lainattavat esineet","611",,"N","1","3"
 +611: ref(394)
-395: $DELETE #"730","Hxai 28vrk","Aleksanteri-instituutti, vain laitoksen k�ytt��n","730",,"N","1","3522"
+395: $DELETE #"730","Hxai 28vrk","Aleksanteri-instituutti, vain laitoksen kayttaan","730",,"N","1","3522"
 +730: ref(395)
 396: $DELETE #"413","Hs esineet","Kumpulan kampuskirjasto, lainattavat esineet","413",,"N","1","3"
 +413: ref(396)
@@ -813,7 +813,7 @@
 +304: ref(400)
 401: $DELETE #"305","Hc 305 K4/K3 Sulkok 14vrk","Kaisa-talo, 14 vrk","305",,"N","1","8040"
 +305: ref(401)
-402: $DELETE #"306","Hc 306 K4 Opinn�ytteet","Kaisa-talo, ei kotilainaan","306",,"N","1","79200"
+402: $DELETE #"306","Hc 306 K4 Opinnaytteet","Kaisa-talo, ei kotilainaan","306",,"N","1","79200"
 +306: ref(402)
 403: $DELETE #"307","Hc 307 Lehdet","Kaisa-talo, ei kotilainaan","307",,"N","1","7154"
 +307: ref(403)
@@ -829,7 +829,7 @@
 +313: ref(408)
 409: $DELETE #"314","Hc 314 K3 kaunok 28vrk","Kaisa-talo, 28 vrk","314",,"N","1","113486"
 +314: ref(409)
-410: $DELETE #"317","Hc 317 K3 siirtokok","Kaisa-talo, k�sittelyss�,saatavissa vain laitosk�ytt��n","317",,"N","1","1098"
+410: $DELETE #"317","Hc 317 K3 siirtokok","Kaisa-talo, kasittelyssa,saatavissa vain laitoskayttaan","317",,"N","1","1098"
 +317: ref(410)
 411: $DELETE #"318","Hc 318 K2 28vrk","Kaisa-talo, 28 vrk","318",,"N","1","83"
 +318: ref(411)
@@ -863,13 +863,13 @@
 +334: ref(425)
 426: $DELETE #"335","Hc 335 K4 vanhkurss 28vrk","Kaisa-talo, 28 vrk","335",,"N","1","3223"
 +335: ref(426)
-427: $DELETE #"338","Hc 338 3krs uutuush","Kaisa-talo, 3. krs, uutuushylly ja n�yttelyalue","338",,"N","1","0"
+427: $DELETE #"338","Hc 338 3krs uutuush","Kaisa-talo, 3. krs, uutuushylly ja nayttelyalue","338",,"N","1","0"
 +338: ref(427)
 428: $DELETE #"339","Hc 339 Elektr aineisto","Keskustakampus, elektroninen aineisto","339",,"N","1","2821"
 +339: ref(428)
 429: $DELETE #"340","Hc 340 4krs 0vrk","Kaisa-talo, ei kotilainaan","340",,"N","1","10726"
 +340: ref(429)
-430: $DELETE #"341","Hc 341 4krs 2vrk","Toistaiseksi pois k�yt�st�. Temporarily out of use.","341",,"N","1","0"
+430: $DELETE #"341","Hc 341 4krs 2vrk","Toistaiseksi pois kaytasta. Temporarily out of use.","341",,"N","1","0"
 +341: ref(430)
 431: $DELETE #"342","Hc 342 4krs 14vrk","Kaisa-talo, 14 vrk","342",,"N","1","6"
 +342: ref(431)
@@ -903,65 +903,65 @@
 +249: ref(445)
 446: $DELETE #"337","Hc 337 3krs sanleh","Kaisa-talo, ei kotilainaan","337",,"N","1","22"
 +337: ref(446)
-447: $DELETE #"3780","Hc Ty�huoneet","Kaisa-talo, saatavissa vain ty�huonek�ytt��n","3780",,"N","1","111"
+447: $DELETE #"3780","Hc Tyahuoneet","Kaisa-talo, saatavissa vain tyahuonekayttaan","3780",,"N","1","111"
 +3780: ref(447)
 448: $DELETE #"914","Kotus sulvar 0vrk","Kotimaisten kielten keskus, suljettu varasto, ei saatavana","914",,"N","1","41"
 +914: ref(448)
-450: $DELETE #"527","Hlham opinn","Hammasl��ketieteen kirjasto opinn�ytteet, ei kotilainaan","527",,"N","1","0"
+450: $DELETE #"527","Hlham opinn","Hammaslaaketieteen kirjasto opinnaytteet, ei kotilainaan","527",,"N","1","0"
 +527: ref(450)
-451: $DELETE #"3781","Hc Erityisk�ytt�","Kaisa-talo, erityisk., saatavissa vain laitosk�ytt��n","3781",,"N","1","0"
+451: $DELETE #"3781","Hc Erityiskaytta","Kaisa-talo, erityisk., saatavissa vain laitoskayttaan","3781",,"N","1","0"
 +3781: ref(451)
-452: $DELETE #"9005","B EL raj v�liaik","Elektroninen aineisto, k�ytt� vain Museoviraston tunnuksilla","9005",,"N","1","2153"
+452: $DELETE #"9005","B EL raj valiaik","Elektroninen aineisto, kaytta vain Museoviraston tunnuksilla","9005",,"N","1","2153"
 +9005: ref(452)
-453: $DELETE #"9006","B EL raj pysyv�","Elektroninen aineisto, k�ytt� vain Museoviraston tunnuksilla","9006",,"N","1","35"
+453: $DELETE #"9006","B EL raj pysyva","Elektroninen aineisto, kaytta vain Museoviraston tunnuksilla","9006",,"N","1","35"
 +9006: ref(453)
-454: $DELETE #"9993","HULib EL hankinta","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","1"
+454: $DELETE #"9993","HULib EL hankinta","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","1"
 +9993: ref(454)
 455: $DELETE #"3730","Hc 3730 3krs 0vrk","Kaisa-talo, ei kotilainaan","3730",,"N","1","214"
 +3730: ref(455)
-456: $DELETE #"9997","HY E-aineisto EBSCO AC","Elektroninen aineisto - k�ytt� HY:n verkossa","9997",,"N","1","169368"
+456: $DELETE #"9997","HY E-aineisto EBSCO AC","Elektroninen aineisto - kaytta HY:n verkossa","9997",,"N","1","169368"
 +9997: ref(456)
-457: $DELETE #"2421","0HsPKurs","Kumpulan kampuskirjasto, ei viel� k�ytett�viss�","2421",,"N","1","8"
+457: $DELETE #"2421","0HsPKurs","Kumpulan kampuskirjasto, ei viela kaytettavissa","2421",,"N","1","8"
 +2421: ref(457)
-458: $DELETE #"2401","0HsPMon","Kumpulan kampuskirjasto, ei viel� k�ytett�viss�","2401",,"N","1","8"
+458: $DELETE #"2401","0HsPMon","Kumpulan kampuskirjasto, ei viela kaytettavissa","2401",,"N","1","8"
 +2401: ref(458)
-459: $DELETE #"2431","x0HsEKurs","Viikin kampuskirjasto, ei k�yt�ss�","2431",,"N","1","0"
+459: $DELETE #"2431","x0HsEKurs","Viikin kampuskirjasto, ei kaytassa","2431",,"N","1","0"
 +2431: ref(459)
-460: $DELETE #"2411","x0HsEMon","Viikin kampuskirjasto, ei k�yt�ss�","2411",,"N","1","0"
+460: $DELETE #"2411","x0HsEMon","Viikin kampuskirjasto, ei kaytassa","2411",,"N","1","0"
 +2411: ref(460)
-461: $DELETE #"2321","0HcPKurs","Kaisa-talo, ei viel� k�ytett�viss�","2321",,"N","1","76"
+461: $DELETE #"2321","0HcPKurs","Kaisa-talo, ei viela kaytettavissa","2321",,"N","1","76"
 +2321: ref(461)
-462: $DELETE #"2331","0HqE","Elektroninen aineisto - k�ytt� HY:n verkossa - HANKINNASSA","2331",,"N","1","22"
+462: $DELETE #"2331","0HqE","Elektroninen aineisto - kaytta HY:n verkossa - HANKINNASSA","2331",,"N","1","22"
 +2331: ref(462)
-463: $DELETE #"2301","0HcPMon","Kaisa-talo, ei viel� k�ytett�viss�","2301",,"N","1","511"
+463: $DELETE #"2301","0HcPMon","Kaisa-talo, ei viela kaytettavissa","2301",,"N","1","511"
 +2301: ref(463)
-464: $DELETE #"2311","x0HcEMon","Kaisa-talo, ei k�yt�ss�","2311",,"N","1","0"
+464: $DELETE #"2311","x0HcEMon","Kaisa-talo, ei kaytassa","2311",,"N","1","0"
 +2311: ref(464)
-465: $DELETE #"2521","0HlPKurs","Terkko, ei viel� k�ytett�viss�","2521",,"N","1","7"
+465: $DELETE #"2521","0HlPKurs","Terkko, ei viela kaytettavissa","2521",,"N","1","7"
 +2521: ref(465)
-466: $DELETE #"2531","x0HlEKurs","Terkko, ei k�yt�ss�","2531",,"N","1","0"
+466: $DELETE #"2531","x0HlEKurs","Terkko, ei kaytassa","2531",,"N","1","0"
 +2531: ref(466)
-467: $DELETE #"2501","0HlPMon","Terkko, ei viel� k�ytett�viss�","2501",,"N","1","6"
+467: $DELETE #"2501","0HlPMon","Terkko, ei viela kaytettavissa","2501",,"N","1","6"
 +2501: ref(467)
-468: $DELETE #"2511","x0HlEMon","Terkko, ei k�yt�ss�","2511",,"N","1","0"
+468: $DELETE #"2511","x0HlEMon","Terkko, ei kaytassa","2511",,"N","1","0"
 +2511: ref(468)
-469: $DELETE #"2621","0HbPKurs","Viikin kampuskirjasto, ei viel� k�ytett�viss�","2621",,"N","1","6"
+469: $DELETE #"2621","0HbPKurs","Viikin kampuskirjasto, ei viela kaytettavissa","2621",,"N","1","6"
 +2621: ref(469)
-470: $DELETE #"2601","0HbPMon","Viikin kampuskirjasto, ei viel� k�ytett�viss�","2601",,"N","1","13"
+470: $DELETE #"2601","0HbPMon","Viikin kampuskirjasto, ei viela kaytettavissa","2601",,"N","1","13"
 +2601: ref(470)
-471: $DELETE #"2611","x0HbEMon","Viikin kampuskirjasto, ei k�yt�ss�","2611",,"N","1","0"
+471: $DELETE #"2611","x0HbEMon","Viikin kampuskirjasto, ei kaytassa","2611",,"N","1","0"
 +2611: ref(471)
-472: $DELETE #"2631","x0HbEKurs","Viikin kampuskirjasto, ei k�yt�ss�","2631",,"N","1","0"
+472: $DELETE #"2631","x0HbEKurs","Viikin kampuskirjasto, ei kaytassa","2631",,"N","1","0"
 +2631: ref(472)
-473: $DELETE #"721","Hxayo","Avoin yliopisto, vain henkil�kunnan k�yt�ss�","721",,"N","1","106"
+473: $DELETE #"721","Hxayo","Avoin yliopisto, vain henkilakunnan kaytassa","721",,"N","1","106"
 +721: ref(473)
-474: $DELETE #"99923","HY EL DeGruyter EBA TMP","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","0"
+474: $DELETE #"99923","HY EL DeGruyter EBA TMP","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","0"
 +99923: ref(474)
-475: $DELETE #"99945","HY Tietokannat","Elektroninen aineisto - k�ytt� HY:n verkossa",,,"N","1","603"
+475: $DELETE #"99945","HY Tietokannat","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","603"
 +99945: ref(475)
 476: $DELETE #"930","S EL OA","SKS:n kirjasto; elektroninen aineisto","930",,"N","1","320"
 +930: ref(476)
 477: $DELETE #"931","S EL lainattavat","SKS:n kirjasto; elektroninen aineisto","931",,"Y","1","0"
 +931: ref(477)
  
-_DEFAULT_: branchLoc(HAMK, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
+_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
