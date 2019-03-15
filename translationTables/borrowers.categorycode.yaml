@@ -7,10 +7,10 @@
 ## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
 ##
  
-1: LSTUDENT      #Opiskelijat
-2: LSTAFF        #Henkilokunta
-3: LOTHER        #Ulkopuoliset asiakkaat
-4: LKIRJASTO     #Kaukopalveluasiakkaat
+1: ASIAK      #Opiskelijat. Opiskelijat ja muut asiakkaat menevät saman borrowers-kategorian alle
+2: LHKUNTA        #Henkilokunta
+3: ASIAK        #Ulkopuoliset asiakkaat. Opiskelijat ja muut asiakkaat menevät saman borrowers-kategorian alle
+4: KAUKO     #Kaukopalveluasiakkaat
 
 #UNKNOWN: $DELETE         # Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 UNKNOWN: KONVERSIO         # Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
