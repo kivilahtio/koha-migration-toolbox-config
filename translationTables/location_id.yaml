@@ -15,7 +15,7 @@
 +Al-varasto: ref(3)
 2:   branchLoc(AL,YLEIS)		#Al-yleis  ,Alkio yleiskokoelma
 +Al-yleis: ref(2)
-105: branchLoc(EI_KOHAAN, EI_KUCIRC, EI_KOHAAN)		#KU-CIRC   ,TKI-OTTO/KUOPIO
+105: branchLoc(PS)		#KU-CIRC   ,TKI-OTTO/KUOPIO
 +KU-CIRC: ref(105)
 110: branchLoc(HE,YLEIS)		#He-yleis  ,Helsinki yleiskokoelma
 +He-yleis: ref(110)
@@ -187,7 +187,7 @@
 +Ku-kurssi: ref(107)
 108: branchLoc(EI_KOHAAN,EI_TUYLEIS,EI_KOHAAN)		#Tu-yleis  ,Turku yleiskokoelma
 +Tu-yleis: ref(108)
-109: branchLoc(EI_KOHAAN,EI_TUCIRC,EI_KOHAAN)		#TU-CIRC   ,TURKU/LOGOMO
+109: branchLoc(PA)		#TU-CIRC   ,TURKU/LOGOMO
 +TU-CIRC: ref(109)
 126: branchLoc(PS,AUTOM)		#KU-SELFLOG,P-SAVON OPISTO/KUOPIO.
 +KU-SELFLOG: ref(126)
