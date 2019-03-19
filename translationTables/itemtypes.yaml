@@ -9,12 +9,14 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW
-4: LAINA0
-3: LAINA14  #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
-2: LAINA28
-5: LAINA14
-6: LAINA14   #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
+1: REVIEW # REVIEW     REVIEW                    REVIEW
+2: 0 # 0          käsikirja                 käsikirja (ei lainata)
+3: 28 # 28         4 viikon laina            4 viikon laina
+4: 7 # 7          1 viikon laina            1 viikon laina
+5: 14 # 14         2 viikon laina            2 viikon laina                
+6: 300 # 300        10 kuukauden laina        10 kuukauden laina
+7: 365 # 365        12 kuukauden laina        12 kuukauden laina
+8: 730 # 730        24 kuukauden laina        24 kuukauden laina
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
