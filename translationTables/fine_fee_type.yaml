@@ -21,5 +21,11 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
+# Mitä näille tehdään:
+#11 Interlibrary Loan Fee     RenameF8
+#12 New Library Card          RenameF9
+#13 Copying Fee               H1
+#14 Other Fees                H2
+#15 Invoice fee               F11
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
