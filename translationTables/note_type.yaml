@@ -13,3 +13,4 @@
 4:       Phone
 5:       popUp()              # Pop-Up, handle special logic in a separate function.
 6:       Universal Borrowing
+# 7: Toimitusosoite – miten tämä hoidetaan?
