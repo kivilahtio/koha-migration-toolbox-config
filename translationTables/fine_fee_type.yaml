@@ -21,5 +21,8 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
+# Mitä näille tehdään:
+# 11 Kaukolaina                KL
+# 12 Artikkelikopio            KO
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
