@@ -1,235 +1,465 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1:   branchLoc(EI_KOHAAN,EI_REVIEW,EI_KOHAAN)		#REVIEW    ,Ip-lainaus
+1: branchLoc() # REVIEW     Kysy virkailijalta - Fråga personalen (REVIEW)
 +REVIEW: ref(1)
-6:   branchLoc(AL,OPE)		#Al-opet   ,Alkio henkilkunta
-+Al-opet: ref(6)
-7:   branchLoc(AL,REF)		#Al-ref    ,Alkio ksikirjat
-+Al-ref: ref(7)
-5:   branchLoc(EI_KOHAAN,EI_ALLUKU,EI_KOHAAN)		#Al-luku   ,Alkio lukusali
-+Al-luku: ref(5)
-4:   branchLoc(AL,KURSSI)		#Al-kurssi ,Alkio Kurssikirjat
-+Al-kurssi: ref(4)
-3:   branchLoc(AL,VAR)		#Al-varasto,Alkio varasto
-+Al-varasto: ref(3)
-2:   branchLoc(AL,YLEIS)		#Al-yleis  ,Alkio yleiskokoelma
-+Al-yleis: ref(2)
-105: branchLoc(PS)		#KU-CIRC   ,TKI-OTTO/KUOPIO
-+KU-CIRC: ref(105)
-110: branchLoc(HE,YLEIS)		#He-yleis  ,Helsinki yleiskokoelma
-+He-yleis: ref(110)
-111: branchLoc(HE,REF)		#He-ref    ,Helsinki ksikirjat
-+He-ref: ref(111)
-8:   branchLoc(EI_KOHAAN,EI_HAYLEIS,EI_KOHAAN)		#Ha-yleis  ,H:vesi yleiskokoelma
-+Ha-yleis: ref(8)
-63:  branchLoc(EI_KOHAAN,EI_JOAV,EI_KOHAAN)		#Jo-av     ,Joutseno Av
-+Jo-av: ref(63)
-112: branchLoc(EI_KOHAAN,EI_HEOPET,EI_KOHAAN)		#He-opet   ,Helsinki opetuskappale
-+He-opet: ref(112)
-14:  branchLoc(EI_KOHAAN,EI_JOKURSSI,EI_KOHAAN)		#Jo-kurssi ,Joutseno kurssikirjat
-+Jo-kurssi: ref(14)
-113: branchLoc(HE,VAR)		#He-varasto,Helsinki varasto
-+He-varasto: ref(113)
-17:  branchLoc(EI_KOHAAN,EI_JOPIN,EI_KOHAAN)		#Jo-opin   ,Joutseno opinnytteet
-+Jo-opin: ref(17)
-13:  branchLoc(EI_KOHAAN,EI_JOVARASTO,EI_KOHAAN)		#Jo-varasto,Joutseno varasto
-+Jo-varasto: ref(13)
-12:  branchLoc(EI_KOHAAN,EI_JOYLEIS,EI_KOHAAN)		#Jo-yleis  ,Joutseno yleiskokoelma
-+Jo-yleis: ref(12)
-19:  branchLoc(EI_KOHAAN,EI_KAKURSSI,EI_KOHAAN)		#Ka-kurssi ,K:jrvi kurssikirjat
-+Ka-kurssi: ref(19)
-114: branchLoc(EI_KOHAAN,EI_HEAV,EI_KOHAAN)		#He-av     ,Helsinki Av
-+He-av: ref(114)
-21:  branchLoc(EI_KOHAAN,EI_KAOPIN,EI_KOHAAN)		#Ka-opin   ,K:jrvi opinnäytteet
-+Ka-opin: ref(21)
-18:  branchLoc(EI_KOHAAN,EI_KAYLEIS,EI_KOHAAN)		#Ka-yleis  ,K:jrvi yleiskokoelma
-+Ka-yleis: ref(18)
-26:  branchLoc(EI_KOHAAN,EI_KIAV,EI_KOHAAN)		#Ki-av     ,Kiljava Av
-+Ki-av: ref(26)
-23:  branchLoc(EI_KOHAAN,EI_KIKURSSI,EI_KOHAAN)		#Ki-kurssi ,Kiljava kurssikirjat
-+Ki-kurssi: ref(23)
-25:  branchLoc(EI_KOHAAN,EI_KIREF,EI_KOHAAN)		#Ki-ref    ,Kiljava käsikirjat
-+Ki-ref: ref(25)
-115: branchLoc(HE)		#HE-CIRC   ,KUUROJEN LIITTO/HELSINKI #happening location, asiakastiedot yhteydessä tähän
-+HE-CIRC: ref(115)
-22:  branchLoc(KI,YLEIS)		#Ki-yleis  ,Kiljava yleiskokoelma
-+Ki-yleis: ref(22)
-29:  branchLoc(EI_KOHAAN,EI_KSOPET,EI_KOHAAN)		#Ks-opet   ,K-Suomi henkiläkunta
-+Ks-opet: ref(29)
-30:  branchLoc(EI_KOHAAN,EI_KSREF,EI_KOHAAN)		#Ks-ref    ,K-Suomi käsikirjat
-+Ks-ref: ref(30)
-28:  branchLoc(EI_KOHAAN,EI_KSVARASTO,EI_KOHAAN)		#Ks-varasto,K-Suomi varasto
-+Ks-varasto: ref(28)
-27:  branchLoc(EI_KOHAAN,EI_KSYLEIS,EI_KOHAAN)		#Ks-yleis  ,K-Suomi yleiskokoelma
-+Ks-yleis: ref(27)
-32:  branchLoc(EI_KOHAAN,EI_PAOPET,EI_KOHAAN)		#Pa-opet   ,Paasikivi henkilökunta
-+Pa-opet: ref(32)
-33:  branchLoc(EI_KOHAAN,EI_PAREF,EI_KOHAAN)		#Pa-ref    ,Paasikivi käsikirjat
-+Pa-ref: ref(33)
-31:  branchLoc(PA,YLEIS)		#Pa-yleis  ,Paasikivi yleiskokoelma
-+Pa-yleis: ref(31)
-40:  branchLoc(EI_KOHAAN,EI_PAAV,EI_KOHAAN)		#Pk-av     ,P-Karjala Av
-+Pk-av: ref(40)
-38:  branchLoc(EI_KOHAAN,EI_PKOPET,EI_KOHAAN)		#Pk-opet   ,P-Karjala henkilökunta
-+Pk-opet: ref(38)
-36:  branchLoc(EI_KOHAAN,EI_PKKURSSI,EI_KOHAAN)		#Pk-kurssi ,P-Karjala kurssikirjat
-+Pk-kurssi: ref(36)
-39:  branchLoc(EI_KOHAAN,EI_PKREF,EI_KOHAAN)		#Pk-ref    ,P-Karjala ksikirjat
-+Pk-ref: ref(39)
-37:  branchLoc(EI_KOHAAN,EI_PKLUKU,EI_KOHAAN)		#Pk-luku   ,P-Karjala lukusali
-+Pk-luku: ref(37)
-41:  branchLoc(EI_KOHAAN,EI_PKOPIN,EI_KOHAAN)		#PK-opin   ,P-Karjala opinnytteet
-+PK-opin: ref(41)
-35:  branchLoc(EI_KOHAAN,EI_PKVARASTO,EI_KOHAAN)		#Pk-varasto,P-Karjala varasto
-+Pk-varasto: ref(35)
-34:  branchLoc(EI_KOHAAN,EI_PKYLEIS,EI_KOHAAN)		#Pk-yleis  ,P-Karjala yleiskokoelma
-+Pk-yleis: ref(34)
-47:  branchLoc(EI_KOHAAN,EI_PPAV,EI_KOHAAN)		#Pp-av     ,P-Pohjola Av
-+Pp-av: ref(47)
-116: branchLoc(EI_KOHAAN,EI_HECAT,EI_KOHAAN)		#HE-CAT    ,HELSINKI LUETTELOINTI
-+HE-CAT: ref(116)
-44:  branchLoc(EI_KOHAAN,EI_PPKURSSI,EI_KOHAAN)		#Pp-kurssi ,P-Pohjola kurssikirjat
-+Pp-kurssi: ref(44)
-42:  branchLoc(EI_KOHAAN,EI_PPYLEIS,EI_KOHAAN)		#Pp-yleis  ,P-Pohjola yleiskokoelma
-+Pp-yleis: ref(42)
-53:  branchLoc(EI_KOHAAN,EI_PSOPET,EI_KOHAAN)		#Ps-opet   ,P-Savo henkilkunta
-+Ps-opet: ref(53)
-50:  branchLoc(EI_KOHAAN,EI_PSKURSSI,EI_KOHAAN)		#Ps-kurssi ,P-Savo kurssikirjat
-+Ps-kurssi: ref(50)
-54:  branchLoc(PS,REF)		#Ps-ref    ,P-Savo ksikirjat
-+Ps-ref: ref(54)
-52:  branchLoc(PS,LEHDET)		#Ps-lehdet ,P-Savo lehdet
-+Ps-lehdet: ref(52)
-51:  branchLoc(EI_KOHAAN,EI_PSVARASTO,EI_KOHAAN)		#Ps-varasto,P-Savo varasto
-+Ps-varasto: ref(51)
-49:  branchLoc(PS,YLEIS)		#Ps-yleis  ,P-Savo yleiskokoelma
-+Ps-yleis: ref(49)
-61:  branchLoc(EI_KOHAAN,EI_TAAV,EI_KOHAAN)		#Ta-av     ,Akatemia Av
-+Ta-av: ref(61)
-59:  branchLoc(EI_KOHAAN,EI_TAOPET,EI_KOHAAN)		#Ta-opet   ,Akatemia henkilkunta
-+Ta-opet: ref(59)
-58:  branchLoc(TA,KURSSI)		#Ta-kurssi ,Akatemia kurssikirjat
-+Ta-kurssi: ref(58)
-60:  branchLoc(TA,REF)		#Ta-ref    ,Akatemia ksikirjat
-+Ta-ref: ref(60)
-57:  branchLoc(EI_KOHAAN,EI_TALEHDET,EI_KOHAAN)		#Ta-lehdet ,Akatemia lehdet
-+Ta-lehdet: ref(57)
-62:  branchLoc(EI_KOHAAN,EI_TAOPIN,EI_KOHAAN)		#Ta-opin   ,Akatemia opinnytteet
-+Ta-opin: ref(62)
-56:  branchLoc(TA,VAR)		#Ta-varasto,Akatemia varasto
-+Ta-varasto: ref(56)
-55:  branchLoc(TA,YLEIS)		#Ta-yleis  ,Akatemia yleiskokoelma
-+Ta-yleis: ref(55)
-64:  branchLoc(EI_KOHAAN,EI_ALCAT,EI_KOHAAN)		#AL-CAT    ,ALKIO LUETTELOINTI
-+AL-CAT: ref(64)
-66:  branchLoc(EI_KOHAAN,EI_KICAT,EI_KOHAAN)		#KI-CAT    ,KILJAVA LUETTELOINTI
-+KI-CAT: ref(66)
-68:  branchLoc(AL)		#AL-CIRC   ,ALKIO-OPISTO / JYVSKYL #happening location, asiakastietoja
-+AL-CIRC: ref(68)
-69:  branchLoc(EI_KOHAAN,EI_HACIRC,EI_KOHAAN)		#HA-CIRC   ,HAAPAVEDEN OPISTO
-+HA-CIRC: ref(69)
-70:  branchLoc(EI_KOHAAN,EI_JOCIRC,EI_KOHAAN)		#JO-CIRC   ,JOUTSENON OPISTO
-+JO-CIRC: ref(70)
-72:  branchLoc(EI_KOHAAN,EI_KACIRC,EI_KOHAAN)		#KA-CIRC   ,KANNELJRVEN OP. / LOHJA
-+KA-CIRC: ref(72)
-73:  branchLoc(KI)		#KI-CIRC   ,KILJAVAN OP. / NURMIJÄRVI #happening location, asiakastietoja
-+KI-CIRC: ref(73)
-74:  branchLoc(EI_KOHAAN,EI_KSCAT,EI_KOHAAN)		#KS-CAT    ,K-SUOMI LUETTELOINTI
-+KS-CAT: ref(74)
-75:  branchLoc(EI_KOHAAN,EI_KSCIRC,EI_KOHAAN)		#KS-CIRC   ,K-S OPISTO / ÄÄNEKOSKI
-+KS-CIRC: ref(75)
-76:  branchLoc(EI_KOHAAN,EI_PACAT,EI_KOHAAN)		#PA-CAT    ,PAASIKIVI LUETTELOINTI
-+PA-CAT: ref(76)
-77:  branchLoc(PA)		#PA-CIRC   ,PAASIKIVI-OPISTO / TURKU #happening location, asiakastietoja
-+PA-CIRC: ref(77)
-78:  branchLoc(EI_KOHAAN,EI_PKCAT,EI_KOHAAN)		#PK-CAT    ,P-KARJALA LUETTELOINTI
-+PK-CAT: ref(78)
-79:  branchLoc(EI_KOHAAN,EI_PKCIRC,EI_KOHAAN)		#PK-CIRC   ,P-KARJALAN OP. / JOENSUU
-+PK-CIRC: ref(79)
-81:  branchLoc(EI_KOHAAN,EI_PPCIRC,EI_KOHAAN)		#PP-CIRC   ,PERÄPOHJOLAN OP. / TORNIO
-+PP-CIRC: ref(81)
-82:  branchLoc(EI_KOHAAN,EI_PSCAT,EI_KOHAAN)		#PS-CAT    ,P-SAVO LUETTELOINTI
-+PS-CAT: ref(82)
-83:  branchLoc(PS)		#PS-CIRC   ,P-SAVON OPISTO/KUOPIO #happening location, asiakastietoja
-+PS-CIRC: ref(83)
-84:  branchLoc(EI_KOHAAN,EI_TACAT,EI_KOHAAN)		#TA-CAT    ,AKATEMIA LUETTELOINTI
-+TA-CAT: ref(84)
-85:  branchLoc(TA)		#TA-CIRC   ,TYVEN AKAT./KAUNIAINEN #happening location, asiakastietoja
-+TA-CIRC: ref(85)
-86:  branchLoc(EI_KOHAAN,EI_OPAC,EI_KOHAAN)		#OPAC      ,OPAC
-+OPAC: ref(86)
-88:  branchLoc(HUM,ELEOA)		#ELE       ,eAineistot
-+ELE: ref(88)
-89:  branchLoc(EI_KOHAAN,EI_VREF,EI_KOHAAN)		#V-ref     ,Varasto pp-ref
-+V-ref: ref(89)
-90:  branchLoc(EI_KOHAAN,EI_VOPET,EI_KOHAAN)		#V-opet    ,Varasto pp-opet
-+V-opet: ref(90)
-87:  branchLoc(EI_KOHAAN,EI_ALOPIN,EI_KOHAAN)		#Al-opin   ,Alkio opinnäytteet
-+Al-opin: ref(87)
-91:  branchLoc(EI_KOHAAN,EI_VAV,EI_KOHAAN)		#V-av      ,Varasto pp-av
-+V-av: ref(91)
-97:  branchLoc(EI_KOHAAN,EI_PAOPIN,EI_KOHAAN)		#Pa-opin   ,Paasikivi opinnäytteet
-+Pa-opin: ref(97)
-125: branchLoc(HUM,ELET)		#ELET      ,eAineistot, tietokannat
-+ELET: ref(125)
-100: branchLoc(EI_KOHAAN,EI_TALPR,EI_KOHAAN)		#Ta-lpr    ,Akatemia Lappeenrannan op
-+Ta-lpr: ref(100)
-101: branchLoc(HUM,ELEM)		#ELEE      ,eAineistot, Ellibs
-+ELEE: ref(101)
-102: branchLoc(EI_KOHAAN,EI_PAKURSSI,EI_KOHAAN)		#Pa-kurssi ,Paasikivi kurssikirjat
-+Pa-kurssi: ref(102)
-103: branchLoc(HUM,ELEM)		#ELEM      ,eAineistot, kirjauduttava
-+ELEM: ref(103)
-106: branchLoc(EI_KOHAAN,EI_KUYLEIS,EI_KOHAAN)		#Ku-yleis  ,Kuopio TKI- yleiskokoelma
-+Ku-yleis: ref(106)
-107: branchLoc(EI_KOHAAN,EI_KUKURSSI,EI_KOHAAN)		#Ku-kurssi ,Kuopio TKI-kurssikirjat
-+Ku-kurssi: ref(107)
-108: branchLoc(EI_KOHAAN,EI_TUYLEIS,EI_KOHAAN)		#Tu-yleis  ,Turku yleiskokoelma
-+Tu-yleis: ref(108)
-109: branchLoc(PA)		#TU-CIRC   ,TURKU/LOGOMO
-+TU-CIRC: ref(109)
-126: branchLoc(PS,AUTOM)		#KU-SELFLOG,P-SAVON OPISTO/KUOPIO.
-+KU-SELFLOG: ref(126)
-127: branchLoc(JKL,AUTOM)		#JY-SELFLOG,JYVÄSKYLÄ/AKSELI.
-+JY-SELFLOG: ref(127)
-129: branchLoc(PA,LEHDET)		#Pa-lehdet ,Paasikivi lehdet
-+Pa-lehdet: ref(129)
-104: branchLoc(EI_KOHAAN,EI_KIOPIT,EI_KOHAAN)		#Ki-opit   ,Kiljava Kauniaisten opinn
-+Ki-opit: ref(104)
-117: branchLoc(JKL,YLEIS)		#Al-tki    ,Jyvskyl TKI-yleiskokoel
-+Al-tki: ref(117)
-120: branchLoc(KI,AUTOM)		#KI-SELFLOG,KILJAVAN OP./NURMIJÄRVI.
-+KI-SELFLOG: ref(120)
-119: branchLoc(PA,AUTOM)		#TU-SELFLOG,PAASIKIVI-OPISTO/TURKU.
-+TU-SELFLOG: ref(119)
-124: branchLoc(HUM,PDA)		#ELEPDA    ,eAineistot, PDA/DDA
-+ELEPDA: ref(124)
-95:  branchLoc(HUM,ELEM)		#ELER      ,eAineistot, rajoitettu
-+ELER: ref(95)
-96:  branchLoc(EI_KOHAAN,EI_PKTIEDE,EI_KOHAAN)		#Pk-tiede  ,P-Karjala TIEDEPUISTO
-+Pk-tiede: ref(96)
-99:  branchLoc(EI_KOHAAN,EI_KIOPIN,EI_KOHAAN)		#Ki-opin   ,Kiljava opinnäytteet
-+Ki-opin: ref(99)
-121: branchLoc(JKL)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI #happening location, asiakastietoja
-+JY-CIRC: ref(121)
-123: branchLoc(TA,HUMAK)		#Ta-humak  ,Akatemia humak
-+Ta-humak: ref(123)
-92:  branchLoc(EI_KOHAAN,EI_VVARASTO,EI_KOHAAN)		#V-varasto ,Varasto pp-varasto
-+V-varasto: ref(92)
-93:  branchLoc(EI_KOHAAN,EI_VKURSSI,EI_KOHAAN)		#V-kurssi  ,Varasto pp-kurssi
-+V-kurssi: ref(93)
-94:  branchLoc(EI_KOHAAN,EI_VYLEIS,EI_KOHAAN)		#V-yleis   ,Varasto pp-yleis
-+V-yleis: ref(94)
-118: branchLoc(JKL,REF)		#Al-TKK    ,Jyväskylä TKI-käsikirjat
-+Al-TKK: ref(118)
-122: branchLoc(HUM,ELEM)		#ELEV      ,eAineistot, Vkirjahylly
-+ELEV: ref(122)
-128: branchLoc(HE,AUTOM)		#HE-SELFLOG,KUUROJEN LIITTO./HELSINKI
-+HE-SELFLOG: ref(128)
-130: branchLoc(KI,LEHDET)       #lehdet, Kiljava
-+Ki-lehdet: ref(130)
-131: branchLoc(HE,LEHDET)       #lehdet, Helsinki
-+He-lehdet: ref(131)
+2: branchLoc() # V100       Kysy virkailijalta-Fråga personalen (VYK:n kokoelma 100)
++V100: ref(2)
+3: branchLoc() # V110       Kysy virkailijalta-Fråga personalen(VYK:n yleiskokoelma 110)
++V110: ref(3)
+4: branchLoc() # bookEdu    1. krs-vån ED Pedagogik-Kasvatustiede-Education                                                                                                                        
++bookEdu: ref(4)
+5: branchLoc() # bookBus    3. krs-vån BU Taloustieteet-Ekonomi-Economics
++bookBus: ref(5)
+6: branchLoc() # bookNat    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
++bookNat: ref(6)
+7: branchLoc() # bookTec    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
++bookTec: ref(7)
+8: branchLoc() # jourSTOCK  1. krs-vån Lehdet-Tidskr.-Journals, EI LAIN.-LÅN. EJ
++jourSTOCK: ref(8)
+9: branchLoc() # VBIBLIOGRA 1. krs-vån Varasto-Magasin K114, Bibliografiat, EI LAINATA
++VBIBLIOGRA: ref(9)
+10: branchLoc() # VSARJAT    Kysy virkailijalta-Fråga personalen (vanha kok. 115 SARJAT)
++VSARJAT: ref(10)
+11: branchLoc() # Vseries08  1. krs-vån Sarjat-Serier
++Vseries08: ref(11)
+12: branchLoc() # bookSoc    4. krs-vån SO Yhteiskuntat.-Samhällsvetensk.-Social sciences
++bookSoc: ref(12)
+13: branchLoc() # bookHum    1. krs-vån HU Humanistiset tieteet-Humaniora-Humanities
++bookHum: ref(13)
+14: branchLoc() # V120       Kysy virkailijalta-Fråga personalen(VYK vanha käsik.kok.120)
++V120: ref(14)
+15: branchLoc() # refEdu     1. krs-vån ED Pedagogik-Kasvatustiede LÅNAS EJ-EI LAINATA
++refEdu: ref(15)
+16: branchLoc() # refBus     3. krs-vån BU Taloustieteet-Ekonomi, EI LAINATA-LÅNAS EJ
++refBus: ref(16)
+17: branchLoc() # refNat     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ                                                                                                                  
++refNat: ref(17)
+18: branchLoc() # refTec     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ
++refTec: ref(18)
+19: branchLoc() # refHum     1. krs-vån HU Hum. tieteet-Humaniora, EI LAINATA-LÅNAS EJ
++refHum: ref(19)
+20: branchLoc() # refSoc     4. krs-vån SO Yhteiskuntat.-Samh.vetensk.EI LAINATA-LÅNAS EJ
++refSoc: ref(20)
+21: branchLoc() # refGen     1. krs-vån GE Käsikirjat-Referensböcker,EI LAINATA-LÅNAS EJ
++refGen: ref(21)
+22: branchLoc() # Vpubl      1. krs-vån GE Vaasan yliopiston,Tritonian julk.-publ,EI LAIN
++Vpubl: ref(22)
+23: branchLoc() # textbook    2. krs-vån  Kursböcker - Kurssikirjat - Textbooks                                                                                                                     
++textbook: ref(23)
+24: branchLoc() # textbookSh  2. krs-vån KurssikYÖ - Kursb. NATTLÅN - Textbooks OVERNIGHT
++textbookSh: ref(24)
+25: branchLoc() # netpubl    Verkkojulkaisut - Onlineresurser - Online resources
++netpubl: ref(25)
+26: branchLoc() # statistics 1. krs-vån Tilastot - Statistik, EI LAINATA - LÅNAS EJ
++statistics: ref(26)
+27: branchLoc() # serEdu     1. krs-vån ED Pedagogik-Kasvatustiede Serier-Sarjat
++serEdu: ref(27)
+28: branchLoc() # serBus     3. krs-vån BU Taloustieteet-Ekonomi-Economics Sarjat-Serier
++serBus: ref(28)
+29: branchLoc() # serNat     3. krs-vån Vanha luonnontiedekokoelma
++serNat: ref(29)
+30: branchLoc() # serTec     3. krs-vån TE Tekniikka,luonnont.-Teknik,naturvetensk.SERIES                                                                                                           
++serTec: ref(30)
+31: branchLoc() # serHum     1. krs-vån HU Humanistiset tieteet-Humaniora Sarjat-Serier
++serHum: ref(31)
+32: branchLoc() # serSoc     4. krs-vån SO Yhteiskuntat.-Samhällsvetensk. Sarjat-Serier
++serSoc: ref(32)
+33: branchLoc() # dictioninf 1. krs-vån-1st floor GE Sanakirjat-Ordböcker-Dictionaries
++dictioninf: ref(33)
+34: branchLoc() # V160       Kysy virkailijalta-Fråga personalen (VYK:n vanha kok.160)
++V160: ref(34)
+35: branchLoc() # VthesGradu 1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesLAUD
++VthesGradu: ref(35)
+36: branchLoc() # Vthesmfill 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina.T111(kauk)                                                                                                           
++Vthesmfill: ref(36)
+37: branchLoc() # Vthesmfinf 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina. K110
++Vthesmfinf: ref(37)
+38: branchLoc() # VthesLic   1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-Theses LIS
++VthesLic: ref(38)
+39: branchLoc() # VthesDoct  1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesDISS
++VthesDoct: ref(39)
+40: branchLoc() # otherrec   2. krs Lainaus - Utlåning, Muut tallenteet
++otherrec: ref(40)
+41: branchLoc() # audiovis    Cataloging
++audiovis: ref(41)
+42: branchLoc() # datarec    datarec
++datarec: ref(42)
+43: branchLoc() # datarecref CD-ROM-levyt-CD-ROM-skivor, EI LAINATA-LÅNAS EJ
++datarecref: ref(43)
+44: branchLoc() # microform  2. krs-vån Kaukopalvelu-Fjärrlån                                                                                                                                       
++microform: ref(44)
+45: branchLoc() # lodman     Lodman-kok. Varasto. Ei lainata - lånas ej
++lodman: ref(45)
+46: branchLoc() # leisten    1. krs-vån Leistén - K114
++leisten: ref(46)
+47: branchLoc() # euBook     1. krs-vån EU-kokoelma - EU-samling Tiivishyllyt-Kompakthyll
++euBook: ref(47)
+48: branchLoc() # euJour     1. krs-vån EU-lehdet-tskr Tiivishyllyt-Kompakthyllor EI LAIN
++euJour: ref(48)
+49: branchLoc() # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
++euRef: ref(49)
+50: branchLoc() # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
++euStatref: ref(50)
+51: branchLoc() # Vprojects  Projekti, Ei voi varata-Kan ej reserveras-Cannot be reserved                                                                                                           
++Vprojects: ref(51)
+52: branchLoc() # Vworkroom  Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
++Vworkroom: ref(52)
+53: branchLoc() # HserBus    3. krs-vån BU Hankenin poistuva sarjako
++HserBus: ref(53)
+54: branchLoc() # HthesGradu 1. krs-vån SHH Opinnäytteet-Avhandlingar-Theses, LÅNAS EJ
++HthesGradu: ref(54)
+55: branchLoc() # VYYHTEISK  Vaasan yliop. hallintot. tdk - Vaasa Univ. FOR TEACHERS ONLY
++VYYHTEISK: ref(55)
+56: branchLoc() # VYjulkisjo Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYjulkisjo: ref(56)
+57: branchLoc() # VYjulkisoi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
++VYjulkisoi: ref(57)
+58: branchLoc() # VYsosTerv  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYsosTerv: ref(58)
+59: branchLoc() # VYKA-HA    Vaasan yliop. kauppatiet. tdk. Vaasa Univ. FOR TEACHERS ONLY
++VYKA-HA: ref(59)
+60: branchLoc() # VYmarkk    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYmarkk: ref(60)
+61: branchLoc() # VYjohtam   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYjohtam: ref(61)
+62: branchLoc() # VYtalousso Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYtalousso: ref(62)
+63: branchLoc() # VYtietotek Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYtietotek: ref(63)
+64: branchLoc() # VYtuotTal  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
++VYtuotTal: ref(64)
+65: branchLoc() # VYsahkot   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYsahkot: ref(65)
+66: branchLoc() # VYtuotAut  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYtuotAut: ref(66)
+67: branchLoc() # VYHUM      Vaasan yliop., hum. tdk, Vaasa University, FOR TEACHERS ONLY
++VYHUM: ref(67)
+68: branchLoc() # VYenglanti Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYenglanti: ref(68)
+69: branchLoc() # VYsaksa    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYsaksa: ref(69)
+70: branchLoc() # VYpohj     Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
++VYpohj: ref(70)
+71: branchLoc() # VYruotsi   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYruotsi: ref(71)
+72: branchLoc() # VYkielikyl Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYkielikyl: ref(72)
+73: branchLoc() # VYrom      Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
++VYrom: ref(73)
+74: branchLoc() # VYvenaja   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYvenaja: ref(74)
+75: branchLoc() # VYsuomi    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYsuomi: ref(75)
+76: branchLoc() # VYkielipal Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYkielipal: ref(76)
+77: branchLoc() # VYviest    Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
++VYviest: ref(77)
+78: branchLoc() # VYviestSem VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
++VYviestSem: ref(78)
+79: branchLoc() # OHinst     Åbo Akademi Vasa inst.samling - laitoskokoelma
++OHinst: ref(79)
+80: branchLoc() # OHthesGrad 1. krs-vån ÅA Vasa Avhandl.-Opinnäytt.-Theses,  LÅNAS EJ
++OHthesGrad: ref(80)
+81: branchLoc() # OHinstkurs Åbo Akademi Vasa inst. - laitos, Kursböcker-Kurssikirjat
++OHinstkurs: ref(81)
+82: branchLoc() # OHserier   1. krs-vån ED Serier - Sarjat
++OHserier: ref(82)
+83: branchLoc() # OHarbetsm  Fråga personalen - Kysy virkailijalta, 1. krs.-vån
++OHarbetsm: ref(83)
+84: branchLoc() # OH-Lycei   1. krs-vån Vasa svenska lyceums bibliotek - kirjasto                                                                                                                   
++OH-Lycei: ref(84)
+85: branchLoc() # OH-BI      Jakobstad-Pietarsaari Allegro
++OH-BI: ref(85)
+86: branchLoc() # OH-BIref   Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
++OH-BIref: ref(86)
+87: branchLoc() # OH-BIkursb Jakobstad-Pietarsaari Allegro Kursböcker-Kurssikirjat-Textb.
++OH-BIkursb: ref(87)
+88: branchLoc() # OH-BIser   Jakobstad-Pietarsaari Allegro
++OH-BIser: ref(88)
+89: branchLoc() # VYLML      VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
++VYLML: ref(89)
+90: branchLoc() # VYKA-TE    Vaasan yliop. tekn. tdk. -Vaasa University FOR TEACHERS ONLY
++VYKA-TE: ref(90)
+91: branchLoc() # VYlaskenta Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
++VYlaskenta: ref(91)
+92: branchLoc() # VYmenetelm VY matemaattisten tieteiden laitos, FOR TEACHERS ONLY
++VYmenetelm: ref(92)
+93: branchLoc() # VYYOL      Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYYOL: ref(93)
+94: branchLoc() # VYkansanta Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYkansanta: ref(94)
+95: branchLoc() # VYaluet    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYaluet: ref(95)
+96: branchLoc() # VYtalousoi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYtalousoi: ref(96)
+97: branchLoc() # VYtalousoL Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
++VYtalousoL: ref(97)
+98: branchLoc() # VYatk      Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
++VYatk: ref(98)
+99: branchLoc() # VYtutkLait VY Levón-instituutti-Levón-institutet, FOR STAFF ONLY
++VYtutkLait: ref(99)
+100: branchLoc() # VYtutkLSei VY Levón-instituutti-Levón-institutet, Sjoki, FOR STAFF ONLY
++VYtutkLSei: ref(100)
+101: branchLoc() # VYtaky     VY Avoin yliop. - Vaasa University, FOR TEACHERS ONLY
++VYtaky: ref(101)
+102: branchLoc() # VYHYoik    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYHYoik: ref(102)
+103: branchLoc() # VYopintots Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
++VYopintots: ref(103)
+104: branchLoc() # VYhallinto Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
++VYhallinto: ref(104)
+105: branchLoc() # LAINAUS    Lainaus Yliopistonranta
++LAINAUS: ref(105)
+106: branchLoc() # Hankinta   Hankinta
++Hankinta: ref(106)
+107: branchLoc() # SELF       Lainausautomaatti
++SELF: ref(107)
+108: branchLoc() # HU_ACQ     HU_ACQ
++HU: ref(108)
+109: branchLoc() # BU_ACQ     BU_ACQ
++BU: ref(109)
+110: branchLoc() # TE_ACQ     TE_ACQ
++TE: ref(110)
+111: branchLoc() # SO_ACQ     SO_ACQ
++SO: ref(111)
+112: branchLoc() # jourBus    3. krs-vån BU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
++jourBus: ref(112)
+113: branchLoc() # jourTec    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
++jourTec: ref(113)
+114: branchLoc() # jourNat    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ                                                                                                           
++jourNat: ref(114)
+115: branchLoc() # jourEdu    1. krs-vån ED Tidskrifter-Lehdet-Journals EI LAIN.-LÅNAS EJ
++jourEdu: ref(115)
+116: branchLoc() # jourHum    1. krs-vån HU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
++jourHum: ref(116)
+117: branchLoc() # jourSoc    4. krs-vån SO Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
++jourSoc: ref(117)
+118: branchLoc() # jourGen    2. krs-vån GE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
++jourGen: ref(118)
+119: branchLoc() # OHbrander  ÅAV Stip. Kan ej reserveras-Ei voi varata-Can't be reserved
++OHbrander: ref(119)
+120: branchLoc() # OHinst0    Åbo Akademi i Vasa - FOR TEACHERS ONLY                                                                                                                                 
++OHinst0: ref(120)
+121: branchLoc() # Hpubl      1. krs-vån GE SHH:s publ. -SHHn julk., LÅNAS EJ - EI LAINATA
++Hpubl: ref(121)
+122: branchLoc() # OHpubl     1. krs-vån GE ÅA:s publ.- ÅAn julk., LÅNAS EJ-EI LAINATA
++OHpubl: ref(122)
+123: branchLoc() # VYtietolii Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
++VYtietolii: ref(123)
+124: branchLoc() # ED_ACQ     ED_ACQ
++ED: ref(124)
+125: branchLoc() # oppimisk   Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
++oppimisk: ref(125)
+126: branchLoc() # SHHhandR   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
++SHHhandR: ref(126)
+127: branchLoc() # SHHfinEk   SHH institution - SHH:n laitos, FOR TEACHERS ONLY                                                                                                                      
++SHHfinEk: ref(127)
+128: branchLoc() # SHHforetL  SHH institution - SHH:n laitos, FOR TEACHERS ONLY
++SHHforetL: ref(128)
+129: branchLoc() # SHHmarknF  SHH institution - SHH:n laitos, FOR TEACHERS ONLY
++SHHmarknF: ref(129)
+130: branchLoc() # SHHnatEk   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
++SHHnatEk: ref(130)
+131: branchLoc() # SHHredov   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
++SHHredov: ref(131)
+132: branchLoc() # SHHsprak   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
++SHHsprak: ref(132)
+133: branchLoc() # Hprojects  Projekt, Kan ej reserveras-Ei voi varata-Cannot be reserved
++Hprojects: ref(133)
+134: branchLoc() # OH-HSkursb ÅA Vasa inst., Helsingfors - ÅA Vasan laitos, Helsinki                                                                                                                 
++OH-HSkursb: ref(134)
+135: branchLoc() # OH-HSref   ÅA Vasa inst., Helsingfors - ÅA Vasan laitos, Hki, LÅNAS EJ
++OH-HSref: ref(135)
+136: branchLoc() # studia     2. krs-vån STUDIA
++studia: ref(136)
+137: branchLoc() # Vpalomaki  4. krs-vån SO Mauri Palomäen kokoelma
++Vpalomaki: ref(137)
+138: branchLoc() # serTri     Katso kokoelma sarjan osan tiedoista
++serTri: ref(138)
+139: branchLoc() # pettersson 1. krs-vån Varasto-Magasin K114 Petterssons samling
++pettersson: ref(139)
+140: branchLoc() # pettersref 1. krs-vån Varasto-Magasin K114 Petterssons saml. LÅNAS EJ
++pettersref: ref(140)
+141: branchLoc() # statSTOCK  1. krs-vån Tilastot - Statistik STOCK, EI LAINATA - LÅNAS EJ                                                                                                           
++statSTOCK: ref(141)
+142: branchLoc() # ekenas     1. krs-vån Varasto-Magasin K114 Ekenäs saml.
++ekenas: ref(142)
+143: branchLoc() # ekenasref  1. krs-vån Varasto-Magasin K114 Ekenäs saml., LÅNAS EJ
++ekenasref: ref(143)
+144: branchLoc() # ekenasjour 1. krs-vån Varasto-Magasin K114 Ekenäs saml., LÅNAS EJ
++ekenasjour: ref(144)
+145: branchLoc() # linguaref  1. krs-vån-1st floor K127 Lingua, EI LAINATA - LÅNAS EJ
++linguaref: ref(145)
+146: branchLoc() # skolbok    1. krs-vån Varasto-Magasin K114 SB Skolböcker
++skolbok: ref(146)
+147: branchLoc() # skolbokref 1. krs-vån Varasto-Magasin K114 SB Skolböcker, LÅNAS EJ
++skolbokref: ref(147)
+148: branchLoc() # VYfilosofi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
++VYfilosofi: ref(148)
+149: branchLoc() # varasto    1. krs-vån Varasto-Magasin K114, EI LAINATA - LÅNAS EJ
++varasto: ref(149)
+150: branchLoc() # euRefSO    4. krs-vån EU käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
++euRefSO: ref(150)
+151: branchLoc() # xaudiovis  Raastuvankatu-Rådhusgatan / AV-aineisto - AV-material
++xaudiovis: ref(151)
+152: branchLoc() # xbook      Raastuvankatu-Rådhusgatan / Kirjat - Böcker - Books
++xbook: ref(152)
+153: branchLoc() # XinstLM    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
++XinstLM: ref(153)
+154: branchLoc() # XinstST    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY                                                                                                            
++XinstST: ref(154)
+155: branchLoc() # XinstTL    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
++XinstTL: ref(155)
+156: branchLoc() # xjournal   Raastuvankatu-Rådhusgatan / Lehdet - Tidskrifter - Journals
++xjournal: ref(156)
+157: branchLoc() # xref       Raastuvankatu-Rådhusg. / Käsikirj.-Ref.- EI LAINATA-LÅNAS EJ
++xref: ref(157)
+158: branchLoc() # xREVIEW    Kysy virkailijalta-Fråga personalen (Vaasan amk TLKIRJASTO)
++xREVIEW: ref(158)
+159: branchLoc() # xstock     Raastuvankatu-Rådhusgatan / Varasto - Magasin - Stock
++xstock: ref(159)
+160: branchLoc() # xtextb     RAASTUVANKATU-RÅDHUSG. / Kurssikirjat-Kursböcker-Textbooks
++xtextb: ref(160)
+161: branchLoc() # XthesLM    Raastuvankatu-Rådhusg. / Opinnäytteet-Lärdomsprov-Theses                                                                                                               
++XthesLM: ref(161)
+162: branchLoc() # XthesTL    1. krs-vån Vaasan amk-Vasa yh, Opinnäytteet-Lärd.prov-Theses
++XthesTL: ref(162)
+163: branchLoc() # yaudiovis  Seriegatan-Sarjakatu / Hälsovetenskaper - Terveystieteet
++yaudiovis: ref(163)
+164: branchLoc() # ybook      Seriegatan-Sarjakatu / Böcker - Kirjat - Books
++ybook: ref(164)
+165: branchLoc() # YHNinstKU  YH Novia Jakobstad avdelningsex. STAFF ONLY
++YHNinstKU: ref(165)
+166: branchLoc() # YHNinstSC  YH Novia Jakobstad avdelningsex. STAFF ONLY
++YHNinstSC: ref(166)
+167: branchLoc() # YHNinstSH  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY                                                                                                                
++YHNinstSH: ref(167)
+168: branchLoc() # YHNinstTK  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY
++YHNinstTK: ref(168)
+169: branchLoc() # yjournal   Seriegatan-Sarjakatu / Tidskrifter - Lehdet - Journals
++yjournal: ref(169)
+170: branchLoc() # yref       Seriegatan-Sarjakatu / Referens-Käsikirj.LÅNAS EJ-EI LAINATA
++yref: ref(170)
+171: branchLoc() # ystock     Seriegatan-Sarjakatu / Arkiv - Arkisto - Archive
++ystock: ref(171)
+172: branchLoc() # ytextb     Seriegatan-Sarjakatu / Kursböcker - Kurssikirjat - Textbooks
++ytextb: ref(172)
+173: branchLoc() # ytextbSh   Seriegatan-Sarjakatu / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
++ytextbSh: ref(173)
+174: branchLoc() # YthesKU    Allegro Yrkeshögskolan Novias examensarben LÅNAS EJ                                                                                                                    
++YthesKU: ref(174)
+175: branchLoc() # YthesSH    Seriegatan-Sarjakatu / Examensarbeten-Opinnäytteet-Theses
++YthesSH: ref(175)
+176: branchLoc() # YthesSHref Seriegatan-Sarjakatu / Examensarbeten LÅNAS EJ - EI LAINATA
++YthesSHref: ref(176)
+177: branchLoc() # YthesTK    1. krs-vån YH Novia Examensarb.-Opinnäytteet-Theses LÅNAS EJ
++YthesTK: ref(177)
+178: branchLoc() # zbookArt   Jakobstad-Pietarsaari Allegro - Konst
++zbookArt: ref(178)
+179: branchLoc() # zbookMus   Jakobstad-Pietarsaari Allegro - Musik
++zbookMus: ref(179)
+180: branchLoc() # zjourArt   Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals                                                                                                              
++zjourArt: ref(180)
+181: branchLoc() # zrefArt    Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
++zrefArt: ref(181)
+182: branchLoc() # zrefMus    Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
++zrefMus: ref(182)
+183: branchLoc() # zstock     Jakobstad-Pietarsaari Allegro
++zstock: ref(183)
+184: branchLoc() # LAINAUSRK  Lainaus Raastuvankatu
++LAINAUSRK: ref(184)
+185: branchLoc() # LAINAUSSG  Lainaus Seriegatan
++LAINAUSSG: ref(185)
+186: branchLoc() # LAINAUSJS  Lainaus Jakobstad
++LAINAUSJS: ref(186)
+187: branchLoc() # LAINAUSNK  Lainaus Nykarleby
++LAINAUSNK: ref(187)
+188: branchLoc() # Xpubl      1. krs-vån GE Vaasan amk-Vasa yh julk/publ,EI LAINATA-LÅN EJ
++Xpubl: ref(188)
+189: branchLoc() # YHNpubl    1. krs-vån GE YH Novia publ./julk. LÅNAS EJ-EI LAINATA                                                                                                                 
++YHNpubl: ref(189)
+190: branchLoc() # zmusic     Jakobstad-Pietarsaari Allegro - Noter och ljudinspelningar
++zmusic: ref(190)
+191: branchLoc() # zbook      Jakobstad-Pietarsaari Allegro - Generalia
++zbook: ref(191)
+192: branchLoc() # zbookPed   Jakobstad-Pietarsaari Allegro - Pedagogik-Kasvatustiede
++zbookPed: ref(192)
+193: branchLoc() # zjour      Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals
++zjour: ref(193)
+194: branchLoc() # zref       Jakobstad-Pietarsaari Allegro Referensböcker LÅNAS EJ
++zref: ref(194)
+195: branchLoc() # ztextb     Jakobstad-Pietarsaari Allegro Kursböcker-Kurssikirjat-Textb.                                                                                                           
++ztextb: ref(195)
+196: branchLoc() # zbookBus   Jakobstad-Pietarsaari Allegro - Företagsekonomi
++zbookBus: ref(196)
+197: branchLoc() # ztextbSh   Jakobstad-Pietarsaari Allegro NATTLÅN-YÖLAINA-OVERNIGHT
++ztextbSh: ref(197)
+198: branchLoc() # skolboknew 1. krs-vån ED: Den finlandssvenska skolbokssamlingen
++skolboknew: ref(198)
+199: branchLoc() # zthes      Jakobstad-Pietarsaari Allegro Examensarbeten LÅNAS EJ
++zthes: ref(199)
+200: branchLoc() # yngbook    Åbo-Turku Nunnegatan / Böcker - Kirjat - Books
++yngbook: ref(200)
+201: branchLoc() # yngtextb   Åbo-Turku Nunnegatan / Kursböcker - Kurssikirjat - Textbooks
++yngtextb: ref(201)
+202: branchLoc() # yngref     Åbo-Turku Nunnegatan / Referens LÅNAS EJ - EI LAINATA                                                                                                                  
++yngref: ref(202)
+203: branchLoc() # yngjour    Åbo-Turku Nunnegatan / Tidskrifter LÅNAS EJ - EI LAINATA
++yngjour: ref(203)
+204: branchLoc() # YthesNG    Åbo-Turku Nunnegatan / Examensarbeten-Opinnäytteet-Theses
++YthesNG: ref(204)
+205: branchLoc() # YHNinstNG  YH Novia Åbo Nunnegatan avdelningsex. STAFF ONLY
++YHNinstNG: ref(205)
+206: branchLoc() # ysjref     Åbo-Turku Sjöfart / Referens LÅNAS EJ - EI LAINATA
++ysjref: ref(206)
+207: branchLoc() # ysjjour    Åbo-Turku Sjöfart / Tidskrifter-Lehdet LÅNAS EJ - EI LAINATA
++ysjjour: ref(207)
+208: branchLoc() # YthesSJ    Åbo-Turku Sjöfart / Examensarbeten LÅNAS EJ - EI LAINATA                                                                                                               
++YthesSJ: ref(208)
+209: branchLoc() # YHNinstSJ  YH Novia Åbo Sjöfart avdelningsex. STAFF ONLY
++YHNinstSJ: ref(209)
+210: branchLoc() # yngstock   Åbo-Turku Nunnegatan / Magasin - Varasto - Stock
++yngstock: ref(210)
+211: branchLoc() # YHNinstSHI Åbo Sjöhistoriska insitutet vid ÅA - YH Novia - LÄSESALSLÅN
++YHNinstSHI: ref(211)
+212: branchLoc() # LAINAUSNG  Lainaus Nunnegatan
++LAINAUSNG: ref(212)
+213: branchLoc() # jarv       1. krs-vån Järv-kokoelma - Järv-samlingen
++jarv: ref(213)
+214: branchLoc() # jarvref    1. krs-vån Järv-kokoelma. Käsikirjat. EI LAINATA-LÅNAS EJ
++jarvref: ref(214)
+215: branchLoc() # bookHe     4.krs-vån HE Terveystieteet-Hälsovetenskaper-Health sciences
++bookHe: ref(215)
+216: branchLoc() # refHe      4. krs-vån HE Terveyst.-Hälsov.-Health EI LAINATA-LÅNAS EJ                                                                                                             
++refHe: ref(216)
+217: branchLoc() # serHe      4. krs-vån HE Terveystieteet-Hälsovetenskaper Sarjat-Serier
++serHe: ref(217)
+218: branchLoc() # jourHe     4. krs-vån HE Lehdet-Tidskrifter-JournalsEI LAINATA-LÅNAS EJ
++jourHe: ref(218)
+219: branchLoc() # kouluk     Koulukirjastot
++kouluk: ref(219)
+220: branchLoc() # koulukref  Koulukirjastot. Käsikirjat
++koulukref: ref(220)
+221: branchLoc() # yngtextbSh Åbo-Turku Nunnegatan / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
++yngtextbSh: ref(221)
+222: branchLoc() # minlang    1. krs-vån Vähemmistökielikokoelma-Minoritetsspråkssamlingen
++minlang: ref(222)
+223: branchLoc() # webpay                                                                                                                                                                            
++webpay: ref(223)
+224: branchLoc() # Vdatabases Vaasan yliopiston tietokannat-University of Vaasa databases
++Vdatabases: ref(224)
+225: branchLoc() # Xdatabases Vaasan ammattikorkeakoulun tietokannat - VAMK databases
++Xdatabases: ref(225)
+226: branchLoc() # Ydatabases
++Ydatabases: ref(226)
+227: branchLoc() # Vdigital   Vaasan yliopiston e-kirjat - University of Vaasa e-books
++Vdigital: ref(227)
+228: branchLoc() # Xdigital   Vaasan ammattikorkeakoulun e-kirjat - VAMK e-books
++Xdigital: ref(228)
+229: branchLoc() # rarebook   Harvinaiskirjat - Rariteter - Rare books
++rarebook: ref(229)
+230: branchLoc() # jarvrare   1. krs-vån Järv-kokoelma.Harvinaiskirjat.EI LAINATA-LÅNAS EJ
++jarvrare: ref(230)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
