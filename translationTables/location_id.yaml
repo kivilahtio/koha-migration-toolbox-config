@@ -9,7 +9,7 @@
 +MPES: ref(4)
 5: branchLoc() # KKCD       MPKK AV-aineisto (Kokoelmahuone 2, 2 krs.)
 +KKCD: ref(5)
-6: branchLoc() # KKES       MPKK kurssikirjasto Sijainti epäselvä                    
+6: branchLoc() # KKES       MPKK kurssikirjasto Sijainti epäselvä
 +KKES: ref(6)
 7: branchLoc() # KKKI       MPKK Metodit (2. krs), 28 vrk
 +KKKI: ref(7)
@@ -23,7 +23,7 @@
 +KKLAMU: ref(13)
 14: branchLoc() # KKLASA     Sota-arkisto Käsikirjasto (vain lukusalilainaan)
 +KKLASA: ref(14)
-15: branchLoc() # KKLASH     MPKK Sotataidon laitos, sotahistorian käsikirj. (ei laina         15 KKLASH     MPKK Sotataidon laitos, sotahistorian käsikirj. (ei lainata)
+15: branchLoc() # KKLASH     MPKK Sotataidon laitos, sotahistorian käsikirj. (ei lainata)
 +KKLASH: ref(15)
 16: branchLoc() # KKLAST     MPKK StratL Käsikirjasto (ei lainata)
 +KKLAST: ref(16)
@@ -39,7 +39,7 @@
 +KKONKK: ref(21)
 22: branchLoc() # KKONTLL    MPKK Opinnäytteet (2 krs.), ei lainata
 +KKONTLL: ref(22)
-23: branchLoc() # KKOSVAR    MPKK Ohjesäännöt (2 krs.), 365 vrk                       
+23: branchLoc() # KKOSVAR    MPKK Ohjesäännöt (2 krs.), 365 vrk
 +KKOSVAR: ref(23)
 24: branchLoc() # KKOSVARK   MPKK Kumotut (2 krs.), 365 vrk
 +KKOSVARK: ref(24)
@@ -57,7 +57,7 @@
 +MAON: ref(30)
 31: branchLoc() # MAOS       MAASK Ohjesäännöt (vain pv)
 +MAOS: ref(31)
-32: branchLoc() # PKER       MPKK Erikoiskokoelma (2 krs.), 28 vrk                    
+32: branchLoc() # PKER       MPKK Erikoiskokoelma (2 krs.), 28 vrk
 +PKER: ref(32)
 33: branchLoc() # PKES       MPKK Sijainti epäselvä (käsiteltävänä)
 +PKES: ref(33)
@@ -75,7 +75,7 @@
 +PKHINO: ref(39)
 40: branchLoc() # PKKK       MPKK Käsikirjat (1 krs.), ei lainata
 +PKKK: ref(40)
-41: branchLoc() # PKLL       MPKK Sarjat (1 krs.), 28 vrk                             
+41: branchLoc() # PKLL       MPKK Sarjat (1 krs.), 28 vrk
 +PKLL: ref(41)
 42: branchLoc() # PKOH       MPKK Ohjesäännöt (ulkom.)
 +PKOH: ref(42)
@@ -93,7 +93,7 @@
 +MAKK: ref(48)
 49: branchLoc() # MASA       MAASK Sarjat (vain pv)
 +MASA: ref(49)
-50: branchLoc() # MAOK       Maasotakoulu Oppikirjat (vain pvn käyttöön)              
+50: branchLoc() # MAOK       Maasotakoulu Oppikirjat (vain pvn käyttöön)
 +MAOK: ref(50)
 51: branchLoc() # MAMV       MAASK Opetuspaketit (vain pv)
 +MAMV: ref(51)
@@ -113,7 +113,7 @@
 +luekk: ref(58)
 59: branchLoc() # luepk      MpKK Pääkirjaston luettelointi
 +luepk: ref(59)
-60: branchLoc() # luema      Maasotakoulun kirjaston luettelointi                     
+60: branchLoc() # luema      Maasotakoulun kirjaston luettelointi
 +luema: ref(60)
 62: branchLoc() # MATTL      MAASK Sarjat (vain pv)
 +MATTL: ref(62)
@@ -131,7 +131,7 @@
 +PKCD: ref(70)
 71: branchLoc() # KKLAMUJUL  Sotamuseo Käsikirjat (ei lainata)
 +KKLAMUJUL: ref(71)
-72: branchLoc() # luelaitos  Laitokset. Luettelointi                                  
+72: branchLoc() # luelaitos  Laitokset. Luettelointi
 +luelaitos: ref(72)
 73: branchLoc() # TKKK       TKKK, Tuusulan kirjasto
 +TKKK: ref(73)
@@ -151,7 +151,7 @@
 +lumaEL: ref(83)
 84: branchLoc() # lupkEL     Mpkk Pk luettelointi ei Lindaan
 +lupkEL: ref(84)
-85: branchLoc() # TKKKluEL   TKKK luettelointi ei Lindaan                             
+85: branchLoc() # TKKKluEL   TKKK luettelointi ei Lindaan
 +TKKKluEL: ref(85)
 86: branchLoc() # KKLAPK     Puolustusvoimien Kielikeskus (ei lainata)
 +KKLAPK: ref(86)
