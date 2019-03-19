@@ -9,7 +9,39 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-al: ''   #1, Alkio-opisto
-alm: ''   #6, Alkio-opisto / muut
-HUM: ''   #7, HUMAKin hankinnat
+EVO: '' # XEVTEK ostetut (EI KÄYT.)
+MBS: '' # Mercuriasta Myyrmäkeen
+EVI: '' # XEVTEK ilmaiset (EI KÄYT.
+SV: '' #  XStadia vanhat (EI KÄYT.)
+EV: '' #  XEVTEK vanhat (EI KÄYT.)
+AT0: '' # Agricolank. Tikkurilaan
+AL2: '' # Agricolank. Laureaan 2
+AL1: '' # Agricolank. Laurea1
+MO: '' #  Metropolia ostetut                                                                                                                                                           
+MI: '' #  Metropolia ilmaiset
+LT1: '' # Laureasta Tikkurilaan
+OM: '' #  Metropolia opinnäytetyöt
+SO: '' #  Sofianlehdosta Tukholmank
+TU: '' #  Tukholmankadulta Sofianle
+AM: '' #  Agricolank. Myyrmäkeen
+MB: '' #  Myyrmäestä Bulevardille
+OL: '' #  Onnentieltä Leiritielle
+TA: '' #  Tikkurilasta Agrille
+MT: '' #  Manskulta Tukholle
+MV: '' #  Manskulta Viertotielle
+MK: '' #  Manskulta käsikirjastoon
+BM: '' #  Bulelta Myrtsiin                                                                                                                                                             
+BS: '' #  Bulelta Soffariin
+BT: '' #  Bulelta Tiksiin
+BL: '' #  Bulelta Lepuskiin
+AB: '' #  Bulelle takaisin
+BTU: '' # Bulelta tukholle
+ML: '' #  Myyrmäestä Leppävaaraan
+AR: '' #  Arabian kampukselle
+PJO: '' # PJK ostetut
+PJI: '' # PJK ilmaiset
+PJK: '' # PJK
+MY: '' #  Myllypuro
+LE: '' #  Leppävaara
+
 _DEFAULT_: warning()
