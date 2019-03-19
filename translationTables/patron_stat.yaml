@@ -13,25 +13,43 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: Pal # Alkio/opiston opiskelija
-9: G   # Ulkopuolisen amk:n opisk.
-21: U  #   Muut
-22: "N"  #   .Kaukolaina-asiakas
-26: Pps  # P-Savo/opiston opiskelija
-27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
-41: Ppa  # Pkivi/opiston opiskelija
-42: Pta  # Akatemia/opiston opiskeli
-43: Pla  # Alkio/opiston hkunta
-46: Pat  # Akatemia/opiston hkunta
-50: Pap  # PKivi/opiston hkunta
-52: Psp  # P-Savo/opiston hkunta
-53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
-58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
-62: Dmo  # .Humak/opiskelijat
-63: Uko  # Kuurojen liitto
-64: Uvt  # Valkea talo / muut
-65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+
+8: AK #  Ceamk henkilöstö Kokkola
+9: AO #  Ceamk henkilöstö Yka
+10: AR #  Ceamk henkilöstö Rkylä
+11: AP #  Ceamk henkilöstö Prs
+13: DK #  Ceamk opiskelija Kokkola
+14: DP #  Ceamk opiskelija Prs
+15: DR #  Ceamk opiskelija Rkylä
+16: DO #  Ceamk opiskelija Yka
+17: G #   toisen AMK:n opiskelija
+18: F #   toisen AMK:n henkilökunta
+19: K #   yo-opisk./henk. (vanha)
+20: PHH # muu henk.k. Haapajärvi
+21: PHO # muu opisk. Haapajärvi
+22: PKH # muu henk.kunta Kokkola
+23: PKO # muu opisk. Kokkola
+24: PKY # Ketek, KPAKK
+25: PYH # muu henkilök. Ylivieska
+26: PYO # muu opisk. Ylivieska
+27: S #   julkishallinnon edustaja
+28: R #   elinkeinoelämän edustaja
+29: NA #  amk-kirj. kaukop.asiakas
+30: NE #  erik.kirj. kaukop.asiakas
+31: NK #  yl. kirj. kaukop.asiakas
+32: NY #  yliopistokirj. kaukop.as.
+33: U #   muut
+34: PRH # muu henkilök. Raudaskylä
+35: PRO # muu opisk. Raudaskylä
+36: PPO # muu opisk. Pietarsaari
+37: LK #  2. asteen henkilöstö Kla
+38: LO #  2. asteen henkilöstö Yka
+39: LR #  2. asteen henkil. Rkylä
+40: LP #  2. asteen henkilöstö Prs
+41: MK #  2. asteen opisk. Kokkola
+42: MO #  2. asteen opisk. Yka
+43: MR #  2. asteen opisk. Rkylä
+44: MP #  2. asteen opisk. Prs
+45: T #   Media
+46: I #   yliopiston henkilöstö
+47: J #   yliopiston opiskelija
