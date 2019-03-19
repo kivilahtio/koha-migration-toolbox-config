@@ -13,25 +13,16 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: Pal # Alkio/opiston opiskelija
-9: G   # Ulkopuolisen amk:n opisk.
-21: U  #   Muut
-22: "N"  #   .Kaukolaina-asiakas
-26: Pps  # P-Savo/opiston opiskelija
-27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
-41: Ppa  # Pkivi/opiston opiskelija
-42: Pta  # Akatemia/opiston opiskeli
-43: Pla  # Alkio/opiston hkunta
-46: Pat  # Akatemia/opiston hkunta
-50: Pap  # PKivi/opiston hkunta
-52: Psp  # P-Savo/opiston hkunta
-53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
-58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
-62: Dmo  # .Humak/opiskelijat
-63: Uko  # Kuurojen liitto
-64: Uvt  # Valkea talo / muut
-65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+7: A #   Henkilökunta
+8: IYO # Yliopistokirjastot
+9: IYR # Yrityskirjastot
+10: IYK # Yleiset kirjastot
+11: IER # Erikoiskirjastot
+12: JPO # Pohjoismaiset kirjastot
+13: IAC # Näkövammaiset
+14: JMU # Muut ulkomaiset kirjastot
+15: IAM # Ammattikorkeakirjastot
+16: IAT # Asiakastoiminen kaukopalv
+17: TUT # Tutkijat
+18: YMK # Tiedekirjastot
+19: VAR # Varastoihmiset
