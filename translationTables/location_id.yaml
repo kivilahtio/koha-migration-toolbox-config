@@ -1,235 +1,293 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1:   branchLoc(EI_KOHAAN,EI_REVIEW,EI_KOHAAN)		#REVIEW    ,Ip-lainaus
+1: branchLoc() # REVIEW     REVIEW
 +REVIEW: ref(1)
-6:   branchLoc(AL,OPE)		#Al-opet   ,Alkio henkilkunta
-+Al-opet: ref(6)
-7:   branchLoc(AL,REF)		#Al-ref    ,Alkio ksikirjat
-+Al-ref: ref(7)
-5:   branchLoc(EI_KOHAAN,EI_ALLUKU,EI_KOHAAN)		#Al-luku   ,Alkio lukusali
-+Al-luku: ref(5)
-4:   branchLoc(AL,KURSSI)		#Al-kurssi ,Alkio Kurssikirjat
-+Al-kurssi: ref(4)
-3:   branchLoc(AL,VAR)		#Al-varasto,Alkio varasto
-+Al-varasto: ref(3)
-2:   branchLoc(AL,YLEIS)		#Al-yleis  ,Alkio yleiskokoelma
-+Al-yleis: ref(2)
-105: branchLoc(PS)		#KU-CIRC   ,TKI-OTTO/KUOPIO
-+KU-CIRC: ref(105)
-110: branchLoc(HE,YLEIS)		#He-yleis  ,Helsinki yleiskokoelma
-+He-yleis: ref(110)
-111: branchLoc(HE,REF)		#He-ref    ,Helsinki ksikirjat
-+He-ref: ref(111)
-8:   branchLoc(EI_KOHAAN,EI_HAYLEIS,EI_KOHAAN)		#Ha-yleis  ,H:vesi yleiskokoelma
-+Ha-yleis: ref(8)
-63:  branchLoc(EI_KOHAAN,EI_JOAV,EI_KOHAAN)		#Jo-av     ,Joutseno Av
-+Jo-av: ref(63)
-112: branchLoc(EI_KOHAAN,EI_HEOPET,EI_KOHAAN)		#He-opet   ,Helsinki opetuskappale
-+He-opet: ref(112)
-14:  branchLoc(EI_KOHAAN,EI_JOKURSSI,EI_KOHAAN)		#Jo-kurssi ,Joutseno kurssikirjat
-+Jo-kurssi: ref(14)
-113: branchLoc(HE,VAR)		#He-varasto,Helsinki varasto
-+He-varasto: ref(113)
-17:  branchLoc(EI_KOHAAN,EI_JOPIN,EI_KOHAAN)		#Jo-opin   ,Joutseno opinnytteet
-+Jo-opin: ref(17)
-13:  branchLoc(EI_KOHAAN,EI_JOVARASTO,EI_KOHAAN)		#Jo-varasto,Joutseno varasto
-+Jo-varasto: ref(13)
-12:  branchLoc(EI_KOHAAN,EI_JOYLEIS,EI_KOHAAN)		#Jo-yleis  ,Joutseno yleiskokoelma
-+Jo-yleis: ref(12)
-19:  branchLoc(EI_KOHAAN,EI_KAKURSSI,EI_KOHAAN)		#Ka-kurssi ,K:jrvi kurssikirjat
-+Ka-kurssi: ref(19)
-114: branchLoc(EI_KOHAAN,EI_HEAV,EI_KOHAAN)		#He-av     ,Helsinki Av
-+He-av: ref(114)
-21:  branchLoc(EI_KOHAAN,EI_KAOPIN,EI_KOHAAN)		#Ka-opin   ,K:jrvi opinnäytteet
-+Ka-opin: ref(21)
-18:  branchLoc(EI_KOHAAN,EI_KAYLEIS,EI_KOHAAN)		#Ka-yleis  ,K:jrvi yleiskokoelma
-+Ka-yleis: ref(18)
-26:  branchLoc(EI_KOHAAN,EI_KIAV,EI_KOHAAN)		#Ki-av     ,Kiljava Av
-+Ki-av: ref(26)
-23:  branchLoc(EI_KOHAAN,EI_KIKURSSI,EI_KOHAAN)		#Ki-kurssi ,Kiljava kurssikirjat
-+Ki-kurssi: ref(23)
-25:  branchLoc(EI_KOHAAN,EI_KIREF,EI_KOHAAN)		#Ki-ref    ,Kiljava käsikirjat
-+Ki-ref: ref(25)
-115: branchLoc(HE)		#HE-CIRC   ,KUUROJEN LIITTO/HELSINKI #happening location, asiakastiedot yhteydessä tähän
-+HE-CIRC: ref(115)
-22:  branchLoc(KI,YLEIS)		#Ki-yleis  ,Kiljava yleiskokoelma
-+Ki-yleis: ref(22)
-29:  branchLoc(EI_KOHAAN,EI_KSOPET,EI_KOHAAN)		#Ks-opet   ,K-Suomi henkiläkunta
-+Ks-opet: ref(29)
-30:  branchLoc(EI_KOHAAN,EI_KSREF,EI_KOHAAN)		#Ks-ref    ,K-Suomi käsikirjat
-+Ks-ref: ref(30)
-28:  branchLoc(EI_KOHAAN,EI_KSVARASTO,EI_KOHAAN)		#Ks-varasto,K-Suomi varasto
-+Ks-varasto: ref(28)
-27:  branchLoc(EI_KOHAAN,EI_KSYLEIS,EI_KOHAAN)		#Ks-yleis  ,K-Suomi yleiskokoelma
-+Ks-yleis: ref(27)
-32:  branchLoc(EI_KOHAAN,EI_PAOPET,EI_KOHAAN)		#Pa-opet   ,Paasikivi henkilökunta
-+Pa-opet: ref(32)
-33:  branchLoc(EI_KOHAAN,EI_PAREF,EI_KOHAAN)		#Pa-ref    ,Paasikivi käsikirjat
-+Pa-ref: ref(33)
-31:  branchLoc(PA,YLEIS)		#Pa-yleis  ,Paasikivi yleiskokoelma
-+Pa-yleis: ref(31)
-40:  branchLoc(EI_KOHAAN,EI_PAAV,EI_KOHAAN)		#Pk-av     ,P-Karjala Av
-+Pk-av: ref(40)
-38:  branchLoc(EI_KOHAAN,EI_PKOPET,EI_KOHAAN)		#Pk-opet   ,P-Karjala henkilökunta
-+Pk-opet: ref(38)
-36:  branchLoc(EI_KOHAAN,EI_PKKURSSI,EI_KOHAAN)		#Pk-kurssi ,P-Karjala kurssikirjat
-+Pk-kurssi: ref(36)
-39:  branchLoc(EI_KOHAAN,EI_PKREF,EI_KOHAAN)		#Pk-ref    ,P-Karjala ksikirjat
-+Pk-ref: ref(39)
-37:  branchLoc(EI_KOHAAN,EI_PKLUKU,EI_KOHAAN)		#Pk-luku   ,P-Karjala lukusali
-+Pk-luku: ref(37)
-41:  branchLoc(EI_KOHAAN,EI_PKOPIN,EI_KOHAAN)		#PK-opin   ,P-Karjala opinnytteet
-+PK-opin: ref(41)
-35:  branchLoc(EI_KOHAAN,EI_PKVARASTO,EI_KOHAAN)		#Pk-varasto,P-Karjala varasto
-+Pk-varasto: ref(35)
-34:  branchLoc(EI_KOHAAN,EI_PKYLEIS,EI_KOHAAN)		#Pk-yleis  ,P-Karjala yleiskokoelma
-+Pk-yleis: ref(34)
-47:  branchLoc(EI_KOHAAN,EI_PPAV,EI_KOHAAN)		#Pp-av     ,P-Pohjola Av
-+Pp-av: ref(47)
-116: branchLoc(EI_KOHAAN,EI_HECAT,EI_KOHAAN)		#HE-CAT    ,HELSINKI LUETTELOINTI
-+HE-CAT: ref(116)
-44:  branchLoc(EI_KOHAAN,EI_PPKURSSI,EI_KOHAAN)		#Pp-kurssi ,P-Pohjola kurssikirjat
-+Pp-kurssi: ref(44)
-42:  branchLoc(EI_KOHAAN,EI_PPYLEIS,EI_KOHAAN)		#Pp-yleis  ,P-Pohjola yleiskokoelma
-+Pp-yleis: ref(42)
-53:  branchLoc(EI_KOHAAN,EI_PSOPET,EI_KOHAAN)		#Ps-opet   ,P-Savo henkilkunta
-+Ps-opet: ref(53)
-50:  branchLoc(EI_KOHAAN,EI_PSKURSSI,EI_KOHAAN)		#Ps-kurssi ,P-Savo kurssikirjat
-+Ps-kurssi: ref(50)
-54:  branchLoc(PS,REF)		#Ps-ref    ,P-Savo ksikirjat
-+Ps-ref: ref(54)
-52:  branchLoc(PS,LEHDET)		#Ps-lehdet ,P-Savo lehdet
-+Ps-lehdet: ref(52)
-51:  branchLoc(EI_KOHAAN,EI_PSVARASTO,EI_KOHAAN)		#Ps-varasto,P-Savo varasto
-+Ps-varasto: ref(51)
-49:  branchLoc(PS,YLEIS)		#Ps-yleis  ,P-Savo yleiskokoelma
-+Ps-yleis: ref(49)
-61:  branchLoc(EI_KOHAAN,EI_TAAV,EI_KOHAAN)		#Ta-av     ,Akatemia Av
-+Ta-av: ref(61)
-59:  branchLoc(EI_KOHAAN,EI_TAOPET,EI_KOHAAN)		#Ta-opet   ,Akatemia henkilkunta
-+Ta-opet: ref(59)
-58:  branchLoc(TA,KURSSI)		#Ta-kurssi ,Akatemia kurssikirjat
-+Ta-kurssi: ref(58)
-60:  branchLoc(TA,REF)		#Ta-ref    ,Akatemia ksikirjat
-+Ta-ref: ref(60)
-57:  branchLoc(EI_KOHAAN,EI_TALEHDET,EI_KOHAAN)		#Ta-lehdet ,Akatemia lehdet
-+Ta-lehdet: ref(57)
-62:  branchLoc(EI_KOHAAN,EI_TAOPIN,EI_KOHAAN)		#Ta-opin   ,Akatemia opinnytteet
-+Ta-opin: ref(62)
-56:  branchLoc(TA,VAR)		#Ta-varasto,Akatemia varasto
-+Ta-varasto: ref(56)
-55:  branchLoc(TA,YLEIS)		#Ta-yleis  ,Akatemia yleiskokoelma
-+Ta-yleis: ref(55)
-64:  branchLoc(EI_KOHAAN,EI_ALCAT,EI_KOHAAN)		#AL-CAT    ,ALKIO LUETTELOINTI
-+AL-CAT: ref(64)
-66:  branchLoc(EI_KOHAAN,EI_KICAT,EI_KOHAAN)		#KI-CAT    ,KILJAVA LUETTELOINTI
-+KI-CAT: ref(66)
-68:  branchLoc(AL)		#AL-CIRC   ,ALKIO-OPISTO / JYVSKYL #happening location, asiakastietoja
-+AL-CIRC: ref(68)
-69:  branchLoc(EI_KOHAAN,EI_HACIRC,EI_KOHAAN)		#HA-CIRC   ,HAAPAVEDEN OPISTO
-+HA-CIRC: ref(69)
-70:  branchLoc(EI_KOHAAN,EI_JOCIRC,EI_KOHAAN)		#JO-CIRC   ,JOUTSENON OPISTO
-+JO-CIRC: ref(70)
-72:  branchLoc(EI_KOHAAN,EI_KACIRC,EI_KOHAAN)		#KA-CIRC   ,KANNELJRVEN OP. / LOHJA
-+KA-CIRC: ref(72)
-73:  branchLoc(KI)		#KI-CIRC   ,KILJAVAN OP. / NURMIJÄRVI #happening location, asiakastietoja
-+KI-CIRC: ref(73)
-74:  branchLoc(EI_KOHAAN,EI_KSCAT,EI_KOHAAN)		#KS-CAT    ,K-SUOMI LUETTELOINTI
-+KS-CAT: ref(74)
-75:  branchLoc(EI_KOHAAN,EI_KSCIRC,EI_KOHAAN)		#KS-CIRC   ,K-S OPISTO / ÄÄNEKOSKI
-+KS-CIRC: ref(75)
-76:  branchLoc(EI_KOHAAN,EI_PACAT,EI_KOHAAN)		#PA-CAT    ,PAASIKIVI LUETTELOINTI
-+PA-CAT: ref(76)
-77:  branchLoc(PA)		#PA-CIRC   ,PAASIKIVI-OPISTO / TURKU #happening location, asiakastietoja
-+PA-CIRC: ref(77)
-78:  branchLoc(EI_KOHAAN,EI_PKCAT,EI_KOHAAN)		#PK-CAT    ,P-KARJALA LUETTELOINTI
-+PK-CAT: ref(78)
-79:  branchLoc(EI_KOHAAN,EI_PKCIRC,EI_KOHAAN)		#PK-CIRC   ,P-KARJALAN OP. / JOENSUU
-+PK-CIRC: ref(79)
-81:  branchLoc(EI_KOHAAN,EI_PPCIRC,EI_KOHAAN)		#PP-CIRC   ,PERÄPOHJOLAN OP. / TORNIO
-+PP-CIRC: ref(81)
-82:  branchLoc(EI_KOHAAN,EI_PSCAT,EI_KOHAAN)		#PS-CAT    ,P-SAVO LUETTELOINTI
-+PS-CAT: ref(82)
-83:  branchLoc(PS)		#PS-CIRC   ,P-SAVON OPISTO/KUOPIO #happening location, asiakastietoja
-+PS-CIRC: ref(83)
-84:  branchLoc(EI_KOHAAN,EI_TACAT,EI_KOHAAN)		#TA-CAT    ,AKATEMIA LUETTELOINTI
-+TA-CAT: ref(84)
-85:  branchLoc(TA)		#TA-CIRC   ,TYVEN AKAT./KAUNIAINEN #happening location, asiakastietoja
-+TA-CIRC: ref(85)
-86:  branchLoc(EI_KOHAAN,EI_OPAC,EI_KOHAAN)		#OPAC      ,OPAC
-+OPAC: ref(86)
-88:  branchLoc(HUM,ELEOA)		#ELE       ,eAineistot
-+ELE: ref(88)
-89:  branchLoc(EI_KOHAAN,EI_VREF,EI_KOHAAN)		#V-ref     ,Varasto pp-ref
-+V-ref: ref(89)
-90:  branchLoc(EI_KOHAAN,EI_VOPET,EI_KOHAAN)		#V-opet    ,Varasto pp-opet
-+V-opet: ref(90)
-87:  branchLoc(EI_KOHAAN,EI_ALOPIN,EI_KOHAAN)		#Al-opin   ,Alkio opinnäytteet
-+Al-opin: ref(87)
-91:  branchLoc(EI_KOHAAN,EI_VAV,EI_KOHAAN)		#V-av      ,Varasto pp-av
-+V-av: ref(91)
-97:  branchLoc(EI_KOHAAN,EI_PAOPIN,EI_KOHAAN)		#Pa-opin   ,Paasikivi opinnäytteet
-+Pa-opin: ref(97)
-125: branchLoc(HUM,ELET)		#ELET      ,eAineistot, tietokannat
-+ELET: ref(125)
-100: branchLoc(EI_KOHAAN,EI_TALPR,EI_KOHAAN)		#Ta-lpr    ,Akatemia Lappeenrannan op
-+Ta-lpr: ref(100)
-101: branchLoc(HUM,ELEM)		#ELEE      ,eAineistot, Ellibs
-+ELEE: ref(101)
-102: branchLoc(EI_KOHAAN,EI_PAKURSSI,EI_KOHAAN)		#Pa-kurssi ,Paasikivi kurssikirjat
-+Pa-kurssi: ref(102)
-103: branchLoc(HUM,ELEM)		#ELEM      ,eAineistot, kirjauduttava
-+ELEM: ref(103)
-106: branchLoc(EI_KOHAAN,EI_KUYLEIS,EI_KOHAAN)		#Ku-yleis  ,Kuopio TKI- yleiskokoelma
-+Ku-yleis: ref(106)
-107: branchLoc(EI_KOHAAN,EI_KUKURSSI,EI_KOHAAN)		#Ku-kurssi ,Kuopio TKI-kurssikirjat
-+Ku-kurssi: ref(107)
-108: branchLoc(EI_KOHAAN,EI_TUYLEIS,EI_KOHAAN)		#Tu-yleis  ,Turku yleiskokoelma
-+Tu-yleis: ref(108)
-109: branchLoc(PA)		#TU-CIRC   ,TURKU/LOGOMO
-+TU-CIRC: ref(109)
-126: branchLoc(PS,AUTOM)		#KU-SELFLOG,P-SAVON OPISTO/KUOPIO.
-+KU-SELFLOG: ref(126)
-127: branchLoc(JKL,AUTOM)		#JY-SELFLOG,JYVÄSKYLÄ/AKSELI.
-+JY-SELFLOG: ref(127)
-129: branchLoc(PA,LEHDET)		#Pa-lehdet ,Paasikivi lehdet
-+Pa-lehdet: ref(129)
-104: branchLoc(EI_KOHAAN,EI_KIOPIT,EI_KOHAAN)		#Ki-opit   ,Kiljava Kauniaisten opinn
-+Ki-opit: ref(104)
-117: branchLoc(JKL,YLEIS)		#Al-tki    ,Jyvskyl TKI-yleiskokoel
-+Al-tki: ref(117)
-120: branchLoc(KI,AUTOM)		#KI-SELFLOG,KILJAVAN OP./NURMIJÄRVI.
-+KI-SELFLOG: ref(120)
-119: branchLoc(PA,AUTOM)		#TU-SELFLOG,PAASIKIVI-OPISTO/TURKU.
-+TU-SELFLOG: ref(119)
-124: branchLoc(HUM,PDA)		#ELEPDA    ,eAineistot, PDA/DDA
-+ELEPDA: ref(124)
-95:  branchLoc(HUM,ELEM)		#ELER      ,eAineistot, rajoitettu
-+ELER: ref(95)
-96:  branchLoc(EI_KOHAAN,EI_PKTIEDE,EI_KOHAAN)		#Pk-tiede  ,P-Karjala TIEDEPUISTO
-+Pk-tiede: ref(96)
-99:  branchLoc(EI_KOHAAN,EI_KIOPIN,EI_KOHAAN)		#Ki-opin   ,Kiljava opinnäytteet
-+Ki-opin: ref(99)
-121: branchLoc(JKL)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI #happening location, asiakastietoja
-+JY-CIRC: ref(121)
-123: branchLoc(TA,HUMAK)		#Ta-humak  ,Akatemia humak
-+Ta-humak: ref(123)
-92:  branchLoc(EI_KOHAAN,EI_VVARASTO,EI_KOHAAN)		#V-varasto ,Varasto pp-varasto
-+V-varasto: ref(92)
-93:  branchLoc(EI_KOHAAN,EI_VKURSSI,EI_KOHAAN)		#V-kurssi  ,Varasto pp-kurssi
-+V-kurssi: ref(93)
-94:  branchLoc(EI_KOHAAN,EI_VYLEIS,EI_KOHAAN)		#V-yleis   ,Varasto pp-yleis
-+V-yleis: ref(94)
-118: branchLoc(JKL,REF)		#Al-TKK    ,Jyväskylä TKI-käsikirjat
-+Al-TKK: ref(118)
-122: branchLoc(HUM,ELEM)		#ELEV      ,eAineistot, Vkirjahylly
-+ELEV: ref(122)
-128: branchLoc(HE,AUTOM)		#HE-SELFLOG,KUUROJEN LIITTO./HELSINKI
-+HE-SELFLOG: ref(128)
-130: branchLoc(KI,LEHDET)       #lehdet, Kiljava
-+Ki-lehdet: ref(130)
-131: branchLoc(HE,LEHDET)       #lehdet, Helsinki
-+He-lehdet: ref(131)
+2: branchLoc() # mettiHA    Arabia: Hankinnassa | On order
++mettiHA: ref(2)
+3: branchLoc() # metleHA    Leppävaara: Hankinnassa | On order
++metleHA: ref(3)
+4: branchLoc() # metmyHA    Myyrmäki: Hankinnassa | On order
++metmyHA: ref(4)
+5: branchLoc() # mettuLUKU  Tukholmankatu: Lukusali, ei lainata | Not for loan                                                                                                                     
++mettuLUKU: ref(5)
+6: branchLoc() # metagYK    Agricolankatu: 4 viikon laina | 4 week loan
++metagYK: ref(6)
+7: branchLoc() # metagONT   Agricolankatu: Opinnäytetyöt | Theses
++metagONT: ref(7)
+8: branchLoc() # metagCDROM Agricolankatu, CD-ROM
++metagCDROM: ref(8)
+9: branchLoc() # metagAV    Agricolankatu: Videot | Videos
++metagAV: ref(9)
+10: branchLoc() # metagKK    Agricolankatu: Ei lainata - Not for loan
++metagKK: ref(10)
+11: branchLoc() # metagLEH   Agricolankatu: Lehdet | Journals
++metagLEH: ref(11)
+12: branchLoc() # metagTYO   Agricolankatu, EI LAINATA - NOT FOR LOAN
++metagTYO: ref(12)
+14: branchLoc() # metagHA    Agricolankatu: Hankinta | On order
++metagHA: ref(14)
+15: branchLoc() # metbuYK    Bulevardi: 4 viikon laina | 4 week loan                                                                                                                                
++metbuYK: ref(15)
+16: branchLoc() # metbuONT   Bulevardi: Opinnäytetyöt | Theses
++metbuONT: ref(16)
+17: branchLoc() # metbuCDROM Bulevardi: CD-ROM
++metbuCDROM: ref(17)
+18: branchLoc() # metbuKK    Bulevardi: Ei lainata | Not for loan
++metbuKK: ref(18)
+20: branchLoc() # metbuLEH   Bulevardi: Lehdet | Journals
++metbuLEH: ref(20)
+21: branchLoc() # metbuTYO   Bulevardi: Henkilökunta, ei lainata | Staff, Not for loan
++metbuTYO: ref(21)
+23: branchLoc() # metWWW     Verkkoaineisto
++metWWW: ref(23)
+24: branchLoc() # REMOVED    REMOVED
++REMOVED: ref(24)
+25: branchLoc() # mettiAV    Arabia: AV-aineisto | AV material
++mettiAV: ref(25)
+26: branchLoc() # mettiKK    Arabia: Ei lainata | Not for loan                                                                                                                                      
++mettiKK: ref(26)
+27: branchLoc() # mettiYK    Arabia: 4 viikon laina | 4 week loan
++mettiYK: ref(27)
+28: branchLoc() # mettiONT   Arabia: Opinnaytetyot | Theses
++mettiONT: ref(28)
+29: branchLoc() # metleCDROM Leppävaara: CD-ROM
++metleCDROM: ref(29)
+30: branchLoc() # metleKK    Leppävaara: Ei lainata | Not for loan
++metleKK: ref(30)
+32: branchLoc() # metleONT   Leppävaara: Opinnäytetyöt | Theses
++metleONT: ref(32)
+33: branchLoc() # metleVAR   Leppävaara: Varasto, ei lainata | Storage, not for loan
++metleVAR: ref(33)
+34: branchLoc() # metleAV    Leppävaara: Videot | Videos
++metleAV: ref(34)
+35: branchLoc() # metleVIR   Leppävaara, lainausoikeus rajoitettu
++metleVIR: ref(35)
+36: branchLoc() # metleYK    Leppävaara: 4 viikon laina | 4 week loan                                                                                                                               
++metleYK: ref(36)
+37: branchLoc() # metmyCDROM Myyrmäki, KYSY HENKILÖKUNNALTA
++metmyCDROM: ref(37)
+38: branchLoc() # metmyKK    Myyrmäki: Ei lainata | Not for loan
++metmyKK: ref(38)
+39: branchLoc() # metmyLYHYT Myyrmäki: Viikon laina | One week loan
++metmyLYHYT: ref(39)
+40: branchLoc() # metmyONT   Myyrmäki: Opinnäytetyöt | Theses
++metmyONT: ref(40)
+41: branchLoc() # metmyVAR   Myyrmäki Varasto-Storage. Laina-aika 28 vrk.
++metmyVAR: ref(41)
+42: branchLoc() # metmyAV    Myyrmäki: Videot | Videos
++metmyAV: ref(42)
+43: branchLoc() # metmyYK    Myyrmäki: 4 viikon laina | 4 week loan
++metmyYK: ref(43)
+44: branchLoc() # metonYK    Onnentie
++metonYK: ref(44)
+45: branchLoc() # metonONT   Onnentie Opinnäytetyöt - Theses, laina-aika 28 vrk                                                                                                                     
++metonONT: ref(45)
+46: branchLoc() # metonAV    Onnentie Videot - Videos, laina-aika 7 vrk
++metonAV: ref(46)
+47: branchLoc() # metonKK    Onnentie: Ei lainata | Not for loan
++metonKK: ref(47)
+48: branchLoc() # metonLEH   Onnentie Lehdet - Periodicals, EI LAINATA - NOT FOR LOAN
++metonLEH: ref(48)
+50: branchLoc() # metsoYK    Sofianlehdonkatu: 4 viikon laina | 4 week loan
++metsoYK: ref(50)
+51: branchLoc() # metsoONT   Sofianlehdonkatu: Opinnäytetyöt | Theses
++metsoONT: ref(51)
+52: branchLoc() # metsoCDROM Sofianlehdonkatu: CD-ROM
++metsoCDROM: ref(52)
+53: branchLoc() # metsoAV    Sofianlehdonkatu: Videot | Videos
++metsoAV: ref(53)
+54: branchLoc() # metsoKK    Sofianlehdonkatu: Ei lainata | Not for loan                                                                                                                            
++metsoKK: ref(54)
+55: branchLoc() # metsoLEH   Sofianlehdonkatu: Lehdet | Journals
++metsoLEH: ref(55)
+56: branchLoc() # mettuYK    Tukholmankatu: 4 viikon laina | 4 week loan
++mettuYK: ref(56)
+57: branchLoc() # mettuONT   Tukholmankatu: Opinnäytetyöt | Theses
++mettuONT: ref(57)
+58: branchLoc() # mettuCDROM Tukholmankatu: CD-ROM
++mettuCDROM: ref(58)
+59: branchLoc() # mettuAV    Tukholmankatu: Videot | Videos
++mettuAV: ref(59)
+60: branchLoc() # mettuKK    Tukholmankatu: Ei lainata | Not for loan
++mettuKK: ref(60)
+61: branchLoc() # mettuVAR   Tukholmankatu: Varasto | Storage
++mettuVAR: ref(61)
+62: branchLoc() # mettuVARLE Tukholmankatu: Lehtivarasto | Journal storage                                                                                                                          
++mettuVARLE: ref(62)
+63: branchLoc() # mettuLEH   Tukholmankatu: Lehdet | Journals
++mettuLEH: ref(63)
+64: branchLoc() # mettuTYO   Tukholmankatu: Työkpl, ei lainata | Staff use, not for loan
++mettuTYO: ref(64)
+65: branchLoc() # mettuHA    Tukholmankatu: Hankinnassa | On order
++mettuHA: ref(65)
+66: branchLoc() # metviYK    Vanha viertotie: 4 viikon laina | 4 week loan
++metviYK: ref(66)
+67: branchLoc() # metviONT   Vanha Viertotie: Opinnäytetyöt | Theses
++metviONT: ref(67)
+68: branchLoc() # metviCDROM Vanha viertotie: CD-ROM
++metviCDROM: ref(68)
+69: branchLoc() # metviAV    Vanha viertotie: Videot | Videos
++metviAV: ref(69)
+70: branchLoc() # metviAANI  Vanha viertotie: Äänitteet | Audio materials                                                                                                                           
++metviAANI: ref(70)
+71: branchLoc() # metviKK    Vanha Viertotie: Ei lainata | Not for loan
++metviKK: ref(71)
+72: branchLoc() # metviVAR   Vanha viertotie: Varasto | Storage
++metviVAR: ref(72)
+73: branchLoc() # metviLEH   Vanha viertotie: Lehdet | Journals
++metviLEH: ref(73)
+74: branchLoc() # metviOPEMA Vanha viertotie: opetuskäyttö | teaching materials
++metviOPEMA: ref(74)
+75: branchLoc() # metbuHA    Bulevardi, Hankinta - On order, kysy henkilökunnalta
++metbuHA: ref(75)
+76: branchLoc() # metonHA    Onnentie, Hankinta - On order, kysy henkilökunnalta
++metonHA: ref(76)
+77: branchLoc() # metsoHA    Sofianlehdonkatu: Hankinnassa | On order
++metsoHA: ref(77)
+78: branchLoc() # metviHA    Vanha viertotie: Hankinnassa | On order                                                                                                                                
++metviHA: ref(78)
+79: branchLoc() # metagLU    Agricola luettelointi
++metagLU: ref(79)
+80: branchLoc() # metbuLU    Bulevardi luettelointi
++metbuLU: ref(80)
+81: branchLoc() # metleLU    Leppävaara luettelointi
++metleLU: ref(81)
+82: branchLoc() # metmyLU    Myyrmäki luettelointi
++metmyLU: ref(82)
+83: branchLoc() # metonLU    Onnentie luettelointi
++metonLU: ref(83)
+84: branchLoc() # metsoLU    Sofianlehto luettelointi
++metsoLU: ref(84)
+85: branchLoc() # mettiLU    Arabia luettelointi
++mettiLU: ref(85)
+86: branchLoc() # mettuLU    Tukholmank luettelointi
++mettuLU: ref(86)
+87: branchLoc() # metviLU    Viertotie luettelointi
++metviLU: ref(87)
+88: branchLoc() # metleLEH   Leppävaara: Lehdet | Journals                                                                                                                                          
++metleLEH: ref(88)
+89: branchLoc() # metmyLEH   Myyrmäki: Lehdet | Journals
++metmyLEH: ref(89)
+90: branchLoc() # mettiLEH   Arabia: Lehdet | Journals
++mettiLEH: ref(90)
+91: branchLoc() # metagLA    Agricolankatu lainaus
++metagLA: ref(91)
+92: branchLoc() # metbuLA    Bulevardi lainaus
++metbuLA: ref(92)
+93: branchLoc() # metleLA    Leppävaara lainaus
++metleLA: ref(93)
+94: branchLoc() # metmyLA    Myyrmäki lainaus
++metmyLA: ref(94)
+95: branchLoc() # metonLA    Onnentie lainaus
++metonLA: ref(95)
+96: branchLoc() # metsoLA    Sofianlehto lainaus
++metsoLA: ref(96)
+97: branchLoc() # mettiLA    Arabia lainaus
++mettiLA: ref(97)
+98: branchLoc() # mettuLA    Tukholmankatu lainaus
++mettuLA: ref(98)
+99: branchLoc() # metviLA    Viertotie lainaus
++metviLA: ref(99)
+100: branchLoc() # metagAU    Agricolankatu automaatti                                                                                                                                               
++metagAU: ref(100)
+101: branchLoc() # metbuAU    Bulevardi automaatti
++metbuAU: ref(101)
+102: branchLoc() # metleAU    Leppävaara automaatti
++metleAU: ref(102)
+103: branchLoc() # metmyAU    Myyrmäki automaatti
++metmyAU: ref(103)
+104: branchLoc() # metonAU    Onnentie automaatti
++metonAU: ref(104)
+105: branchLoc() # metsoAU    Sofianlehto automaatti
++metsoAU: ref(105)
+106: branchLoc() # mettiAU    Arabia automaatti
++mettiAU: ref(106)
+107: branchLoc() # mettuAU1   Tukholmankatu automaatti1
++mettuAU1: ref(107)
+108: branchLoc() # mettuAU2   Tukholmankatu automaatti2
++mettuAU2: ref(108)
+109: branchLoc() # metviAU    Viertotie automaatti
++metviAU: ref(109)
+110: branchLoc() # metmyAU2   Myyrmäki automaatti
++metmyAU2: ref(110)
+113: branchLoc() # mettuAANI  Tukholmankatu: Äänitteet | Audio materials                                                                                                                             
++mettuAANI: ref(113)
+114: branchLoc() # LASKUTETTU LASKUTETTU
++LASKUTETTU: ref(114)
+115: branchLoc() # metsoAANI  Sofianlehdonkatu: Äänitteet | Audio materials
++metsoAANI: ref(115)
+116: branchLoc() # metbuINV   metbuINV
++metbuINV: ref(116)
+117: branchLoc() # metleINV   metleINV
++metleINV: ref(117)
+118: branchLoc() # mettuINV   mettuINV
++mettuINV: ref(118)
+119: branchLoc() # metsoINV   metsoINV
++metsoINV: ref(119)
+120: branchLoc() # metmyINV   metmyINV
++metmyINV: ref(120)
+121: branchLoc() # metmyVIR   Myyrmäki, lainausoikeus rajoitettu
++metmyVIR: ref(121)
+122: branchLoc() # mettuPIKA  Tukholmankatu: Viikon laina | One week loan
++mettuPIKA: ref(122)
+123: branchLoc() # metsoPIKA  Sofianlehdonkatu: Viikon laina | One week loan                                                                                                                         
++metsoPIKA: ref(123)
+124: branchLoc() # metsoERI   Sofianlehdonkatu: Erikoiskokoelma | Special Collection
++metsoERI: ref(124)
+125: branchLoc() # metmaKK    Mannerheimintie: Ei lainata | Not for loan
++metmaKK: ref(125)
+126: branchLoc() # mettiPIKA  Arabia: Viikon laina | One week loan
++mettiPIKA: ref(126)
+127: branchLoc() # metmaLA    metmaLA
++metmaLA: ref(127)
+128: branchLoc() # MAKSU      MAKSU
++MAKSU: ref(128)
+129: branchLoc() # metruLA    Ruoholahti lainaus
++metruLA: ref(129)
+130: branchLoc() # metroDB    metroDB
++metroDB: ref(130)
+131: branchLoc() # mettiAANI  Arabia aanitteet
++mettiAANI: ref(131)
+132: branchLoc() # mettiNUO   Arabia: Nuotit | Sheet music
++mettiNUO: ref(132)
+133: branchLoc() # mettiNUOKK Arabia: Nuotit, ei lainata | Sheet music, not for loan                                                                                                                 
++mettiNUOKK: ref(133)
+134: branchLoc() # mettiORK   Arabia orkesterimateriaali
++mettiORK: ref(134)
+135: branchLoc() # mettiPAR   Arabia partituurit
++mettiPAR: ref(135)
+136: branchLoc() # mettiJOULU Arabia: Joulumateriaali | Christmas material
++mettiJOULU: ref(136)
+137: branchLoc() # metagPIKA  Agricolankatu: Viikon laina | One week loan
++metagPIKA: ref(137)
+138: branchLoc() # metbuPIKA  Bulevardi: Viikon laina | One week loan
++metbuPIKA: ref(138)
+139: branchLoc() # metlePIKA  Leppävaara: Viikon laina | One week loan
++metlePIKA: ref(139)
+140: branchLoc() # metviPIKA  Vanha viertotie: Viikon laina | One week loan
++metviPIKA: ref(140)
+141: branchLoc() # metagINV
++metagINV: ref(141)
+142: branchLoc() # metmyAU3
++metmyAU3: ref(142)
+143: branchLoc() # metmpLA    Myllypuro lainaus                                                                                                                                                      
++metmpLA: ref(143)
+144: branchLoc() # metmpYK    Myllypuro: Neljan viikon laina | Four week loan
++metmpYK: ref(144)
+145: branchLoc() # metmpPIKA  Myllypuro: Viikon laina | One week loan
++metmpPIKA: ref(145)
+146: branchLoc() # metmpONT   Myllypuro: opinnäytetyöt | Thesis
++metmpONT: ref(146)
+147: branchLoc() # metmpLU    Myllypuro luettelointi
++metmpLU: ref(147)
+148: branchLoc() # metmpKK    Myllypuro: Ei lainata | Not for loan
++metmpKK: ref(148)
+149: branchLoc() # metmpLEH   Myllypuro: Lehdet | Journals
++metmpLEH: ref(149)
+150: branchLoc() # metmpHA    Myllypuro hankinta
++metmpHA: ref(150)
+151: branchLoc() # metmpAU    Myllypuro automaatti
++metmpAU: ref(151)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
