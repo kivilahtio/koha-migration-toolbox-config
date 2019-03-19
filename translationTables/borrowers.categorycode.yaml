@@ -14,9 +14,22 @@
 #"3","HENK","Henkilökunta"
 #"5","K","Kaukopalvelu"
 
-1        : OPI
-2        : MUU
-3        : HENK
-5        : KAU
+1: OHSTAFF #    ÅA staff
+2: EXTERNAL #   External
+3: VYSTAFF #    VY staff
+4: OHSTUDENT #  ÅA student
+5: VYSTUDENT #  VY student
+6: SHHSTAFF #   HANKEN staff
+7: SHHSTUDENT # HANKEN student
+8: ILL #        ILL
+9: UB #         UB
+10: VAMKSTAFF #  VAMK staff
+11: VAMKSTUD #   VAMK student
+12: NOVIASTUD #  NOVIA student
+13: NOVIASTAFF # NOVIA staff
+14: CENTRSTAFF # CENTRIA staff
+15: CENTRSTUD #  CENTRIA student
+16: TEXTBOOK21 # TEXTBOOK21
+17: KOHA #       KOHA users
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
