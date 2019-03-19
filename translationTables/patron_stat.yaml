@@ -13,25 +13,25 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: Pal # Alkio/opiston opiskelija
-9: G   # Ulkopuolisen amk:n opisk.
-21: U  #   Muut
-22: "N"  #   .Kaukolaina-asiakas
-26: Pps  # P-Savo/opiston opiskelija
-27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
-41: Ppa  # Pkivi/opiston opiskelija
-42: Pta  # Akatemia/opiston opiskeli
-43: Pla  # Alkio/opiston hkunta
-46: Pat  # Akatemia/opiston hkunta
-50: Pap  # PKivi/opiston hkunta
-52: Psp  # P-Savo/opiston hkunta
-53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
-58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
-62: Dmo  # .Humak/opiskelijat
-63: Uko  # Kuurojen liitto
-64: Uvt  # Valkea talo / muut
-65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+1: KKK # Muut
+2: AAA # Haaga-Helian henkilökunta
+4: BBB # Haaga-Helian opiskelija
+8: III # Kotim. kaukop.asiakas
+11: CCC # Ulkop. amkin opiskelija
+12: DDD # Ulkop. amkin henkilökunta
+13: EEE # Yliopisto-opisk. ja hlök.
+14: FFF # Muu oppilaitos
+15: GGG # Julkishallinnon edustaja
+16: HHH # Elinkeinoelämän edustaja
+20: JJJ # Ulkom. kaukop.asiakas
+23: FHO # HBC:n opiskelija
+25: FMO # Perho opiskelija
+28: XXX # Vaihto-opiskelija
+29: FUH # SUO:n henkilökunta
+30: FUO # SUO:n opiskelijat
+31: XAL # Haaga-Helian alumni
+32: CLA # LA avoin ammattikorkea
+33: DLH # LA henkilökunta
+35: XLA # LA alumni
+37: CLO # LA opiskelija
+40: YYY # 3amk-kumppanin opiskelija                                                                                                                                                  
