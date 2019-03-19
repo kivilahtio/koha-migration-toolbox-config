@@ -13,25 +13,35 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: Pal # Alkio/opiston opiskelija
-9: G   # Ulkopuolisen amk:n opisk.
-21: U  #   Muut
-22: "N"  #   .Kaukolaina-asiakas
-26: Pps  # P-Savo/opiston opiskelija
-27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
-41: Ppa  # Pkivi/opiston opiskelija
-42: Pta  # Akatemia/opiston opiskeli
-43: Pla  # Alkio/opiston hkunta
-46: Pat  # Akatemia/opiston hkunta
-50: Pap  # PKivi/opiston hkunta
-52: Psp  # P-Savo/opiston hkunta
-53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
-58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
-62: Dmo  # .Humak/opiskelijat
-63: Uko  # Kuurojen liitto
-64: Uvt  # Valkea talo / muut
-65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+
+7: C #   Muun yliopiston opisk.
+8: CD #  cd
+9: CC #  cc
+10: B #   Koulujen henkilökunta
+11: BC #  Muu pvn henkilökunta
+12: A #   Oma opiskelija MpKK MaaSK
+13: AB #  MaaSK opiskelija
+14: AF #  Täydennysopiskelija
+15: BD #  bd
+16: BF #  bf
+17: CB #  cb                                                           
+18: AA #  MpKK opiskelija
+19: AC #  Kadetti
+20: AD #  EUK-opiskelija
+21: CA #  JOO-opiskelija
+22: BG #  bg
+23: BB #  MaaSKn henkilökunta
+24: AG #  POP/MaaSK
+25: AE #  YEK-opiskelija
+26: BE #  be
+27: BA #  MpKKn henkilökunta
+28: BH #  bh
+29: AH #  SAH/MaaSK
+30: D #   Muun yliopiston henkilök.
+31: E #   Amkn opisk. ja henkilök.
+32: F #   Muun oppil. opisk.+henk.                                     
+33: G #   Muu pv henk + julkishall
+34: H #   Elinkeinoelämän edustaja
+35: I #   Kotim. kaukopalv.asiakas
+36: J #   Ulkom. kaukopal.asiakas
+37: K #   Muut
