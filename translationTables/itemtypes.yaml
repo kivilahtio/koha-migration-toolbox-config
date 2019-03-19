@@ -9,12 +9,15 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW
-4: LAINA0
-3: LAINA14  #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
-2: LAINA28
-5: LAINA14
-6: LAINA14   #nämä siirretään LAINA14 itemtypeen, tätä ei enää tarvitse
+2: LAINA28 # Laina28    Laina28                   Laina28
+3: LAINA0 # Laina0     Laina0                    Laina0
+4: LAINA14 # Laina14    ÄLÄ KÄYTÄ Laina14         Laina14
+5: LAINA7 # Laina7     ÄLÄ KÄYTÄLaina7           Laina7
+6: LAINA0LEH # Laina0leh  Laina0leh                 Laina0leh                                                                                                                                   
+7: VKOLAINA7 # vkolaina7  vkolaina7                 vkolaina7
+8: LAINA3PIK # Laina3pik  ÄLÄ KÄYTÄ:Laina3pik       Laina3pik
+9: LAINA7ERI # Laina7eri  Laina7eri                 Laina7eri
+10: REVIEW # REVIEW     REVIEW                    REVIEW
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
