@@ -13,25 +13,56 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: Pal # Alkio/opiston opiskelija
-9: G   # Ulkopuolisen amk:n opisk.
-21: U  #   Muut
-22: "N"  #   .Kaukolaina-asiakas
-26: Pps  # P-Savo/opiston opiskelija
-27: U  #   Julkishallinnon edustaja       #voi poistaa ja siirtää nämä ryhmään U "Muut"
-41: Ppa  # Pkivi/opiston opiskelija
-42: Pta  # Akatemia/opiston opiskeli
-43: Pla  # Alkio/opiston hkunta
-46: Pat  # Akatemia/opiston hkunta
-50: Pap  # PKivi/opiston hkunta
-52: Psp  # P-Savo/opiston hkunta
-53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
-55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
-58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
-62: Dmo  # .Humak/opiskelijat
-63: Uko  # Kuurojen liitto
-64: Uvt  # Valkea talo / muut
-65: Kop  # Kuurojen opiston hkunta        #tämän ja seuraavan rivin Pko:n voi yhdestää ryhmäksi "Kuurojen opisto"
-66: Kop  # Kuurojen opiston opiskeli      #tämän ja edellisen rivin Pkh:n voi yhdestää ryhmäksi "Kuurojen opisto"
+7: BO #  Åbo Akademi Vasa staff
+8: U #   Others
+10: EO #  Åbo Akademi Vasa student
+11: BV #  VY staff
+12: EV #  VY student
+13: I #   University other: staff
+14: EVA # VY open: student
+15: H #   ÄLÄ KÄYTÄ AMKot:staffstud
+17: BH #  Hanken Vaasa staff
+19: EH #  Hanken Vaasa student                                                                                                                                                       
+20: IQ #  Åbo Akademi Turku: staff
+21: J #   University other: student
+24: "N" #   ILL customer in Finland
+27: JQ #  Åbo Akademi Turku:student
+54: IZ #  Hanken Helsinki: staff
+55: EHA # Hanken Vaasa open:student
+56: EOA # Åbo Akademi Vasa open:stu
+57: JZ #  Hanken Helsinki: student
+58: DYT # ÄLÄKÄYTÄNovia:staff/stude
+59: DX #  ÄLÄKÄYTÄVAMK:staff/studen
+60: P #   School other:staff/studen                                                                                                                                                  
+61: S #   Repres./public sector
+62: R #   Repres./industry&commerce
+63: O #   ILL customer foreign
+64: EVY # ÄLÄKÄYTÄ VY
+72: DY #  YH Novia student ÄLÄ KÄYT
+73: AY #  YH Novia staff ÄLÄ KÄYTÄ
+74: DXT # VAMK student TL
+75: AXT # VAMK staff TL
+76: MYA # YA Jakobstad/Nkby student
+77: AXS # VAMK staff ST
+78: DXS # VAMK student ST
+79: AXL # VAMK staff LM
+80: DXL # VAMK student LM                                                                                                                                                            
+82: LYA # YA Jakobstad/Nkby staff
+83: DYJ # YH Novia Jakobstad studen
+84: AYJ # YH Novia Jakobstad staff
+85: DYR # YH Novia Raseborg student
+86: AYR # YH Novia Raseborg staff
+87: DYV # YH Novia Vasa student
+88: AYV # YH Novia Vasa staff
+89: DYA # YH Novia Åbo student
+90: AYA # YH Novia Åbo staff
+91: EOJ # Åbo Akademi Jstd stuÄLÄ K
+92: BOJ # Åbo Akademi Jstd staÄLÄ K
+93: ACJ # Centria Jakobstad staff                                                                                                                                                    
+94: DCJ # Centria Jakobstad student
+95: T #   Media
+96: F #   AMK other: staff
+97: G #   AMK other: student
+98: L #   Secondary education:staff
+99: M #   Secondary education:stude
+100: JH #  Helsingin yoVaasa:student
