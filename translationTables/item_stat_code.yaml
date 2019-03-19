@@ -9,7 +9,16 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-al: ''   #1, Alkio-opisto
-alm: ''   #6, Alkio-opisto / muut
-HUM: ''   #7, HUMAKin hankinnat
+XLM: '' # XLM
+XST: '' # XST
+XTL: '' # XTL
+XLO: '' # XLO
+XTO: '' # XTO
+XSO: '' # XSO
+YHN: '' # Novia
+WBR: '' # ÅA Branders
+ZCE: '' # Z - Centria
+WAA: '' # ÅA Vasa
+SHH: '' # Hanken
+VY: '' #  Vaasan yliopisto
 _DEFAULT_: warning()
