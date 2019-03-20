@@ -1,17 +1,17 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1: branchLoc() # REVIEW     REVIEW
+1: branchLoc(KONVERSIO, KONVERSIO) # REVIEW     REVIEW
 +REVIEW: ref(1)
-2: branchLoc() # Varastok   Varastok
+2: branchLoc(KONVERSIO, KONVERSIO) # Varastok   Varastok
 +Varastok: ref(2)
-3: branchLoc() # Luetteloin Luettelointi
+3: branchLoc(KONVERSIO, KONVERSIO) # Luetteloin Luettelointi
 +Luetteloin: ref(3)
-4: branchLoc() # Lainaus    Lainaus
+4: branchLoc(KONVERSIO, KONVERSIO) # Lainaus    Lainaus
 +Lainaus: ref(4)
-5: branchLoc() # Kausijulk  Kausijulkaisut
+5: branchLoc(KONVERSIO, KONVERSIO) # Kausijulk  Kausijulkaisut
 +Kausijulk: ref(5)
-6: branchLoc() # Self-Check Self-Check
+6: branchLoc(KONVERSIO, KONVERSIO) # Self-Check Self-Check
 +Self-Check: ref(6)
 
 
