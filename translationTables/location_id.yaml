@@ -1,169 +1,169 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-2: branchLoc() # KKLATD     MPKK TäydkL Käsikirjasto (ei lainata)
+2: branchLoc(KONVERSIO, KONVERSIO) # KKLATD     MPKK TäydkL Käsikirjasto (ei lainata)
 +KKLATD: ref(2)
-3: branchLoc() # KKOP       MPKK Opetuspaketit (Kokoelmahuone 2, 2 krs.)
+3: branchLoc(KONVERSIO, KONVERSIO) # KKOP       MPKK Opetuspaketit (Kokoelmahuone 2, 2 krs.)
 +KKOP: ref(3)
-4: branchLoc() # MPES       MpKK pk. Lahjat
+4: branchLoc(KONVERSIO, KONVERSIO) # MPES       MpKK pk. Lahjat
 +MPES: ref(4)
-5: branchLoc() # KKCD       MPKK AV-aineisto (Kokoelmahuone 2, 2 krs.)
+5: branchLoc(KONVERSIO, KONVERSIO) # KKCD       MPKK AV-aineisto (Kokoelmahuone 2, 2 krs.)
 +KKCD: ref(5)
-6: branchLoc() # KKES       MPKK kurssikirjasto Sijainti epäselvä
+6: branchLoc(KONVERSIO, KONVERSIO) # KKES       MPKK kurssikirjasto Sijainti epäselvä
 +KKES: ref(6)
-7: branchLoc() # KKKI       MPKK Metodit (2. krs), 28 vrk
+7: branchLoc(KONVERSIO, KONVERSIO) # KKKI       MPKK Metodit (2. krs), 28 vrk
 +KKKI: ref(7)
-8: branchLoc() # KKKITLL    MPKK kurssikirjasto ETS/TLL aineisto (vain viranomaiskäyttö)
+8: branchLoc(KONVERSIO, KONVERSIO) # KKKITLL    MPKK kurssikirjasto ETS/TLL aineisto (vain viranomaiskäyttö)
 +KKKITLL: ref(8)
-9: branchLoc() # KKKK       MPKK kurssikirjasto Käsikirjat (ei lainata)
+9: branchLoc(KONVERSIO, KONVERSIO) # KKKK       MPKK kurssikirjasto Käsikirjat (ei lainata)
 +KKKK: ref(9)
-10: branchLoc() # KKKKTLL    MPKK Kurssikirjasto Käsikirjat ETS/TLL (ei lainata)
+10: branchLoc(KONVERSIO, KONVERSIO) # KKKKTLL    MPKK Kurssikirjasto Käsikirjat ETS/TLL (ei lainata)
 +KKKKTLL: ref(10)
-13: branchLoc() # KKLAMU     MPKK Sotamuseo (ei lainata)
+13: branchLoc(KONVERSIO, KONVERSIO) # KKLAMU     MPKK Sotamuseo (ei lainata)
 +KKLAMU: ref(13)
-14: branchLoc() # KKLASA     Sota-arkisto Käsikirjasto (vain lukusalilainaan)
+14: branchLoc(KONVERSIO, KONVERSIO) # KKLASA     Sota-arkisto Käsikirjasto (vain lukusalilainaan)
 +KKLASA: ref(14)
-15: branchLoc() # KKLASH     MPKK Sotataidon laitos, sotahistorian käsikirj. (ei lainata)
+15: branchLoc(KONVERSIO, KONVERSIO) # KKLASH     MPKK Sotataidon laitos, sotahistorian käsikirj. (ei lainata)
 +KKLASH: ref(15)
-16: branchLoc() # KKLAST     MPKK StratL Käsikirjasto (ei lainata)
+16: branchLoc(KONVERSIO, KONVERSIO) # KKLAST     MPKK StratL Käsikirjasto (ei lainata)
 +KKLAST: ref(16)
-17: branchLoc() # KKLATA     MPKK Sotataidon laitos, taktiikan käsikirjasto (ei lainata)
+17: branchLoc(KONVERSIO, KONVERSIO) # KKLATA     MPKK Sotataidon laitos, taktiikan käsikirjasto (ei lainata)
 +KKLATA: ref(17)
-18: branchLoc() # KKLATE     MPKK Sotatekniikan laitos (ei lainata)
+18: branchLoc(KONVERSIO, KONVERSIO) # KKLATE     MPKK Sotatekniikan laitos (ei lainata)
 +KKLATE: ref(18)
-19: branchLoc() # KKOKVAR    MPKK Oppikirjat (2 krs.), 365 vrk
+19: branchLoc(KONVERSIO, KONVERSIO) # KKOKVAR    MPKK Oppikirjat (2 krs.), 365 vrk
 +KKOKVAR: ref(19)
-20: branchLoc() # KKON       MPKK Opinnäytteet (2 krs.), ei lainata
+20: branchLoc(KONVERSIO, KONVERSIO) # KKON       MPKK Opinnäytteet (2 krs.), ei lainata
 +KKON: ref(20)
-21: branchLoc() # KKONKK     Ex-MPKK Opinnäytteiden käsikirjat (varastoaineisto)
+21: branchLoc(KONVERSIO, KONVERSIO) # KKONKK     Ex-MPKK Opinnäytteiden käsikirjat (varastoaineisto)
 +KKONKK: ref(21)
-22: branchLoc() # KKONTLL    MPKK Opinnäytteet (2 krs.), ei lainata
+22: branchLoc(KONVERSIO, KONVERSIO) # KKONTLL    MPKK Opinnäytteet (2 krs.), ei lainata
 +KKONTLL: ref(22)
-23: branchLoc() # KKOSVAR    MPKK Ohjesäännöt (2 krs.), 365 vrk
+23: branchLoc(KONVERSIO, KONVERSIO) # KKOSVAR    MPKK Ohjesäännöt (2 krs.), 365 vrk
 +KKOSVAR: ref(23)
-24: branchLoc() # KKOSVARK   MPKK Kumotut (2 krs.), 365 vrk
+24: branchLoc(KONVERSIO, KONVERSIO) # KKOSVARK   MPKK Kumotut (2 krs.), 365 vrk
 +KKOSVARK: ref(24)
-25: branchLoc() # KKSA       Ex-MPKK Sarjat (Kokoelmahuone 1, 2 krs.)
+25: branchLoc(KONVERSIO, KONVERSIO) # KKSA       Ex-MPKK Sarjat (Kokoelmahuone 1, 2 krs.)
 +KKSA: ref(25)
-26: branchLoc() # KKSAVAR    MPKK Oppikirjat (Kokoelmahuone 2, 2 krs.)
+26: branchLoc(KONVERSIO, KONVERSIO) # KKSAVAR    MPKK Oppikirjat (Kokoelmahuone 2, 2 krs.)
 +KKSAVAR: ref(26)
-27: branchLoc() # KKVI       MpKK / kurssikirjasto Videot (alakerta)
+27: branchLoc(KONVERSIO, KONVERSIO) # KKVI       MpKK / kurssikirjasto Videot (alakerta)
 +KKVI: ref(27)
-28: branchLoc() # MAASKES    MaaSK Sijainti epäselvä (vain pvn käyttöön)
+28: branchLoc(KONVERSIO, KONVERSIO) # MAASKES    MaaSK Sijainti epäselvä (vain pvn käyttöön)
 +MAASKES: ref(28)
-29: branchLoc() # MAKI       MAASK Kirjat (vain pv)
+29: branchLoc(KONVERSIO, KONVERSIO) # MAKI       MAASK Kirjat (vain pv)
 +MAKI: ref(29)
-30: branchLoc() # MAON       MAASK Opinnäytteet (vain pv)
+30: branchLoc(KONVERSIO, KONVERSIO) # MAON       MAASK Opinnäytteet (vain pv)
 +MAON: ref(30)
-31: branchLoc() # MAOS       MAASK Ohjesäännöt (vain pv)
+31: branchLoc(KONVERSIO, KONVERSIO) # MAOS       MAASK Ohjesäännöt (vain pv)
 +MAOS: ref(31)
-32: branchLoc() # PKER       MPKK Erikoiskokoelma (2 krs.), 28 vrk
+32: branchLoc(KONVERSIO, KONVERSIO) # PKER       MPKK Erikoiskokoelma (2 krs.), 28 vrk
 +PKER: ref(32)
-33: branchLoc() # PKES       MPKK Sijainti epäselvä (käsiteltävänä)
+33: branchLoc(KONVERSIO, KONVERSIO) # PKES       MPKK Sijainti epäselvä (käsiteltävänä)
 +PKES: ref(33)
-34: branchLoc() # PKFE       MPKK Yleiskokoelma (1 krs.), 28 vrk
+34: branchLoc(KONVERSIO, KONVERSIO) # PKFE       MPKK Yleiskokoelma (1 krs.), 28 vrk
 +PKFE: ref(34)
-35: branchLoc() # PKFENO     MPKK Nova (1 krs.), 28 vrk
+35: branchLoc(KONVERSIO, KONVERSIO) # PKFENO     MPKK Nova (1 krs.), 28 vrk
 +PKFENO: ref(35)
-36: branchLoc() # PKGE       MPKK Yleiskokoelma (1 krs.), 28 vrk
+36: branchLoc(KONVERSIO, KONVERSIO) # PKGE       MPKK Yleiskokoelma (1 krs.), 28 vrk
 +PKGE: ref(36)
-37: branchLoc() # PKGENO     MPKK Nova (1 krs.), 28 vrk
+37: branchLoc(KONVERSIO, KONVERSIO) # PKGENO     MPKK Nova (1 krs.), 28 vrk
 +PKGENO: ref(37)
-38: branchLoc() # PKHI       MPKK Yleiskokoelma (1 krs.), 28 vrk
+38: branchLoc(KONVERSIO, KONVERSIO) # PKHI       MPKK Yleiskokoelma (1 krs.), 28 vrk
 +PKHI: ref(38)
-39: branchLoc() # PKHINO     MPKK Nova (1 krs.), 28 vrk
+39: branchLoc(KONVERSIO, KONVERSIO) # PKHINO     MPKK Nova (1 krs.), 28 vrk
 +PKHINO: ref(39)
-40: branchLoc() # PKKK       MPKK Käsikirjat (1 krs.), ei lainata
+40: branchLoc(KONVERSIO, KONVERSIO) # PKKK       MPKK Käsikirjat (1 krs.), ei lainata
 +PKKK: ref(40)
-41: branchLoc() # PKLL       MPKK Sarjat (1 krs.), 28 vrk
+41: branchLoc(KONVERSIO, KONVERSIO) # PKLL       MPKK Sarjat (1 krs.), 28 vrk
 +PKLL: ref(41)
-42: branchLoc() # PKOH       MPKK Ohjesäännöt (ulkom.)
+42: branchLoc(KONVERSIO, KONVERSIO) # PKOH       MPKK Ohjesäännöt (ulkom.)
 +PKOH: ref(42)
-43: branchLoc() # PKRA       MPKK Rara-kokoelma (2 krs.), ei lainata
+43: branchLoc(KONVERSIO, KONVERSIO) # PKRA       MPKK Rara-kokoelma (2 krs.), ei lainata
 +PKRA: ref(43)
-44: branchLoc() # PKVA       MPKK Etävarasto, 365 vrk
+44: branchLoc(KONVERSIO, KONVERSIO) # PKVA       MPKK Etävarasto, 365 vrk
 +PKVA: ref(44)
-45: branchLoc() # kklai      MPKK Kurssikirjaston lainaamo
+45: branchLoc(KONVERSIO, KONVERSIO) # kklai      MPKK Kurssikirjaston lainaamo
 +kklai: ref(45)
-46: branchLoc() # malai      Maasotakoulun lainaamo
+46: branchLoc(KONVERSIO, KONVERSIO) # malai      Maasotakoulun lainaamo
 +malai: ref(46)
-47: branchLoc() # KKLAKT     MPKK KäyttL Käsikirjasto (ei lainata)
+47: branchLoc(KONVERSIO, KONVERSIO) # KKLAKT     MPKK KäyttL Käsikirjasto (ei lainata)
 +KKLAKT: ref(47)
-48: branchLoc() # MAKK       MAASK Käsikirjat (vain pv)
+48: branchLoc(KONVERSIO, KONVERSIO) # MAKK       MAASK Käsikirjat (vain pv)
 +MAKK: ref(48)
-49: branchLoc() # MASA       MAASK Sarjat (vain pv)
+49: branchLoc(KONVERSIO, KONVERSIO) # MASA       MAASK Sarjat (vain pv)
 +MASA: ref(49)
-50: branchLoc() # MAOK       Maasotakoulu Oppikirjat (vain pvn käyttöön)
+50: branchLoc(KONVERSIO, KONVERSIO) # MAOK       Maasotakoulu Oppikirjat (vain pvn käyttöön)
 +MAOK: ref(50)
-51: branchLoc() # MAMV       MAASK Opetuspaketit (vain pv)
+51: branchLoc(KONVERSIO, KONVERSIO) # MAMV       MAASK Opetuspaketit (vain pv)
 +MAMV: ref(51)
-52: branchLoc() # MAVI       Maasotakoulu Videot (vain pvn käyttöön)
+52: branchLoc(KONVERSIO, KONVERSIO) # MAVI       Maasotakoulu Videot (vain pvn käyttöön)
 +MAVI: ref(52)
-53: branchLoc() # MACD       MAASK CD/DVD (vain pv)
+53: branchLoc(KONVERSIO, KONVERSIO) # MACD       MAASK CD/DVD (vain pv)
 +MACD: ref(53)
-54: branchLoc() # pklai      MPKK Kirjaston lainaamo
+54: branchLoc(KONVERSIO, KONVERSIO) # pklai      MPKK Kirjaston lainaamo
 +pklai: ref(54)
-55: branchLoc() # hakk       MpKK Kurssikirjaston hankinta
+55: branchLoc(KONVERSIO, KONVERSIO) # hakk       MpKK Kurssikirjaston hankinta
 +hakk: ref(55)
-56: branchLoc() # hapk       MpKK Pääkirjaston hankinta
+56: branchLoc(KONVERSIO, KONVERSIO) # hapk       MpKK Pääkirjaston hankinta
 +hapk: ref(56)
-57: branchLoc() # hama       MaaSK hankinta
+57: branchLoc(KONVERSIO, KONVERSIO) # hama       MaaSK hankinta
 +hama: ref(57)
-58: branchLoc() # luekk      MPKK Kurssikirjaston luettelointi
+58: branchLoc(KONVERSIO, KONVERSIO) # luekk      MPKK Kurssikirjaston luettelointi
 +luekk: ref(58)
-59: branchLoc() # luepk      MpKK Pääkirjaston luettelointi
+59: branchLoc(KONVERSIO, KONVERSIO) # luepk      MpKK Pääkirjaston luettelointi
 +luepk: ref(59)
-60: branchLoc() # luema      Maasotakoulun kirjaston luettelointi
+60: branchLoc(KONVERSIO, KONVERSIO) # luema      Maasotakoulun kirjaston luettelointi
 +luema: ref(60)
-62: branchLoc() # MATTL      MAASK Sarjat (vain pv)
+62: branchLoc(KONVERSIO, KONVERSIO) # MATTL      MAASK Sarjat (vain pv)
 +MATTL: ref(62)
-63: branchLoc() # MAVA       MAASK Kellari (vain pv)
+63: branchLoc(KONVERSIO, KONVERSIO) # MAVA       MAASK Kellari (vain pv)
 +MAVA: ref(63)
-64: branchLoc() # PKLE       MPKK Lehdet (1 krs.), ei lainata
+64: branchLoc(KONVERSIO, KONVERSIO) # PKLE       MPKK Lehdet (1 krs.), ei lainata
 +PKLE: ref(64)
-67: branchLoc() # kkitse     MPKK kurssikirjasto (IP)
+67: branchLoc(KONVERSIO, KONVERSIO) # kkitse     MPKK kurssikirjasto (IP)
 +kkitse: ref(67)
-68: branchLoc() # PKRU       MPKK Russica (1 krs.), 28 vrk
+68: branchLoc(KONVERSIO, KONVERSIO) # PKRU       MPKK Russica (1 krs.), 28 vrk
 +PKRU: ref(68)
-69: branchLoc() # PKMA       MPKK Mannerheim-kokoelma (1 krs.), 28 vrk
+69: branchLoc(KONVERSIO, KONVERSIO) # PKMA       MPKK Mannerheim-kokoelma (1 krs.), 28 vrk
 +PKMA: ref(69)
-70: branchLoc() # PKCD       MPKK AV-aineisto (1 krs.)
+70: branchLoc(KONVERSIO, KONVERSIO) # PKCD       MPKK AV-aineisto (1 krs.)
 +PKCD: ref(70)
-71: branchLoc() # KKLAMUJUL  Sotamuseo Käsikirjat (ei lainata)
+71: branchLoc(KONVERSIO, KONVERSIO) # KKLAMUJUL  Sotamuseo Käsikirjat (ei lainata)
 +KKLAMUJUL: ref(71)
-72: branchLoc() # luelaitos  Laitokset. Luettelointi
+72: branchLoc(KONVERSIO, KONVERSIO) # luelaitos  Laitokset. Luettelointi
 +luelaitos: ref(72)
-73: branchLoc() # TKKK       TKKK, Tuusulan kirjasto
+73: branchLoc(KONVERSIO, KONVERSIO) # TKKK       TKKK, Tuusulan kirjasto
 +TKKK: ref(73)
-75: branchLoc() # pkitse     MPKK pk. itsepalvelu
+75: branchLoc(KONVERSIO, KONVERSIO) # pkitse     MPKK pk. itsepalvelu
 +pkitse: ref(75)
-77: branchLoc() # TKKKlue    TKKK luettelointi
+77: branchLoc(KONVERSIO, KONVERSIO) # TKKKlue    TKKK luettelointi
 +TKKKlue: ref(77)
-78: branchLoc() # tkkklain   TKKK lainaus Tuusulan kirjasto
+78: branchLoc(KONVERSIO, KONVERSIO) # tkkklain   TKKK lainaus Tuusulan kirjasto
 +tkkklain: ref(78)
-79: branchLoc() # LAKKKT     MPKK KäyttL Käsikirjasto, ei lainata...
+79: branchLoc(KONVERSIO, KONVERSIO) # LAKKKT     MPKK KäyttL Käsikirjasto, ei lainata...
 +LAKKKT: ref(79)
-80: branchLoc() # maitse     MAASK kirjasto (ItsePalvelulainaus)
+80: branchLoc(KONVERSIO, KONVERSIO) # maitse     MAASK kirjasto (ItsePalvelulainaus)
 +maitse: ref(80)
-81: branchLoc() # lukkEL     MPKK kk luettelointi ei LINDA
+81: branchLoc(KONVERSIO, KONVERSIO) # lukkEL     MPKK kk luettelointi ei LINDA
 +lukkEL: ref(81)
-83: branchLoc() # lumaEL     Maasotakoulu luettelointi ei Lindaan
+83: branchLoc(KONVERSIO, KONVERSIO) # lumaEL     Maasotakoulu luettelointi ei Lindaan
 +lumaEL: ref(83)
-84: branchLoc() # lupkEL     Mpkk Pk luettelointi ei Lindaan
+84: branchLoc(KONVERSIO, KONVERSIO) # lupkEL     Mpkk Pk luettelointi ei Lindaan
 +lupkEL: ref(84)
-85: branchLoc() # TKKKluEL   TKKK luettelointi ei Lindaan
+85: branchLoc(KONVERSIO, KONVERSIO) # TKKKluEL   TKKK luettelointi ei Lindaan
 +TKKKluEL: ref(85)
-86: branchLoc() # KKLAPK     Puolustusvoimien Kielikeskus (ei lainata)
+86: branchLoc(KONVERSIO, KONVERSIO) # KKLAPK     Puolustusvoimien Kielikeskus (ei lainata)
 +KKLAPK: ref(86)
-87: branchLoc() # KKLAOT     MPKK Oikeudellinen toimiala (ei lainata)
+87: branchLoc(KONVERSIO, KONVERSIO) # KKLAOT     MPKK Oikeudellinen toimiala (ei lainata)
 +KKLAOT: ref(87)
-88: branchLoc() # KKJOSPEL   MPKK Johtamisen ja sotilaspedagogiikan laitos (ei lainata)
+88: branchLoc(KONVERSIO, KONVERSIO) # KKJOSPEL   MPKK Johtamisen ja sotilaspedagogiikan laitos (ei lainata)
 +KKJOSPEL: ref(88)
-89: branchLoc() # TKKKhan    TKKK hankinta Tuusulan kirjasto
+89: branchLoc(KONVERSIO, KONVERSIO) # TKKKhan    TKKK hankinta Tuusulan kirjasto
 +TKKKhan: ref(89)
-90: branchLoc() # PKEL       Elektroninen aineisto - käyttö MPKK:n verkossa
+90: branchLoc(KONVERSIO, KONVERSIO) # PKEL       Elektroninen aineisto - käyttö MPKK:n verkossa
 +PKEL: ref(90)
-91: branchLoc() # MAASKLE    MAASK Lehdet (vain pv)
+91: branchLoc(KONVERSIO, KONVERSIO) # MAASKLE    MAASK Lehdet (vain pv)
 +MAASKLE: ref(91)
 
 
