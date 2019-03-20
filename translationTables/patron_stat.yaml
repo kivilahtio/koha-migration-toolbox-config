@@ -13,21 +13,21 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-8: A    # 01 Laurea henkil�kunta
-9: PA   # 10 Sopimusoppil. opisk/hk
+8: AL    # 01 Laurea henkil�kunta
+9: PA   # 10 Sopimusoppil. opisk/hk   VIELÄ AVOIN
 17: U   # 14 Muu asiakas
 31: S   # 13 Julkishallinnon edust.
 32: R   # 12 Elinkeinoel�m�n edust.
-34: GB  # 08 Muu amk opiskelija
-35: FB  # 05 Muu amk hkunta
-36: PB  # 11 Muu oppil. opisk/hk
+34: G  # 08 Muu amk opiskelija
+35: F  # 05 Muu amk hkunta
+36: P  # 11 Muu oppil. opisk/hk
 37: K   # 09 Yliopisto opisk/hkunta
-44: "N" # 15 Kaukopalvelu - kotimaa
+44: N # 15 Kaukopalvelu - kotimaa
 45: O   # 16 Kaukopalvelu - ulkomaa
-49: GA  # 07 Opiskelija HAMK / LAMK
-50: FA  # 04 Hkunta HAMK / LAMK
-53: GC  # FUAS
-58: D   # 02 Laurea opiskelija
-59: GD  # 06 Opiskelija HH / Metro
-60: FC  # 03 Hkunta HH / Metro
-61: GE  # 3AMK
+49: G  # 07 Opiskelija HAMK / LAMK
+50: F  # 04 Hkunta HAMK / LAMK
+53: G  # FUAS
+58: DL   # 02 Laurea opiskelija
+59: GD  # 06 Opiskelija HH / Metro  VIELÄ AVOIN
+60: FC  # 03 Hkunta HH / Metro    VIELÄ AVOIN
+61: GE  # 3AMK                    VIELÄ AVOIN
