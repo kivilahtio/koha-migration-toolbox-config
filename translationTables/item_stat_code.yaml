@@ -9,7 +9,16 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-al: ''   #1, Alkio-opisto
-alm: ''   #6, Alkio-opisto / muut
-HUM: ''   #7, HUMAKin hankinnat
+O06: '' # zOstot 2006
+L06: '' # zLahjat 2006
+V06: '' # zVaihdot 2006
+U06: '' # zUudet 2006
+L07: '' # Lahjat 2007
+O07: '' # Ostot 2007
+U07: '' # Uudet 2007
+V07: '' # Vaihdot 2007
+HTL: '' # Lahjat
+HTO: '' # Ostot
+HTV: '' # Vaihdot
+
 _DEFAULT_: warning()
