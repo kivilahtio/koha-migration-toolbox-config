@@ -7,77 +7,77 @@
 +V100: ref(2)
 3: branchLoc(KONVERSIO, KONVERSIO) # V110       Kysy virkailijalta-Fråga personalen(VYK:n yleiskokoelma 110)
 +V110: ref(3)
-4: branchLoc(TRITO, bookEdu) # bookEdu    1. krs-vån ED Pedagogik-Kasvatustiede-Education                                                                                                                        
+4: branchLoc(TRITO, BOOKEDU) # bookEdu    1. krs-vån ED Pedagogik-Kasvatustiede-Education                                                                                                                        
 +bookEdu: ref(4)
-5: branchLoc(TRITO, bookBus) # bookBus    3. krs-vån BU Taloustieteet-Ekonomi-Economics
+5: branchLoc(TRITO, BOOKBUS) # bookBus    3. krs-vån BU Taloustieteet-Ekonomi-Economics
 +bookBus: ref(5)
 6: branchLoc(KONVERSIO, KONVERSIO) # bookNat    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
 +bookNat: ref(6)
-7: branchLoc(TRITO, bookTec) # bookTec    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
+7: branchLoc(TRITO, BOOKTEC) # bookTec    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
 +bookTec: ref(7)
-8: branchLoc(TRITO, journals) # jourSTOCK  1. krs-vån Lehdet-Tidskr.-Journals, EI LAIN.-LÅN. EJ
+8: branchLoc(TRITO, JOURNALS) # jourSTOCK  1. krs-vån Lehdet-Tidskr.-Journals, EI LAIN.-LÅN. EJ
 +jourSTOCK: ref(8)
 9: branchLoc(KONVERSIO, KONVERSIO) # VBIBLIOGRA 1. krs-vån Varasto-Magasin K114, Bibliografiat, EI LAINATA
 +VBIBLIOGRA: ref(9)
 10: branchLoc(KONVERSIO, KONVERSIO) # VSARJAT    Kysy virkailijalta-Fråga personalen (vanha kok. 115 SARJAT)
 +VSARJAT: ref(10)
-11: branchLoc(TRITO, serials) # Vseries08  1. krs-vån Sarjat-Serier
+11: branchLoc(TRITO, SERIALS) # Vseries08  1. krs-vån Sarjat-Serier
 +Vseries08: ref(11)
-12: branchLoc(TRITO, bookSoc) # bookSoc    4. krs-vån SO Yhteiskuntat.-Samhällsvetensk.-Social sciences
+12: branchLoc(TRITO, BOOKSOC) # bookSoc    4. krs-vån SO Yhteiskuntat.-Samhällsvetensk.-Social sciences
 +bookSoc: ref(12)
-13: branchLoc(TRITO, bookHum) # bookHum    1. krs-vån HU Humanistiset tieteet-Humaniora-Humanities
+13: branchLoc(TRITO, BOOKHUM) # bookHum    1. krs-vån HU Humanistiset tieteet-Humaniora-Humanities
 +bookHum: ref(13)
 14: branchLoc(KONVERSIO, KONVERSIO) # V120       Kysy virkailijalta-Fråga personalen(VYK vanha käsik.kok.120)
 +V120: ref(14)
-15: branchLoc(TRITO, refEdu) # refEdu     1. krs-vån ED Pedagogik-Kasvatustiede LÅNAS EJ-EI LAINATA
+15: branchLoc(TRITO, REFEDU) # refEdu     1. krs-vån ED Pedagogik-Kasvatustiede LÅNAS EJ-EI LAINATA
 +refEdu: ref(15)
 16: branchLoc(KONVERSIO, KONVERSIO) # refBus     3. krs-vån BU Taloustieteet-Ekonomi, EI LAINATA-LÅNAS EJ
 +refBus: ref(16)
 17: branchLoc(KONVERSIO, KONVERSIO) # refNat     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ                                                                                                                  
 +refNat: ref(17)
-18: branchLoc(TRITO, refTec) # refTec     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ
+18: branchLoc(TRITO, REFTEC) # refTec     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ
 +refTec: ref(18)
-19: branchLoc(TRITO, refHum) # refHum     1. krs-vån HU Hum. tieteet-Humaniora, EI LAINATA-LÅNAS EJ
+19: branchLoc(TRITO, REFHUM) # refHum     1. krs-vån HU Hum. tieteet-Humaniora, EI LAINATA-LÅNAS EJ
 +refHum: ref(19)
-20: branchLoc(TRITO, refSoc) # refSoc     4. krs-vån SO Yhteiskuntat.-Samh.vetensk.EI LAINATA-LÅNAS EJ
+20: branchLoc(TRITO, REFSOC) # refSoc     4. krs-vån SO Yhteiskuntat.-Samh.vetensk.EI LAINATA-LÅNAS EJ
 +refSoc: ref(20)
 21: branchLoc(KONVERSIO, KONVERSIO) # refGen     1. krs-vån GE Käsikirjat-Referensböcker,EI LAINATA-LÅNAS EJ
 +refGen: ref(21)
-22: branchLoc(TRITO, Vpubl) # Vpubl      1. krs-vån GE Vaasan yliopiston,Tritonian julk.-publ,EI LAIN
+22: branchLoc(TRITO, VPUBL) # Vpubl      1. krs-vån GE Vaasan yliopiston,Tritonian julk.-publ,EI LAIN
 +Vpubl: ref(22)
-23: branchLoc(TRITO, atextbook) # textbook    2. krs-vån  Kursböcker - Kurssikirjat - Textbooks                                                                                                                     
+23: branchLoc(TRITO, ATEXTBOOK) # textbook    2. krs-vån  Kursböcker - Kurssikirjat - Textbooks                                                                                                                     
 +textbook: ref(23)
-24: branchLoc(TRITO, atextbookSh) # textbookSh  2. krs-vån KurssikYÖ - Kursb. NATTLÅN - Textbooks OVERNIGHT
+24: branchLoc(TRITO, ATEXTBOOKSH) # textbookSh  2. krs-vån KurssikYÖ - Kursb. NATTLÅN - Textbooks OVERNIGHT
 +textbookSh: ref(24)
-25: branchLoc(TRITO, netpubl) # netpubl    Verkkojulkaisut - Onlineresurser - Online resources
+25: branchLoc(TRITO, NETPUBL) # netpubl    Verkkojulkaisut - Onlineresurser - Online resources
 +netpubl: ref(25)
-26: branchLoc(TRITO, statistics) # statistics 1. krs-vån Tilastot - Statistik, EI LAINATA - LÅNAS EJ
+26: branchLoc(TRITO, STATISTICS) # statistics 1. krs-vån Tilastot - Statistik, EI LAINATA - LÅNAS EJ
 +statistics: ref(26)
-27: branchLoc(TRITO, serEdu) # serEdu     1. krs-vån ED Pedagogik-Kasvatustiede Serier-Sarjat
+27: branchLoc(TRITO, SEREDU) # serEdu     1. krs-vån ED Pedagogik-Kasvatustiede Serier-Sarjat
 +serEdu: ref(27)
-28: branchLoc(TRITO, serBus) # serBus     3. krs-vån BU Taloustieteet-Ekonomi-Economics Sarjat-Serier
+28: branchLoc(TRITO, SERBUS) # serBus     3. krs-vån BU Taloustieteet-Ekonomi-Economics Sarjat-Serier
 +serBus: ref(28)
 29: branchLoc(KONVERSIO, KONVERSIO) # serNat     3. krs-vån Vanha luonnontiedekokoelma
 +serNat: ref(29)
-30: branchLoc(TRITO, serTec) # serTec     3. krs-vån TE Tekniikka,luonnont.-Teknik,naturvetensk.SERIES                                                                                                           
+30: branchLoc(TRITO, SERTEC) # serTec     3. krs-vån TE Tekniikka,luonnont.-Teknik,naturvetensk.SERIES                                                                                                           
 +serTec: ref(30)
-31: branchLoc(TRITO, serHum) # serHum     1. krs-vån HU Humanistiset tieteet-Humaniora Sarjat-Serier
+31: branchLoc(TRITO, SERHUM) # serHum     1. krs-vån HU Humanistiset tieteet-Humaniora Sarjat-Serier
 +serHum: ref(31)
-32: branchLoc(TRITO, serSoc) # serSoc     4. krs-vån SO Yhteiskuntat.-Samhällsvetensk. Sarjat-Serier
+32: branchLoc(TRITO, SERSOC) # serSoc     4. krs-vån SO Yhteiskuntat.-Samhällsvetensk. Sarjat-Serier
 +serSoc: ref(32)
-33: branchLoc(TRITO, dictionaries) # dictioninf 1. krs-vån-1st floor GE Sanakirjat-Ordböcker-Dictionaries
+33: branchLoc(TRITO, DICTIONARIES) # dictioninf 1. krs-vån-1st floor GE Sanakirjat-Ordböcker-Dictionaries
 +dictioninf: ref(33)
 34: branchLoc(KONVERSIO, KONVERSIO) # V160       Kysy virkailijalta-Fråga personalen (VYK:n vanha kok.160)
 +V160: ref(34)
-35: branchLoc(TRITO, VthesGradu) # VthesGradu 1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesLAUD
+35: branchLoc(TRITO, VTHESGRADU) # VthesGradu 1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesLAUD
 +VthesGradu: ref(35)
 36: branchLoc(KONVERSIO, KONVERSIO) # Vthesmfill 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina.T111(kauk)                                                                                                           
 +Vthesmfill: ref(36)
-37: branchLoc(TRITO, VthesArchive) # Vthesmfinf 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina. K110
+37: branchLoc(TRITO, VTHESARCHIVE) # Vthesmfinf 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina. K110
 +Vthesmfinf: ref(37)
-38: branchLoc(TRITO, VthesLic) # VthesLic   1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-Theses LIS
+38: branchLoc(TRITO, VTHESLIS) # VthesLic   1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-Theses LIS
 +VthesLic: ref(38)
-39: branchLoc(TRITO, VthesDiss) # VthesDoct  1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesDISS
+39: branchLoc(TRITO, VTHESDISS) # VthesDoct  1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesDISS
 +VthesDoct: ref(39)
 40: branchLoc(KONVERSIO, KONVERSIO) # otherrec   2. krs Lainaus - Utlåning, Muut tallenteet
 +otherrec: ref(40)
@@ -91,75 +91,75 @@
 +microform: ref(44)
 45: branchLoc(KONVERSIO, KONVERSIO) # lodman     Lodman-kok. Varasto. Ei lainata - lånas ej
 +lodman: ref(45)
-46: branchLoc(TRITO, qleisten) # leisten    1. krs-vån Leistén - K114
+46: branchLoc(TRITO, QLEISTEN) # leisten    1. krs-vån Leistén - K114
 +leisten: ref(46)
-47: branchLoc(TRITO, euBook) # euBook     1. krs-vån EU-kokoelma - EU-samling Tiivishyllyt-Kompakthyll
+47: branchLoc(TRITO, EUBOOK) # euBook     1. krs-vån EU-kokoelma - EU-samling Tiivishyllyt-Kompakthyll
 +euBook: ref(47)
-48: branchLoc(TRITO, euJour) # euJour     1. krs-vån EU-lehdet-tskr Tiivishyllyt-Kompakthyllor EI LAIN
+48: branchLoc(TRITO, EUJOUR) # euJour     1. krs-vån EU-lehdet-tskr Tiivishyllyt-Kompakthyllor EI LAIN
 +euJour: ref(48)
-49: branchLoc(TRITO, euRef) # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
+49: branchLoc(TRITO, EUREF) # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
 +euRef: ref(49)
-50: branchLoc(TRITO, euStatRef) # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
+50: branchLoc(TRITO, EUSTATREF) # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
 +euStatref: ref(50)
-51: branchLoc(TRITO, Tprojects) # Vprojects  Projekti, Ei voi varata-Kan ej reserveras-Cannot be reserved                                                                                                           
+51: branchLoc(TRITO, TPROJECTS) # Vprojects  Projekti, Ei voi varata-Kan ej reserveras-Cannot be reserved                                                                                                           
 +Vprojects: ref(51)
-52: branchLoc(TRITO, Tworkroom) # Vworkroom  Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
+52: branchLoc(TRITO, TWORKROOM) # Vworkroom  Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
 +Vworkroom: ref(52)
 53: branchLoc(KONVERSIO, KONVERSIO) # HserBus    3. krs-vån BU Hankenin poistuva sarjako
 +HserBus: ref(53)
-54: branchLoc(TRITO, Uthes) # HthesGradu 1. krs-vån SHH Opinnäytteet-Avhandlingar-Theses, LÅNAS EJ
+54: branchLoc(TRITO, UTHES) # HthesGradu 1. krs-vån SHH Opinnäytteet-Avhandlingar-Theses, LÅNAS EJ
 +HthesGradu: ref(54)
-55: branchLoc(TRITO, Vinst) # VYYHTEISK  Vaasan yliop. hallintot. tdk - Vaasa Univ. FOR TEACHERS ONLY
+55: branchLoc(TRITO, VINST) # VYYHTEISK  Vaasan yliop. hallintot. tdk - Vaasa Univ. FOR TEACHERS ONLY
 +VYYHTEISK: ref(55)
-56: branchLoc(TRITO, Vinst) # VYjulkisjo Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+56: branchLoc(TRITO, VINST) # VYjulkisjo Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYjulkisjo: ref(56)
-57: branchLoc(TRITO, Vinst) # VYjulkisoi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
+57: branchLoc(TRITO, VINST) # VYjulkisoi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
 +VYjulkisoi: ref(57)
-58: branchLoc(TRITO, Vinst) # VYsosTerv  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+58: branchLoc(TRITO, VINST) # VYsosTerv  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYsosTerv: ref(58)
-59: branchLoc(TRITO, Vinst) # VYKA-HA    Vaasan yliop. kauppatiet. tdk. Vaasa Univ. FOR TEACHERS ONLY
+59: branchLoc(TRITO, VINST) # VYKA-HA    Vaasan yliop. kauppatiet. tdk. Vaasa Univ. FOR TEACHERS ONLY
 +VYKA-HA: ref(59)
-60: branchLoc(TRITO, Vinst) # VYmarkk    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+60: branchLoc(TRITO, VINST) # VYmarkk    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYmarkk: ref(60)
-61: branchLoc(TRITO, Vinst) # VYjohtam   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+61: branchLoc(TRITO, VINST) # VYjohtam   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYjohtam: ref(61)
-62: branchLoc(TRITO, Vinst) # VYtalousso Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+62: branchLoc(TRITO, VINST) # VYtalousso Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYtalousso: ref(62)
-63: branchLoc(TRITO, Vinst) # VYtietotek Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+63: branchLoc(TRITO, VINST) # VYtietotek Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYtietotek: ref(63)
-64: branchLoc(TRITO, Vinst) # VYtuotTal  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
+64: branchLoc(TRITO, VINST) # VYtuotTal  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
 +VYtuotTal: ref(64)
-65: branchLoc(TRITO, Vinst) # VYsahkot   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+65: branchLoc(TRITO, VINST) # VYsahkot   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYsahkot: ref(65)
-66: branchLoc(TRITO, Vinst) # VYtuotAut  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+66: branchLoc(TRITO, VINST) # VYtuotAut  Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYtuotAut: ref(66)
-67: branchLoc(TRITO, Vinst) # VYHUM      Vaasan yliop., hum. tdk, Vaasa University, FOR TEACHERS ONLY
+67: branchLoc(TRITO, VINST) # VYHUM      Vaasan yliop., hum. tdk, Vaasa University, FOR TEACHERS ONLY
 +VYHUM: ref(67)
-68: branchLoc(TRITO, Vinst) # VYenglanti Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+68: branchLoc(TRITO, VINST) # VYenglanti Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYenglanti: ref(68)
-69: branchLoc(TRITO, Vinst) # VYsaksa    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+69: branchLoc(TRITO, VINST) # VYsaksa    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYsaksa: ref(69)
-70: branchLoc(TRITO, Vinst) # VYpohj     Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
+70: branchLoc(TRITO, VINST) # VYpohj     Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
 +VYpohj: ref(70)
-71: branchLoc(TRITO, Vinst) # VYruotsi   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+71: branchLoc(TRITO, VINST) # VYruotsi   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYruotsi: ref(71)
-72: branchLoc(TRITO, Vinst) # VYkielikyl Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+72: branchLoc(TRITO, VINST) # VYkielikyl Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYkielikyl: ref(72)
-73: branchLoc(TRITO, Vinst) # VYrom      Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
+73: branchLoc(TRITO, VINST) # VYrom      Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
 +VYrom: ref(73)
-74: branchLoc(TRITO, Vinst) # VYvenaja   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+74: branchLoc(TRITO, VINST) # VYvenaja   Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYvenaja: ref(74)
-75: branchLoc(TRITO, Vinst) # VYsuomi    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+75: branchLoc(TRITO, VINST) # VYsuomi    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYsuomi: ref(75)
-76: branchLoc(TRITO, Vinst) # VYkielipal Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+76: branchLoc(TRITO, VINST) # VYkielipal Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYkielipal: ref(76)
-77: branchLoc(TRITO, Vinst) # VYviest    Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
+77: branchLoc(TRITO, VINST) # VYviest    Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
 +VYviest: ref(77)
-78: branchLoc(TRITO, Vinst) # VYviestSem VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
+78: branchLoc(TRITO, VINST) # VYviestSem VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
 +VYviestSem: ref(78)
 79: branchLoc(KONVERSIO, KONVERSIO) # OHinst     Åbo Akademi Vasa inst.samling - laitoskokoelma
 +OHinst: ref(79)
-80: branchLoc(TRITO, Wthes) # OHthesGrad 1. krs-vån ÅA Vasa Avhandl.-Opinnäytt.-Theses,  LÅNAS EJ
+80: branchLoc(TRITO, WTHES) # OHthesGrad 1. krs-vån ÅA Vasa Avhandl.-Opinnäytt.-Theses,  LÅNAS EJ
 +OHthesGrad: ref(80)
 81: branchLoc(KONVERSIO, KONVERSIO) # OHinstkurs Åbo Akademi Vasa inst. - laitos, Kursböcker-Kurssikirjat
 +OHinstkurs: ref(81)
@@ -167,7 +167,7 @@
 +OHserier: ref(82)
 83: branchLoc(KONVERSIO, KONVERSIO) # OHarbetsm  Fråga personalen - Kysy virkailijalta, 1. krs.-vån
 +OHarbetsm: ref(83)
-84: branchLoc(TRITO, qlycei) # OH-Lycei   1. krs-vån Vasa svenska lyceums bibliotek - kirjasto                                                                                                                   
+84: branchLoc(TRITO, QLYCEI) # OH-Lycei   1. krs-vån Vasa svenska lyceums bibliotek - kirjasto                                                                                                                   
 +OH-Lycei: ref(84)
 85: branchLoc(KONVERSIO, KONVERSIO) # OH-BI      Jakobstad-Pietarsaari Allegro
 +OH-BI: ref(85)
@@ -177,37 +177,37 @@
 +OH-BIkursb: ref(87)
 88: branchLoc(KONVERSIO, KONVERSIO) # OH-BIser   Jakobstad-Pietarsaari Allegro
 +OH-BIser: ref(88)
-89: branchLoc(TRITO, Vinst) # VYLML      VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
+89: branchLoc(TRITO, VINST) # VYLML      VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
 +VYLML: ref(89)
-90: branchLoc(TRITO, Vinst) # VYKA-TE    Vaasan yliop. tekn. tdk. -Vaasa University FOR TEACHERS ONLY
+90: branchLoc(TRITO, VINST) # VYKA-TE    Vaasan yliop. tekn. tdk. -Vaasa University FOR TEACHERS ONLY
 +VYKA-TE: ref(90)
-91: branchLoc(TRITO, Vinst) # VYlaskenta Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
+91: branchLoc(TRITO, VINST) # VYlaskenta Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
 +VYlaskenta: ref(91)
-92: branchLoc(TRITO, Vinst) # VYmenetelm VY matemaattisten tieteiden laitos, FOR TEACHERS ONLY
+92: branchLoc(TRITO, VINST) # VYmenetelm VY matemaattisten tieteiden laitos, FOR TEACHERS ONLY
 +VYmenetelm: ref(92)
-93: branchLoc(TRITO, Vinst) # VYYOL      Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+93: branchLoc(TRITO, VINST) # VYYOL      Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYYOL: ref(93)
-94: branchLoc(TRITO, Vinst) # VYkansanta Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+94: branchLoc(TRITO, VINST) # VYkansanta Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYkansanta: ref(94)
-95: branchLoc(TRITO, Vinst) # VYaluet    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+95: branchLoc(TRITO, VINST) # VYaluet    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYaluet: ref(95)
-96: branchLoc(TRITO, Vinst) # VYtalousoi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+96: branchLoc(TRITO, VINST) # VYtalousoi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYtalousoi: ref(96)
-97: branchLoc(TRITO, Vinst) # VYtalousoL Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
+97: branchLoc(TRITO, VINST) # VYtalousoL Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
 +VYtalousoL: ref(97)
-98: branchLoc(TRITO, Vinst) # VYatk      Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
+98: branchLoc(TRITO, VINST) # VYatk      Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
 +VYatk: ref(98)
-99: branchLoc(TRITO, Vinst) # VYtutkLait VY Levón-instituutti-Levón-institutet, FOR STAFF ONLY
+99: branchLoc(TRITO, VINST) # VYtutkLait VY Levón-instituutti-Levón-institutet, FOR STAFF ONLY
 +VYtutkLait: ref(99)
-100: branchLoc(TRITO, Vinst) # VYtutkLSei VY Levón-instituutti-Levón-institutet, Sjoki, FOR STAFF ONLY
+100: branchLoc(TRITO, VINST) # VYtutkLSei VY Levón-instituutti-Levón-institutet, Sjoki, FOR STAFF ONLY
 +VYtutkLSei: ref(100)
-101: branchLoc(TRITO, Vinst) # VYtaky     VY Avoin yliop. - Vaasa University, FOR TEACHERS ONLY
+101: branchLoc(TRITO, VINST) # VYtaky     VY Avoin yliop. - Vaasa University, FOR TEACHERS ONLY
 +VYtaky: ref(101)
-102: branchLoc(TRITO, Vinst) # VYHYoik    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+102: branchLoc(TRITO, VINST) # VYHYoik    Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYHYoik: ref(102)
-103: branchLoc(TRITO, Vinst) # VYopintots Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
+103: branchLoc(TRITO, VINST) # VYopintots Vaasan yliopisto - Vaasa University, FOR STAFF ONLY
 +VYopintots: ref(103)
-104: branchLoc(TRITO, Vinst) # VYhallinto Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
+104: branchLoc(TRITO, VINST) # VYhallinto Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
 +VYhallinto: ref(104)
 105: branchLoc(KONVERSIO, KONVERSIO) # LAINAUS    Lainaus Yliopistonranta
 +LAINAUS: ref(105)
@@ -223,47 +223,47 @@
 +TE: ref(110)
 111: branchLoc(KONVERSIO, KONVERSIO) # SO_ACQ     SO_ACQ
 +SO: ref(111)
-112: branchLoc(TRITO, journals) # jourBus    3. krs-vån BU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
+112: branchLoc(TRITO, JOURNALS) # jourBus    3. krs-vån BU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourBus: ref(112)
-113: branchLoc(TRITO, journals) # jourTec    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
+113: branchLoc(TRITO, JOURNALS) # jourTec    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourTec: ref(113)
 114: branchLoc(KONVERSIO, KONVERSIO) # jourNat    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ                                                                                                           
 +jourNat: ref(114)
-115: branchLoc(TRITO, journals) # jourEdu    1. krs-vån ED Tidskrifter-Lehdet-Journals EI LAIN.-LÅNAS EJ
+115: branchLoc(TRITO, JOURNALS) # jourEdu    1. krs-vån ED Tidskrifter-Lehdet-Journals EI LAIN.-LÅNAS EJ
 +jourEdu: ref(115)
-116: branchLoc(TRITO, journals) # jourHum    1. krs-vån HU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
+116: branchLoc(TRITO, JOURNALS) # jourHum    1. krs-vån HU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourHum: ref(116)
-117: branchLoc(TRITO, journals) # jourSoc    4. krs-vån SO Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
+117: branchLoc(TRITO, JOURNALS) # jourSoc    4. krs-vån SO Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourSoc: ref(117)
-118: branchLoc(TRITO, journewsp) # jourGen    2. krs-vån GE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
+118: branchLoc(TRITO, JOURNEWSP) # jourGen    2. krs-vån GE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourGen: ref(118)
 119: branchLoc(KONVERSIO, KONVERSIO) # OHbrander  ÅAV Stip. Kan ej reserveras-Ei voi varata-Can't be reserved
 +OHbrander: ref(119)
-120: branchLoc(TRITO, Winst) # OHinst0    Åbo Akademi i Vasa - FOR TEACHERS ONLY                                                                                                                                 
+120: branchLoc(TRITO, WINST) # OHinst0    Åbo Akademi i Vasa - FOR TEACHERS ONLY                                                                                                                                 
 +OHinst0: ref(120)
-121: branchLoc(TRITO, Upubl) # Hpubl      1. krs-vån GE SHH:s publ. -SHHn julk., LÅNAS EJ - EI LAINATA
+121: branchLoc(TRITO, UPUBL) # Hpubl      1. krs-vån GE SHH:s publ. -SHHn julk., LÅNAS EJ - EI LAINATA
 +Hpubl: ref(121)
-122: branchLoc(TRITO, Wpubl) # OHpubl     1. krs-vån GE ÅA:s publ.- ÅAn julk., LÅNAS EJ-EI LAINATA
+122: branchLoc(TRITO, WPUBL) # OHpubl     1. krs-vån GE ÅA:s publ.- ÅAn julk., LÅNAS EJ-EI LAINATA
 +OHpubl: ref(122)
-123: branchLoc(TRITO, Vinst) # VYtietolii Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
+123: branchLoc(TRITO, VINST) # VYtietolii Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYtietolii: ref(123)
 124: branchLoc(KONVERSIO, KONVERSIO) # ED_ACQ     ED_ACQ
 +ED: ref(124)
-125: branchLoc(TRITO, Tworkroom) # oppimisk   Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
+125: branchLoc(TRITO, TWORKROOM) # oppimisk   Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
 +oppimisk: ref(125)
-126: branchLoc(TRITO, Uinst) # SHHhandR   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
+126: branchLoc(TRITO, UINST) # SHHhandR   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHhandR: ref(126)
-127: branchLoc(TRITO, Uinst) # SHHfinEk   SHH institution - SHH:n laitos, FOR TEACHERS ONLY                                                                                                                      
+127: branchLoc(TRITO, UINST) # SHHfinEk   SHH institution - SHH:n laitos, FOR TEACHERS ONLY                                                                                                                      
 +SHHfinEk: ref(127)
-128: branchLoc(TRITO, Uinst) # SHHforetL  SHH institution - SHH:n laitos, FOR TEACHERS ONLY
+128: branchLoc(TRITO, UINST) # SHHforetL  SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHforetL: ref(128)
-129: branchLoc(TRITO, Uinst) # SHHmarknF  SHH institution - SHH:n laitos, FOR TEACHERS ONLY
+129: branchLoc(TRITO, UINST) # SHHmarknF  SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHmarknF: ref(129)
-130: branchLoc(TRITO, Uinst) # SHHnatEk   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
+130: branchLoc(TRITO, UINST) # SHHnatEk   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHnatEk: ref(130)
-131: branchLoc(TRITO, Uinst) # SHHredov   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
+131: branchLoc(TRITO, UINST) # SHHredov   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHredov: ref(131)
-132: branchLoc(TRITO, Uinst) # SHHsprak   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
+132: branchLoc(TRITO, UINST) # SHHsprak   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHsprak: ref(132)
 133: branchLoc(KONVERSIO, KONVERSIO) # Hprojects  Projekt, Kan ej reserveras-Ei voi varata-Cannot be reserved
 +Hprojects: ref(133)
@@ -273,13 +273,13 @@
 +OH-HSref: ref(135)
 136: branchLoc(KONVERSIO, KONVERSIO) # studia     2. krs-vån STUDIA
 +studia: ref(136)
-137: branchLoc(TRITO, qpalomaki) # Vpalomaki  4. krs-vån SO Mauri Palomäen kokoelma
+137: branchLoc(TRITO, QPALOMAKI) # Vpalomaki  4. krs-vån SO Mauri Palomäen kokoelma
 +Vpalomaki: ref(137)
 138: branchLoc(KONVERSIO, KONVERSIO) # serTri     Katso kokoelma sarjan osan tiedoista
 +serTri: ref(138)
-139: branchLoc(TRITO, qpetterBook) # pettersson 1. krs-vån Varasto-Magasin K114 Petterssons samling
+139: branchLoc(TRITO, QPETTERBOOK) # pettersson 1. krs-vån Varasto-Magasin K114 Petterssons samling
 +pettersson: ref(139)
-140: branchLoc(TRITO, qpetterRef) # pettersref 1. krs-vån Varasto-Magasin K114 Petterssons saml. LÅNAS EJ
+140: branchLoc(TRITO, QPETTERREF) # pettersref 1. krs-vån Varasto-Magasin K114 Petterssons saml. LÅNAS EJ
 +pettersref: ref(140)
 141: branchLoc(KONVERSIO, KONVERSIO) # statSTOCK  1. krs-vån Tilastot - Statistik STOCK, EI LAINATA - LÅNAS EJ                                                                                                           
 +statSTOCK: ref(141)
@@ -291,13 +291,13 @@
 +ekenasjour: ref(144)
 145: branchLoc(KONVERSIO, KONVERSIO) # linguaref  1. krs-vån-1st floor K127 Lingua, EI LAINATA - LÅNAS EJ
 +linguaref: ref(145)
-146: branchLoc(TRITO, qskolbRef) # skolbok    1. krs-vån Varasto-Magasin K114 SB Skolböcker
+146: branchLoc(TRITO, QSKOLBREF) # skolbok    1. krs-vån Varasto-Magasin K114 SB Skolböcker
 +skolbok: ref(146)
-147: branchLoc(TRITO, qskolbRef) # skolbokref 1. krs-vån Varasto-Magasin K114 SB Skolböcker, LÅNAS EJ
+147: branchLoc(TRITO, QSKOLBREF) # skolbokref 1. krs-vån Varasto-Magasin K114 SB Skolböcker, LÅNAS EJ
 +skolbokref: ref(147)
-148: branchLoc(TRITO, Vinst) # VYfilosofi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
+148: branchLoc(TRITO, VINST) # VYfilosofi Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY                                                                                                                 
 +VYfilosofi: ref(148)
-149: branchLoc(TRITO, Tvarasto) # varasto    1. krs-vån Varasto-Magasin K114, EI LAINATA - LÅNAS EJ
+149: branchLoc(TRITO, TVARASTO) # varasto    1. krs-vån Varasto-Magasin K114, EI LAINATA - LÅNAS EJ
 +varasto: ref(149)
 150: branchLoc(KONVERSIO, KONVERSIO) # euRefSO    4. krs-vån EU käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
 +euRefSO: ref(150)
@@ -305,11 +305,11 @@
 +xaudiovis: ref(151)
 152: branchLoc(KONVERSIO, KONVERSIO) # xbook      Raastuvankatu-Rådhusgatan / Kirjat - Böcker - Books
 +xbook: ref(152)
-153: branchLoc(TRITO, Xinst) # XinstLM    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
+153: branchLoc(TRITO, XINST) # XinstLM    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
 +XinstLM: ref(153)
-154: branchLoc(TRITO, Xinst) # XinstST    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY                                                                                                            
+154: branchLoc(TRITO, XINST) # XinstST    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY                                                                                                            
 +XinstST: ref(154)
-155: branchLoc(TRITO, Xinst) # XinstTL    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
+155: branchLoc(TRITO, XINST) # XinstTL    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
 +XinstTL: ref(155)
 156: branchLoc(KONVERSIO, KONVERSIO) # xjournal   Raastuvankatu-Rådhusgatan / Lehdet - Tidskrifter - Journals
 +xjournal: ref(156)
@@ -323,19 +323,19 @@
 +xtextb: ref(160)
 161: branchLoc(KONVERSIO, KONVERSIO) # XthesLM    Raastuvankatu-Rådhusg. / Opinnäytteet-Lärdomsprov-Theses                                                                                                               
 +XthesLM: ref(161)
-162: branchLoc(TRITO, Xthes) # XthesTL    1. krs-vån Vaasan amk-Vasa yh, Opinnäytteet-Lärd.prov-Theses
+162: branchLoc(TRITO, XTHES) # XthesTL    1. krs-vån Vaasan amk-Vasa yh, Opinnäytteet-Lärd.prov-Theses
 +XthesTL: ref(162)
 163: branchLoc(KONVERSIO, KONVERSIO) # yaudiovis  Seriegatan-Sarjakatu / Hälsovetenskaper - Terveystieteet
 +yaudiovis: ref(163)
 164: branchLoc(KONVERSIO, KONVERSIO) # ybook      Seriegatan-Sarjakatu / Böcker - Kirjat - Books
 +ybook: ref(164)
-165: branchLoc(JAKOB, YinstKU) # YHNinstKU  YH Novia Jakobstad avdelningsex. STAFF ONLY
+165: branchLoc(JAKOB, YINSTKU) # YHNinstKU  YH Novia Jakobstad avdelningsex. STAFF ONLY
 +YHNinstKU: ref(165)
-166: branchLoc(JAKOB, YinstKU) # YHNinstSC  YH Novia Jakobstad avdelningsex. STAFF ONLY
+166: branchLoc(JAKOB, YINSTKU) # YHNinstSC  YH Novia Jakobstad avdelningsex. STAFF ONLY
 +YHNinstSC: ref(166)
-167: branchLoc(TRITO, Yinst) # YHNinstSH  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY                                                                                                                
+167: branchLoc(TRITO, YINST) # YHNinstSH  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY                                                                                                                
 +YHNinstSH: ref(167)
-168: branchLoc(TRITO, Yinst) # YHNinstTK  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY
+168: branchLoc(TRITO, YINST) # YHNinstTK  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY
 +YHNinstTK: ref(168)
 169: branchLoc(KONVERSIO, KONVERSIO) # yjournal   Seriegatan-Sarjakatu / Tidskrifter - Lehdet - Journals
 +yjournal: ref(169)
@@ -347,17 +347,17 @@
 +ytextb: ref(172)
 173: branchLoc(KONVERSIO, KONVERSIO) # ytextbSh   Seriegatan-Sarjakatu / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
 +ytextbSh: ref(173)
-174: branchLoc(JAKOB, YthesKU) # YthesKU    Allegro Yrkeshögskolan Novias examensarben LÅNAS EJ                                                                                                                    
+174: branchLoc(JAKOB, YTHESKU) # YthesKU    Allegro Yrkeshögskolan Novias examensarben LÅNAS EJ                                                                                                                    
 +YthesKU: ref(174)
 175: branchLoc(KONVERSIO, KONVERSIO) # YthesSH    Seriegatan-Sarjakatu / Examensarbeten-Opinnäytteet-Theses
 +YthesSH: ref(175)
 176: branchLoc(KONVERSIO, KONVERSIO) # YthesSHref Seriegatan-Sarjakatu / Examensarbeten LÅNAS EJ - EI LAINATA
 +YthesSHref: ref(176)
-177: branchLoc(TRITO, Ythes) # YthesTK    1. krs-vån YH Novia Examensarb.-Opinnäytteet-Theses LÅNAS EJ
+177: branchLoc(TRITO, YTHES) # YthesTK    1. krs-vån YH Novia Examensarb.-Opinnäytteet-Theses LÅNAS EJ
 +YthesTK: ref(177)
-178: branchLoc(JAKOB, zbookArt) # zbookArt   Jakobstad-Pietarsaari Allegro - Konst
+178: branchLoc(JAKOB, ZBOOKART) # zbookArt   Jakobstad-Pietarsaari Allegro - Konst
 +zbookArt: ref(178)
-179: branchLoc(JAKOB, zbookMus) # zbookMus   Jakobstad-Pietarsaari Allegro - Musik
+179: branchLoc(JAKOB, ZBOOKMUS) # zbookMus   Jakobstad-Pietarsaari Allegro - Musik
 +zbookMus: ref(179)
 180: branchLoc(KONVERSIO, KONVERSIO) # zjourArt   Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals                                                                                                              
 +zjourArt: ref(180)
@@ -375,29 +375,29 @@
 +LAINAUSJS: ref(186)
 187: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSNK  Lainaus Nykarleby
 +LAINAUSNK: ref(187)
-188: branchLoc(TRITO, Xpubl) # Xpubl      1. krs-vån GE Vaasan amk-Vasa yh julk/publ,EI LAINATA-LÅN EJ
+188: branchLoc(TRITO, XPUBL) # Xpubl      1. krs-vån GE Vaasan amk-Vasa yh julk/publ,EI LAINATA-LÅN EJ
 +Xpubl: ref(188)
-189: branchLoc(TRITO, Ypubl) # YHNpubl    1. krs-vån GE YH Novia publ./julk. LÅNAS EJ-EI LAINATA                                                                                                                 
+189: branchLoc(TRITO, YPUBL) # YHNpubl    1. krs-vån GE YH Novia publ./julk. LÅNAS EJ-EI LAINATA                                                                                                                 
 +YHNpubl: ref(189)
-190: branchLoc(JAKOB, zmusic) # zmusic     Jakobstad-Pietarsaari Allegro - Noter och ljudinspelningar
+190: branchLoc(JAKOB, ZMUSIC) # zmusic     Jakobstad-Pietarsaari Allegro - Noter och ljudinspelningar
 +zmusic: ref(190)
-191: branchLoc(JAKOB, zbook) # zbook      Jakobstad-Pietarsaari Allegro - Generalia
+191: branchLoc(JAKOB, ZBOOK) # zbook      Jakobstad-Pietarsaari Allegro - Generalia
 +zbook: ref(191)
-192: branchLoc(JAKOB, zbookPed) # zbookPed   Jakobstad-Pietarsaari Allegro - Pedagogik-Kasvatustiede
+192: branchLoc(JAKOB, ZBOOKPED) # zbookPed   Jakobstad-Pietarsaari Allegro - Pedagogik-Kasvatustiede
 +zbookPed: ref(192)
-193: branchLoc(JAKOB, zjour) # zjour      Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals
+193: branchLoc(JAKOB, ZJOUR) # zjour      Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals
 +zjour: ref(193)
-194: branchLoc(JAKOB, zref) # zref       Jakobstad-Pietarsaari Allegro Referensböcker LÅNAS EJ
+194: branchLoc(JAKOB, ZREF) # zref       Jakobstad-Pietarsaari Allegro Referensböcker LÅNAS EJ
 +zref: ref(194)
-195: branchLoc(JAKOB, ztextb) # ztextb     Jakobstad-Pietarsaari Allegro Kursböcker-Kurssikirjat-Textb.                                                                                                           
+195: branchLoc(JAKOB, ZTEXTB) # ztextb     Jakobstad-Pietarsaari Allegro Kursböcker-Kurssikirjat-Textb.                                                                                                           
 +ztextb: ref(195)
-196: branchLoc(JAKOB, zbookBus) # zbookBus   Jakobstad-Pietarsaari Allegro - Företagsekonomi
+196: branchLoc(JAKOB, ZBOOKBUS) # zbookBus   Jakobstad-Pietarsaari Allegro - Företagsekonomi
 +zbookBus: ref(196)
-197: branchLoc(JAKOB, xtextbSh) # ztextbSh   Jakobstad-Pietarsaari Allegro NATTLÅN-YÖLAINA-OVERNIGHT
+197: branchLoc(JAKOB, ZTEXTBSH) # ztextbSh   Jakobstad-Pietarsaari Allegro NATTLÅN-YÖLAINA-OVERNIGHT
 +ztextbSh: ref(197)
-198: branchLoc(TRITO, qskolb) # skolboknew 1. krs-vån ED: Den finlandssvenska skolbokssamlingen
+198: branchLoc(TRITO, QSKOLB) # skolboknew 1. krs-vån ED: Den finlandssvenska skolbokssamlingen
 +skolboknew: ref(198)
-199: branchLoc(JAKOB, zthes) # zthes      Jakobstad-Pietarsaari Allegro Examensarbeten LÅNAS EJ
+199: branchLoc(JAKOB, ZTHES) # zthes      Jakobstad-Pietarsaari Allegro Examensarbeten LÅNAS EJ
 +zthes: ref(199)
 200: branchLoc(KONVERSIO, KONVERSIO) # yngbook    Åbo-Turku Nunnegatan / Böcker - Kirjat - Books
 +yngbook: ref(200)
@@ -425,41 +425,41 @@
 +YHNinstSHI: ref(211)
 212: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSNG  Lainaus Nunnegatan
 +LAINAUSNG: ref(212)
-213: branchLoc(TRITO, qjarvBook) # jarv       1. krs-vån Järv-kokoelma - Järv-samlingen
+213: branchLoc(TRITO, QJARVBOOK) # jarv       1. krs-vån Järv-kokoelma - Järv-samlingen
 +jarv: ref(213)
-214: branchLoc(TRITO, qjarvRef) # jarvref    1. krs-vån Järv-kokoelma. Käsikirjat. EI LAINATA-LÅNAS EJ
+214: branchLoc(TRITO, QJARVREF) # jarvref    1. krs-vån Järv-kokoelma. Käsikirjat. EI LAINATA-LÅNAS EJ
 +jarvref: ref(214)
-215: branchLoc(TRITO, bookHe) # bookHe     4.krs-vån HE Terveystieteet-Hälsovetenskaper-Health sciences
+215: branchLoc(TRITO, BOOKHE) # bookHe     4.krs-vån HE Terveystieteet-Hälsovetenskaper-Health sciences
 +bookHe: ref(215)
-216: branchLoc(TRITO, refHe) # refHe      4. krs-vån HE Terveyst.-Hälsov.-Health EI LAINATA-LÅNAS EJ                                                                                                             
+216: branchLoc(TRITO, REFHE) # refHe      4. krs-vån HE Terveyst.-Hälsov.-Health EI LAINATA-LÅNAS EJ                                                                                                             
 +refHe: ref(216)
 217: branchLoc(KONVERSIO, KONVERSIO) # serHe      4. krs-vån HE Terveystieteet-Hälsovetenskaper Sarjat-Serier
 +serHe: ref(217)
-218: branchLoc(TRITO, journals) # jourHe     4. krs-vån HE Lehdet-Tidskrifter-JournalsEI LAINATA-LÅNAS EJ
+218: branchLoc(TRITO, JOURNALS) # jourHe     4. krs-vån HE Lehdet-Tidskrifter-JournalsEI LAINATA-LÅNAS EJ
 +jourHe: ref(218)
-219: branchLoc(TRITO, qkouluk) # kouluk     Koulukirjastot
+219: branchLoc(TRITO, QKOULUK) # kouluk     Koulukirjastot
 +kouluk: ref(219)
-220: branchLoc(TRITO, qkouluk) # koulukref  Koulukirjastot. Käsikirjat
+220: branchLoc(TRITO, QKOULUK) # koulukref  Koulukirjastot. Käsikirjat
 +koulukref: ref(220)
 221: branchLoc(KONVERSIO, KONVERSIO) # yngtextbSh Åbo-Turku Nunnegatan / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
 +yngtextbSh: ref(221)
-222: branchLoc(TRITO, qminlang) # minlang    1. krs-vån Vähemmistökielikokoelma-Minoritetsspråkssamlingen
+222: branchLoc(TRITO, QMINLANG) # minlang    1. krs-vån Vähemmistökielikokoelma-Minoritetsspråkssamlingen
 +minlang: ref(222)
 223: branchLoc(KONVERSIO, KONVERSIO) # webpay                                                                                                                                                                            
 +webpay: ref(223)
-224: branchLoc(TRITO, Vdatabases) # Vdatabases Vaasan yliopiston tietokannat-University of Vaasa databases
+224: branchLoc(TRITO, VDATABASES) # Vdatabases Vaasan yliopiston tietokannat-University of Vaasa databases
 +Vdatabases: ref(224)
-225: branchLoc(TRITO, Xdatabases) # Xdatabases Vaasan ammattikorkeakoulun tietokannat - VAMK databases
+225: branchLoc(TRITO, XDATABASES) # Xdatabases Vaasan ammattikorkeakoulun tietokannat - VAMK databases
 +Xdatabases: ref(225)
-226: branchLoc(TRITO, Ydatabases) # Ydatabases
+226: branchLoc(TRITO, YDATABASES) # Ydatabases
 +Ydatabases: ref(226)
-227: branchLoc(TRITO, Vdigital) # Vdigital   Vaasan yliopiston e-kirjat - University of Vaasa e-books
+227: branchLoc(TRITO, VDIGITAL) # Vdigital   Vaasan yliopiston e-kirjat - University of Vaasa e-books
 +Vdigital: ref(227)
-228: branchLoc(TRITO, Xdigital) # Xdigital   Vaasan ammattikorkeakoulun e-kirjat - VAMK e-books
+228: branchLoc(TRITO, XDIGITAL) # Xdigital   Vaasan ammattikorkeakoulun e-kirjat - VAMK e-books
 +Xdigital: ref(228)
-229: branchLoc(TRITO, qrare) # rarebook   Harvinaiskirjat - Rariteter - Rare books
+229: branchLoc(TRITO, QRARE) # rarebook   Harvinaiskirjat - Rariteter - Rare books
 +rarebook: ref(229)
-230: branchLoc(TRITO, qjarvRare) # jarvrare   1. krs-vån Järv-kokoelma.Harvinaiskirjat.EI LAINATA-LÅNAS EJ
+230: branchLoc(TRITO, QJARVRARE) # jarvrare   1. krs-vån Järv-kokoelma.Harvinaiskirjat.EI LAINATA-LÅNAS EJ
 +jarvrare: ref(230)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
