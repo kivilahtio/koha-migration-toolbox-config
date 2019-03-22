@@ -28,7 +28,7 @@ Damaged:                damaged=1    # 16
 Withdrawn:              withdrawn=1  # 17
 At Bindery:             notforloan=3 # 18 - #HAMKilla tässä on henkilökuntakokoelmaa (muilla kirjastoilla arvo olisi 3 eli atbindery)
 Cataloging Review:      notforloan=-4 # 19
-Circulation Review:     notforloan=5 # 20
+Circulation Review:     notforloan=6 # 20 - #Laureassa circrev on merkinnyt perinnässä olevia kirjoja. Arvo 5 muutetaan siis arvoksi 6
 Scheduled:              ''           # 21 - #Ei käytössä
 In Process:             notforloan=-2 # 22 - #Hankinnan kautta saapuneiksi käsitellyt
 Call Slip Request:      ''           # 23 - #aineistopyyntö, pitäisi konvertoida nidekohtaiseksi varaukseksi
