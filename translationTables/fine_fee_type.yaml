@@ -21,14 +21,12 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
-
-# TODO: Laurea-spesifisiä maksuja:
-# 11:  # A Lainakielto PrettyLib   A
-# 12:  # B Sakot PrettyLib         B
-# 13:  # C Sisäinen laina          C
-# 14:  # 2. Uusi kirjastokortti    02
-# 15:  # 1. Laskutuslisä           01
-# 16:  # 3. Kaukopalvelumaksu      03
+11: $DELETE                  # A Lainakielto PrettyLib   A
+12: $DELETE                  # B Sakot PrettyLib         B
+13: $DELETE                  # C Sisäinen laina          C
+14: N                        # 2. Uusi kirjastokortti    02
+15: $DELETE                  # 1. Laskutuslisä           01
+16: M                        # 3. Kaukopalvelumaksu      03  Mäpätty Muu maksuksi (Sundry)
 
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
