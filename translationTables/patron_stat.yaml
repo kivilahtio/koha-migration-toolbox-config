@@ -13,11 +13,11 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-8: AL    # 01 Laurea henkil�kunta
+8: AL    # 01 Laurea henkilökunta
 9: PA   # 10 Sopimusoppil. opisk/hk   VIELÄ AVOIN
 17: U   # 14 Muu asiakas
 31: S   # 13 Julkishallinnon edust.
-32: R   # 12 Elinkeinoel�m�n edust.
+32: R   # 12 Elinkeinoelämän edust.
 34: G  # 08 Muu amk opiskelija
 35: F  # 05 Muu amk hkunta
 36: P  # 11 Muu oppil. opisk/hk
