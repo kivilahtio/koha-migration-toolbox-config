@@ -11,31 +11,31 @@
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
 1: REVIEW # REVIEW     REVIEW                    REVIEW
 2: BOOK28 # book28     book28                    Loan period 28 days
-3: JOUR0 # jour0      jour0                     jour0
-4: REFBOOK0 # refbook0   refbook0                  refbook0
-5: TEXTB14 # textb14    textb14                   Textbook 14 days                                                                                                                            
-6: TEXTB1 # textb1     textb1                    OVERNIGHT COPY
-7: REMOTE0 # remote0    remote0                   remote0
-8: REFSTAT0 # refstat0   refstat0                  refstat0
-9: DICTAVXY14 # dictAVxy14 dictAVxy14                dictAVxy14
-10: THES14 # thes14     thes14                    Loan period 14 days
-11: REFTHES0 # refthes0   refthes0                  refthes0
-12: DUMMY12 # Dummy12    Dummy12                   Dummy12
-13: DATAREC28 # datarec28  datarec28                 Loan period 28 days                                                                                                                         
-14: DATAREC0 # datarec0   datarec0                  datarec0
+3: REVIEW # jour0      jour0                     jour0
+4: REF0 # refbook0   refbook0                  refbook0
+5: ATEXTB14 # textb14    textb14                   Textbook 14 days                                                                                                                            
+6: ATEXTBSH # textb1     textb1                    OVERNIGHT COPY
+7: REVIEW # remote0    remote0                   remote0
+8: REF0 # refstat0   refstat0                  refstat0
+9: BOOK28 # dictAVxy14 dictAVxy14                dictAVxy14
+10: BOOK28 # thes14     thes14                    Loan period 14 days
+11: REF0 # refthes0   refthes0                  refthes0
+12: REVIEW # Dummy12    Dummy12                   Dummy12
+13: BOOK28 # datarec28  datarec28                 Loan period 28 days                                                                                                                         
+14: REF0 # datarec0   datarec0                  datarec0
 15: PROJECT365 # project365 project365                Loan period 365 days
 16: INST0 # inst0      inst0                     inst0
-17: HGRAD # hgrad      hgrad                     hgrad
-18: VYINST0 # VYinst0    XXX-ÄLÄKÄYTÄ (VYinst0)    XXX-ÄLÄKÄYTÄ (VYinst0)
-19: OHINST # OHinst     XXX-ÄLÄKÄYTÄ (OHinst28)   XXX-ÄLÄKÄYTÄ (OHinst28)
-20: OHGRAD # OHgrad     OHgrad                    OHgrad
-21: OHINST14 # OHinst14   XXX-ÄLÄKÄYTÄ (OHinst14)   XXX-ÄLÄKÄYTÄ (OHinst14)                                                                                                                     
-22: OHBRAND365 # OHbrand365 OH Brander365             OH Brander365
-23: OHINST0 # OHinst0    XXX-ÄLÄKÄYTÄ (OHinst0)    XXX-ÄLÄKÄYTÄ (OHinst0)
-24: LYCREF0 # Lycref0    Lycref0                   Lycref0
-25: LYCREF28 # Lycref28   Lycref28                  Lycref28
-26: THES0 # thes0      thes0                     thes0
-27: DUMMY27 # Dummy27    Dummy27                   Dummy27
+17: REF0 # hgrad      hgrad                     hgrad
+18: INST0 # VYinst0    XXX-ÄLÄKÄYTÄ (VYinst0)    XXX-ÄLÄKÄYTÄ (VYinst0)
+19: INST0 # OHinst     XXX-ÄLÄKÄYTÄ (OHinst28)   XXX-ÄLÄKÄYTÄ (OHinst28)
+20: REF0 # OHgrad     OHgrad                    OHgrad
+21: INST0 # OHinst14   XXX-ÄLÄKÄYTÄ (OHinst14)   XXX-ÄLÄKÄYTÄ (OHinst14)                                                                                                                     
+22: PROJECT365 # OHbrand365 OH Brander365             OH Brander365
+23: INST0 # OHinst0    XXX-ÄLÄKÄYTÄ (OHinst0)    XXX-ÄLÄKÄYTÄ (OHinst0)
+24: REF0 # Lycref0    Lycref0                   Lycref0
+25: REF0 # Lycref28   Lycref28                  Lycref28
+26: REF0 # thes0      thes0                     thes0
+27: REVIEW # Dummy27    Dummy27                   Dummy27
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
