@@ -10,8 +10,8 @@
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
 LAU: LAU # 1  Laurea-kirjaston hankinta
-LAH: LAH # 2 Laurea thesis tai lahja
-LOH: LOH # 4 Lohja toinen aste
-POR: POR # 5 Porvoo toinen aste
-OPE: OPE # 7 Laurean opettajahankinnat
+LAH: LAU # 2 Laurea thesis tai lahja
+LOH: LAU # 4 Lohja toinen aste
+POR: LAU # 5 Porvoo toinen aste
+OPE: LAU # 7 Laurean opettajahankinnat
 _DEFAULT_: warning()
