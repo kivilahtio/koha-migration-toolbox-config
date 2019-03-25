@@ -20,7 +20,7 @@
 12: EV #  VY student
 13: I #   University other: staff
 14: EVA # VY open: student
-15: H #   ÄLÄ KÄYTÄ AMKot:staffstud
+15: U #   ÄLÄ KÄYTÄ AMKot:staffstud --> H > U 
 17: BH #  Hanken Vaasa staff
 19: EH #  Hanken Vaasa student                                                                                                                                                       
 20: IQ #  Åbo Akademi Turku: staff
@@ -37,27 +37,27 @@
 61: S #   Repres./public sector
 62: R #   Repres./industry&commerce
 63: O #   ILL customer foreign
-64: EVY # ÄLÄKÄYTÄ VY
-72: DY #  YH Novia student ÄLÄ KÄYT
+64: U # ÄLÄKÄYTÄ VY --> EVY > U
+72: DYV #  YH Novia student ÄLÄ KÄYT --> DY > DYV
 73: AY #  YH Novia staff ÄLÄ KÄYTÄ
-74: DXT # VAMK student TL
-75: AXT # VAMK staff TL
-76: MYA # YA Jakobstad/Nkby student
-77: AXS # VAMK staff ST
-78: DXS # VAMK student ST
-79: AXL # VAMK staff LM
-80: DXL # VAMK student LM                                                                                                                                                            
-82: LYA # YA Jakobstad/Nkby staff
+74: DX # VAMK student TL --> DXT -> DX
+75: AX # VAMK staff TL --> AXT > AX
+76: M # YA Jakobstad/Nkby student --> MYA > M
+77: AX # VAMK staff ST --> AXS > AX
+78: DX # VAMK student ST --> DXS -> DX
+79: AX # VAMK staff LM --> AXL > AX
+80: DX # VAMK student LM --> DXL -> DX                                                                                                                                                            
+82: L # YA Jakobstad/Nkby staff --> LYA > L
 83: DYJ # YH Novia Jakobstad studen
 84: AYJ # YH Novia Jakobstad staff
 85: DYR # YH Novia Raseborg student
 86: AYR # YH Novia Raseborg staff
 87: DYV # YH Novia Vasa student
 88: AYV # YH Novia Vasa staff
-89: DYA # YH Novia Åbo student
-90: AYA # YH Novia Åbo staff
-91: EOJ # Åbo Akademi Jstd stuÄLÄ K
-92: BOJ # Åbo Akademi Jstd staÄLÄ K
+89: GYA # YH Novia Åbo student --> DYA > GYA
+90: FYA # YH Novia Åbo staff --> AYA > FYA
+91: EO # Åbo Akademi Jstd stuÄLÄ K --> EOJ > EO
+92: BO # Åbo Akademi Jstd staÄLÄ K --> BOJ > BO
 93: ACJ # Centria Jakobstad staff                                                                                                                                                    
 94: DCJ # Centria Jakobstad student
 95: T #   Media
