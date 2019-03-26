@@ -1,3 +1,1 @@
-Violan Koha -> Voyager migraation tietokantakonversion muunnostaulut yms konffikset.
-
-Voilá!
+Configuration files in these directories are templates only. Use the INSTALL.sh to deploy the templates and configure those instead.
