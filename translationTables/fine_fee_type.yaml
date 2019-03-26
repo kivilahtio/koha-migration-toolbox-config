@@ -21,9 +21,8 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
-# Mitä näille tehdään:
-#11 Tritonia Express          X
-#12 UB & ILL charge           FUB
-#13 Korvaus/Ersattn/Replacem  J
+11: Res                      #Tritonia Express
+12: ILL                      #UB & ILL charge           FUB
+13: M                        #Korvaus/Ersattn/Replacem  J -- muu, pitää olla maksettavissa verkkomaksuna
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
