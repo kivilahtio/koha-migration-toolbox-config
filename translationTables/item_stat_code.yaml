@@ -14,8 +14,8 @@
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_CODE,          ITEM_STAT_ID,      #ITEM_STAT_CODE_DESC
 7A1: 7A1 #25, Hc Uskontoantropologia
-PR1: PR1 #29, PERINT� perint�ehdokas
-PR2: PR2 #30, PERINT� v�liaik keskeytys
+PR1: PR1 #29, PERINTÄ perintäehdokas
+PR2: PR2 #30, PERINTÄ väliaik keskeytys
 5F1: 5F1 #1, Hs Fys, varsin kurssik
 5F2: 5F2 #2, Hs Fys, oheislukemisto
 5F3: 5F3 #3, Hs Fys, vanh vaat muk
@@ -25,24 +25,24 @@ PR2: PR2 #30, PERINT� v�liaik keskeytys
 5K1: 5K1 #7, Hs Kem, varsin kurssik
 5R1: 5R1 #8, Hs Maa, varsin kurssik
 5M1: 5M1 #9, Hs Mat, varsin kurssik
-5C1: 5C1 #10, Hs Tk�, varsin kurssik
-5A1: 5A1 #11, Hs T�h, varsin kurssik
+5C1: 5C1 #10, Hs Tk, varsin kurssik
+5A1: 5A1 #11, Hs Th, varsin kurssik
 5K2: 5K2 #12, Hs Kem, oheislukemisto
 5R2: 5R2 #13, Hs Maa, oheislukemisto
 5M2: 5M2 #14, Hs Mat, oheislukemisto
-5C2: 5C2 #15, Hs Tk�, oheislukemisto
-5A2: 5A2 #16, Hs T�h, oheislukemisto
+5C2: 5C2 #15, Hs Tk, oheislukemisto
+5A2: 5A2 #16, Hs Th, oheislukemisto
 5K3: 5K3 #17, Hs Kem, vanh vaat muk
 5R3: 5R3 #18, Hs Maa, vanh vaat muk
 5M3: 5M3 #19, Hs Mat, vanh vaat muk
-5C3: 5C3 #20, Hs Tk�, vanh vaat muk
-5A3: 5A3 #21, Hs T�h, vanh vaat muk
+5C3: 5C3 #20, Hs Tk, vanh vaat muk
+5A3: 5A3 #21, Hs Th, vanh vaat muk
 HaI: HaI #22, Hankinta: ilmainen
 HaM: HaM #23, Hankinta: maksullinen
 6L1: 6L1 #24, Hb Lahjat VOK
 7A2: 7A2 #26, Hc Kristillinen taide
 7A3: 7A3 #27, Hc Patristiikka
 7A4: 7A4 #28, Hc uskonnonfilosofia
-PR3: PR3 #31, PERINT� ei perint��n
+PR3: PR3 #31, PERINTÄ ei perintään
 
 _DEFAULT_: warning()
