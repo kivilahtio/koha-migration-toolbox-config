@@ -27,9 +27,9 @@
 52: Psp  # P-Savo/opiston hkunta
 53: U  # Kiljava/opiston hkunta         #voi poistaa ja siirtää nämä ryhmään U "Muut"
 55: U  # Opistojen kirjastot            #voi poistaa ja siirtää nämä ryhmään U "Muut"
-57: F  #   muun AMK:n henkil�kunta
+57: F  #   muun AMK:n henkilkunta
 58: K  #   yliopiston opisk./hkunta
-61: Amu  # .Humak/henkil�kunta
+61: Amu  # .Humak/henkilkunta
 62: Dmo  # .Humak/opiskelijat
 63: Uko  # Kuurojen liitto
 64: Uvt  # Valkea talo / muut
