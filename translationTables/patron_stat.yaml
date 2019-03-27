@@ -13,26 +13,26 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: U    # 12  �vriga
+7: U    # 12 Övriga
 8: BH   # 03 Hankenpersonal, Hfrs
 9: EH   # 01 Hankenstuderande, Hfrs
-10: EO  # 20 Hankenstuderande, �U
+10: EO  # 20 Hankenstuderande, U
 11: HV  # 25Utomst. yh-stud, (VTLS)
-12: N   # 13 Inhemska fj�rrl�n
+12: N   # 13 Inhemska fjörrlån
 13: BV  # 04 Hankenpersonal, Vasa
 14: EV  # 02 Hankenstuderande, Vasa
 15: TI  # 15 Hankens inst.
-16: JA  # 26 Utomst.stud Aalto/T�l�
+16: JA  # 26 Utomst.stud Aalto/Tl
 17: JB  # 27 Utomst.stud HY
-18: JC  # 28 Utomst.stud Aalto/Otn�
-19: JZ  # 05 �vriga univ., student
-20: I   # 06 �vriga univ., personal
+18: JC  # 28 Utomst.stud Aalto/Otn
+19: JZ  # 05 Övriga univ., student
+20: I   # 06 Övriga univ., personal
 21: HA  # 23Utomst. yh-stud, Arcada
 22: HB  # 24 Utomst. yh-stud, Helia
-23: HZ  # 07 Yrkesh�gskola, student
+23: HZ  # 07 Yrkeshögskola, student
 24: P   # 09 Annan skola, stud/pers
 25: S   # 11 Offentliga sektorn
-26: R   # 10 N�ringsliv
-27: O   # 14 Utl�ndska fj�rrl�n
+26: R   # 10 Näringsliv
+27: O   # 14 Utländska fjörrlån
 28: E   # B
-29: F   # 08 Yrkesh�gskola,personal
+29: F   # 08 Yrkeshögskola,personal
