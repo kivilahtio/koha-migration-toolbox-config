@@ -14,7 +14,7 @@
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
 8: AL    # 01 Laurea henkilökunta
-9: PA   # 10 Sopimusoppil. opisk/hk   VIELÄ AVOIN
+9: U   # 10 Sopimusoppil. opisk/hk
 17: U   # 14 Muu asiakas
 31: S   # 13 Julkishallinnon edust.
 32: R   # 12 Elinkeinoelämän edust.
@@ -28,6 +28,6 @@
 50: F  # 04 Hkunta HAMK / LAMK
 53: G  # FUAS
 58: DL   # 02 Laurea opiskelija
-59: GD  # 06 Opiskelija HH / Metro  VIELÄ AVOIN
-60: FC  # 03 Hkunta HH / Metro    VIELÄ AVOIN
-61: GE  # 3AMK                    VIELÄ AVOIN
+59: U  # 06 Opiskelija HH / Metro
+60: U  # 03 Hkunta HH / Metro
+61: U  # 3AMK
