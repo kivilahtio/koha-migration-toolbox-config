@@ -7,22 +7,22 @@
 ## it defines mappings from voyager.patron_group.patron_group_id to koha.borrowers.categorycode
 ##
 
-#HUMAK source values
+#TRITO source values
 #PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME
 #"1","OPI","Opiskelijat"
 #"2","MUU","Muut"
 #"3","HENK","Henkilökunta"
 #"5","K","Kaukopalvelu"
 
-1: OHSTAFF #    ÅA staff
+1: ABOSTAFF #    ÅA staff
 2: EXTERNAL #   External
 3: VYSTAFF #    VY staff
-4: OHSTUDENT #  ÅA student
+4: ABOSTUDENT #  ÅA student
 5: VYSTUDENT #  VY student
 6: SHHSTAFF #   HANKEN staff
 7: SHHSTUDENT # HANKEN student
 8: ILL #        ILL
-9: UB #         UB
+9: $DELETE #         UB
 10: VAMKSTAFF #  VAMK staff
 11: VAMKSTUD #   VAMK student
 12: NOVIASTUD #  NOVIA student
@@ -30,6 +30,6 @@
 14: CENTRSTAFF # CENTRIA staff
 15: CENTRSTUD #  CENTRIA student
 16: TEXTBOOK21 # TEXTBOOK21
-17: KOHA #       KOHA users
+17: TRITOSTAFF #       KOHA users
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
