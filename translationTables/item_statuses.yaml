@@ -28,10 +28,10 @@ Damaged:                damaged=1    # 16
 Withdrawn:              withdrawn=1  # 17
 At Bindery:             notforloan=3 # 18 - #HAMKilla tässä on henkilökuntakokoelmaa (muilla kirjastoilla arvo olisi 3 eli atbindery)
 Cataloging Review:      notforloan=-4 # 19
-Circulation Review:     notforloan=5 # 20
+Circulation Review:     notforloan=6 # 20
 Scheduled:              ''           # 21 - #Ei käytössä
 In Process:             notforloan=-2 # 22 - #Hankinnan kautta saapuneiksi käsitellyt
-Call Slip Request:      ''           # 23 - #aineistopyyntö, pitäisi konvertoida nidekohtaiseksi varaukseksi
+Call Slip Request:      ''           # 23 - #aineistopyyntö, pitäisi konvertoida nidekohtaiseksi varaukseksi - KESKEN 2.4.19
 Short Loan Request:     ''           # 24 - #ei käytössä
 Remote Storage Request: ''           # 25 - #Ei käytössä
 _DEFAULT_: warning()
