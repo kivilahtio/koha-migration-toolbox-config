@@ -9,7 +9,7 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-al: ''   #1, Alkio-opisto
-alm: ''   #6, Alkio-opisto / muut
-HUM: ''   #7, HUMAKin hankinnat
+al: ''   #1, Alkio-opisto  #VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+alm: ''   #6, Alkio-opisto / muut # VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+HUM: ''   #7, HUMAKin hankinnat #TÄMÄN TIEDON PITÄISI SIIRTYÄ TÄLLAISENAAN
 _DEFAULT_: warning()
