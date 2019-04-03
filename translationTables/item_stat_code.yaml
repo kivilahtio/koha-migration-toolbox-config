@@ -9,39 +9,39 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-EVO: '' # XEVTEK ostetut (EI KÄYT.)
-MBS: '' # Mercuriasta Myyrmäkeen
-EVI: '' # XEVTEK ilmaiset (EI KÄYT.
-SV: '' #  XStadia vanhat (EI KÄYT.)
-EV: '' #  XEVTEK vanhat (EI KÄYT.)
-AT0: '' # Agricolank. Tikkurilaan
-AL2: '' # Agricolank. Laureaan 2
-AL1: '' # Agricolank. Laurea1
-MO: '' #  Metropolia ostetut                                                                                                                                                           
-MI: '' #  Metropolia ilmaiset
-LT1: '' # Laureasta Tikkurilaan
-OM: '' #  Metropolia opinnäytetyöt
-SO: '' #  Sofianlehdosta Tukholmank
-TU: '' #  Tukholmankadulta Sofianle
-AM: '' #  Agricolank. Myyrmäkeen
-MB: '' #  Myyrmäestä Bulevardille
-OL: '' #  Onnentieltä Leiritielle
-TA: '' #  Tikkurilasta Agrille
-MT: '' #  Manskulta Tukholle
-MV: '' #  Manskulta Viertotielle
-MK: '' #  Manskulta käsikirjastoon
-BM: '' #  Bulelta Myrtsiin                                                                                                                                                             
-BS: '' #  Bulelta Soffariin
-BT: '' #  Bulelta Tiksiin
-BL: '' #  Bulelta Lepuskiin
-AB: '' #  Bulelle takaisin
-BTU: '' # Bulelta tukholle
-ML: '' #  Myyrmäestä Leppävaaraan
-AR: '' #  Arabian kampukselle
-PJO: '' # PJK ostetut
-PJI: '' # PJK ilmaiset
-PJK: '' # PJK
-MY: '' #  Myllypuro
-LE: '' #  Leppävaara
+EVO: $DELETE # XEVTEK ostetut (EI KÄYT.)
+MBS: $DELETE # Mercuriasta Myyrmäkeen
+EVI: $DELETE # XEVTEK ilmaiset (EI KÄYT.
+SV: $DELETE #  XStadia vanhat (EI KÄYT.)
+EV: $DELETE #  XEVTEK vanhat (EI KÄYT.)
+AT0: $DELETE # Agricolank. Tikkurilaan
+AL2: $DELETE # Agricolank. Laureaan 2
+AL1: $DELETE # Agricolank. Laurea1
+MO: $DELETE #  Metropolia ostetut                                                                                                                                                           
+MI: $DELETE #  Metropolia ilmaiset
+LT1: $DELETE # Laureasta Tikkurilaan
+OM: $DELETE #  Metropolia opinnäytetyöt
+SO: $DELETE #  Sofianlehdosta Tukholmank
+TU: $DELETE #  Tukholmankadulta Sofianle
+AM: $DELETE #  Agricolank. Myyrmäkeen
+MB: $DELETE #  Myyrmäestä Bulevardille
+OL: $DELETE #  Onnentieltä Leiritielle
+TA: $DELETE #  Tikkurilasta Agrille
+MT: $DELETE #  Manskulta Tukholle
+MV: $DELETE #  Manskulta Viertotielle
+MK: $DELETE #  Manskulta käsikirjastoon
+BM: $DELETE #  Bulelta Myrtsiin                                                                                                                                                             
+BS: $DELETE #  Bulelta Soffariin
+BT: $DELETE #  Bulelta Tiksiin
+BL: $DELETE #  Bulelta Lepuskiin
+AB: $DELETE #  Bulelle takaisin
+BTU:$DELETE # Bulelta tukholle
+ML: $DELETE #  Myyrmäestä Leppävaaraan
+AR: $DELETE #  Arabian kampukselle
+PJO: PJK # PJK ostetut
+PJI: PJK # PJK ilmaiset
+PJK: PJK # PJK
+MY: $DELETE #  Myllypuro
+LE: KARAMALMI #  Leppävaara
 
 _DEFAULT_: warning()
