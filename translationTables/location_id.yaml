@@ -213,7 +213,7 @@
 +Ki-opin: ref(99)
 121: branchLoc(JKL)		#JY-CIRC   ,JYVÄSKYLÄ/AKSELI #happening location, asiakastietoja
 +JY-CIRC: ref(121)
-123: branchLoc(TA,HUMAK)		#Ta-humak  ,Akatemia humak
+123: branchLoc(TA,YLEIS)		#Ta-humak  ,Akatemia humak #meneekin TA, yleis
 +Ta-humak: ref(123)
 92:  branchLoc(EI_KOHAAN,EI_VVARASTO,EI_KOHAAN)		#V-varasto ,Varasto pp-varasto
 +V-varasto: ref(92)
