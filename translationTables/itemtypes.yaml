@@ -9,20 +9,20 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW # REVIEW     REVIEW                    REVIEW
-2: LAINA14 # Laina14    Lainakirja14              Lainakirja14
-3: LAINA0 # Laina0     Ei-lainata                Ei-lainata
-4: LAINA5 # Laina5     Lainakirja5               Lainakirja5
-5: LAINA1 # Laina1     Lainakirja1               Lainakirja1                                                                                                                                 
-6: ARKISTO0 # Arkisto0   Salainen ei-lainata       Salainen ei-lainata
-7: LAINA2VK # Laina2vk   Laina2vk                  Laina2vk
-8: LAINA14LYH # Laina14Lyh Laina14Lyhyt              Laina14Lyhyt
-9: LAINA28 # Laina28    Laina28                   Laina28
-10: LAINA3 # Laina3     Laina3                    Laina3
-11: LAPTOP # LAPTOP     Kannettava                Kannettava tietokone
-12: LAINA14L # Laina14L   Laina14L                  Laina14L
-14: LAINA28JAP # Laina28jap Japania                   Pasilan Japania-kokoelman aineistotyyppi                                                                                                    
-15: IPAD14 # ipad14     iPad14                    iPad14
+1: REVIEW # REVIEW     
+2: LYHYT # Laina14 siirretään LYHYT itemtypeen, tätä ei enää tarvitse         
+3: EILAINA # Laina0                     
+4: EILAINA # Laina5 siirretään EILAINA itemtypeen, tätä ei enää tarvitse           
+5: LYHYT # Laina1 siirretään LYHYT itemtypeen, tätä ei enää tarvitse                                                                                                                                                 
+6: EILAINA # Arkisto0
+7: LYHYT # Laina2vk siirretään LYHYT itemtypeen, tätä ei enää tarvitse
+8: LYHYT # Laina14Lyh siirretään LYHYT itemtypeen, tätä ei enää tarvitse
+9: YLEIS # Laina28
+10: EILAINA # Laina3 siirretään EILAINA itemtypeen, tätä ei enää tarvitse   
+11: EILAINA # LAPTOP siirretään EILAINA itemtypeen, tätä ei enää tarvitse             
+12: EILAINA # Laina14L Porvoon lehdet siirretään EILAINA itemtypeen, tätä ei enää tarvitse        
+14: YLEIS # Laina28jap Japania-kokoelma siirretään YLEIS itemtypeen, tätä ei enää tarvitse                                                                                                                  
+15: LYHYT # ipad14 siirretään LYHYT itemtypeen, tätä ei enää tarvitse        
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
