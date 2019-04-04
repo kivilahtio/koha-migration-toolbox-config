@@ -14,18 +14,18 @@
 #"3","HENK","Henkilökunta"
 #"5","K","Kaukopalvelu"
 
-1: MAMKHENK #   c Xamk henkilökunta
-2: OPISKELIJA # a Opiskelija
+1: XAMKHENK #   c Xamk henkilökunta
+2: XAMKOPISK # a Opiskelija
 3: ULKOPUOLIS # d Ulkopuoliset
-4: HKKKOPISK #  e Opiskelija Aalto
+4: ULKOPUOLIS #  e Opiskelija Aalto
 5: SIIRTO #     Pepista siirretty
-6: HYMIKOPISK # f Opiskelija Ruralia
-7: HYMIKHENK #  j Henkilökunta Ruralia
-8: HKKKHENK #   g Henkilökunta Aalto
-9: KYAMKHENK #  b Xamk henkilökunta
-10: MERIMUSEO #  h Henkilökunta Merimuseo
+6: ULKOPUOLIS # f Opiskelija Ruralia
+7: ULKOPUOLIS #  j Henkilökunta Ruralia
+8: ULKOPUOLIS #   g Henkilökunta Aalto
+9: XAMKHENK #  b Xamk henkilökunta
+10: ULKOPUOLIS #  h Henkilökunta Merimuseo
 11: KAUKOPALVE # k Kaukopalvelu
-12: MUSEOVIRAS # i Henkilökunta Museoviras
-13: UPDATE #     Peppi_paivitys
+12: ULKOPUOLIS # i Henkilökunta Museoviras
+13: SIIRTO #     Peppi_paivitys
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
