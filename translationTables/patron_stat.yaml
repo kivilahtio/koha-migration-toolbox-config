@@ -17,16 +17,16 @@
 8: D #   a Oman amk:n opiskelija
 9: U #   h Muut
 10: P #   g Muun oppil. hk/opisk.
-11: JAA # c Aallon opiskelija
+11: K # c Aallon opiskelija
 12: S #   j Julkishallinnon edustaj
-13: JRU # d Ruralian opiskelija
+13: K # d Ruralian opiskelija
 14: K #   g Yliopisto henkk / opisk
-15: IRU # e Ruralian henkilökunta                                                                                                                                                    
-16: IAA # e Aallon henkilökunta
+15: K # e Ruralian henkilökunta                                                                                                                                                    
+16: K # e Aallon henkilökunta
 17: R #   j Elinkeinoelämän edustaj
 18: G #   f Muun amk:n opiskelija
 19: C #   e Kehysorg./erik.kirj hk
-20: "N" #   i Kotimainen kaukopalvelu
+20: N #   i Kotimainen kaukopalvelu
 21: F #   e Muun amk:n henkilökunta
 27: O #   i Ulkomainen kaukopalvelu
 28: T #   j Media
