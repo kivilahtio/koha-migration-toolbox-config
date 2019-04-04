@@ -1,195 +1,195 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1: branchLoc(KONVERSIO, KONVERSIO) # REVIEW     REVIEW
+1: branchLoc(EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
-2: branchLoc(KONVERSIO, KONVERSIO) # 904        Merimuseo, e-aineisto
+2: branchLoc(EI_KOHAAN) # 904        Merimuseo, e-aineisto
 +904: ref(2)
-3: branchLoc(KONVERSIO, KONVERSIO) # 905        Tietokeskus Vellamo, Merimuseo
+3: branchLoc(EI_KOHAAN) # 905        Tietokeskus Vellamo, Merimuseo
 +905: ref(3)
-4: branchLoc(KONVERSIO, KONVERSIO) # 910        Tietokeskus Vellamo, Merimuseo. Käsikirjat/reference books
+4: branchLoc(EI_KOHAAN) # 910        Tietokeskus Vellamo, Merimuseo. Käsikirjat/reference books
 +910: ref(4)
-5: branchLoc(KONVERSIO, KONVERSIO) # 915        Merimuseo, käsikirjasto Helsingissä
+5: branchLoc(EI_KOHAAN) # 915        Merimuseo, käsikirjasto Helsingissä
 +915: ref(5)
-6: branchLoc(KONVERSIO, KONVERSIO) # Ebrary     Mamk - verkkoaineistot                                                                                                                                                 
+6: branchLoc(EI_KOHAAN) # Ebrary     Mamk - verkkoaineistot                                                                                                                                                 
 +Ebrary: ref(6)
-7: branchLoc(KONVERSIO, KONVERSIO) # HankiJyl   Hankinta Jylpyn kirjasto
+7: branchLoc(EI_KOHAAN) # HankiJyl   Hankinta Jylpyn kirjasto
 +HankiJyl: ref(7)
-8: branchLoc(KONVERSIO, KONVERSIO) # HankiKas   Hankinta Kasarminmäen kirjasto
+8: branchLoc(EI_KOHAAN) # HankiKas   Hankinta Kasarminmäen kirjasto
 +HankiKas: ref(8)
-9: branchLoc(KONVERSIO, KONVERSIO) # HankiMet   Hankinta Metsolan kirjasto
+9: branchLoc(EI_KOHAAN) # HankiMet   Hankinta Metsolan kirjasto
 +HankiMet: ref(9)
-10: branchLoc(KONVERSIO, KONVERSIO) # HankiVel   Hankinta Vellamo
+10: branchLoc(EI_KOHAAN) # HankiVel   Hankinta Vellamo
 +HankiVel: ref(10)
-11: branchLoc(KONVERSIO, KONVERSIO) # Hymik k    MUC-kirjasto/library, Mikkeli
+11: branchLoc(EI_KOHAAN) # Hymik k    MUC-kirjasto/library, Mikkeli
 +Hymik: ref(11)
-12: branchLoc(KONVERSIO, KONVERSIO) # Hymik kk   MUC-kirjasto/library käsikirjasto, Mikkeli. Ei käytettävissä
+12: branchLoc(EI_KOHAAN) # Hymik kk   MUC-kirjasto/library käsikirjasto, Mikkeli. Ei käytettävissä
 +Hymik: ref(12)
-13: branchLoc(KONVERSIO, KONVERSIO) # JylDvd     Jylpyn kirjasto, Kotka. Dvd:t
+13: branchLoc(EI_KOHAAN) # JylDvd     Jylpyn kirjasto, Kotka. Dvd:t
 +JylDvd: ref(13)
-14: branchLoc(KONVERSIO, KONVERSIO) # JylKasik   Jylpyn kirjasto, Kotka. Käsikirjat/reference books
+14: branchLoc(EI_KOHAAN) # JylKasik   Jylpyn kirjasto, Kotka. Käsikirjat/reference books
 +JylKasik: ref(14)
-15: branchLoc(KONVERSIO, KONVERSIO) # JylKoupa   Jylpyn kirjasto, Kotka. Koulutuspalvelut, ei lainata.                                                                                                                  
+15: branchLoc(EI_KOHAAN) # JylKoupa   Jylpyn kirjasto, Kotka. Koulutuspalvelut, ei lainata.                                                                                                                  
 +JylKoupa: ref(15)
-16: branchLoc(KONVERSIO, KONVERSIO) # JylLaina   Jylpyn kirjasto, Kotka
+16: branchLoc(EI_KOHAAN) # JylLaina   Jylpyn kirjasto, Kotka
 +JylLaina: ref(16)
-17: branchLoc(KONVERSIO, KONVERSIO) # JylLukul   Jylpyn kirjasto, Kotka
+17: branchLoc(EI_KOHAAN) # JylLukul   Jylpyn kirjasto, Kotka
 +JylLukul: ref(17)
-18: branchLoc(KONVERSIO, KONVERSIO) # KamHlo     Mamk, henkilöstö, Mikkeli. EI LAINATA/NOT FOR LOAN
+18: branchLoc(EI_KOHAAN) # KamHlo     Mamk, henkilöstö, Mikkeli. EI LAINATA/NOT FOR LOAN
 +KamHlo: ref(18)
-19: branchLoc(KONVERSIO, KONVERSIO) # KamJopo    Mikkelin kampuskirjasto
+19: branchLoc(EI_KOHAAN) # KamJopo    Mikkelin kampuskirjasto
 +KamJopo: ref(19)
-20: branchLoc(KONVERSIO, KONVERSIO) # KamLaina   Mikkelin kampuskirjasto
+20: branchLoc(MIK, LAINA) # KamLaina   Mikkelin kampuskirjasto
 +KamLaina: ref(20)
-21: branchLoc(KONVERSIO, KONVERSIO) # KamLukul   Mikkelin kampuskirjasto
+21: branchLoc(MIK, LUKUL) # KamLukul   Mikkelin kampuskirjasto
 +KamLukul: ref(21)
-22: branchLoc(KONVERSIO, KONVERSIO) # KamOpint   Mikkelin kampuskirjasto. Ei kotilainaan
+22: branchLoc(EI_KOHAAN) # KamOpint   Mikkelin kampuskirjasto. Ei kotilainaan
 +KamOpint: ref(22)
-23: branchLoc(KONVERSIO, KONVERSIO) # KasDvd     Kouvolan kampuskirjasto. Dvt:t
+23: branchLoc(EI_KOHAAN) # KasDvd     Kouvolan kampuskirjasto. Dvt:t
 +KasDvd: ref(23)
-24: branchLoc(KONVERSIO, KONVERSIO) # KasKasik   Kouvolan kampuskirjasto. Käsikirjat/reference books                                                                                                                    
+24: branchLoc(EI_KOHAAN) # KasKasik   Kouvolan kampuskirjasto. Käsikirjat/reference books                                                                                                                    
 +KasKasik: ref(24)
-25: branchLoc(KONVERSIO, KONVERSIO) # KasKoupa   Kouvolan kampuskirjasto. Koulutuspalvelut, ei lainata
+25: branchLoc(EI_KOHAAN) # KasKoupa   Kouvolan kampuskirjasto. Koulutuspalvelut, ei lainata
 +KasKoupa: ref(25)
-26: branchLoc(KONVERSIO, KONVERSIO) # KasKymid   Kouvolan kampus. Kymidesign & Business, ei lainata
+26: branchLoc(EI_KOHAAN) # KasKymid   Kouvolan kampus. Kymidesign & Business, ei lainata
 +KasKymid: ref(26)
-27: branchLoc(KONVERSIO, KONVERSIO) # KasLaina   Kouvolan kampuskirjasto
+27: branchLoc(KOU, LAINA) # KasLaina   Kouvolan kampuskirjasto
 +KasLaina: ref(27)
-28: branchLoc(KONVERSIO, KONVERSIO) # KasLukul   Kouvolan kampuskirjasto
+28: branchLoc(EI_KOHAAN) # KasLukul   Kouvolan kampuskirjasto
 +KasLukul: ref(28)
-29: branchLoc(KONVERSIO, KONVERSIO) # KasVaras   Kouvolan kampuskirjasto. Lehtivarasto
+29: branchLoc(EI_KOHAAN) # KasVaras   Kouvolan kampuskirjasto. Lehtivarasto
 +KasVaras: ref(29)
-30: branchLoc(KONVERSIO, KONVERSIO) # Kkans k    Muc-kirjasto/library, Mikkeli
+30: branchLoc(EI_KOHAAN) # Kkans k    Muc-kirjasto/library, Mikkeli
 +Kkans: ref(30)
-31: branchLoc(KONVERSIO, KONVERSIO) # Kkans ku   Muc-kirjasto/library,  KTK-ohjelma. Ei kotilainaan                                                                                                                     
+31: branchLoc(EI_KOHAAN) # Kkans ku   Muc-kirjasto/library,  KTK-ohjelma. Ei kotilainaan                                                                                                                     
 +Kkans: ref(31)
-32: branchLoc(KONVERSIO, KONVERSIO) # KmuseoKann Tietokeskus Vellamo, Kotka. KyM, Kannon k, ei lainata
+32: branchLoc(KYM, KANN) # KmuseoKann Tietokeskus Vellamo, Kotka. KyM, Kannon k, ei lainata
 +KmuseoKann: ref(32)
-33: branchLoc(KONVERSIO, KONVERSIO) # KmuseoKoiv Tietokeskus Vellamo, Kotka. KyM, Koivist, ei lainata
+33: branchLoc(KYM, KOIV) # KmuseoKoiv Tietokeskus Vellamo, Kotka. KyM, Koivist, ei lainata
 +KmuseoKoiv: ref(33)
-34: branchLoc(KONVERSIO, KONVERSIO) # KmuseoLang Tietokeskus Vellamo, Kotka. KyM Langinkoski, ei lainata
+34: branchLoc(KYM, LANG) # KmuseoLang Tietokeskus Vellamo, Kotka. KyM Langinkoski, ei lainata
 +KmuseoLang: ref(34)
-35: branchLoc(KONVERSIO, KONVERSIO) # KmuseoYle  Tietokeskus Vellamo, Kotka. KyM, Yleiskokoelma, ei lainata
+35: branchLoc(KYM, YLE) # KmuseoYle  Tietokeskus Vellamo, Kotka. KyM, Yleiskokoelma, ei lainata
 +KmuseoYle: ref(35)
-36: branchLoc(KONVERSIO, KONVERSIO) # Kpien k    Muc-kirjasto/library, Mikkeli
+36: branchLoc(EI_KOHAAN) # Kpien k    Muc-kirjasto/library, Mikkeli
 +Kpien: ref(36)
-37: branchLoc(KONVERSIO, KONVERSIO) # Kpien kk   Muc-kirjasto/library, Mikkeli. Käsikirjasto
+37: branchLoc(EI_KOHAAN) # Kpien kk   Muc-kirjasto/library, Mikkeli. Käsikirjasto
 +Kpien: ref(37)
-38: branchLoc(KONVERSIO, KONVERSIO) # KyamkEaine Verkkoaineistot
+38: branchLoc(XAMK, EAIN) # KyamkEaine Verkkoaineistot
 +KyamkEaine: ref(38)
-39: branchLoc(KONVERSIO, KONVERSIO) # MamkEaine  Verkkoaineistot                                                                                                                                                        
+39: branchLoc(XAMK, EAIN) # MamkEaine  Verkkoaineistot                                                                                                                                                        
 +MamkEaine: ref(39)
-40: branchLoc(KONVERSIO, KONVERSIO) # MetDvd     Metsolan kirjasto, Kotka. Dvt:t
+40: branchLoc(KOT, DVD # MetDvd     Metsolan kirjasto, Kotka. Dvt:t
 +MetDvd: ref(40)
-41: branchLoc(KONVERSIO, KONVERSIO) # MetKasik   Kotkan kampuskirjasto. Käsikirjat/reference books
+41: branchLoc(KOT, KASIK) # MetKasik   Kotkan kampuskirjasto. Käsikirjat/reference books
 +MetKasik: ref(41)
-42: branchLoc(KONVERSIO, KONVERSIO) # MetKoupa   Kotkan kampuskirjasto. Koulutuspalvelut, ei lainata
+42: branchLoc(EI_KOHAAN) # MetKoupa   Kotkan kampuskirjasto. Koulutuspalvelut, ei lainata
 +MetKoupa: ref(42)
-43: branchLoc(KONVERSIO, KONVERSIO) # MetLaina   Kotkan kampuskirjasto
+43: branchLoc(KOT, LAINA) # MetLaina   Kotkan kampuskirjasto
 +MetLaina: ref(43)
-44: branchLoc(KONVERSIO, KONVERSIO) # MetLukul   Kotkan kampuskirjasto
+44: branchLoc(KOT, LUKUL) # MetLukul   Kotkan kampuskirjasto
 +MetLukul: ref(44)
-45: branchLoc(KONVERSIO, KONVERSIO) # MetOpet    Kotkan kampuskirjasto. Virkakäytössä
+45: branchLoc(EI_KOHAAN) # MetOpet    Kotkan kampuskirjasto. Virkakäytössä
 +MetOpet: ref(45)
-46: branchLoc(KONVERSIO, KONVERSIO) # SavHlo     Savonlinnan kampus. Henkilöstö. EI LAINATA/NOT FOR LOAN
+46: branchLoc(EI_KOHAAN) # SavHlo     Savonlinnan kampus. Henkilöstö. EI LAINATA/NOT FOR LOAN
 +SavHlo: ref(46)
-47: branchLoc(KONVERSIO, KONVERSIO) # SavJopo    Savonlinnan kampuskirjasto
+47: branchLoc(EI_KOHAAN) # SavJopo    Savonlinnan kampuskirjasto
 +SavJopo: ref(47)
-48: branchLoc(KONVERSIO, KONVERSIO) # SavLaina   Savonlinnan kampuskirjasto                                                                                                                                             
+48: branchLoc(SAV, LAINA) # SavLaina   Savonlinnan kampuskirjasto                                                                                                                                             
 +SavLaina: ref(48)
-49: branchLoc(KONVERSIO, KONVERSIO) # SavLukul   Savonlinnan kampuskirjasto
+49: branchLoc(SAV, LUKUL) # SavLukul   Savonlinnan kampuskirjasto
 +SavLukul: ref(49)
-50: branchLoc(KONVERSIO, KONVERSIO) # SavOpint   Savonlinnan kampuskirjasto. Opinnäytetyöt. Ei kotilainaan
+50: branchLoc(EI_KOHAAN) # SavOpint   Savonlinnan kampuskirjasto. Opinnäytetyöt. Ei kotilainaan
 +SavOpint: ref(50)
-51: branchLoc(KONVERSIO, KONVERSIO) # VelDvd     Tietokeskus Vellamo, Kotka. Dvd:t
+51: branchLoc(KOT, DVD) # VelDvd     Tietokeskus Vellamo, Kotka. Dvd:t
 +VelDvd: ref(51)
-52: branchLoc(KONVERSIO, KONVERSIO) # VelKasik   Tietokeskus Vellamo, Kotka. Xamk, Käsikirjat/reference book
+52: branchLoc(KOT, KASIK) # VelKasik   Tietokeskus Vellamo, Kotka. Xamk, Käsikirjat/reference book
 +VelKasik: ref(52)
-53: branchLoc(KONVERSIO, KONVERSIO) # VelLaina   Tietokeskus Vellamo, Kotka. Xamk
+53: branchLoc(KOT, LAINA) # VelLaina   Tietokeskus Vellamo, Kotka. Xamk
 +VelLaina: ref(53)
-54: branchLoc(KONVERSIO, KONVERSIO) # VelLukul   Tietokeskus Vellamo, Kotka
+54: branchLoc(KOT, LUKUL) # VelLukul   Tietokeskus Vellamo, Kotka
 +VelLukul: ref(54)
-55: branchLoc(KONVERSIO, KONVERSIO) # VelPalme   Tietokeskus Vellamo, Kotka. Xamk
+55: branchLoc(EI_KOHAAN) # VelPalme   Tietokeskus Vellamo, Kotka. Xamk
 +VelPalme: ref(55)
-56: branchLoc(KONVERSIO, KONVERSIO) # VelRarit   Tietokeskus Vellamo, Kotka. Xamk, rariteetit                                                                                                                           
+56: branchLoc(KOT, KASIK) # VelRarit   Tietokeskus Vellamo, Kotka. Xamk, rariteetit                                                                                                                           
 +VelRarit: ref(56)
-57: branchLoc(KONVERSIO, KONVERSIO) # Yrik k     Muc-kirjasto/library, Mikkeli. Yrittäjyyskasvatus
+57: branchLoc(EI_KOHAAN) # Yrik k     Muc-kirjasto/library, Mikkeli. Yrittäjyyskasvatus
 +Yrik: ref(57)
-58: branchLoc(KONVERSIO, KONVERSIO) # LuettJyl
+58: branchLoc(EI_KOHAAN) # LuettJyl
 +LuettJyl: ref(58)
-59: branchLoc(KONVERSIO, KONVERSIO) # LuettKam
+59: branchLoc(EI_KOHAAN) # LuettKam
 +LuettKam: ref(59)
-60: branchLoc(KONVERSIO, KONVERSIO) # LuettKas
+60: branchLoc(EI_KOHAAN) # LuettKas
 +LuettKas: ref(60)
-61: branchLoc(KONVERSIO, KONVERSIO) # LuettSav
+61: branchLoc(EI_KOHAAN) # LuettSav
 +LuettSav: ref(61)
-62: branchLoc(KONVERSIO, KONVERSIO) # LuettVel
+62: branchLoc(EI_KOHAAN) # LuettVel
 +LuettVel: ref(62)
-63: branchLoc(KONVERSIO, KONVERSIO) # LuettHymik
+63: branchLoc(EI_KOHAAN) # LuettHymik
 +LuettHymik: ref(63)
-64: branchLoc(KONVERSIO, KONVERSIO) # LuettKkans
+64: branchLoc(EI_KOHAAN) # LuettKkans
 +LuettKkans: ref(64)
-65: branchLoc(KONVERSIO, KONVERSIO) # LuettKmuse
+65: branchLoc(EI_KOHAAN) # LuettKmuse
 +LuettKmuse: ref(65)
-66: branchLoc(KONVERSIO, KONVERSIO) # LuettMerim
+66: branchLoc(EI_KOHAAN) # LuettMerim
 +LuettMerim: ref(66)
-67: branchLoc(KONVERSIO, KONVERSIO) # LuettMet
+67: branchLoc(EI_KOHAAN) # LuettMet
 +LuettMet: ref(67)
-68: branchLoc(KONVERSIO, KONVERSIO) # HankiKam   Hankinta Kampuskirjasto
+68: branchLoc(EI_KOHAAN) # HankiKam   Hankinta Kampuskirjasto
 +HankiKam: ref(68)
-69: branchLoc(KONVERSIO, KONVERSIO) # HankiSav   Hankinta Savonniemen kirjasto
+69: branchLoc(EI_KOHAAN) # HankiSav   Hankinta Savonniemen kirjasto
 +HankiSav: ref(69)
-70: branchLoc(KONVERSIO, KONVERSIO) # HankiMerim Hankinta Merimuseo
+70: branchLoc(EI_KOHAAN) # HankiMerim Hankinta Merimuseo
 +HankiMerim: ref(70)
-71: branchLoc(KONVERSIO, KONVERSIO) # LainaJyl
+71: branchLoc(EI_KOHAAN) # LainaJyl
 +LainaJyl: ref(71)
-72: branchLoc(KONVERSIO, KONVERSIO) # LainaKam                                                                                                                                                                          
+72: branchLoc(MIK) # LainaKam                                                                                                                                                                          
 +LainaKam: ref(72)
-73: branchLoc(KONVERSIO, KONVERSIO) # LainaKas
+73: branchLoc(KOU) # LainaKas
 +LainaKas: ref(73)
-74: branchLoc(KONVERSIO, KONVERSIO) # LainaMet
+74: branchLoc(KOT) # LainaMet
 +LainaMet: ref(74)
-75: branchLoc(KONVERSIO, KONVERSIO) # LainaSav
+75: branchLoc(SAV) # LainaSav
 +LainaSav: ref(75)
-76: branchLoc(KONVERSIO, KONVERSIO) # LainaVel
+76: branchLoc(KOT) # LainaVel
 +LainaVel: ref(76)
-79: branchLoc(KONVERSIO, KONVERSIO) # AutomJyl
+79: branchLoc(EI_KOHAAN) # AutomJyl
 +AutomJyl: ref(79)
-80: branchLoc(KONVERSIO, KONVERSIO) # AutomKam1
+80: branchLoc(MIK) # AutomKam1
 +AutomKam1: ref(80)
-81: branchLoc(KONVERSIO, KONVERSIO) # AutomKam2
+81: branchLoc(MIK) # AutomKam2
 +AutomKam2: ref(81)
-82: branchLoc(KONVERSIO, KONVERSIO) # AutomKas1
+82: branchLoc(KOU) # AutomKas1
 +AutomKas1: ref(82)
-83: branchLoc(KONVERSIO, KONVERSIO) # AutomKas2
+83: branchLoc(KOU) # AutomKas2
 +AutomKas2: ref(83)
-84: branchLoc(KONVERSIO, KONVERSIO) # AutomMet1
+84: branchLoc(KOT) # AutomMet1
 +AutomMet1: ref(84)
-85: branchLoc(KONVERSIO, KONVERSIO) # AutomMet2
+85: branchLoc(KOT) # AutomMet2
 +AutomMet2: ref(85)
-86: branchLoc(KONVERSIO, KONVERSIO) # AutomSav
+86: branchLoc(SAV) # AutomSav
 +AutomSav: ref(86)
-87: branchLoc(KONVERSIO, KONVERSIO) # AutomVel
+87: branchLoc(KOT) # AutomVel
 +AutomVel: ref(87)
-88: branchLoc(KONVERSIO, KONVERSIO) # Hymik
+88: branchLoc(EI_KOHAAN) # Hymik
 +Hymik: ref(88)
-89: branchLoc(KONVERSIO, KONVERSIO) # Kkans
+89: branchLoc(EI_KOHAAN) # Kkans
 +Kkans: ref(89)
-90: branchLoc(KONVERSIO, KONVERSIO) # KamJopo2   Mikkelin kampuskirjasto
+90: branchLoc(EI_KOHAAN) # KamJopo2   Mikkelin kampuskirjasto
 +KamJopo2: ref(90)
-91: branchLoc(KONVERSIO, KONVERSIO) # KamJopo3   Mikkelin kampuskirjasto
+91: branchLoc(EI_KOHAAN) # KamJopo3   Mikkelin kampuskirjasto
 +KamJopo3: ref(91)
-92: branchLoc(KONVERSIO, KONVERSIO) # AutomKas3
+92: branchLoc(KOU) # AutomKas3
 +AutomKas3: ref(92)
-93: branchLoc(KONVERSIO, KONVERSIO) # KkansOpint Muc-kirjasto/library, Mikkeli. Ei kotilainaan/Not for loan                                                                                                             
+93: branchLoc(EI_KOHAAN) # KkansOpint Muc-kirjasto/library, Mikkeli. Ei kotilainaan/Not for loan                                                                                                             
 +KkansOpint: ref(93)
-94: branchLoc(KONVERSIO, KONVERSIO) # Ellibs     Verkkoaineistot (Ellibs)
+94: branchLoc(XAMK, ELLIBS) # Ellibs     Verkkoaineistot (Ellibs)
 +Ellibs: ref(94)
-95: branchLoc(KONVERSIO, KONVERSIO) # Metalib
+95: branchLoc(XAMK, TIETOK) # Metalib
 +Metalib: ref(95)
-96: branchLoc(KONVERSIO, KONVERSIO) # Kaakkuri   Kaakkuri
+96: branchLoc(EI_KOHAAN) # Kaakkuri   Kaakkuri
 +Kaakkuri: ref(96)
-97: branchLoc(KONVERSIO, KONVERSIO) # Webpay
+97: branchLoc(KONVERSIO) # Webpay
 +Webpay: ref(97)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
