@@ -79,7 +79,7 @@
 +KyamkEaine: ref(38)
 39: branchLoc(XAMK, EAIN) # MamkEaine  Verkkoaineistot                                                                                                                                                        
 +MamkEaine: ref(39)
-40: branchLoc(KOT, DVD # MetDvd     Metsolan kirjasto, Kotka. Dvt:t
+40: branchLoc(KOT, LAINA) # MetDvd     Metsolan kirjasto, Kotka. Dvt:t
 +MetDvd: ref(40)
 41: branchLoc(KOT, KASIK) # MetKasik   Kotkan kampuskirjasto. Käsikirjat/reference books
 +MetKasik: ref(41)
@@ -101,7 +101,7 @@
 +SavLukul: ref(49)
 50: branchLoc(EI_KOHAAN) # SavOpint   Savonlinnan kampuskirjasto. Opinnäytetyöt. Ei kotilainaan
 +SavOpint: ref(50)
-51: branchLoc(KOT, DVD) # VelDvd     Tietokeskus Vellamo, Kotka. Dvd:t
+51: branchLoc(KOT, LAINA) # VelDvd     Tietokeskus Vellamo, Kotka. Dvd:t
 +VelDvd: ref(51)
 52: branchLoc(KOT, KASIK) # VelKasik   Tietokeskus Vellamo, Kotka. Xamk, Käsikirjat/reference book
 +VelKasik: ref(52)
