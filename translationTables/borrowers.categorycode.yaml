@@ -11,11 +11,11 @@
 2: PERSONAL # B Hankenpersonal
 3: STUDERANDE # A Hankenstuderande
 4: FJARRLAN # Fjarrlan
-5: SHHINST # SHH inst.
-6: SPECIAL # SPECIAL-PERSONAL
-7: UBPATRON # UB Patron
-8: NYHETER # Nyhetshylla
-9: CIRKULERAR # Tidskriftscirkulation
+5: KONVERSIO # SHH inst.
+6: KONVERSIO # SPECIAL-PERSONAL
+7: KONVERSIO # UB Patron
+8: KONVERSIO # Nyhetshylla
+9: KONVERSIO # Tidskriftscirkulation
 10: SPECIALSTU # D Special Hankenstud.
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
