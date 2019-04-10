@@ -7,21 +7,21 @@
 ## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
 ##
 
-1: XDUMMY     # XDUMMY
-2: TIDSK_0    # TIDSK_0                 
-3: SER_28     # SER_28                  
-4: AVH_0      # AVH_0                   
-5: MONO_28    # MONO_28                 
-6: MONO_0     # MONO_0                  
-7: REF_0      # REF_0                   
-8: KURS_7     # KURS_7                  
-9: KURS_0     # KURSLASE                
-10: BIB_0     # BIB_0                  
-11: ZINST_0   # ZINST_0                
-12: ELEKT_0   # Elektronisk publikation
-13: SER_0     # SER_0               
-14: CDROM_2   # CDROM_2             
-15: IPAD_7    # Datacentralens Ipads
+1: KONVERSIO     # XDUMMY  
+2: TIDSK0    # TIDSK_0                 
+3: SER28     # SER_28                  
+4: AVH0      # AVH_0                   
+5: MONO28    # MONO_28                 
+6: MONO0     # MONO_0                  
+7: REF0      # REF_0                   
+8: KURS7     # KURS_7                  
+9: KURS0     # KURSLASE                
+10: BIB0     # BIB_0                  
+11: KONVERSIO   # ZINST_0                
+12: ELEKT0   # Elektronisk publikation
+13: SER0     # SER_0               
+14: CDROM2   # CDROM_2             
+15: KONVERSIO    # Datacentralens Ipads
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
