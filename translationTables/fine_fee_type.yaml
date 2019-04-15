@@ -21,21 +21,19 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
-
-# TODO:
-# 11 _Inbindningsavgift      F11
+11: EI_KOHAAN # _Inbindningsavgift      F11
 12: Res # 12 Book Reservation Fee      F12
-# 13 Interlibrary Loan Fee     F13
-# 14 Btesfaktura/Fine invoice F14
-# 15 Fine Correction           F15
-# 16 Reservation Not Picked Up F16
-# 17 Läneförbud/Loan Ban       F17
-# 18 _Kontorsmaterial (test) F18
-# 19 _Kontorsmat. 24% (test) F19
-# 20 Papper/Paper              F20
-# 22 Plastkassar/Plastic bags  F22
-# 23 Other products            F23
-# 24 Hankens publications      F24
+13: EI_KOHAAN # Interlibrary Loan Fee     F13
+14: EI_KOHAAN # Btesfaktura/Fine invoice F14
+15: EI_KOHAAN # Fine Correction           F15
+16: HE # Reservation Not Picked Up F16 TODO ON OLEMASSA
+17: EI_KOHAAN # Läneförbud/Loan Ban       F17
+18: EI_KOHAAN #  _Kontorsmaterial (test) F18
+19: EI_KOHAAN # _Kontorsmat. 24% (test) F19
+20: M # Papper/Paper              F20
+22: EI_KOHAAN # Plastkassar/Plastic bags  F22
+23: M # Other products            F23
+24: EI_KOHAAN # Hankens publications      F24
 
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
