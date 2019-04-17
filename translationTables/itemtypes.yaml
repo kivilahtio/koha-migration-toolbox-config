@@ -9,10 +9,9 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW # REVIEW     
 2: LYHYT # Laina14 siirretään LYHYT itemtypeen, tätä ei enää tarvitse         
 3: EILAINA # Laina0                     
-4: EILAINA # Laina5 siirretään EILAINA itemtypeen, tätä ei enää tarvitse           
+4: LYHYT # Laina5 siirretään LYHYT itemtypeen, tätä ei enää tarvitse           
 5: LYHYT # Laina1 siirretään LYHYT itemtypeen, tätä ei enää tarvitse                                                                                                                                                 
 6: EILAINA # Arkisto0
 7: LYHYT # Laina2vk siirretään LYHYT itemtypeen, tätä ei enää tarvitse
@@ -20,9 +19,7 @@
 9: YLEIS # Laina28
 10: EILAINA # Laina3 siirretään EILAINA itemtypeen, tätä ei enää tarvitse   
 11: EILAINA # LAPTOP siirretään EILAINA itemtypeen, tätä ei enää tarvitse             
-12: EILAINA # Laina14L Porvoon lehdet siirretään EILAINA itemtypeen, tätä ei enää tarvitse        
-14: YLEIS # Laina28jap Japania-kokoelma siirretään YLEIS itemtypeen, tätä ei enää tarvitse                                                                                                                  
-15: LYHYT # ipad14 siirretään LYHYT itemtypeen, tätä ei enää tarvitse        
+12: EILAINA # Laina14L Porvoon lehdet siirretään EILAINA itemtypeen, tätä ei enää tarvitse      
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
