@@ -53,17 +53,17 @@
 +netpubl: ref(25)
 26: branchLoc(TRITO, STATISTICS) # statistics 1. krs-vån Tilastot - Statistik, EI LAINATA - LÅNAS EJ
 +statistics: ref(26)
-27: branchLoc(TRITO, SEREDU) # serEdu     1. krs-vån ED Pedagogik-Kasvatustiede Serier-Sarjat
+27: branchLoc(TRITO, SERIALS) # serEdu     1. krs-vån ED Pedagogik-Kasvatustiede Serier-Sarjat
 +serEdu: ref(27)
-28: branchLoc(TRITO, SERBUS) # serBus     3. krs-vån BU Taloustieteet-Ekonomi-Economics Sarjat-Serier
+28: branchLoc(TRITO, SERIALS) # serBus     3. krs-vån BU Taloustieteet-Ekonomi-Economics Sarjat-Serier
 +serBus: ref(28)
 29: branchLoc(KONVERSIO, KONVERSIO) # serNat     3. krs-vån Vanha luonnontiedekokoelma
 +serNat: ref(29)
-30: branchLoc(TRITO, SERTEC) # serTec     3. krs-vån TE Tekniikka,luonnont.-Teknik,naturvetensk.SERIES                                                                                                           
+30: branchLoc(TRITO, SERIALS) # serTec     3. krs-vån TE Tekniikka,luonnont.-Teknik,naturvetensk.SERIES                                                                                                           
 +serTec: ref(30)
-31: branchLoc(TRITO, SERHUM) # serHum     1. krs-vån HU Humanistiset tieteet-Humaniora Sarjat-Serier
+31: branchLoc(TRITO, SERIALS) # serHum     1. krs-vån HU Humanistiset tieteet-Humaniora Sarjat-Serier
 +serHum: ref(31)
-32: branchLoc(TRITO, SERSOC) # serSoc     4. krs-vån SO Yhteiskuntat.-Samhällsvetensk. Sarjat-Serier
+32: branchLoc(TRITO, SERIALS) # serSoc     4. krs-vån SO Yhteiskuntat.-Samhällsvetensk. Sarjat-Serier
 +serSoc: ref(32)
 33: branchLoc(TRITO, DICTIONARIES) # dictioninf 1. krs-vån-1st floor GE Sanakirjat-Ordböcker-Dictionaries
 +dictioninf: ref(33)
