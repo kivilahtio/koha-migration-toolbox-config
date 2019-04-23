@@ -13,25 +13,22 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-1: KKK # Muut
-2: AAA # Haaga-Helian henkilökunta
-4: BBB # Haaga-Helian opiskelija
-8: III # Kotim. kaukop.asiakas
-11: CCC # Ulkop. amkin opiskelija
-12: DDD # Ulkop. amkin henkilökunta
-13: EEE # Yliopisto-opisk. ja hlök.
-14: FFF # Muu oppilaitos
-15: GGG # Julkishallinnon edustaja
-16: HHH # Elinkeinoelämän edustaja
-20: JJJ # Ulkom. kaukop.asiakas
-23: FHO # HBC:n opiskelija
-25: FMO # Perho opiskelija
-28: XXX # Vaihto-opiskelija
-29: FUH # SUO:n henkilökunta
-30: FUO # SUO:n opiskelijat
-31: XAL # Haaga-Helian alumni
-32: CLA # LA avoin ammattikorkea
-33: DLH # LA henkilökunta
-35: XLA # LA alumni
-37: CLO # LA opiskelija
-40: YYY # 3amk-kumppanin opiskelija                                                                                                                                                  
+1: U # Muut
+2: AH # Haaga-Helian henkilökunta
+4: DH # Haaga-Helian opiskelija
+8: N # Kotim. kaukop.asiakas
+11: G # Ulkop. amkin opiskelija
+12: F # Ulkop. amkin henkilökunta
+13: K # Yliopisto-opisk. ja hlök.
+14: P # Muu oppilaitos
+15: S # Julkishallinnon edustaja
+16: R # Elinkeinoelämän edustaja
+20: O # Ulkom. kaukop.asiakas
+23: P # HBC:n opiskelija
+25: P # Perho opiskelija
+28: DHA # Vaihto-opiskelija
+29: PHA # SUO:n henkilökunta
+30: PHB # SUO:n opiskelijat
+31: UHA # Haaga-Helian alumni
+33: AL # LA henkilökunta
+37: DL # LA opiskelija                                                                                                                                               
