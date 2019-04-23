@@ -93,13 +93,13 @@
 +lodman: ref(45)
 46: branchLoc(TRITO, QLEISTEN) # leisten    1. krs-vån Leistén - K114
 +leisten: ref(46)
-47: branchLoc(TRITO, EUBOOK) # euBook     1. krs-vån EU-kokoelma - EU-samling Tiivishyllyt-Kompakthyll
+47: branchLoc(TRITO, QEUBOOK) # euBook     1. krs-vån EU-kokoelma - EU-samling Tiivishyllyt-Kompakthyll
 +euBook: ref(47)
-48: branchLoc(TRITO, EUJOUR) # euJour     1. krs-vån EU-lehdet-tskr Tiivishyllyt-Kompakthyllor EI LAIN
+48: branchLoc(TRITO, JOURNALS) # euJour     1. krs-vån EU-lehdet-tskr Tiivishyllyt-Kompakthyllor EI LAIN
 +euJour: ref(48)
-49: branchLoc(TRITO, EUREF) # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
+49: branchLoc(KONVERSIO, KONVERSIO) # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
 +euRef: ref(49)
-50: branchLoc(TRITO, EUSTATREF) # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
+50: branchLoc(KONVERSIO, KONVERSIO) # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
 +euStatref: ref(50)
 51: branchLoc(TRITO, TPROJECTS) # Vprojects  Projekti, Ei voi varata-Kan ej reserveras-Cannot be reserved                                                                                                           
 +Vprojects: ref(51)
