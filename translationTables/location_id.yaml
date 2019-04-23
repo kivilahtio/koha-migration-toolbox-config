@@ -1,285 +1,295 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1: branchLoc() # REVIEW     REVIEW
+## SIIRTOSÄÄNNÖT:
+## : tähän mapataan uusi arvo Kohassa (Kirjastot,LOC); esim. arvo 10 Pasila, käsikirjasto : (HHPAS,KASIKIR)
+## : " " = voi jättää siirtämättä, Voyagerissa olevan arvon ei tarvitse näkyä Kohassa
+## : KONVERSIO = ei pitäisi sisältää Voyagerissa mitään, mutta halutaan tarkistaa tilanne konversion jälkeen Kohassa
+## : EI_KOHAAN = voi poistaa, ei sisällä niteitä,asiakkaita
+## : $DELETE = Tällä tavalla voitte poistaa kaiken aineiston mikä liittyy tähän Voyagerin sijaintipaikkaan ja konversioputkessa. mm. asiakkaat ja niteet
+## Automaatit mapattu kirjastoon, jossa automaatti sijaitsee fyysisesti; esim. Haagan automaatti, HHHAA
+## Hankintalokaatiot mapattu niin, että ei siirretä Kohaan
+## Lainaus- ja luettelointilokaatiot mapattu kirjastoon, jossa lainaus tapahtuu; esim. Pasilan lainaus, HHPAS
+
+1: branchLoc(EI_KOHAAN,EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
-2: branchLoc() # Heliaomain Oulunkylä, yleiskokoelma, laina-aika 14 vrk
+2: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaomain Oulunkylä, yleiskokoelma, laina-aika 14 vrk
 +Heliaomain: ref(2)
-3: branchLoc() # Heliaoref  Oulunkylä, käsikirjasto, ei lainata
+3: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaoref  Oulunkylä, käsikirjasto, ei lainata
 +Heliaoref: ref(3)
-4: branchLoc() # Heliaoread Oulunkylä, lukusali, ei lainata
+4: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaoread Oulunkylä, lukusali, ei lainata
 +Heliaoread: ref(4)
-5: branchLoc() # Heliaothes Oulunkylä, opinnäytetyöt, laina-aika 5 vrk                                                                                                                             
+5: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaothes Oulunkylä, opinnäytetyöt, laina-aika 5 vrk                                                                                                                             
 +Heliaothes: ref(5)
-6: branchLoc() # Heliaotext Oulunkylä, pikalainat, laina-aika 1 vrk
+6: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaotext Oulunkylä, pikalainat, laina-aika 1 vrk
 +Heliaotext: ref(6)
-7: branchLoc() # Heliaoav   Oulunkylä, av-aineisto, ei lainata
+7: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaoav   Oulunkylä, av-aineisto, ei lainata
 +Heliaoav: ref(7)
-8: branchLoc() # Heliaosecr Oulunkylä, salaiset opinnäytetyöt, ei lainata
+8: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaosecr Oulunkylä, salaiset opinnäytetyöt, ei lainata
 +Heliaosecr: ref(8)
-9: branchLoc() # Heliapmain Pasila, yleiskokoelma, 28 vrk - Main collection, 28 days
+9: branchLoc(HHPAS,YLEIS) # Heliapmain Pasila, yleiskokoelma, 28 vrk - Main collection, 28 days
 +Heliapmain: ref(9)
-10: branchLoc() # Heliapref  Pasila, käsikirjasto, ei lainata - Reference books
+10: branchLoc(HHPAS,KASIKIR) # Heliapref  Pasila, käsikirjasto, ei lainata - Reference books
 +Heliapref: ref(10)
-11: branchLoc() # Heliapread Pasila, lukusali, ei lainata - Reading room
+11: branchLoc(HHPAS,KASIKIR) # Heliapread Pasila, lukusali, ei lainata - Reading room
 +Heliapread: ref(11)
-12: branchLoc() # Heliapthes Pasila, opinnäytetyöt, 14 vrk - Theses, 14 days
+12: branchLoc(HHPAS,OPINN) # Heliapthes Pasila, opinnäytetyöt, 14 vrk - Theses, 14 days
 +Heliapthes: ref(12)
-13: branchLoc() # Heliaptext Pasila, pikalainat, 1 vrk - Short loans, 1 day                                                                                                                         
+13: branchLoc(KONVERSIO,KONVERSIO) # Heliaptext Pasila, pikalainat, 1 vrk - Short loans, 1 day                                                                                                                         
 +Heliaptext: ref(13)
-14: branchLoc() # Heliapav   Pasila, av-aineisto, ei lainata - AV, non-circulating
+14: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliapav   Pasila, av-aineisto, ei lainata - AV, non-circulating
 +Heliapav: ref(14)
-15: branchLoc() # Heliapsecr Pasila, salainen opinnäyte, ei lainata - Confidential
+15: branchLoc(HHPAS,ARKISTO) # Heliapsecr Pasila, salainen opinnäyte, ei lainata - Confidential
 +Heliapsecr: ref(15)
-16: branchLoc() # Heliubmain Porvoo-Point, yleiskokoelma, 14 vrk - Main coll., 14 days
+16: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubmain Porvoo-Point, yleiskokoelma, 14 vrk - Main coll., 14 days
 +Heliubmain: ref(16)
-17: branchLoc() # Heliubref  Porvoo-Point, käsikirjasto, ei lainata - Reference books
+17: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubref  Porvoo-Point, käsikirjasto, ei lainata - Reference books
 +Heliubref: ref(17)
-18: branchLoc() # Heliubread Porvoo-Point, lukusali, ei lainata - Reading room
+18: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubread Porvoo-Point, lukusali, ei lainata - Reading room
 +Heliubread: ref(18)
-19: branchLoc() # Heliubthes Porvoo-Point, opinnäytetyöt, 7 vrk - Theses, 7 days                                                                                                                    
+19: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubthes Porvoo-Point, opinnäytetyöt, 7 vrk - Theses, 7 days                                                                                                                    
 +Heliubthes: ref(19)
-20: branchLoc() # Heliubtext Porvoo-Point, pikalainat, 1 vrk - Short loans, 1 day
+20: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubtext Porvoo-Point, pikalainat, 1 vrk - Short loans, 1 day
 +Heliubtext: ref(20)
-21: branchLoc() # Heliubav   Porvoo-Point, av-aineisto, ei lainata - AV, non-circulating
+21: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubav   Porvoo-Point, av-aineisto, ei lainata - AV, non-circulating
 +Heliubav: ref(21)
-22: branchLoc() # Heliubsecr Porvoo-Point, salainen opinnäyte, ei lainata - Confidential
+22: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubsecr Porvoo-Point, salainen opinnäyte, ei lainata - Confidential
 +Heliubsecr: ref(22)
-23: branchLoc() # Heliubcour Porvoo-Point, kurssikirjat, 7 vrk - Course books, 7 days
+23: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliubcour Porvoo-Point, kurssikirjat, 7 vrk - Course books, 7 days
 +Heliubcour: ref(23)
-24: branchLoc() # Heliupmain Porvoo-Pomo, yleiskokoelma, 28 vrk - Main coll., 28 days
+24: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliupmain Porvoo-Pomo, yleiskokoelma, 28 vrk - Main coll., 28 days
 +Heliupmain: ref(24)
-25: branchLoc() # Heliupthes Porvoo-Pomo, opinnäytetyöt, 7 vrk - Theses, 7 days
+25: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliupthes Porvoo-Pomo, opinnäytetyöt, 7 vrk - Theses, 7 days
 +Heliupthes: ref(25)
-26: branchLoc() # Heliuptext Porvoo-Pomo, pikalainat, 1 vrk - Short loans, 1 day                                                                                                                    
+26: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliuptext Porvoo-Pomo, pikalainat, 1 vrk - Short loans, 1 day                                                                                                                    
 +Heliuptext: ref(26)
-27: branchLoc() # Heliupav   Porvoo-Pomo, av-aineisto, ei lainata - AV, non-circulating
+27: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliupav   Porvoo-Pomo, av-aineisto, ei lainata - AV, non-circulating
 +Heliupav: ref(27)
-28: branchLoc() # Heliupsecr Porvoo-Pomo, salainen opinnäyte, ei lainata - Confidential
+28: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliupsecr Porvoo-Pomo, salainen opinnäyte, ei lainata - Confidential
 +Heliupsecr: ref(28)
-29: branchLoc() # Heliupcour Porvoo-Pomo, kurssikirjat, 14 vrk - Course books, 14 days
+29: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliupcour Porvoo-Pomo, kurssikirjat, 14 vrk - Course books, 14 days
 +Heliupcour: ref(29)
-30: branchLoc() # Autom      Pasilan kampus
+30: branchLoc(HHPAS) # Autom      Pasilan kampus
 +Autom: ref(30)
-31: branchLoc() # Cat1       Pasilan kirjaston luettelointiosasto
+31: branchLoc(HHPAS) # Cat1       Pasilan kirjaston luettelointiosasto
 +Cat1: ref(31)
-32: branchLoc() # Cat3       Oulunkylän kirjaston luettelointiosasto
+32: branchLoc(EI_KOHAAN,EI_KOHAAN) # Cat3       Oulunkylän kirjaston luettelointiosasto
 +Cat3: ref(32)
-33: branchLoc() # Cat4       Porvoo-Point kirjaston luettelointiosasto                                                                                                                              
+33: branchLoc(EI_KOHAAN,EI_KOHAAN) # Cat4       Porvoo-Point kirjaston luettelointiosasto                                                                                                                              
 +Cat4: ref(33)
-34: branchLoc() # Cat5       Porvoo-Pomo kirjaston luettelointiosasto
+34: branchLoc(EI_KOHAAN,EI_KOHAAN) # Cat5       Porvoo-Pomo kirjaston luettelointiosasto
 +Cat5: ref(34)
-35: branchLoc() # Circ1      Pasilan toimipisteen kirjasto
+35: branchLoc(HHPAS) # Circ1      Pasilan toimipisteen kirjasto
 +Circ1: ref(35)
-36: branchLoc() # Circ3      Oulunkylän kirjaston lainausosasto
+36: branchLoc(EI_KOHAAN,EI_KOHAAN) # Circ3      Oulunkylän kirjaston lainausosasto
 +Circ3: ref(36)
-37: branchLoc() # Circ4      Porvoon Point toimipisteen kirjasto
+37: branchLoc(EI_KOHAAN,EI_KOHAAN) # Circ4      Porvoon Point toimipisteen kirjasto
 +Circ4: ref(37)
-38: branchLoc() # Circ5      Porvoon Pomo toimipisteen kirjasto
+38: branchLoc(EI_KOHAAN,EI_KOHAAN) # Circ5      Porvoon Pomo toimipisteen kirjasto
 +Circ5: ref(38)
-39: branchLoc() # Acq1       Pasilan kirjaston hankintaosasto
+39: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq1       Pasilan kirjaston hankintaosasto
 +Acq1: ref(39)
-40: branchLoc() # Acq3       Oulunkylän kirjaston hankintaosasto
+40: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq3       Oulunkylän kirjaston hankintaosasto
 +Acq3: ref(40)
-41: branchLoc() # Acq4       Porvoo Point-kirjaston hankintaosasto
+41: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq4       Porvoo Point-kirjaston hankintaosasto
 +Acq4: ref(41)
-42: branchLoc() # Acq5       Porvoon Pomo-kirjaston hankintaosasto                                                                                                                                  
+42: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq5       Porvoon Pomo-kirjaston hankintaosasto                                                                                                                                  
 +Acq5: ref(42)
-43: branchLoc() # Web        Helian kirjaston WebVoyage
+43: branchLoc(EI_KOHAAN,EI_KOHAAN) # Web        Helian kirjaston WebVoyage
 +Web: ref(43)
-44: branchLoc() # Heliaebook Helia, Verkkojulkaisut - Electronic books
+44: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaebook Helia, Verkkojulkaisut - Electronic books
 +Heliaebook: ref(44)
-45: branchLoc() # Heliupread Porvoo-Pomo, lukusali, ei lainata - Reading room
+45: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliupread Porvoo-Pomo, lukusali, ei lainata - Reading room
 +Heliupread: ref(45)
-46: branchLoc() # Camera     Pasila, digikamerat, 5 vrk, rajoitettu lainausoikeus
+46: branchLoc(HHPAS,LYHYT) # Camera     Pasila, digikamerat, 5 vrk, rajoitettu lainausoikeus
 +Camera: ref(46)
-47: branchLoc() # Nauhuri    Pasila, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
+47: branchLoc(HHPAS,LYHYT) # Nauhuri    Pasila, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
 +Nauhuri: ref(47)
-48: branchLoc() # HLI-ark    Vallila, salainen opinnäyte, ei lainata - Confidential
+48: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-ark    Vallila, salainen opinnäyte, ei lainata - Confidential
 +HLI-ark: ref(48)
-49: branchLoc() # HLI-henk   Vallila, henkilöstö, ei lainata - Staff, non-circulating                                                                                                               
+49: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-henk   Vallila, henkilöstö, ei lainata - Staff, non-circulating                                                                                                               
 +HLI-henk: ref(49)
-50: branchLoc() # HLI-lehdet Vallila, lehdet, ei lainata - Journals, non-circulating
+50: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-lehdet Vallila, lehdet, ei lainata - Journals, non-circulating
 +HLI-lehdet: ref(50)
-51: branchLoc() # HLI-optyot Vallila, opinnäytetyöt, 14 vrk -Theses, 14 days
+51: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-optyot Vallila, opinnäytetyöt, 14 vrk -Theses, 14 days
 +HLI-optyot: ref(51)
-52: branchLoc() # HLI-kirjat Vallila, yleiskokoelma, 28 vrk - Main collection, 28 days
+52: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-kirjat Vallila, yleiskokoelma, 28 vrk - Main collection, 28 days
 +HLI-kirjat: ref(52)
-53: branchLoc() # HLI-Ref    Vallila, käsikirjasto, ei lainata - Reference books
+53: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-Ref    Vallila, käsikirjasto, ei lainata - Reference books
 +HLI-Ref: ref(53)
-54: branchLoc() # HLI-videot HLI videot, ei lainata - videos, not available for loan
+54: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-videot HLI videot, ei lainata - videos, not available for loan
 +HLI-videot: ref(54)
-55: branchLoc() # HLI-kurssi HLI laina 7 vrk - loan 7 days
+55: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-kurssi HLI laina 7 vrk - loan 7 days
 +HLI-kurssi: ref(55)
-56: branchLoc() # HI-ark     Haaga, salainen opinnäyte, ei lainata - Confidential                                                                                                                   
+56: branchLoc(HHHAA,ARKISTO) # HI-ark     Haaga, salainen opinnäyte, ei lainata - Confidential                                                                                                                   
 +HI-ark: ref(56)
-57: branchLoc() # HI-CD      Haaga, cd-rom, 14 vrk - CD-rom, 14 days
+57: branchLoc(EI_KOHAAN,EI_KOHAAN) # HI-CD      Haaga, cd-rom, 14 vrk - CD-rom, 14 days
 +HI-CD: ref(57)
-58: branchLoc() # HI-kirjat  Haaga, yleiskokoelma, 28 vrk - Main collection, 28 days
+58: branchLoc(HHHAA,YLEIS) # HI-kirjat  Haaga, yleiskokoelma, 28 vrk - Main collection, 28 days
 +HI-kirjat: ref(58)
-59: branchLoc() # HI-henk    Haaga, henkilöstö, ei lainata - Staff, non-circulating
+59: branchLoc(EI_KOHAAN,EI_KOHAAN) # HI-henk    Haaga, henkilöstö, ei lainata - Staff, non-circulating
 +HI-henk: ref(59)
-60: branchLoc() # HI-vitr    Haaga, museokirjat, ei lainata - Rare books,non-circulating
+60: branchLoc(HHHAA,MUSEO) # HI-vitr    Haaga, museokirjat, ei lainata - Rare books,non-circulating
 +HI-vitr: ref(60)
-61: branchLoc() # HI-kurssik Haaga, kurssikirjat, 14 vrk - Course books, 14 days
+61: branchLoc(HHHAA,LYHYT) # HI-kurssik Haaga, kurssikirjat, 14 vrk - Course books, 14 days
 +HI-kurssik: ref(61)
-62: branchLoc() # HI-Ref     Haaga, käsikirjasto, ei lainata - Reference books                                                                                                                      
+62: branchLoc(HHHAA,KASIKIR) # HI-Ref     Haaga, käsikirjasto, ei lainata - Reference books                                                                                                                      
 +HI-Ref: ref(62)
-63: branchLoc() # HI-lehdet  Haaga, lehdet, ei lainata - Journals, non-circulating
+63: branchLoc(HHHAA,LEHDET) # HI-lehdet  Haaga, lehdet, ei lainata - Journals, non-circulating
 +HI-lehdet: ref(63)
-64: branchLoc() # HI-optyot  Haaga, opinnäytetyöt, ei lainata - Theses, non-circulating
+64: branchLoc(HHHAA,OPINN2) # HI-optyot  Haaga, opinnäytetyöt, ei lainata - Theses, non-circulating
 +HI-optyot: ref(64)
-65: branchLoc() # HI-varasto Haaga, varasto, 28 vrk - Storage, 28 days
+65: branchLoc(HHHAA,VARASTO) # HI-varasto Haaga, varasto, 28 vrk - Storage, 28 days
 +HI-varasto: ref(65)
-66: branchLoc() # HI-videot  HI videot, ei lainata - Videos, not available for loan
+66: branchLoc(EI_KOHAAN,EI_KOHAAN) # HI-videot  HI videot, ei lainata - Videos, not available for loan
 +HI-videot: ref(66)
-67: branchLoc() # MLI-ark    Malmi, arkisto, ei julkinen - Not available
+67: branchLoc(HHMAL,ARKISTO) # MLI-ark    Malmi, arkisto, ei julkinen - Not available
 +MLI-ark: ref(67)
-68: branchLoc() # MLI-kirjat Malmi, yleiskokoelma, 28 vrk - Main collection, 28 days
+68: branchLoc(HHMAL,YLEIS) # MLI-kirjat Malmi, yleiskokoelma, 28 vrk - Main collection, 28 days
 +MLI-kirjat: ref(68)
-69: branchLoc() # MLI-lehdet Malmi, lehdet, ei lainata - Journals, non-circulating                                                                                                                  
+69: branchLoc(HHMAL,LEHDET) # MLI-lehdet Malmi, lehdet, ei lainata - Journals, non-circulating                                                                                                                  
 +MLI-lehdet: ref(69)
-70: branchLoc() # MLI-optyot Malmi, opinnäytetyöt, 14 vrk - Theses, 14 days
+70: branchLoc(HHMAL,OPINN) # MLI-optyot Malmi, opinnäytetyöt, 14 vrk - Theses, 14 days
 +MLI-optyot: ref(70)
-71: branchLoc() # MLI-videot MLI videot, laina 3 vrk - videos, loan period 3 days
+71: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-videot MLI videot, laina 3 vrk - videos, loan period 3 days
 +MLI-videot: ref(71)
-72: branchLoc() # MLI-Ref    Malmi, käsikirjasto, ei lainata - Reference books
+72: branchLoc(HHMAL,KASIKIR) # MLI-Ref    Malmi, käsikirjasto, ei lainata - Reference books
 +MLI-Ref: ref(72)
-73: branchLoc() # MLI-henk   Malmi, henkilöstö, ei lainata - Staff, non-circulating
+73: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-henk   Malmi, henkilöstö, ei lainata - Staff, non-circulating
 +MLI-henk: ref(73)
-74: branchLoc() # MLI-kurssi MLI laina 7 vrk - loan 7 days
+74: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-kurssi MLI laina 7 vrk - loan 7 days
 +MLI-kurssi: ref(74)
-75: branchLoc() # VLI-kurssi Vierumäki, kurssikirjat, 14 vrk - Course books, 14 days
+75: branchLoc(HHVIE,LYHYT) # VLI-kurssi Vierumäki, kurssikirjat, 14 vrk - Course books, 14 days
 +VLI-kurssi: ref(75)
-76: branchLoc() # VLI-kirjat Vierumäki, yleiskokoelma, 28 vrk  - Main coll., 28 days                                                                                                                
+76: branchLoc(HHVIE,YLEIS) # VLI-kirjat Vierumäki, yleiskokoelma, 28 vrk  - Main coll., 28 days                                                                                                                
 +VLI-kirjat: ref(76)
-77: branchLoc() # VLI-Ref    Vierumäki, käsikirjasto, ei lainata - Reference books
+77: branchLoc(HHVIE,KASIKIR) # VLI-Ref    Vierumäki, käsikirjasto, ei lainata - Reference books
 +VLI-Ref: ref(77)
-78: branchLoc() # VLI-lehdet Vierumäki, lehdet, ei lainata - Journals, non-circulating
+78: branchLoc(HHVIE,LEHDET) # VLI-lehdet Vierumäki, lehdet, ei lainata - Journals, non-circulating
 +VLI-lehdet: ref(78)
-79: branchLoc() # VLI-optyot Vierumäki, opinnäytetyöt, ei lainata - Theses, non-circulati
+79: branchLoc(HHVIE,OPINN2) # VLI-optyot Vierumäki, opinnäytetyöt, ei lainata - Theses, non-circulati
 +VLI-optyot: ref(79)
-80: branchLoc() # VLI-videot Vierumäki, videot, ei lainata
+80: branchLoc(EI_KOHAAN,EI_KOHAAN) # VLI-videot Vierumäki, videot, ei lainata
 +VLI-videot: ref(80)
-81: branchLoc() # HI-acq     HI tilattu - on order
+81: branchLoc(EI_KOHAAN,EI_KOHAAN) # HI-acq     HI tilattu - on order
 +HI-acq: ref(81)
-82: branchLoc() # HI-cat     HI käsittelyssä - being processed
+82: branchLoc(HHHAA) # HI-cat     HI käsittelyssä - being processed
 +HI-cat: ref(82)
-83: branchLoc() # HI-circ    Haagan toimipisteen kirjasto
+83: branchLoc(HHHAA) # HI-circ    Haagan toimipisteen kirjasto
 +HI-circ: ref(83)
-84: branchLoc() # HI-aut     Haagan toimipisteen automaatti                                                                                                                                         
+84: branchLoc(HHHAA) # HI-aut     Haagan toimipisteen automaatti                                                                                                                                         
 +HI-aut: ref(84)
-85: branchLoc() # HLI-acq    HLI tilattu - on order
+85: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-acq    HLI tilattu - on order
 +HLI-acq: ref(85)
-86: branchLoc() # HLI-cat    HLI käsittelyssä - being processed
+86: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-cat    HLI käsittelyssä - being processed
 +HLI-cat: ref(86)
-87: branchLoc() # HLI-circ   Vallilan toimipisteen kirjasto
+87: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-circ   Vallilan toimipisteen kirjasto
 +HLI-circ: ref(87)
-88: branchLoc() # HLI-aut    Vallilan toimipisteen automaatti
+88: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-aut    Vallilan toimipisteen automaatti
 +HLI-aut: ref(88)
-89: branchLoc() # MLI-acq    MLI tilattu - on order
+89: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-acq    MLI tilattu - on order
 +MLI-acq: ref(89)
-90: branchLoc() # MLI-cat    MLI käsittelyssä - being  processed
+90: branchLoc(HHMAL) # MLI-cat    MLI käsittelyssä - being  processed
 +MLI-cat: ref(90)
-91: branchLoc() # MLI-circ   Malmin toimipisteen kirjasto
+91: branchLoc(HHMAL) # MLI-circ   Malmin toimipisteen kirjasto
 +MLI-circ: ref(91)
-92: branchLoc() # MLI-aut    Malmin toimipisteen automaatti
+92: branchLoc(HHMAL) # MLI-aut    Malmin toimipisteen automaatti
 +MLI-aut: ref(92)
-93: branchLoc() # VLI-acq    VLI-hankinta
+93: branchLoc(EI_KOHAAN,EI_KOHAAN) # VLI-acq    VLI-hankinta
 +VLI-acq: ref(93)
-94: branchLoc() # VLI-cat    VLI-luettelointi                                                                                                                                                       
+94: branchLoc(HHVIE) # VLI-cat    VLI-luettelointi                                                                                                                                                       
 +VLI-cat: ref(94)
-95: branchLoc() # VLI-circ   Vierumäen toimipisteen kirjasto
+95: branchLoc(HHVIE) # VLI-circ   Vierumäen toimipisteen kirjasto
 +VLI-circ: ref(95)
-96: branchLoc() # HAAGA-e    HAAGA Verkkoaineisto
+96: branchLoc(EI_KOHAAN,EI_KOHAAN) # HAAGA-e    HAAGA Verkkoaineisto
 +HAAGA-e: ref(96)
-97: branchLoc() # HAAGA-julk HAAGA-julk
+97: branchLoc(EI_KOHAAN,EI_KOHAAN) # HAAGA-julk HAAGA-julk
 +HAAGA-julk: ref(97)
-98: branchLoc() # HI-av      Haaga, av-aineisto, ei lainata - AV, non-circulating
+98: branchLoc(KONVERSIO,KONVERSIO) # HI-av      Haaga, av-aineisto, ei lainata - AV, non-circulating
 +HI-av: ref(98)
-99: branchLoc() # HLI-av     Vallila, av-aineisto, ei lainata - AV, non-circulating
+99: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-av     Vallila, av-aineisto, ei lainata - AV, non-circulating
 +HLI-av: ref(99)
-100: branchLoc() # MLI-av     Malmi, av-aineisto, 14 vrk - AV, 14 days
+100: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-av     Malmi, av-aineisto, 14 vrk - AV, 14 days
 +MLI-av: ref(100)
-101: branchLoc() # VLI-av     Vierumäki, av-aineisto, 28 vrk - AV, 28 days
+101: branchLoc(EI_KOHAAN,EI_KOHAAN) # VLI-av     Vierumäki, av-aineisto, 28 vrk - AV, 28 days
 +VLI-av: ref(101)
-102: branchLoc() # Epubl      Verkkojulkaisut - E-publications                                                                                                                                       
+102: branchLoc(HHWWW) # Epubl      Verkkojulkaisut - E-publications                                                                                                                                      
 +Epubl: ref(102)
-103: branchLoc() # VLI-varast Vierumäki, varasto, 28 vrk - Storage, 28 days
+103: branchLoc(HHVIE,VARASTO) # VLI-varast Vierumäki, varasto, 28 vrk - Storage, 28 days
 +VLI-varast: ref(103)
-104: branchLoc() # VLI-LPT    Vierumäki, LPT-kurssikirjat 28 vrk - Rajoitettu käyttöoikeus
+104: branchLoc(HHVIE,YLEISLPT) # VLI-LPT    Vierumäki, LPT-kurssikirjat 28 vrk - Rajoitettu käyttöoikeus
 +VLI-LPT: ref(104)
-105: branchLoc() # Heliapstor Pasila, varasto, 14 vrk - Storage, 14 days
+105: branchLoc(HHPAS,VARASTO) # Heliapstor Pasila, varasto, 14 vrk - Storage, 14 days
 +Heliapstor: ref(105)
-106: branchLoc() # HI-oplaina Haaga, opinnäytetyöt, 14 vrk - Theses, 14 days
+106: branchLoc(HHHAA,OPINN) # HI-oplaina Haaga, opinnäytetyöt, 14 vrk - Theses, 14 days
 +HI-oplaina: ref(106)
-107: branchLoc() # MLI-pikala Malmi, pikalainat, 1 vrk - Short loans, 1 day
+107: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-pikala Malmi, pikalainat, 1 vrk - Short loans, 1 day
 +MLI-pikala: ref(107)
-108: branchLoc() # HI-pika    Haaga, pikalainat, 1 vrk - Short loans, 1 day
+108: branchLoc(EI_KOHAAN,EI_KOHAAN) # HI-pika    Haaga, pikalainat, 1 vrk - Short loans, 1 day
 +HI-pika: ref(108)
-109: branchLoc() # LAPTOP     Kannettavat tietokoneet
+109: branchLoc(KONVERSIO,KONVERSIO) # LAPTOP     Kannettavat tietokoneet
 +LAPTOP: ref(109)
-110: branchLoc() # Porvoosecr Porvoo, salainen opinnäyte, ei lainata - Confidential                                                                                                                  
+110: branchLoc(PORV,ARKISTO) # Porvoosecr Porvoo, salainen opinnäyte, ei lainata - Confidential                                                                                                                  
 +Porvoosecr: ref(110)
-111: branchLoc() # Porvoocour Porvoo, tenttikirjat, 14 vrk - Course books, 14 days
+111: branchLoc(PORV,LYHYT) # Porvoocour Porvoo, tenttikirjat, 14 vrk - Course books, 14 days
 +Porvoocour: ref(111)
-112: branchLoc() # Porvooav   Porvoo, av-aineisto, ei lainata - AV, non-circulating
+112: branchLoc(EI_KOHAAN,EI_KOHAAN) # Porvooav   Porvoo, av-aineisto, ei lainata - AV, non-circulating
 +Porvooav: ref(112)
-113: branchLoc() # Porvoojour Porvoo, lehdet, 14 vrk - Journals, 14 days
+113: branchLoc(PORV,LEHDET) # Porvoojour Porvoo, lehdet, 14 vrk - Journals, 14 days
 +Porvoojour: ref(113)
-114: branchLoc() # Porvoomain Porvoo, yleiskokoelma, 28 vrk - Main coll., 28 day
+114: branchLoc(PORV,YLEIS) # Porvoomain Porvoo, yleiskokoelma, 28 vrk - Main coll., 28 day
 +Porvoomain: ref(114)
-115: branchLoc() # Porvooref  Porvoo, lukukirjat, 1 vrk - Text books, 1 day
+115: branchLoc(PORV,KASIKIR) # Porvooref  Porvoo, käsikirjasto, ei lainata - Reference books
 +Porvooref: ref(115)
-116: branchLoc() # Porvooshor Porvoo, lyhytlaina, 14 vrk - Short loan 14 days
+116: branchLoc(PORV,LYHYT) # Porvooshor Porvoo, lyhytlaina, 14 vrk - Short loan 14 days
 +Porvooshor: ref(116)
-117: branchLoc() # Porvoostaf Porvoo, Laurean henkilökunnan käytössä - Staff use only                                                                                                                
+117: branchLoc(KONVERSIO,KONVERSIO) # Porvoostaf Porvoo, Laurean henkilökunnan käytössä - Staff use only                                                                                                                
 +Porvoostaf: ref(117)
-118: branchLoc() # Porvoothes Porvoo, opinnäytetyöt, 14 vrk - Thesis, 14 days
+118: branchLoc(PORV,OPINN) # Porvoothes Porvoo, opinnäytetyöt, 14 vrk - Thesis, 14 days
 +Porvoothes: ref(118)
-119: branchLoc() # Porvoolain Porvoon toimipisteen kirjasto
+119: branchLoc(PORV) # Porvoolain Porvoon toimipisteen kirjasto
 +Porvoolain: ref(119)
-120: branchLoc() # Heliapjapa Pasila, Japania-kokoelma, 28 vrk - Japania coll., 28 days
+120: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliapjapa Pasila, Japania-kokoelma, 28 vrk - Japania coll., 28 days
 +Heliapjapa: ref(120)
-121: branchLoc() # Heliapcour Pasila, kurssikirjat, 14 vrk - Course books, 14 days
+121: branchLoc(HHPAS,LYHYT) # Heliapcour Pasila, kurssikirjat, 14 vrk - Course books, 14 days
 +Heliapcour: ref(121)
-122: branchLoc() # MLI-cour   Malmi, kurssikirjat, 14 vrk - Course books, 14 days
+122: branchLoc(HHMAL,LYHYT) # MLI-cour   Malmi, kurssikirjat, 14 vrk - Course books, 14 days
 +MLI-cour: ref(122)
-123: branchLoc() # HLI-cour   Vallila, kurssikirjat, 14 vrk - Course books, 14 days
+123: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-cour   Vallila, kurssikirjat, 14 vrk - Course books, 14 days
 +HLI-cour: ref(123)
-124: branchLoc() # MLI-read   Malmi, lukusali, ei lainata - Reading room                                                                                                                             
+124: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-read   Malmi, lukusali, ei lainata - Reading room                                                                                                                             
 +MLI-read: ref(124)
-125: branchLoc() # HLI-nauhur Vallila, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
+125: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-nauhur Vallila, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
 +HLI-nauhur: ref(125)
-126: branchLoc() # Porvoonauh Porvoo, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
+126: branchLoc(PORV,LYHYT) # Porvoonauh Porvoo, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
 +Porvoonauh: ref(126)
-127: branchLoc() # Acq6       Porvoon kirjaston hankintaosasto
+127: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq6       Porvoon kirjaston hankintaosasto
 +Acq6: ref(127)
-128: branchLoc() # Cat6       Porvoon kirjaston luettelointiosasto
+128: branchLoc(PORV) # Cat6       Porvoon kirjaston luettelointiosasto
 +Cat6: ref(128)
-129: branchLoc() # HI-nauhur  Haaga, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
+129: branchLoc(HHHAA,LYHYT) # HI-nauhur  Haaga, sanelukoneet, 14 vrk, rajoitettu lainausoikeus
 +HI-nauhur: ref(129)
-130: branchLoc() # HI-laittee Haaga, laitteet, 14 vrk - Devices, 14 days
+130: branchLoc(HHHAA,LYHYT) # HI-laittee Haaga, laitteet, 14 vrk - Devices, 14 days
 +HI-laittee: ref(130)
-131: branchLoc() # MAKSU
+131: branchLoc(KONVERSIO,KONVERSIO) # MAKSU
 +MAKSU: ref(131)
-132: branchLoc() # MLI-nauhur Malmi, sanelukoneet, 14 vrk, rajoitettu lainausoikeus                                                                                                                  
+132: branchLoc(HHMAL,LYHYT) # MLI-nauhur Malmi, sanelukoneet, 14 vrk, rajoitettu lainausoikeus                                                                                                                  
 +MLI-nauhur: ref(132)
-133: branchLoc() # MLI-laskin Malmi, laskimet, 3 vrk - Calculators, 3 days
+133: branchLoc(EI_KOHAAN,EI_KOHAAN) # MLI-laskin Malmi, laskimet, 3 vrk - Calculators, 3 days
 +MLI-laskin: ref(133)
-134: branchLoc() # HLI-pika   Vallila, pikalainat, 1 vrk - Short loans, 1 day
+134: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-pika   Vallila, pikalainat, 1 vrk - Short loans, 1 day
 +HLI-pika: ref(134)
-135: branchLoc() # Acq7
+135: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq7
 +Acq7: ref(135)
-136: branchLoc() # Porvooipad Porvoo, iPad, 14 vrk - iPad, 14 days
+136: branchLoc(EI_KOHAAN,EI_KOHAAN) # Porvooipad Porvoo, iPad, 14 vrk - iPad, 14 days
 +Porvooipad: ref(136)
-137: branchLoc() # Porvoo-aut Porvoon toimipisteen automaatti
+137: branchLoc(PORV) # Porvoo-aut Porvoon toimipisteen automaatti
 +Porvoo-aut: ref(137)
-138: branchLoc() # HELMLAPTOP Helmen kannettavat - Helmi Laptop
+138: branchLoc(EI_KOHAAN,EI_KOHAAN) # HELMLAPTOP Helmen kannettavat - Helmi Laptop
 +HELMLAPTOP: ref(138)
-139: branchLoc() # VLI-aut    Vierumäen toimipisteen automaatti
+139: branchLoc(HHVIE) # VLI-aut    Vierumäen toimipisteen automaatti
 +VLI-aut: ref(139)
-140: branchLoc() # Database   Tietokannat - Databases
+140: branchLoc(KONVERSIO,KONVERSIO) # Database   Tietokannat - Databases
 +Database: ref(140)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
