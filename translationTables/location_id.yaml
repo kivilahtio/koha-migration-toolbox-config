@@ -7,292 +7,294 @@
 ## : KONVERSIO= ei pitäisi sisältää Voyagerissa mitään, mutta halutaan tarkistaa konversion jälkeen
 ## : EI_KOHAAN =voi poistaa, ei sisällä niteitä,asiakkaita
 
+##: listassa siis ensin branchcode (esim. METARA = Metropolian Arabian kampus), LOC= shelving location eli Voyagerin kokoelma, hyllypaikka esim. käsikirjasto 
 
-1: branchLoc() # REVIEW     REVIEW
+
+1: branchLoc(EI_KOHAAN,EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
-2: branchLoc(METARA,YLEIS,YLEIS) # mettiHA    Arabia: Hankinnassa | On order
+2: branchLoc(METARA,YLEIS) # mettiHA    Arabia: Hankinnassa | On order
 +mettiHA: ref(2)
-3: branchLoc(METMYY,YLEIS,YLEIS) # metleHA    Leppävaara: Hankinnassa | On order
+3: branchLoc(METMYY,YLEIS) # metleHA    Leppävaara: Hankinnassa | On order
 +metleHA: ref(3)
-4: branchLoc(METMYY,YLEIS,YLEIS) # metmyHA    Myyrmäki: Hankinnassa | On order
+4: branchLoc(METMYY,YLEIS) # metmyHA    Myyrmäki: Hankinnassa | On order
 +metmyHA: ref(4)
-5: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettuLUKU  Tukholmankatu: Lukusali, ei lainata | Not for loan, ei sisällä niteitä                                                                                                                  
+5: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuLUKU  Tukholmankatu: Lukusali, ei lainata | Not for loan, ei sisällä niteitä                                                                                                                  
 +mettuLUKU: ref(5)
-6: branchLoc(METMYL,YLEIS,YLEIS) # metagYK    Agricolankatu: 4 viikon laina | 4 week loan
+6: branchLoc(METMYL,YLEIS) # metagYK    Agricolankatu: 4 viikon laina | 4 week loan
 +metagYK: ref(6)
-7: branchLoc(METMYL,OPINN,YLEIS) # metagONT   Agricolankatu: Opinnäytetyöt | Theses
+7: branchLoc(METVAR,OPINN) # metagONT   Agricolankatu: Opinnäytetyöt | Theses
 +metagONT: ref(7)
-8: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagCDROM Agricolankatu, CD-ROM, ei pitäisi sisältää niteitä
+8: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagCDROM Agricolankatu, CD-ROM, ei pitäisi sisältää niteitä
 +metagCDROM: ref(8)
-9: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagAV    Agricolankatu: Videot | Videos, ei pitäisi sisältää niteitä
+9: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagAV    Agricolankatu: Videot | Videos, ei pitäisi sisältää niteitä
 +metagAV: ref(9)
-10: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagKK    Agricolankatu: Ei lainata - Not for loan, ei pitäisi sisältää niteitä
+10: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagKK    Agricolankatu: Ei lainata - Not for loan, ei pitäisi sisältää niteitä
 +metagKK: ref(10)
-11: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metagLEH   Agricolankatu: Lehdet | Journals
+11: branchLoc(KONVERSIO,KONVERSIO) # metagLEH   Agricolankatu: Lehdet | Journals
 +metagLEH: ref(11)
-12: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagTYO   Agricolankatu, EI LAINATA - NOT FOR LOAN, ei pitäisi sisältää niteitä
+12: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagTYO   Agricolankatu, EI LAINATA - NOT FOR LOAN, ei pitäisi sisältää niteitä
 +metagTYO: ref(12)
-14: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metagHA    Agricolankatu: Hankinta | On order
+14: branchLoc(KONVERSIO,KONVERSIO) # metagHA    Agricolankatu: Hankinta | On order
 +metagHA: ref(14)
-15: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuYK    Bulevardi: 4 viikon laina | 4 week loan, ei pitäisi sisältää niteitä                                                                                                                               
+15: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuYK    Bulevardi: 4 viikon laina | 4 week loan, ei pitäisi sisältää niteitä                                                                                                                               
 +metbuYK: ref(15)
-16: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuONT   Bulevardi: Opinnäytetyöt | Theses, ei pitäisi sisältää niteitä
+16: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuONT   Bulevardi: Opinnäytetyöt | Theses, ei pitäisi sisältää niteitä
 +metbuONT: ref(16)
-17: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuCDROM Bulevardi: CD-ROM, ei pitäisi sisältää niteitä
+17: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuCDROM Bulevardi: CD-ROM, ei pitäisi sisältää niteitä
 +metbuCDROM: ref(17)
-18: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuKK    Bulevardi: Ei lainata | Not for loan, ei pitäisi sisältää niteitä
+18: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuKK    Bulevardi: Ei lainata | Not for loan, ei pitäisi sisältää niteitä
 +metbuKK: ref(18)
-20: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metbuLEH   Bulevardi: Lehdet | Journals
+20: branchLoc(KONVERSIO,KONVERSIO) # metbuLEH   Bulevardi: Lehdet | Journals
 +metbuLEH: ref(20)
-21: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuTYO   Bulevardi: Henkilökunta, ei lainata | Staff, Not for loan
+21: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuTYO   Bulevardi: Henkilökunta, ei lainata | Staff, Not for loan
 +metbuTYO: ref(21), ei pitäisi sisältää niteitä
 23: branchLoc(METWWW) # metWWW     Verkkoaineisto
 +metWWW: ref(23)
-24: branchLoc("") # REMOVED    REMOVED ei sisällä mitään
+24: branchLoc(EI_KOHAAN,EI_KOHAAN) # REMOVED    REMOVED ei sisällä mitään
 +REMOVED: ref(24)
-25: branchLoc(METARA,AV,LYHYT) # mettiAV    Arabia: AV-aineisto | AV material
+25: branchLoc(METARA,AV) # mettiAV    Arabia: AV-aineisto | AV material
 +mettiAV: ref(25)
-26: branchLoc(METARA,KASIKIR,EILAINA) # mettiKK    Arabia: Ei lainata | Not for loan                                                                                                                                      
+26: branchLoc(METARA,KASIKIR) # mettiKK    Arabia: Ei lainata | Not for loan                                                                                                                                      
 +mettiKK: ref(26)
-27: branchLoc(METARA,YLEIS,YLEIS) # mettiYK    Arabia: 4 viikon laina | 4 week loan
+27: branchLoc(METARA,YLEIS) # mettiYK    Arabia: 4 viikon laina | 4 week loan
 +mettiYK: ref(27)
-28: branchLoc(METARA,OPINN,YLEIS) # mettiONT   Arabia: Opinnaytetyot | Theses
+28: branchLoc(METARA,OPINN) # mettiONT   Arabia: Opinnaytetyot | Theses
 +mettiONT: ref(28)
-29: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metleCDROM Leppävaara: CD-ROM, ei pitäisi sisältää niteitä
+29: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleCDROM Leppävaara: CD-ROM, ei pitäisi sisältää niteitä
 +metleCDROM: ref(29)
-30: branchLoc(METMYY,KASIKIR,EILAINA) # metleKK    Leppävaara: Ei lainata | Not for loan
+30: branchLoc(METMYY,KASIKIR) # metleKK    Leppävaara: Ei lainata | Not for loan
 +metleKK: ref(30)
-32: branchLoc(METVAR,OPINN,YLEIS) # metleONT   Leppävaara: Opinnäytetyöt | Theses
+32: branchLoc(METESP,OPINN) # metleONT   Leppävaara: Opinnäytetyöt | Theses - muuttokokoelma, korjautuisiko Finnatekstillä sijainti kuntoon? Muuttaa Espooseen Arabian varastosta vuoden lopussa.
 +metleONT: ref(32)
-33: branchLoc(METVAR,) # metleVAR   Leppävaara: Varasto, ei lainata | Storage, not for loan
+33: branchLoc(METVAR,OPINN2) # metleVAR   Leppävaara: Varasto, ei lainata | Storage, not for loan
 +metleVAR: ref(33)
-34: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metleAV    Leppävaara: Videot | Videos
+34: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleAV    Leppävaara: Videot | Videos, ei pitäisi sisältää niteitä
 +metleAV: ref(34)
-35: branchLoc(METMYY,YLEIS,YLEIS) # metleVIR   Leppävaara, lainausoikeus rajoitettu
+35: branchLoc(METMYY,YLEIS) # metleVIR   Leppävaara, lainausoikeus rajoitettu 
 +metleVIR: ref(35)
-36: branchLoc(METESP,YLEIS,YLEIS) # metleYK    Leppävaara: 4 viikon laina | 4 week loan                                                                                                                               
+36: branchLoc(METMYY,YLEIS) # metleYK    Leppävaara: 4 viikon laina | 4 week loan  -vai METESP ja Finnateksteillä sijainti kuntoon? Muuttaa Espooseen vuoden lopussa,                                                                                                                              
 +metleYK: ref(36)
-37: branchLoc(METMYY,LYHYT,LYHYT) # metmyCDROM Myyrmäki, KYSY HENKILÖKUNNALTA
+37: branchLoc(METMYY,LYHYT) # metmyCDROM Myyrmäki, KYSY HENKILÖKUNNALTA
 +metmyCDROM: ref(37)
-38: branchLoc(METMYY,KASIK,EILAINA) # metmyKK    Myyrmäki: Ei lainata | Not for loan
+38: branchLoc(METMYY,KASIKIR) # metmyKK    Myyrmäki: Ei lainata | Not for loan
 +metmyKK: ref(38)
-39: branchLoc(METMYY,KASIKIR,EILAINA) # metmyLYHYT Myyrmäki: Viikon laina | One week loan
+39: branchLoc(METMYY,LYHYT) # metmyLYHYT Myyrmäki: Viikon laina | One week loan
 +metmyLYHYT: ref(39)
-40: branchLoc(METMYY,OPINN,YLEIS) # metmyONT   Myyrmäki: Opinnäytetyöt | Theses
+40: branchLoc(METMYY,OPINN) # metmyONT   Myyrmäki: Opinnäytetyöt | Theses
 +metmyONT: ref(40)
-41: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmyVAR   Myyrmäki Varasto-Storage. Laina-aika 28 vrk.
+41: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmyVAR   Myyrmäki Varasto-Storage. Laina-aika 28 vrk.
 +metmyVAR: ref(41)
-42: branchLoc(METMYY,AV,EILAINA) # metmy      Myyrmäki: Videot | Videos
+42: branchLoc(METMYY,AV) # metmy      Myyrmäki: Videot | Videos
 +metmyAV: ref(42)
-43: branchLoc(METMYY,YLEIS,YLEIS) # metmyYK    Myyrmäki: 4 viikon laina | 4 week loan
+43: branchLoc(METMYY,YLEIS) # metmyYK    Myyrmäki: 4 viikon laina | 4 week loan
 +metmyYK: ref(43)
-44: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonYK    Onnentie, ei sisällä niteitä
+44: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonYK    Onnentie, ei sisällä niteitä
 +metonYK: ref(44)
-45: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonONT   Onnentie Opinnäytetyöt - Theses, laina-aika 28 vrk, ei sisällä niteitä                                                                                                                     
+45: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonONT   Onnentie Opinnäytetyöt - Theses, laina-aika 28 vrk, ei sisällä niteitä                                                                                                                     
 +metonONT: ref(45)
-46: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # meton   Onnentie Videot - Videos, laina-aika 7 vrk, ei sisällä niteitä
+46: branchLoc(EI_KOHAAN,EI_KOHAAN) # meton   Onnentie Videot - Videos, laina-aika 7 vrk, ei sisällä niteitä
 +metonAV: ref(46)
-47: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonKK    Onnentie: Ei lainata | Not for loan, ei sisällä niteitä
+47: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonKK    Onnentie: Ei lainata | Not for loan, ei sisällä niteitä
 +metonKK: ref(47)
-48: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonLEH   Onnentie Lehdet - Periodicals, EI LAINATA - NOT FOR LOAN, ei sisällä niteitä
+48: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonLEH   Onnentie Lehdet - Periodicals, EI LAINATA - NOT FOR LOAN, ei sisällä niteitä
 +metonLEH: ref(48)
-50: branchLoc(METVAR,VARASTO,YLEIS) # metsoYK    Sofianlehdonkatu: 4 viikon laina | 4 week loan
+50: branchLoc(METVAR,YLEIS) # metsoYK    Sofianlehdonkatu: 4 viikon laina | 4 week loan
 +metsoYK: ref(50)
-51: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metsoONT   Sofianlehdonkatu: Opinnäytetyöt | Theses, ei sisällä niteitä
+51: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoONT   Sofianlehdonkatu: Opinnäytetyöt | Theses, ei sisällä niteitä
 +metsoONT: ref(51)
-52: branchLoc(METVAR,VARASTO,YLEIS) # metsoCDROM Sofianlehdonkatu: CD-ROM
+52: branchLoc(METVAR,AV) # metsoCDROM Sofianlehdonkatu: CD-ROM
 +metsoCDROM: ref(52)
-53: branchLoc(METVAR,VARASTO,YLEIS) # metsoAV    Sofianlehdonkatu: Videot | Videos
+53: branchLoc(METVAR,AV) # metsoAV    Sofianlehdonkatu: Videot | Videos
 +metsoAV: ref(53)
-54: branchLoc(METVAR,VARASTO,EILAINA) # metsoKK    Sofianlehdonkatu: Ei lainata | Not for loan                                                                                                                            
+54: branchLoc(METVAR,KASIKIR) # metsoKK    Sofianlehdonkatu: Ei lainata | Not for loan                                                                                                                            
 +metsoKK: ref(54)
-55: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metsoLEH   Sofianlehdonkatu: Lehdet | Journals
+55: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoLEH   Sofianlehdonkatu: Lehdet | Journals
 +metsoLEH: ref(55)
-56: branchLoc(METVAR,VARASTO,YLEIS) # mettuYK    Tukholmankatu: 4 viikon laina | 4 week loan
+56: branchLoc(METVAR,YLEIS) # mettuYK    Tukholmankatu: 4 viikon laina | 4 week loan
 +mettuYK: ref(56)
-57: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettuONT   Tukholmankatu: Opinnäytetyöt | Theses, ei sisällä niteitä
+57: branchLoc(METVAR,OPINN) # mettuONT   Tukholmankatu: Opinnäytetyöt | Theses, ei sisällä niteitä
 +mettuONT: ref(57)
-58: branchLoc(METVAR,VARASTO,LYHYT) # mettuCDROM Tukholmankatu: CD-ROM
+58: branchLoc(METVAR,AV) # mettuCDROM Tukholmankatu: CD-ROM
 +mettuCDROM: ref(58)
-59: branchLoc(METVAR,VARASTO,LYHYT) # mettuAV    Tukholmankatu: Videot | Videos
+59: branchLoc(METVAR,AV) # mettuAV    Tukholmankatu: Videot | Videos
 +mettuAV: ref(59)
-60: branchLoc(METVAR,VARASTO,EILAINA) # mettuKK    Tukholmankatu: Ei lainata | Not for loan
+60: branchLoc(METVAR,KASIKIR) # mettuKK    Tukholmankatu: Ei lainata | Not for loan
 +mettuKK: ref(60)
-61: branchLoc(METVAR,VARASTO,YLEIS) # mettuVAR   Tukholmankatu: Varasto | Storage
+61: branchLoc(METVAR,YLEIS) # mettuVAR   Tukholmankatu: Varasto | Storage
 +mettuVAR: ref(61)
-62: branchLoc(METVAR,VARASTO,EILAINA) # mettuVARLE Tukholmankatu: Lehtivarasto | Journal storage                                                                                                                          
+62: branchLoc(METVAR,LEHDET) # mettuVARLE Tukholmankatu: Lehtivarasto | Journal storage                                                                                                                          
 +mettuVARLE: ref(62)
-63: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettuLEH   Tukholmankatu: Lehdet | Journals, ei sisällä niteitä
+63: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuLEH   Tukholmankatu: Lehdet | Journals, ei sisällä niteitä
 +mettuLEH: ref(63)
-64: branchLoc(METVIE,LEHDET,EILAINA) # mettuTYO   Tukholmankatu: Työkpl, ei lainata | Staff use, not for loan
+64: branchLoc(METVIE,LEHDET) # mettuTYO   Tukholmankatu: Työkpl, ei lainata | Staff use, not for loan
 +mettuTYO: ref(64)
-65: branchLoc(METVIE,YLEIS,YLEIS) # mettuHA    Tukholmankatu: Hankinnassa | On order
+65: branchLoc(METVIE,YLEIS) # mettuHA    Tukholmankatu: Hankinnassa | On order
 +mettuHA: ref(65)
-66: branchLoc(METVIE,YLEIS,YLEIS) # metviYK    Vanha viertotie: 4 viikon laina | 4 week loan
+66: branchLoc(METVIE,YLEIS) # metviYK    Vanha viertotie: 4 viikon laina | 4 week loan
 +metviYK: ref(66)
-67: branchLoc(METVIE,OPINN,YLEIS) # metviONT   Vanha Viertotie: Opinnäytetyöt | Theses
+67: branchLoc(METVIE,OPINN) # metviONT   Vanha Viertotie: Opinnäytetyöt | Theses
 +metviONT: ref(67)
-68: branchLoc(METVIE,AV,LYHYT) # metviCDROM Vanha viertotie: CD-ROM
+68: branchLoc(METVIE,AV) # metviCDROM Vanha viertotie: CD-ROM
 +metviCDROM: ref(68)
-69: branchLoc(METVIE,AV,LYHYT) # metviAV    Vanha viertotie: Videot | Videos
+69: branchLoc(METVIE,AV) # metviAV    Vanha viertotie: Videot | Videos
 +metviAV: ref(69)
-70: branchLoc(METVIE,AANITE,LYHYT) # metviAANI  Vanha viertotie: Äänitteet | Audio materials                                                                                                                           
+70: branchLoc(METVIE,AANITE) # metviAANI  Vanha viertotie: Äänitteet | Audio materials                                                                                                                           
 +metviAANI: ref(70)
-71: branchLoc(METVIE,KASIKIR,EILAINA) # metviKK    Vanha Viertotie: Ei lainata | Not for loan
+71: branchLoc(METVIE,KASIKIR) # metviKK    Vanha Viertotie: Ei lainata | Not for loan
 +metviKK: ref(71)
-72: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metviVAR   Vanha viertotie: Varasto | Storage
+72: branchLoc(EI_KOHAAN,EI_KOHAAN) # metviVAR   Vanha viertotie: Varasto | Storage
 +metviVAR: ref(72)
-73: branchLoc(METVIE,LEHDET,EILAINA) # metviLEH   Vanha viertotie: Lehdet | Journals
+73: branchLoc(METVIE,LEHDET) # metviLEH   Vanha viertotie: Lehdet | Journals
 +metviLEH: ref(73)
-74: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metviOPEMA Vanha viertotie: opetuskäyttö | teaching materials
+74: branchLoc(KONVERSIO,KONVERSIO) # metviOPEMA Vanha viertotie: opetuskäyttö | teaching materials
 +metviOPEMA: ref(74)
-75: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metbuHA    Bulevardi, Hankinta - On order, kysy henkilökunnalta
+75: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuHA    Bulevardi, Hankinta - On order, kysy henkilökunnalta
 +metbuHA: ref(75)
-76: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonHA    Onnentie, Hankinta - On order, kysy henkilökunnalta , ei pitäisi sisältää mitään
+76: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonHA    Onnentie, Hankinta - On order, kysy henkilökunnalta , ei pitäisi sisältää mitään
 +metonHA: ref(76)
-77: branchLoc(METVIE,YLEIS,YLEIS) # metsoHA    Sofianlehdonkatu: Hankinnassa | On order
+77: branchLoc(METVIE,YLEIS) # metsoHA    Sofianlehdonkatu: Hankinnassa | On order
 +metsoHA: ref(77)
-78: branchLoc(METVIE,YLEIS,YLEIS) # metviHA    Vanha viertotie: Hankinnassa | On order                                                                                                                                
+78: branchLoc(METVIE,YLEIS) # metviHA    Vanha viertotie: Hankinnassa | On order                                                                                                                                
 +metviHA: ref(78)
-79: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagLU    Agricola luettelointi, happening location, ei niteitä
+79: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagLU    Agricola luettelointi, happening location, ei niteitä
 +metagLU: ref(79)
-80: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuLU    Bulevardi luettelointi, happening location, ei niteitä
+80: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuLU    Bulevardi luettelointi, happening location, ei niteitä
 +metbuLU: ref(80)
-81: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metleLU    Leppävaara luettelointi, happening location, ei niteitä
+81: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleLU    Leppävaara luettelointi, happening location, ei niteitä
 +metleLU: ref(81)
-82: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmyLU    Myyrmäki luettelointi,happening location, ei niteitä
+82: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmyLU    Myyrmäki luettelointi,happening location, ei niteitä
 +metmyLU: ref(82)
-83: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonLU    Onnentie luettelointi, happening location, ei niteitä
+83: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonLU    Onnentie luettelointi, happening location, ei niteitä
 +metonLU: ref(83)
-84: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metsoLU    Sofianlehto luettelointi, happening location, ei niteitä
+84: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoLU    Sofianlehto luettelointi, happening location, ei niteitä
 +metsoLU: ref(84)
-85: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettiLU    Arabia luettelointi, happening location, ei niteitä
+85: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettiLU    Arabia luettelointi, happening location, ei niteitä
 +mettiLU: ref(85)
-86: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettuLU    Tukholmank luettelointi, happening location, ei niteitä
+86: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuLU    Tukholmank luettelointi, happening location, ei niteitä
 +mettuLU: ref(86)
-87: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metviLU    Viertotie luettelointi,happening location, ei niteitä
+87: branchLoc(EI_KOHAAN,EI_KOHAAN) # metviLU    Viertotie luettelointi,happening location, ei niteitä
 +metviLU: ref(87)
-88: branchLoc(METMYY,LEHDET,EILAINA) # metleLEH   Leppävaara: Lehdet | Journals                                                                                                                                          
+88: branchLoc(METMYY,LEHDET) # metleLEH   Leppävaara: Lehdet | Journals                                                                                                                                          
 +metleLEH: ref(88)
-89: branchLoc(METMYY,YLEIS,YLEIS) # metmyLEH   Myyrmäki: Lehdet | Journals
+89: branchLoc(METMYY,LEHDET) # metmyLEH   Myyrmäki: Lehdet | Journals
 +metmyLEH: ref(89)
-90: branchLoc(METARA,LEHDET,EILAINA) # mettiLEH   Arabia: Lehdet | Journals
+90: branchLoc(METARA,LEHDET) # mettiLEH   Arabia: Lehdet | Journals
 +mettiLEH: ref(90)
-91: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagLA    Agricolankatu lainaus, happening location, ei niteitä
+91: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagLA    Agricolankatu lainaus, happening location, ei niteitä
 +metagLA: ref(91)
-92: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuLA    Bulevardi lainaus happening location, ei niteitä
+92: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuLA    Bulevardi lainaus happening location, ei niteitä
 +metbuLA: ref(92)
-93: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metleLA    Leppävaara lainaus, happening location, ei niteitä
+93: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleLA    Leppävaara lainaus, happening location, ei niteitä
 +metleLA: ref(93)
-94: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmyLA    Myyrmäki lainaus, happening location, ei niteitä
+94: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmyLA    Myyrmäki lainaus, happening location, ei niteitä
 +metmyLA: ref(94)
-95: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metonLA    Onnentie lainaus, happening location, ei niteitä
+95: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonLA    Onnentie lainaus, happening location, ei niteitä
 +metonLA: ref(95)
-96: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metsoLA    Sofianlehto lainaus, happening location, ei niteitä
+96: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoLA    Sofianlehto lainaus, happening location, ei niteitä
 +metsoLA: ref(96)
-97: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettiLA    Arabia lainaus, happening location, ei niteitä
+97: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettiLA    Arabia lainaus, happening location, ei niteitä
 +mettiLA: ref(97)
-98: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettuLA    Tukholmankatu lainaus, happening location, ei niteitä
+98: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuLA    Tukholmankatu lainaus, happening location, ei niteitä
 +mettuLA: ref(98)
-99: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metviLA    Viertotie lainaus, happening location, ei niteitä
+99: branchLoc(EI_KOHAAN,EI_KOHAAN) # metviLA    Viertotie lainaus, happening location, ei niteitä
 +metviLA: ref(99)
-100: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metagAU    Agricolankatu automaatti   , ei luultavasti käytössä, tarkistetaan 12.4.19SP                                                                                                                                           
+100: branchLoc(KONVERSIO,KONVERSIO) # metagAU    Agricolankatu automaatti   , ei luultavasti käytössä, tarkistetaan 12.4.19SP                                                                                                                                           
 +metagAU: ref(100)
-101: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metbuAU    Bulevardi automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+101: branchLoc(KONVERSIO,KONVERSIO) # metbuAU    Bulevardi automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
 +metbuAU: ref(101)
 102: branchLoc(METESP) # metleAU    Leppävaara automaatti
 +metleAU: ref(102)
 103: branchLoc(METMYY) # metmyAU    Myyrmäki automaatti
 +metmyAU: ref(103)
-104: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metonAU    Onnentie automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+104: branchLoc(KONVERSIO,KONVERSIO) # metonAU    Onnentie automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
 +metonAU: ref(104)
-105: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metsoAU    Sofianlehto automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+105: branchLoc(KONVERSIO,KONVERSIO) # metsoAU    Sofianlehto automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
 +metsoAU: ref(105)
 106: branchLoc(METARA) # mettiAU    Arabia automaatti
 +mettiAU: ref(106)
-107: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # mettuAU1   Tukholmankatu automaatti1, ei luultavasti käytössä, tarkistetaan 12.4.19SP
+107: branchLoc(KONVERSIO,KONVERSIO) # mettuAU1   Tukholmankatu automaatti1, ei luultavasti käytössä, tarkistetaan 12.4.19SP
 +mettuAU1: ref(107)
-108: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # mettuAU2   Tukholmankatu automaatti2, ei luultavasti käytössä, tarkistetaan 12.4.19SP
+108: branchLoc(KONVERSIO,KONVERSIO) # mettuAU2   Tukholmankatu automaatti2, ei luultavasti käytössä, tarkistetaan 12.4.19SP
 +mettuAU2: ref(108)
 109: branchLoc(METVIE) # metviAU    Viertotie automaatti
 +metviAU: ref(109)
 110: branchLoc(METMYY) # metmyAU2   Myyrmäki automaatti
 +metmyAU2: ref(110)
-113: branchLoc(METVAR,VARASTO,LYHYT) # mettuAANI  Tukholmankatu: Äänitteet | Audio materials                                                                                                                             
+113: branchLoc(METVAR,AANITE) # mettuAANI  Tukholmankatu: Äänitteet | Audio materials                                                                                                                             
 +mettuAANI: ref(113)
-114: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # LASKUTETTU LASKUTETTU
+114: branchLoc(KONVERSIO,KONVERSIO) # LASKUTETTU LASKUTETTU
 +LASKUTETTU: ref(114)
-115: branchLoc(METVAR,VARASTO,YLEIS) # metsoAANI  Sofianlehdonkatu: Äänitteet | Audio materials
+115: branchLoc(METVAR,AANITE) # metsoAANI  Sofianlehdonkatu: Äänitteet | Audio materials
 +metsoAANI: ref(115)
-116: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuINV   metbuINV, ei sisällä niteitä
+116: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuINV   metbuINV, ei sisällä niteitä
 +metbuINV: ref(116)
-117: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metleINV   metleINV, ei sisällä niteitä
+117: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleINV   metleINV, ei sisällä niteitä
 +metleINV: ref(117)
-118: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettuINV   mettuINV, ei sisällä niteitä
+118: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuINV   mettuINV, ei sisällä niteitä
 +mettuINV: ref(118)
-119: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metsoINV   metsoINV, ei sisällä niteitä
+119: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoINV   metsoINV, ei sisällä niteitä
 +metsoINV: ref(119)
-120: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmyINV   metmyINV, ei sisällä niteitä
+120: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmyINV   metmyINV, ei sisällä niteitä
 +metmyINV: ref(120)
-121: branchLoc(METMYY,KASIKIR,EILAINA) # metmyVIR   Myyrmäki, lainausoikeus rajoitettu
+121: branchLoc(METMYY,KASIKIR) # metmyVIR   Myyrmäki, lainausoikeus rajoitettu
 +metmyVIR: ref(121)
-122: branchLoc(METVAR,LYHYT,LYHYT) # mettuPIKA  Tukholmankatu: Viikon laina | One week loan
+122: branchLoc(METVAR,LYHYT) # mettuPIKA  Tukholmankatu: Viikon laina | One week loan
 +mettuPIKA: ref(122)
-123: branchLoc(METVAR,VARASTO,LYHYT) # metsoPIKA  Sofianlehdonkatu: Viikon laina | One week loan                                                                                                                         
+123: branchLoc(METVAR,LYHYT) # metsoPIKA  Sofianlehdonkatu: Viikon laina | One week loan                                                                                                                         
 +metsoPIKA: ref(123)
-124: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metsoERI   Sofianlehdonkatu: Erikoiskokoelma | Special Collection -
+124: branchLoc(KONVERSIO,KONVERSIO) # metsoERI   Sofianlehdonkatu: Erikoiskokoelma | Special Collection -
 +metsoERI: ref(124)
-125: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # metmaKK    Mannerheimintie: Ei lainata | Not for loan
+125: branchLoc(KONVERSIO,KONVERSIO) # metmaKK    Mannerheimintie: Ei lainata | Not for loan -siivotaan kenties pois? 22.4.2019
 +metmaKK: ref(125)
-126: branchLoc(METARA,LYHYT,LYHYT) # mettiPIKA  Arabia: Viikon laina | One week loan
+126: branchLoc(METARA,LYHYT) # mettiPIKA  Arabia: Viikon laina | One week loan
 +mettiPIKA: ref(126)
-127: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmaLA    metmaLA - happening location, ei sisällä niteitä
+127: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmaLA    metmaLA - happening location, ei sisällä niteitä
 +metmaLA: ref(127)
-128: branchLoc(KONVERSIO,KONVERSIO,KONVERSIO) # MAKSU      MAKSU
+128: branchLoc(KONVERSIO,KONVERSIO) # MAKSU      MAKSU
 +MAKSU: ref(128)
-129: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metruLA    Ruoholahti lainaus, ei sisällä niteitä
+129: branchLoc(EI_KOHAAN,EI_KOHAAN) # metruLA    Ruoholahti lainaus, ei sisällä niteitä
 +metruLA: ref(129)
-130: branchLoc(METDB) # metroDB    metroDB
+130: branchLoc(KONVERSIO,KONVERSIO) # metroDB    metroDB - BRANCH JA LOC-PUUTTU VIELÄ 22.4 
 +metroDB: ref(130)
-131: branchLoc(METARA,AANITE,YLEIS) # mettiAANI  Arabia aanitteet
+131: branchLoc(METARA,AANITE) # mettiAANI  Arabia aanitteet
 +mettiAANI: ref(131)
-132: branchLoc(METARA,NUOTIT,YLEIS) # mettiNUO   Arabia: Nuotit | Sheet music
+132: branchLoc(METARA,NUOTIT) # mettiNUO   Arabia: Nuotit | Sheet music
 +mettiNUO: ref(132)
-133: branchLoc(METARA,NUOTIT2,EILAINA) # mettiNUOKK Arabia: Nuotit, ei lainata | Sheet music, not for loan                                                                                                                 
+133: branchLoc(METARA,NUOTIT2) # mettiNUOKK Arabia: Nuotit, ei lainata | Sheet music, not for loan                                                                                                                 
 +mettiNUOKK: ref(133)
-134: branchLoc(METARA,NUOTIT2,EILAINA) # mettiORK   Arabia orkesterimateriaali
+134: branchLoc(METARA,NUOTIT2) # mettiORK   Arabia orkesterimateriaali
 +mettiORK: ref(134)
-135: branchLoc(METARA,NUOTIT,YLEIS) # mettiPAR   Arabia partituurit
+135: branchLoc(METARA,NUOTIT) # mettiPAR   Arabia partituurit
 +mettiPAR: ref(135)
-136: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # mettiJOULU Arabia: Joulumateriaali | Christmas material, ei sisällä niteitä
+136: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettiJOULU Arabia: Joulumateriaali | Christmas material, ei sisällä niteitä
 +mettiJOULU: ref(136)
-137: branchLoc() # metagPIKA  Agricolankatu: Viikon laina | One week loan
+137: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagPIKA  Agricolankatu: Viikon laina | One week loan, ei pitäisi olla niteitä
 +metagPIKA: ref(137)
-138: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metbuPIKA  Bulevardi: Viikon laina | One week loan, ei pitäisi olla niteitä
+138: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuPIKA  Bulevardi: Viikon laina | One week loan, ei pitäisi olla niteitä
 +metbuPIKA: ref(138)
-139: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metlePIKA  Leppävaara: Viikon laina | One week loan, ei pitäisi olla niteitä
+139: branchLoc(METMYY,LYHYT) # metlePIKA  Leppävaara: Viikon laina | One week loan, 
 +metlePIKA: ref(139)
-140: branchLoc(METVIE,LYHYT,LYHYT) # metviPIKA  Vanha viertotie: Viikon laina | One week loan
+140: branchLoc(METVIE,LYHYT) # metviPIKA  Vanha viertotie: Viikon laina | One week loan
 +metviPIKA: ref(140)
-141: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metagINV
+141: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagINV
 +metagINV: ref(141)
 142: branchLoc(METMYY) # metmyAU3
 +metmyAU3: ref(142)
-143: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmpLA    Myllypuro lainaus,  happening location, ei niteitä                                                                                                                                                      
+143: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmpLA    Myllypuro lainaus,  happening location, ei niteitä                                                                                                                                                      
 +metmpLA: ref(143)
-144: branchLoc(METMYL,YLEIS,YLEIS) # metmpYK    Myllypuro: Neljan viikon laina | Four week loan
+144: branchLoc(METMYL,YLEIS) # metmpYK    Myllypuro: Neljan viikon laina | Four week loan
 +metmpYK: ref(144)
-145: branchLoc(METMYL,LYHYT,LYHYT) # metmpPIKA  Myllypuro: Viikon laina | One week loan
+145: branchLoc(METMYL,LYHYT) # metmpPIKA  Myllypuro: Viikon laina | One week loan
 +metmpPIKA: ref(145)
-146: branchLoc(METMYL,OPINN,YLEIS) # metmpONT   Myllypuro: opinnäytetyöt | Thesis
+146: branchLoc(METMYL,OPINN) # metmpONT   Myllypuro: opinnäytetyöt | Thesis
 +metmpONT: ref(146)
-147: branchLoc(EI_KOHAAN,EI_KOHAAN,EI_KOHAAN) # metmpLU    Myllypuro luettelointi happening location, ei niteitä
+147: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmpLU    Myllypuro luettelointi happening location, ei niteitä
 +metmpLU: ref(147)
-148: branchLoc(METMYL,KASIKIR,EILAINA) # metmpKK    Myllypuro: Ei lainata | Not for loan
+148: branchLoc(METMYL,KASIKIR) # metmpKK    Myllypuro: Ei lainata | Not for loan
 +metmpKK: ref(148)
-149: branchLoc(METMYL,LEHDET,EILAINA) # metmpLEH   Myllypuro: Lehdet | Journals
+149: branchLoc(METMYL,LEHDET) # metmpLEH   Myllypuro: Lehdet | Journals
 +metmpLEH: ref(149)
-150: branchLoc(METMYL,YLEIS,YLEIS) # metmpHA    Myllypuro hankinta
+150: branchLoc(METMYL,YLEIS) # metmpHA    Myllypuro hankinta
 +metmpHA: ref(150)
 151: branchLoc(METMYL) # metmpAU    Myllypuro automaatti
 +metmpAU: ref(151)
