@@ -254,7 +254,7 @@
 +MAKSU: ref(128)
 129: branchLoc(EI_KOHAAN,EI_KOHAAN) # metruLA    Ruoholahti lainaus, ei sisällä niteitä
 +metruLA: ref(129)
-130: branchLoc(KONVERSIO,KONVERSIO) # metroDB    metroDB - BRANCH JA LOC-PUUTTU VIELÄ 22.4 
+130: branchLoc(METDB) # metroDB    metroDB
 +metroDB: ref(130)
 131: branchLoc(METARA,AANITE) # mettiAANI  Arabia aanitteet
 +mettiAANI: ref(131)
