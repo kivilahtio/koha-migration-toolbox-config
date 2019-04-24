@@ -13,103 +13,103 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: DS #  Opiskelija, ent. Stadia
-8: AA #  Henkilökunta, tekniikka
+7: DS #  Opiskelija, ent. Stadia 
+8: AM #  Henkilökunta, tekniikka
 9: U #   Ulkop, muut ulkopuoliset
 10: S #   Ulkop, julkishallinto
 11: K #   Ulkop, yliopisto opisk/hl
-12: DDD # Lii, liiketalous
-13: A #   Henkilökunta, yleinen
+12: DMD # Lii, liiketalous
+13: AM #   Henkilökunta, yleinen
 14: R #   Ulkop, elinkeinoelämä
-15: DDE # Lii, erikoistumisopisk.                                                                                                                                                    
-16: DAG # Tek, information technol.
+15: DMD # Lii, erikoistumisopisk.                                                                                                                                                    
+16: DMA # Tek, information technol.
 17: P #   Ulkop, muu oppilaitos
-18: DAM # Tek, media engineering
-19: DAY # Tek, YAMK
+18: DMA # Tek, media engineering
+19: DME # Tek, YAMK
 20: G #   Ulkop, muu amk opiskelija
-21: DAS # Tek, tieto ja viest.tekn.
-22: DAN # Tek, mediatekniikka
-23: POB # Onnentie, opisk. 2. aste
+21: DMA # Tek, tieto ja viest.tekn.
+22: DMA # Tek, mediatekniikka
+23: DMB # Onnentie, opisk. 2. aste
 24: N #   Kaukopalvelu, kotimainen
-25: DDA # Lii, EBA
-26: DCI # Kul, viestintä
-27: DAR # Tek, talotekniikka                                                                                                                                                         
-28: DAT # Tek, tuotantotalous
-29: DCB # Kul, konservointi
-30: DAK # Tek, maanmittaus
-32: DAD # Tek, elektroniikka
-33: DAH # Tek, kemiantekniikka
-34: AC #  Henkilökunta, kulttuuri
-35: DAB # Tek, sähkö- ja automaatio
-36: DDB # Lii, EM European Manag.
-37: POA # Onnentie, hlökunta 2.aste
-38: DCH # Kul, vaatetusala
-39: DDY # Lii, YAMK
-40: DAC # Tek, bio- ja kemiantek.
-41: DDV # Lii, vaihto-opiskelijat                                                                                                                                                    
-42: DAV # Tek, vaihto-opiskelijat
-43: DF #  Avoin amk
-44: DCV # Kul, vaihto-opiskelijat
-45: DCD # Kul, muotoilu
+25: DMD # Lii, EBA
+26: DMC # Kul, viestintä
+27: DMA # Tek, talotekniikka                                                                                                                                                         
+28: DMA # Tek, tuotantotalous
+29: DMC # Kul, konservointi
+30: DMA # Tek, maanmittaus
+32: DMA # Tek, elektroniikka
+33: DMA # Tek, kemiantekniikka
+34: AM #  Henkilökunta, kulttuuri
+35: DMA # Tek, sähkö- ja automaatio
+36: DMD # Lii, EM European Manag.
+37: AM # Onnentie, hlökunta 2.aste
+38: DMC # Kul, vaatetusala
+39: DME # Lii, YAMK
+40: DMA # Tek, bio- ja kemiantek.
+41: DMF # Lii, vaihto-opiskelijat                                                                                                                                                    
+42: DMF # Tek, vaihto-opiskelijat
+43: G #  Avoin amk - tai tälle täytyy tehdä uusi tilastointiryhmä arvoihin, SP 23.4
+44: DMF # Kul, vaihto-opiskelijat
+45: DMC # Kul, muotoilu
 46: F #   Ulkop, muu amk hlökunta
-47: DC #  Kul, yleinen
-48: DG #  Opintopassi
-49: DAL # Tek, materiaali&pintakäs.
-50: DCG # Kul, teollinen muotoilu
+47: DMC #  Kul, yleinen
+48: P #  Opintopassi  - EI SIIRRETÄ, näitä ei pitäisi olla lainkaan
+49: DMA # Tek, materiaali&pintakäs.
+50: DMC # Kul, teollinen muotoilu
 51: O #   Kaukopalvelu, ulkomainen
-52: AB #  Henkilökunta, sote
-53: AD #  Henkilökunta, liiketalous
-54: DA #  Tek, yleinen                                                                                                                                                               
-55: DAA # Tek, ajoneuvotekniikka
-56: DAE # Tek, environm. engin.
-57: DAF # Tek, hyvinvointiteknol.
-58: DAI # Tek, kone- ja tuotantotek
-59: DAJ # Tek, laboratorioanalytiik
-60: DAO # Tek, rakennusalan työnjoh
-61: DAP # Tek, rakennustekniikka
-62: DAQ # Tek, sähkötekniikka
-63: DAU # Tek, erikoistum. & täyd.
-64: DCA # Kul, esittävä taide
-65: DCC # Kul, kulttuurituotanto
-66: DCE # Kul, musiikki                                                                                                                                                              
-67: DCF # Kul, pop/jazz
-68: DCJ # Kul, erikoistumisopisk.
-69: DCY # Kul, YAMK
-70: DD #  Lii, yleinen
-71: DDC # Lii, IBL
-72: DB #  Sote, yleinen
-73: DBA # Sote, apuvälinetekniikka
-74: DBB # Sote, bioanalytiikka
-75: DBC # Sote, ensihoito
-76: DBD # Sote, fysioterapia
-77: DBE # Sote, hammastekniikka
-78: DBF # Sote, sairaanhoitotyö
-79: DBG # Sote, jalkaterapia                                                                                                                                                         
-80: DBH # Sote, nursing
-81: DBI # Sote, optometria
-82: DBJ # Sote, osteopatia
-83: DBK # Sote, radiografia&sädehoi
-84: DBL # Sote, social services
-85: DBM # Sote, sosiaaliala
-86: DBN # Sote, suun terveydenhuolt
-87: DBO # Sote, toimintaterapia
-88: DBP # Sote, vanhustyö
-89: DBQ # Sote, erikoistum. & täyd.
-90: DBY # Sote, YAMK
-91: DBV # Sote, vaihto-opiskelijat
-93: DM #  Maahanmuuttaj. valmentava                                                                                                                                                  
-94: DAZ # Tek, sust. building eng.
-95: DAX # Tek, electronics
-99: DBR # Sote, kätilötyö
-100: DAÅ # Tek, rakennusarkkiteht.
-101: DAÄ # Tek, energia- ja ympärist
+52: AM #  Henkilökunta, sote
+53: AM #  Henkilökunta, liiketalous
+54: DMA #  Tek, yleinen                                                                                                                                                               
+55: DMA # Tek, ajoneuvotekniikka
+56: DMA # Tek, environm. engin.
+57: DMA # Tek, hyvinvointiteknol.
+58: DMA # Tek, kone- ja tuotantotek
+59: DMA # Tek, laboratorioanalytiik
+60: DMA # Tek, rakennusalan työnjoh
+61: DMA # Tek, rakennustekniikka
+62: DMA # Tek, sähkötekniikka
+63: DMA # Tek, erikoistum. & täyd.
+64: DMC # Kul, esittävä taide
+65: DMC # Kul, kulttuurituotanto
+66: DMC # Kul, musiikki                                                                                                                                                              
+67: DMC # Kul, pop/jazz
+68: DMC # Kul, erikoistumisopisk.
+69: DME # Kul, YAMK
+70: DMD #  Lii, yleinen
+71: DMD # Lii, IBL
+72: DMB #  Sote, yleinen
+73: DMB # Sote, apuvälinetekniikka
+74: DMB # Sote, bioanalytiikka
+75: DMB # Sote, ensihoito
+76: DMB # Sote, fysioterapia
+77: DMB # Sote, hammastekniikka
+78: DMB # Sote, sairaanhoitotyö
+79: DMB # Sote, jalkaterapia                                                                                                                                                         
+80: DMB # Sote, nursing
+81: DMB # Sote, optometria
+82: DMB # Sote, osteopatia
+83: DMB # Sote, radiografia&sädehoi
+84: DMB # Sote, social services
+85: DMB # Sote, sosiaaliala
+86: DMB # Sote, suun terveydenhuolt
+87: DMB # Sote, toimintaterapia
+88: DMB # Sote, vanhustyö
+89: DMB # Sote, erikoistum. & täyd.
+90: DME # Sote, YAMK
+91: DMF # Sote, vaihto-opiskelijat
+93: P #  Maahanmuuttaj. valmentava                                                                                                                                                  
+94: DMA # Tek, sust. building eng.
+95: DMA # Tek, electronics
+99: DMB # Sote, kätilötyö
+100: DMA # Tek, rakennusarkkiteht.
+101: DMA # Tek, energia- ja ympärist
 104: V #   Luottotappio
-105: DCK # Kul, esitys- ja teatterit
-106: DCL # Kul, elokuva ja televisio
-107: DBS # Sote, terveydenhoitotyö
-108: DBT # Sote, täydennyskoulutus
-109: GA #  YT, 3amk (Laurea, HH)
-110: PA #  YT, Varia/Luxia/Omnia                                                                                                                                                      
-111: PPA # Pop&Jazz konsa, hlökunta
-112: PPO # Pop&Jazz konsa, opisk.
-116: DCT # Kul, Tavi
+105: DMC # Kul, esitys- ja teatterit
+106: DMC # Kul, elokuva ja televisio
+107: DMB # Sote, terveydenhoitotyö
+108: DMB # Sote, täydennyskoulutus
+109: U #  YT, 3amk (Laurea, HH)
+110: U #  YT, Varia/Luxia/Omnia                                                                                                                                                      
+111: PMA # Pop&Jazz konsa, hlökunta
+112: PMB # Pop&Jazz konsa, opisk.
+116: DMC # Kul, Tavi
