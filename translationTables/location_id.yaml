@@ -63,13 +63,13 @@
 +Kkans: ref(30)
 31: branchLoc(EI_KOHAAN) # Kkans ku   Muc-kirjasto/library,  KTK-ohjelma. Ei kotilainaan                                                                                                                     
 +Kkans: ref(31)
-32: branchLoc(KYM, KANN) # KmuseoKann Tietokeskus Vellamo, Kotka. KyM, Kannon k, ei lainata
+32: branchLoc(EI_KOHAAN) # KmuseoKann Tietokeskus Vellamo, Kotka. KyM, Kannon k, ei lainata
 +KmuseoKann: ref(32)
-33: branchLoc(KYM, KOIV) # KmuseoKoiv Tietokeskus Vellamo, Kotka. KyM, Koivist, ei lainata
+33: branchLoc(EI_KOHAAN) # KmuseoKoiv Tietokeskus Vellamo, Kotka. KyM, Koivist, ei lainata
 +KmuseoKoiv: ref(33)
-34: branchLoc(KYM, LANG) # KmuseoLang Tietokeskus Vellamo, Kotka. KyM Langinkoski, ei lainata
+34: branchLoc(EI_KOHAAN) # KmuseoLang Tietokeskus Vellamo, Kotka. KyM Langinkoski, ei lainata
 +KmuseoLang: ref(34)
-35: branchLoc(KYM, YLE) # KmuseoYle  Tietokeskus Vellamo, Kotka. KyM, Yleiskokoelma, ei lainata
+35: branchLoc(EI_KOHAAN) # KmuseoYle  Tietokeskus Vellamo, Kotka. KyM, Yleiskokoelma, ei lainata
 +KmuseoYle: ref(35)
 36: branchLoc(EI_KOHAAN) # Kpien k    Muc-kirjasto/library, Mikkeli
 +Kpien: ref(36)
