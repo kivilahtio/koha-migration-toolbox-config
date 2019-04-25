@@ -16,7 +16,7 @@
 
 1: ASIAK #      Opiskelijat
 2: MHKUNTA #       Henkilökunta
-3: ASIAK#       Ulkopuoliset asiakkaat
+3: ASIAK #       Ulkopuoliset asiakkaat
 4: KAUKO #      Kaukopalveluasiakas
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
