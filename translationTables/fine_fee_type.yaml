@@ -26,6 +26,6 @@
 12: N                        #12 New Library Card
 13: $DELETE                  #13 Copying Fee
 14: HE                       #14 Other Fees                14 Mäpätty Noutamattomaksi varaukseksi (Hold expiration charge)
-#15 Invoice fee              Tämä on vielä kesken
+15: $DELETE                   #15 Invoice fee              Ei viedä Kohaan
 
 # For values in Koha, see. https://wiki.koha-community.org/wiki/Hard_Coded_Values
