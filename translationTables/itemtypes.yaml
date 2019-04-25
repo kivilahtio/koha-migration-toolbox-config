@@ -22,7 +22,7 @@
 5: LYHYT # Laina7     ÄLÄ KÄYTÄLaina7           Laina7, videoita, cdrom, äänite, virkailija
 6: EILAINA # Laina0leh  Laina0leh                 Laina0leh , kaikki lehdet                                                                                                                                  
 7: LYHYT # vkolaina7  vkolaina7                 vkolaina7
-8: "" # Laina3pik  ÄLÄ KÄYTÄ:Laina3pik       Laina3pik - ei enää käytössä, ei sisällä mitään, VOI JÄTTÄÄ SIIRTÄMÄTTÄ
+8: KONVERSIO # Laina3pik  ÄLÄ KÄYTÄ:Laina3pik       Laina3pik - ei enää käytössä, ei sisällä mitään, VOI JÄTTÄÄ SIIRTÄMÄTTÄ
 9: LYHYT # Laina7eri  Laina7eri                 Laina7eri
 10: REVIEW # REVIEW     REVIEW                    REVIEW
 
