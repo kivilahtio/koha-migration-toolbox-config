@@ -7,6 +7,13 @@
 ## it defines mappings from voyager.item.item_type_id integer to koha.items.itype
 ##
 
+##SIIRTOSÄÄNNÖT:
+## : tähän mapataan uusi arvo Kohassa esim. Voyager arvo 1: Koha-arvo 28vrk
+## : " " = voi jättää siirtämättä, Voyagerissa olevan arvon ei tarvitse näkyä Kohassa
+## : DELETED = voi poistaa, ei sisällä niteitä, asiakkaita
+## : KONVERSIO= ei pitäisi sisältää Voyagerissa mitään, mutta halutaan tarkistaa konversion jälkeen
+
+
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
 2: YLEIS # Laina28    Laina28                   Laina28
@@ -15,7 +22,7 @@
 5: LYHYT # Laina7     ÄLÄ KÄYTÄLaina7           Laina7, videoita, cdrom, äänite, virkailija
 6: EILAINA # Laina0leh  Laina0leh                 Laina0leh , kaikki lehdet                                                                                                                                  
 7: LYHYT # vkolaina7  vkolaina7                 vkolaina7
-8: "" # Laina3pik  ÄLÄ KÄYTÄ:Laina3pik       Laina3pik - ei enää käytössä
+8: "" # Laina3pik  ÄLÄ KÄYTÄ:Laina3pik       Laina3pik - ei enää käytössä, ei sisällä mitään, VOI JÄTTÄÄ SIIRTÄMÄTTÄ
 9: LYHYT # Laina7eri  Laina7eri                 Laina7eri
 10: REVIEW # REVIEW     REVIEW                    REVIEW
 
