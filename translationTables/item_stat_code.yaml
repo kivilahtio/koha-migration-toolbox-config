@@ -16,6 +16,6 @@ OPE: LAU # Laurean opettajahankinnat
 PRV: "" # HH Porvoon niteet, ei tarvita enää
 LTL: LAU # Laurea thesis tai lahja
 HH: HH # Haaga-Helian niteet
-SUO: SUO # Vierumäen LPT-niteet
+SUO: HH # Vierumäen LPT-niteet
 
 _DEFAULT_: warning()
