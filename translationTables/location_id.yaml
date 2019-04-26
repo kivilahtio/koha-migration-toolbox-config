@@ -35,7 +35,7 @@
 +Heliapread: ref(11)
 12: branchLoc(HHPAS,OPINN) # Heliapthes Pasila, opinnäytetyöt, 14 vrk - Theses, 14 days
 +Heliapthes: ref(12)
-13: branchLoc(KONVERSIO,KONVERSIO) # Heliaptext Pasila, pikalainat, 1 vrk - Short loans, 1 day                                                                                                                         
+13: branchLoc(EI_KOHAAN,EI_HELIAPTEXT) # Heliaptext Pasila, pikalainat, 1 vrk - Short loans, 1 day
 +Heliaptext: ref(13)
 14: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliapav   Pasila, av-aineisto, ei lainata - AV, non-circulating
 +Heliapav: ref(14)
@@ -205,7 +205,7 @@
 +HAAGA-e: ref(96)
 97: branchLoc(EI_KOHAAN,EI_KOHAAN) # HAAGA-julk HAAGA-julk
 +HAAGA-julk: ref(97)
-98: branchLoc(KONVERSIO,KONVERSIO) # HI-av      Haaga, av-aineisto, ei lainata - AV, non-circulating
+98: branchLoc(EI_KOHAAN,EI_HIAV) # HI-av      Haaga, av-aineisto, ei lainata - AV, non-circulating
 +HI-av: ref(98)
 99: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-av     Vallila, av-aineisto, ei lainata - AV, non-circulating
 +HLI-av: ref(99)
@@ -227,7 +227,7 @@
 +MLI-pikala: ref(107)
 108: branchLoc(EI_KOHAAN,EI_KOHAAN) # HI-pika    Haaga, pikalainat, 1 vrk - Short loans, 1 day
 +HI-pika: ref(108)
-109: branchLoc(KONVERSIO,KONVERSIO) # LAPTOP     Kannettavat tietokoneet
+109: branchLoc(EI_KOHAAN,EI_LAPTOP) # LAPTOP     Kannettavat tietokoneet
 +LAPTOP: ref(109)
 110: branchLoc(PORV,ARKISTO) # Porvoosecr Porvoo, salainen opinnäyte, ei lainata - Confidential                                                                                                                  
 +Porvoosecr: ref(110)
@@ -271,7 +271,7 @@
 +HI-nauhur: ref(129)
 130: branchLoc(HHHAA,LYHYT) # HI-laittee Haaga, laitteet, 14 vrk - Devices, 14 days
 +HI-laittee: ref(130)
-131: branchLoc(KONVERSIO,KONVERSIO) # MAKSU
+131: branchLoc(EI_KOHAAN, EI_MAKSU) # MAKSU
 +MAKSU: ref(131)
 132: branchLoc(HHMAL,LYHYT) # MLI-nauhur Malmi, sanelukoneet, 14 vrk, rajoitettu lainausoikeus                                                                                                                  
 +MLI-nauhur: ref(132)
