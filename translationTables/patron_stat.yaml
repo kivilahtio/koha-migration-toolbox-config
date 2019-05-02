@@ -84,7 +84,7 @@
 76: DMB # Sote, fysioterapia
 77: DMB # Sote, hammastekniikka
 78: DMB # Sote, sairaanhoitotyö
-79: DMB # Sote, jalkaterapia                                                                                                                                                         
+79: DMB # Sote, jalkaterapia
 80: DMB # Sote, nursing
 81: DMB # Sote, optometria
 82: DMB # Sote, osteopatia
@@ -97,7 +97,7 @@
 89: DMB # Sote, erikoistum. & täyd.
 90: DME # Sote, YAMK
 91: DMF # Sote, vaihto-opiskelijat
-93: P #  Maahanmuuttaj. valmentava                                                                                                                                                  
+93: P #  Maahanmuuttaj. valmentava
 94: DMA # Tek, sust. building eng.
 95: DMA # Tek, electronics
 99: DMB # Sote, kätilötyö
@@ -109,7 +109,7 @@
 107: DMB # Sote, terveydenhoitotyö
 108: DMB # Sote, täydennyskoulutus
 109: U #  YT, 3amk (Laurea, HH)
-110: U #  YT, Varia/Luxia/Omnia                                                                                                                                                      
+110: U #  YT, Varia/Luxia/Omnia
 111: PMA # Pop&Jazz konsa, hlökunta
 112: PMB # Pop&Jazz konsa, opisk.
 116: DMC # Kul, Tavi
