@@ -24,7 +24,7 @@
 7: LYHYT # vkolaina7  vkolaina7                 vkolaina7
 8: EI_KOHAAN # Laina3pik  ÄLÄ KÄYTÄ:Laina3pik       Laina3pik - ei enää käytössä, ei sisällä mitään, VOI JÄTTÄÄ SIIRTÄMÄTTÄ
 9: LYHYT # Laina7eri  Laina7eri                 Laina7eri
-10: REVIEW # REVIEW     REVIEW                    REVIEW
+10: EI_KOHAAN # REVIEW     REVIEW                    REVIEW
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
