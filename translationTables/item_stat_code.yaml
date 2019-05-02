@@ -14,4 +14,4 @@ LAH: LAU # 2 Laurea thesis tai lahja
 LOH: LAU # 4 Lohja toinen aste
 POR: LAU # 5 Porvoo toinen aste
 OPE: LAU # 7 Laurean opettajahankinnat
-_DEFAULT_: warning()
+_DEFAULT_: LAU
