@@ -9,39 +9,39 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-EVO: "" # XEVTEK ostetut (EI KÄYT.)
-MBS: "" # Mercuriasta Myyrmäkeen
-EVI: "" # XEVTEK ilmaiset (EI KÄYT.
-SV: "" #  XStadia vanhat (EI KÄYT.)
-EV: "" #  XEVTEK vanhat (EI KÄYT.)
-AT0: "" # Agricolank. Tikkurilaan
-AL2: "" # Agricolank. Laureaan 2
-AL1: "" # Agricolank. Laurea1
-MO: "" #  Metropolia ostetut                                                                                                                                                           
-MI: "" #  Metropolia ilmaiset
-LT1: "" # Laureasta Tikkurilaan
-OM: "" #  Metropolia opinnäytetyöt
-SO: "" #  Sofianlehdosta Tukholmank
-TU: "" #  Tukholmankadulta Sofianle
-AM: "" #  Agricolank. Myyrmäkeen
-MB: "" #  Myyrmäestä Bulevardille
-OL: "" #  Onnentieltä Leiritielle
-TA: "" #  Tikkurilasta Agrille
-MT: "" #  Manskulta Tukholle
-MV: "" #  Manskulta Viertotielle
-MK: "" #  Manskulta käsikirjastoon
-BM: "" #  Bulelta Myrtsiin                                                                                                                                                             
-BS: "" #  Bulelta Soffariin
-BT: "" #  Bulelta Tiksiin
-BL: "" #  Bulelta Lepuskiin
-AB: "" #  Bulelle takaisin
-BTU: "" # Bulelta tukholle
-ML: "" #  Myyrmäestä Leppävaaraan
-AR: "" #  Arabian kampukselle
+EVO: MET # XEVTEK ostetut (EI KÄYT.)
+MBS: MET # Mercuriasta Myyrmäkeen
+EVI: MET # XEVTEK ilmaiset (EI KÄYT.
+SV: MET #  XStadia vanhat (EI KÄYT.)
+EV: MET #  XEVTEK vanhat (EI KÄYT.)
+AT0: MET # Agricolank. Tikkurilaan
+AL2: MET # Agricolank. Laureaan 2
+AL1: MET # Agricolank. Laurea1
+MO: MET #  Metropolia ostetut
+MI: MET #  Metropolia ilmaiset
+LT1: MET # Laureasta Tikkurilaan
+OM: MET #  Metropolia opinnäytetyöt
+SO: MET #  Sofianlehdosta Tukholmank
+TU: MET #  Tukholmankadulta Sofianle
+AM: MET #  Agricolank. Myyrmäkeen
+MB: MET #  Myyrmäestä Bulevardille
+OL: MET #  Onnentieltä Leiritielle
+TA: MET #  Tikkurilasta Agrille
+MT: MET #  Manskulta Tukholle
+MV: MET #  Manskulta Viertotielle
+MK: MET #  Manskulta käsikirjastoon
+BM: MET #  Bulelta Myrtsiin
+BS: MET #  Bulelta Soffariin
+BT: MET #  Bulelta Tiksiin
+BL: MET #  Bulelta Lepuskiin
+AB: MET #  Bulelle takaisin
+BTU: MET # Bulelta tukholle
+ML: MET #  Myyrmäestä Leppävaaraan
+AR: MET #  Arabian kampukselle
 PJO: PJK # PJK ostetut
 PJI: PJK # PJK ilmaiset
 PJK: PJK # PJK
-MY: "" #  Myllypuro
-LE: KARAMALMI #  Leppävaara
+MY: MET #  Myllypuro
+LE: KAR #  Leppävaara
 
 _DEFAULT_: warning()
