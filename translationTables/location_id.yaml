@@ -11,6 +11,7 @@
 ## Hankintalokaatiot mapattu niin, että ei siirretä Kohaan
 ## Lainaus- ja luettelointilokaatiot mapattu kirjastoon, jossa lainaus tapahtuu; esim. Pasilan lainaus, HHPAS
 
+0: branchLoc(HHPAS)
 1: branchLoc(EI_KOHAAN,EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
 2: branchLoc(EI_KOHAAN,EI_KOHAAN) # Heliaomain Oulunkylä, yleiskokoelma, laina-aika 14 vrk
