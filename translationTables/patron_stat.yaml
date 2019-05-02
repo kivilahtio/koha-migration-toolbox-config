@@ -53,7 +53,7 @@
 45: DMC # Kul, muotoilu
 46: F #   Ulkop, muu amk hlökunta
 47: DMC #  Kul, yleinen
-48: P #  Opintopassi  - EI SIIRRETÄ, näitä ei pitäisi olla lainkaan
+48: EI_KOHAAN #  Opintopassi  - EI SIIRRETÄ, näitä ei pitäisi olla lainkaan
 49: DMA # Tek, materiaali&pintakäs.
 50: DMC # Kul, teollinen muotoilu
 51: O #   Kaukopalvelu, ulkomainen
