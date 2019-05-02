@@ -197,7 +197,7 @@
 +CIRCAUTO0: ref(95)
 97: branchLoc(LAUWWW)		#LAUEL     ,Verkkoaineistot
 +LAUEL: ref(97)
-99: branchLoc(KONVERSIO,KONVERSIO)		#LAUVEMA   ,Laurea verkkomaksu
+99: branchLoc(EI_KOHAAN,EI_KOHAAN)		#LAUVEMA   ,Laurea verkkomaksu
 +LAUVEMA: ref(99)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa loytamattomat
