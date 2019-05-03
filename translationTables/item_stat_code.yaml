@@ -10,12 +10,12 @@
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
 KU: HH # Kurssikirja / AMK, mapataan HH
-LAH: "" # Lahjoitus, ei tarvita enää
+LAH: EI_KOHAAN # Lahjoitus, ei tarvita enää
 LAU: LAU # Laurea-kirjaston hankinta
 OPE: LAU # Laurean opettajahankinnat
-PRV: "" # HH Porvoon niteet, ei tarvita enää
+PRV: EI_KOHAAN # HH Porvoon niteet, ei tarvita enää
 LTL: LAU # Laurea thesis tai lahja
 HH: HH # Haaga-Helian niteet
 SUO: HH # Vierumäen LPT-niteet
 
-_DEFAULT_: warning()
+_DEFAULT_: HH
