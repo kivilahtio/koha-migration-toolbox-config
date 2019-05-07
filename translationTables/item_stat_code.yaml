@@ -44,4 +44,4 @@ PJK: PJK # PJK
 MY: MET #  Myllypuro
 LE: KAR #  Leppävaara
 
-_DEFAULT_: warning()
+_DEFAULT_: MET
