@@ -10,6 +10,7 @@
 ##: listassa siis ensin branchcode (esim. METARA = Metropolian Arabian kampus), LOC= shelving location eli Voyagerin kokoelma, hyllypaikka esim. käsikirjasto 
 
 
+0: branchLoc(METMYL)
 1: branchLoc(EI_KOHAAN,EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
 2: branchLoc(METARA,YLEIS) # mettiHA    Arabia: Hankinnassa | On order
