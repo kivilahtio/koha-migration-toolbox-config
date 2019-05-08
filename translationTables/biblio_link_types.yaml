@@ -78,5 +78,7 @@ ALEPH2:
   do: 0
 '':
   do: 0
+EMO:
+  do: 0
 
 _DEFAULT_: warning()
