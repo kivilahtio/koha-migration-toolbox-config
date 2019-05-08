@@ -42,10 +42,10 @@ defaultReplacementPrice: 0
 organizationISILCode: FI-X
 
 # Set the Patron home library to this value for all patrons. Leave empty to use the LocationId-translation table.
-patronHomeLibrary:
+patronHomeLibrary: NRL
 
 # How many expiry years to add for patron account if expiry date is not defined in Voyager
-patronAddExpiryYears: 2
+patronAddExpiryYears: 50
 
 # Which strategy to use to validate phone numbers
 # See MMT::Validator::Phone for available strategies
