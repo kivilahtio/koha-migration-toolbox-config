@@ -13,25 +13,16 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-1: HK        #Henkilökunta
-2: KOT       #Kotimaiset kirjastot
-3: UL        #Ulkomaalaiset kirjastot
-4: NK        #Näkövammaiset
-5: AT        #Asiakastoiminen kp
-8: VARK      #Varastoihmiset
-9: K_VARK    #K_VARK Koha virkailija
-
-
-##7: A #   Henkilökunta
-##8: IYO # Yliopistokirjastot
-##9: IYR # Yrityskirjastot
-##10: IYK # Yleiset kirjastot
-##11: IER # Erikoiskirjastot
-##12: JPO # Pohjoismaiset kirjastot
-##13: IAC # Näkövammaiset
-##14: JMU # Muut ulkomaiset kirjastot
-##15: IAM # Ammattikorkeakirjastot
-##16: IAT # Asiakastoiminen kaukopalv
-##17: TUT # Tutkijat
-##18: YMK # Tiedekirjastot
-##19: VAR # Varastoihmiset
+7: A #   Henkilökunta
+8: IYO # Yliopistokirjastot
+9: IYR # Yrityskirjastot
+10: IYK # Yleiset kirjastot
+11: IER # Erikoiskirjastot
+12: JPO # Pohjoismaiset kirjastot
+13: IAC # Näkövammaiset
+14: JMU # Muut ulkomaiset kirjastot
+15: IAM # Ammattikorkeakirjastot
+16: IAT # Asiakastoiminen kaukopalv
+17: TUT # Tutkijat
+18: YMK # Tiedekirjastot
+19: VAR # Varastoihmiset
