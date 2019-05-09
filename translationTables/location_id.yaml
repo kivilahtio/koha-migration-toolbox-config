@@ -287,7 +287,7 @@
 +metmpYK: ref(144)
 145: branchLoc(METMYL,LYHYT) # metmpPIKA  Myllypuro: Viikon laina | One week loan
 +metmpPIKA: ref(145)
-146: branchLoc(EI_KOHAAN_EI_KOHAAN) # metmpONT   Myllypuro: opinnäytetyöt | Thesis
+146: branchLoc(EI_KOHAAN, EI_KOHAAN) # metmpONT   Myllypuro: opinnäytetyöt | Thesis
 +metmpONT: ref(146)
 147: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmpLU    Myllypuro luettelointi happening location, ei niteitä
 +metmpLU: ref(147)
