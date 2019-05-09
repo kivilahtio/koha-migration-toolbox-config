@@ -67,13 +67,13 @@
 +metleKK: ref(30)
 32: branchLoc(METESP,OPINN) # metleONT   Leppävaara: Opinnäytetyöt | Theses - muuttokokoelma, korjautuisiko Finnatekstillä sijainti kuntoon? Muuttaa Espooseen Arabian varastosta vuoden lopussa.
 +metleONT: ref(32)
-33: branchLoc(METVAR,OPINN2) # metleVAR   Leppävaara: Varasto, ei lainata | Storage, not for loan
+33: branchLoc(METVAR,YLEIS) # metleVAR   Leppävaara: Varasto, ei lainata | Storage, not for  -muutettu 8.5.19
 +metleVAR: ref(33)
 34: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleAV    Leppävaara: Videot | Videos, ei pitäisi sisältää niteitä
 +metleAV: ref(34)
 35: branchLoc(METMYY,YLEIS) # metleVIR   Leppävaara, lainausoikeus rajoitettu 
 +metleVIR: ref(35)
-36: branchLoc(METMYY,YLEIS) # metleYK    Leppävaara: 4 viikon laina | 4 week loan  -vai METESP ja Finnateksteillä sijainti kuntoon? Muuttaa Espooseen vuoden lopussa,                                                                                                                              
+36: branchLoc(METMYY,YLEIS) # metleYK    Leppävaara: 4 viikon laina | 4 week loan                                                                                                                                
 +metleYK: ref(36)
 37: branchLoc(METMYY,LYHYT) # metmyCDROM Myyrmäki, KYSY HENKILÖKUNNALTA
 +metmyCDROM: ref(37)
@@ -181,23 +181,23 @@
 +metmyLEH: ref(89)
 90: branchLoc(METARA,LEHDET) # mettiLEH   Arabia: Lehdet | Journals
 +mettiLEH: ref(90)
-91: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagLA    Agricolankatu lainaus, happening location, ei niteitä
+91: branchLoc(METMYL) # metagLA    Agricolankatu lainaus, happening location, ei niteitä
 +metagLA: ref(91)
-92: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuLA    Bulevardi lainaus happening location, ei niteitä
+92: branchLoc(METMYY) # metbuLA    Bulevardi lainaus happening location, ei niteitä
 +metbuLA: ref(92)
-93: branchLoc(EI_KOHAAN,EI_KOHAAN) # metleLA    Leppävaara lainaus, happening location, ei niteitä
+93: branchLoc(METMYY) # metleLA    Leppävaara lainaus, happening location, ei niteitä
 +metleLA: ref(93)
-94: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmyLA    Myyrmäki lainaus, happening location, ei niteitä
+94: branchLoc(METMYY) # metmyLA    Myyrmäki lainaus, happening location, ei niteitä
 +metmyLA: ref(94)
-95: branchLoc(EI_KOHAAN,EI_KOHAAN) # metonLA    Onnentie lainaus, happening location, ei niteitä
+95: branchLoc(METMYL) # metonLA    Onnentie lainaus, happening location, ei niteitä
 +metonLA: ref(95)
-96: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoLA    Sofianlehto lainaus, happening location, ei niteitä
+96: branchLoc(METMYL) # metsoLA    Sofianlehto lainaus, happening location, ei niteitä
 +metsoLA: ref(96)
-97: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettiLA    Arabia lainaus, happening location, ei niteitä
+97: branchLoc(METARA) # mettiLA    Arabia lainaus, happening location, ei niteitä
 +mettiLA: ref(97)
-98: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuLA    Tukholmankatu lainaus, happening location, ei niteitä
+98: branchLoc(METMYL) # mettuLA    Tukholmankatu lainaus, happening location, ei niteitä
 +mettuLA: ref(98)
-99: branchLoc(EI_KOHAAN,EI_KOHAAN) # metviLA    Viertotie lainaus, happening location, ei niteitä
+99: branchLoc(METMYL) # metviLA    Viertotie lainaus, happening location, ei niteitä
 +metviLA: ref(99)
 100: branchLoc(EI_KOHAAN,EI_METAUTO) # metagAU    Agricolankatu automaatti   , ei luultavasti käytössä, tarkistetaan 12.4.19SP
 +metagAU: ref(100)
@@ -281,13 +281,13 @@
 +metagINV: ref(141)
 142: branchLoc(METMYY) # metmyAU3
 +metmyAU3: ref(142)
-143: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmpLA    Myllypuro lainaus,  happening location, ei niteitä                                                                                                                                                      
+143: branchLoc(METMYL) # metmpLA    Myllypuro lainaus,  happening location, ei niteitä                                                                                                                                                      
 +metmpLA: ref(143)
 144: branchLoc(METMYL,YLEIS) # metmpYK    Myllypuro: Neljan viikon laina | Four week loan
 +metmpYK: ref(144)
 145: branchLoc(METMYL,LYHYT) # metmpPIKA  Myllypuro: Viikon laina | One week loan
 +metmpPIKA: ref(145)
-146: branchLoc(METMYL,OPINN) # metmpONT   Myllypuro: opinnäytetyöt | Thesis
+146: branchLoc(EI_KOHAAN_EI_KOHAAN) # metmpONT   Myllypuro: opinnäytetyöt | Thesis
 +metmpONT: ref(146)
 147: branchLoc(EI_KOHAAN,EI_KOHAAN) # metmpLU    Myllypuro luettelointi happening location, ei niteitä
 +metmpLU: ref(147)
