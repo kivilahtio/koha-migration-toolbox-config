@@ -13,24 +13,24 @@
 
 #Mapataan patron_stat_coden mukaan PATRON_STAT_GROUPS arvoihin:
 #PATRON_STAT_ID,PATRON_STAT_CODE,PATRON_STAT_DESC
-7: BO #  Åbo Akademi Vasa staff
+7: BW #  Åbo Akademi Vasa staff
 8: U #   Others
-10: EO #  Åbo Akademi Vasa student
+10: EW #  Åbo Akademi Vasa student
 11: BV #  VY staff
 12: EV #  VY student
 13: I #   University other: staff
-14: EVA # VY open: student
+14: EVO # VY open: student
 15: U #   ÄLÄ KÄYTÄ AMKot:staffstud --> H > U 
-17: BH #  Hanken Vaasa staff
-19: EH #  Hanken Vaasa student                                                                                                                                                       
-20: IQ #  Åbo Akademi Turku: staff
+17: BU #  Hanken Vaasa staff
+19: EU #  Hanken Vaasa student                                                                                                                                                       
+20: IW #  Åbo Akademi Turku: staff
 21: J #   University other: student
-24: "N" #   ILL customer in Finland
-27: JQ #  Åbo Akademi Turku:student
-54: IZ #  Hanken Helsinki: staff
-55: EHA # Hanken Vaasa open:student
-56: EOA # Åbo Akademi Vasa open:stu
-57: JZ #  Hanken Helsinki: student
+24: N #   ILL customer in Finland
+27: JW #  Åbo Akademi Turku:student
+54: IU #  Hanken Helsinki: staff
+55: EUO # Hanken Vaasa open:student
+56: EWO # Åbo Akademi Vasa open:stu
+57: JU #  Hanken Helsinki: student
 58: DYT # ÄLÄKÄYTÄNovia:staff/stude
 59: DX #  ÄLÄKÄYTÄVAMK:staff/studen
 60: P #   School other:staff/studen                                                                                                                                                  
@@ -56,10 +56,10 @@
 88: AYV # YH Novia Vasa staff
 89: GYA # YH Novia Åbo student --> DYA > GYA
 90: FYA # YH Novia Åbo staff --> AYA > FYA
-91: EO # Åbo Akademi Jstd stuÄLÄ K --> EOJ > EO
-92: BO # Åbo Akademi Jstd staÄLÄ K --> BOJ > BO
-93: ACJ # Centria Jakobstad staff                                                                                                                                                    
-94: DCJ # Centria Jakobstad student
+91: EW # Åbo Akademi Jstd stuÄLÄ K --> EOJ > EW
+92: BW # Åbo Akademi Jstd staÄLÄ K --> BOJ > BW
+93: AZ # Centria Jakobstad staff                                                                                                                                                    
+94: DZ # Centria Jakobstad student
 95: T #   Media
 96: F #   AMK other: staff
 97: G #   AMK other: student
