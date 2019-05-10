@@ -244,7 +244,7 @@
 +Porvooref: ref(115)
 116: branchLoc(PORV,LYHYT) # Porvooshor Porvoo, lyhytlaina, 14 vrk - Short loan 14 days
 +Porvooshor: ref(116)
-117: branchLoc(KONVERSIO,KONVERSIO) # Porvoostaf Porvoo, Laurean henkilökunnan käytössä - Staff use only                                                                                                                
+117: branchLoc(EI_KOHAAN,EI_PORVOO) # Porvoostaf Porvoo, Laurean henkilökunnan käytössä - Staff use only                                                                                                                
 +Porvoostaf: ref(117)
 118: branchLoc(PORV,OPINN) # Porvoothes Porvoo, opinnäytetyöt, 14 vrk - Thesis, 14 days
 +Porvoothes: ref(118)
