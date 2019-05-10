@@ -1,25 +1,25 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1: branchLoc(KONVERSIO, KONVERSIO) # REVIEW     Kysy virkailijalta - Fråga personalen (REVIEW)
+1: branchLoc(EI_KOHAAN, EI_KOHAAN) # REVIEW     Kysy virkailijalta - Fråga personalen (REVIEW)
 +REVIEW: ref(1)
-2: branchLoc(KONVERSIO, KONVERSIO) # V100       Kysy virkailijalta-Fråga personalen (VYK:n kokoelma 100)
+2: branchLoc(EI_KOHAAN, EI_KOHAAN) # V100       Kysy virkailijalta-Fråga personalen (VYK:n kokoelma 100)
 +V100: ref(2)
-3: branchLoc(KONVERSIO, KONVERSIO) # V110       Kysy virkailijalta-Fråga personalen(VYK:n yleiskokoelma 110)
+3: branchLoc(EI_KOHAAN, EI_KOHAAN) # V110       Kysy virkailijalta-Fråga personalen(VYK:n yleiskokoelma 110)
 +V110: ref(3)
 4: branchLoc(TRITO, BOOKEDU) # bookEdu    1. krs-vån ED Pedagogik-Kasvatustiede-Education                                                                                                                        
 +bookEdu: ref(4)
 5: branchLoc(TRITO, BOOKBUS) # bookBus    3. krs-vån BU Taloustieteet-Ekonomi-Economics
 +bookBus: ref(5)
-6: branchLoc(KONVERSIO, KONVERSIO) # bookNat    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
+6: branchLoc(EI_KOHAAN, EI_KOHAAN) # bookNat    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
 +bookNat: ref(6)
 7: branchLoc(TRITO, BOOKTEC) # bookTec    3. krs-vån TE Tekniikka,luonnontiede-Teknik,naturvetenskap
 +bookTec: ref(7)
 8: branchLoc(TRITO, JOURNALS) # jourSTOCK  1. krs-vån Lehdet-Tidskr.-Journals, EI LAIN.-LÅN. EJ
 +jourSTOCK: ref(8)
-9: branchLoc(KONVERSIO, KONVERSIO) # VBIBLIOGRA 1. krs-vån Varasto-Magasin K114, Bibliografiat, EI LAINATA
+9: branchLoc(EI_KOHAAN, EI_KOHAAN) # VBIBLIOGRA 1. krs-vån Varasto-Magasin K114, Bibliografiat, EI LAINATA
 +VBIBLIOGRA: ref(9)
-10: branchLoc(KONVERSIO, KONVERSIO) # VSARJAT    Kysy virkailijalta-Fråga personalen (vanha kok. 115 SARJAT)
+10: branchLoc(EI_KOHAAN, EI_KOHAAN) # VSARJAT    Kysy virkailijalta-Fråga personalen (vanha kok. 115 SARJAT)
 +VSARJAT: ref(10)
 11: branchLoc(TRITO, SERIALS) # Vseries08  1. krs-vån Sarjat-Serier
 +Vseries08: ref(11)
@@ -27,13 +27,13 @@
 +bookSoc: ref(12)
 13: branchLoc(TRITO, BOOKHUM) # bookHum    1. krs-vån HU Humanistiset tieteet-Humaniora-Humanities
 +bookHum: ref(13)
-14: branchLoc(KONVERSIO, KONVERSIO) # V120       Kysy virkailijalta-Fråga personalen(VYK vanha käsik.kok.120)
+14: branchLoc(EI_KOHAAN, EI_KOHAAN) # V120       Kysy virkailijalta-Fråga personalen(VYK vanha käsik.kok.120)
 +V120: ref(14)
 15: branchLoc(TRITO, REFEDU) # refEdu     1. krs-vån ED Pedagogik-Kasvatustiede LÅNAS EJ-EI LAINATA
 +refEdu: ref(15)
-16: branchLoc(KONVERSIO, KONVERSIO) # refBus     3. krs-vån BU Taloustieteet-Ekonomi, EI LAINATA-LÅNAS EJ
+16: branchLoc(EI_KOHAAN, EI_KOHAAN) # refBus     3. krs-vån BU Taloustieteet-Ekonomi, EI LAINATA-LÅNAS EJ
 +refBus: ref(16)
-17: branchLoc(KONVERSIO, KONVERSIO) # refNat     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ                                                                                                                  
+17: branchLoc(EI_KOHAAN, EI_KOHAAN) # refNat     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ                                                                                                                  
 +refNat: ref(17)
 18: branchLoc(TRITO, REFTEC) # refTec     3. krs-vån TE Tekniikka - Teknik, EI LAINATA-LÅNAS EJ
 +refTec: ref(18)
@@ -41,7 +41,7 @@
 +refHum: ref(19)
 20: branchLoc(TRITO, REFSOC) # refSoc     4. krs-vån SO Yhteiskuntat.-Samh.vetensk.EI LAINATA-LÅNAS EJ
 +refSoc: ref(20)
-21: branchLoc(KONVERSIO, KONVERSIO) # refGen     1. krs-vån GE Käsikirjat-Referensböcker,EI LAINATA-LÅNAS EJ
+21: branchLoc(EI_KOHAAN, EI_KOHAAN) # refGen     1. krs-vån GE Käsikirjat-Referensböcker,EI LAINATA-LÅNAS EJ
 +refGen: ref(21)
 22: branchLoc(TRITO, VPUBL) # Vpubl      1. krs-vån GE Vaasan yliopiston,Tritonian julk.-publ,EI LAIN
 +Vpubl: ref(22)
@@ -57,7 +57,7 @@
 +serEdu: ref(27)
 28: branchLoc(TRITO, SERIALS) # serBus     3. krs-vån BU Taloustieteet-Ekonomi-Economics Sarjat-Serier
 +serBus: ref(28)
-29: branchLoc(KONVERSIO, KONVERSIO) # serNat     3. krs-vån Vanha luonnontiedekokoelma
+29: branchLoc(EI_KOHAAN, EI_KOHAAN) # serNat     3. krs-vån Vanha luonnontiedekokoelma
 +serNat: ref(29)
 30: branchLoc(TRITO, SERIALS) # serTec     3. krs-vån TE Tekniikka,luonnont.-Teknik,naturvetensk.SERIES                                                                                                           
 +serTec: ref(30)
@@ -67,11 +67,11 @@
 +serSoc: ref(32)
 33: branchLoc(TRITO, DICTIONARIES) # dictioninf 1. krs-vån-1st floor GE Sanakirjat-Ordböcker-Dictionaries
 +dictioninf: ref(33)
-34: branchLoc(KONVERSIO, KONVERSIO) # V160       Kysy virkailijalta-Fråga personalen (VYK:n vanha kok.160)
+34: branchLoc(EI_KOHAAN, EI_KOHAAN) # V160       Kysy virkailijalta-Fråga personalen (VYK:n vanha kok.160)
 +V160: ref(34)
 35: branchLoc(TRITO, VTHESGRADU) # VthesGradu 1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesLAUD
 +VthesGradu: ref(35)
-36: branchLoc(KONVERSIO, KONVERSIO) # Vthesmfill 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina.T111(kauk)                                                                                                           
+36: branchLoc(EI_KOHAAN, EI_KOHAAN) # Vthesmfill 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina.T111(kauk)                                                                                                           
 +Vthesmfill: ref(36)
 37: branchLoc(TRITO, VTHESARCHIVE) # Vthesmfinf 1. krs-vån VY Opinnäytteet 1990-95 mikrokortteina. K110
 +Vthesmfinf: ref(37)
@@ -79,17 +79,17 @@
 +VthesLic: ref(38)
 39: branchLoc(TRITO, VTHESDISS) # VthesDoct  1. krs-vån-1st floor VY Opinnäytteet-Avhandlingar-ThesesDISS
 +VthesDoct: ref(39)
-40: branchLoc(KONVERSIO, KONVERSIO) # otherrec   2. krs Lainaus - Utlåning, Muut tallenteet
+40: branchLoc(EI_KOHAAN, EI_KOHAAN) # otherrec   2. krs Lainaus - Utlåning, Muut tallenteet
 +otherrec: ref(40)
-41: branchLoc(KONVERSIO, KONVERSIO) # audiovis    Cataloging
+41: branchLoc(EI_KOHAAN, EI_KOHAAN) # audiovis    Cataloging
 +audiovis: ref(41)
-42: branchLoc(KONVERSIO, KONVERSIO) # datarec    datarec
+42: branchLoc(EI_KOHAAN, EI_KOHAAN) # datarec    datarec
 +datarec: ref(42)
-43: branchLoc(KONVERSIO, KONVERSIO) # datarecref CD-ROM-levyt-CD-ROM-skivor, EI LAINATA-LÅNAS EJ
+43: branchLoc(EI_KOHAAN, EI_KOHAAN) # datarecref CD-ROM-levyt-CD-ROM-skivor, EI LAINATA-LÅNAS EJ
 +datarecref: ref(43)
-44: branchLoc(KONVERSIO, KONVERSIO) # microform  2. krs-vån Kaukopalvelu-Fjärrlån                                                                                                                                       
+44: branchLoc(EI_KOHAAN, EI_KOHAAN) # microform  2. krs-vån Kaukopalvelu-Fjärrlån                                                                                                                                       
 +microform: ref(44)
-45: branchLoc(KONVERSIO, KONVERSIO) # lodman     Lodman-kok. Varasto. Ei lainata - lånas ej
+45: branchLoc(EI_KOHAAN, EI_KOHAAN) # lodman     Lodman-kok. Varasto. Ei lainata - lånas ej
 +lodman: ref(45)
 46: branchLoc(TRITO, QLEISTEN) # leisten    1. krs-vån Leistén - K114
 +leisten: ref(46)
@@ -97,15 +97,15 @@
 +euBook: ref(47)
 48: branchLoc(TRITO, JOURNALS) # euJour     1. krs-vån EU-lehdet-tskr Tiivishyllyt-Kompakthyllor EI LAIN
 +euJour: ref(48)
-49: branchLoc(KONVERSIO, KONVERSIO) # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
+49: branchLoc(EI_KOHAAN, EI_KOHAAN) # euRef      1. krs-vån EU-käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
 +euRef: ref(49)
-50: branchLoc(KONVERSIO, KONVERSIO) # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
+50: branchLoc(EI_KOHAAN, EI_KOHAAN) # euStatref  1. krs-vån EU-tilastot - EU-statistik, EI LAINATA-LÅNAS EJ
 +euStatref: ref(50)
 51: branchLoc(TRITO, TPROJECTS) # Vprojects  Projekti, Ei voi varata-Kan ej reserveras-Cannot be reserved                                                                                                           
 +Vprojects: ref(51)
 52: branchLoc(TRITO, TWORKROOM) # Vworkroom  Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
 +Vworkroom: ref(52)
-53: branchLoc(KONVERSIO, KONVERSIO) # HserBus    3. krs-vån BU Hankenin poistuva sarjako
+53: branchLoc(EI_KOHAAN, EI_KOHAAN) # HserBus    3. krs-vån BU Hankenin poistuva sarjako
 +HserBus: ref(53)
 54: branchLoc(TRITO, UTHES) # HthesGradu 1. krs-vån SHH Opinnäytteet-Avhandlingar-Theses, LÅNAS EJ
 +HthesGradu: ref(54)
@@ -157,25 +157,25 @@
 +VYviest: ref(77)
 78: branchLoc(TRITO, VINST) # VYviestSem VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
 +VYviestSem: ref(78)
-79: branchLoc(KONVERSIO, KONVERSIO) # OHinst     Åbo Akademi Vasa inst.samling - laitoskokoelma
+79: branchLoc(EI_KOHAAN, EI_KOHAAN) # OHinst     Åbo Akademi Vasa inst.samling - laitoskokoelma
 +OHinst: ref(79)
 80: branchLoc(TRITO, WTHES) # OHthesGrad 1. krs-vån ÅA Vasa Avhandl.-Opinnäytt.-Theses,  LÅNAS EJ
 +OHthesGrad: ref(80)
-81: branchLoc(KONVERSIO, KONVERSIO) # OHinstkurs Åbo Akademi Vasa inst. - laitos, Kursböcker-Kurssikirjat
+81: branchLoc(EI_KOHAAN, EI_KOHAAN) # OHinstkurs Åbo Akademi Vasa inst. - laitos, Kursböcker-Kurssikirjat
 +OHinstkurs: ref(81)
-82: branchLoc(KONVERSIO, KONVERSIO) # OHserier   1. krs-vån ED Serier - Sarjat
+82: branchLoc(EI_KOHAAN, EI_KOHAAN) # OHserier   1. krs-vån ED Serier - Sarjat
 +OHserier: ref(82)
-83: branchLoc(KONVERSIO, KONVERSIO) # OHarbetsm  Fråga personalen - Kysy virkailijalta, 1. krs.-vån
+83: branchLoc(EI_KOHAAN, EI_KOHAAN) # OHarbetsm  Fråga personalen - Kysy virkailijalta, 1. krs.-vån
 +OHarbetsm: ref(83)
 84: branchLoc(TRITO, QLYCEI) # OH-Lycei   1. krs-vån Vasa svenska lyceums bibliotek - kirjasto                                                                                                                   
 +OH-Lycei: ref(84)
-85: branchLoc(KONVERSIO, KONVERSIO) # OH-BI      Jakobstad-Pietarsaari Allegro
+85: branchLoc(EI_KOHAAN, EI_KOHAAN) # OH-BI      Jakobstad-Pietarsaari Allegro
 +OH-BI: ref(85)
-86: branchLoc(KONVERSIO, KONVERSIO) # OH-BIref   Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
+86: branchLoc(EI_KOHAAN, EI_KOHAAN) # OH-BIref   Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
 +OH-BIref: ref(86)
-87: branchLoc(KONVERSIO, KONVERSIO) # OH-BIkursb Jakobstad-Pietarsaari Allegro Kursböcker-Kurssikirjat-Textb.
+87: branchLoc(EI_KOHAAN, EI_KOHAAN) # OH-BIkursb Jakobstad-Pietarsaari Allegro Kursböcker-Kurssikirjat-Textb.
 +OH-BIkursb: ref(87)
-88: branchLoc(KONVERSIO, KONVERSIO) # OH-BIser   Jakobstad-Pietarsaari Allegro
+88: branchLoc(EI_KOHAAN, EI_KOHAAN) # OH-BIser   Jakobstad-Pietarsaari Allegro
 +OH-BIser: ref(88)
 89: branchLoc(TRITO, VINST) # VYLML      VYn laitoskokoelma (vanh.), FOR TEACHERS ONLY
 +VYLML: ref(89)
@@ -209,25 +209,25 @@
 +VYopintots: ref(103)
 104: branchLoc(TRITO, VINST) # VYhallinto Vaasan yliopisto - Vaasa University, FOR STAFF ONLY                                                                                                                    
 +VYhallinto: ref(104)
-105: branchLoc(KONVERSIO, KONVERSIO) # LAINAUS    Lainaus Yliopistonranta
+105: branchLoc(TRITO) # LAINAUS    Lainaus Yliopistonranta
 +LAINAUS: ref(105)
-106: branchLoc(KONVERSIO, KONVERSIO) # Hankinta   Hankinta
+106: branchLoc(EI_KOHAAN, EI_KOHAAN) # Hankinta   Hankinta
 +Hankinta: ref(106)
-107: branchLoc(KONVERSIO, KONVERSIO) # SELF       Lainausautomaatti
+107: branchLoc(TRITO) # SELF       Lainausautomaatti
 +SELF: ref(107)
-108: branchLoc(KONVERSIO, KONVERSIO) # HU_ACQ     HU_ACQ
+108: branchLoc(EI_KOHAAN, EI_KOHAAN) # HU_ACQ     HU_ACQ
 +HU: ref(108)
-109: branchLoc(KONVERSIO, KONVERSIO) # BU_ACQ     BU_ACQ
+109: branchLoc(EI_KOHAAN, EI_KOHAAN) # BU_ACQ     BU_ACQ
 +BU: ref(109)
-110: branchLoc(KONVERSIO, KONVERSIO) # TE_ACQ     TE_ACQ
+110: branchLoc(EI_KOHAAN, EI_KOHAAN) # TE_ACQ     TE_ACQ
 +TE: ref(110)
-111: branchLoc(KONVERSIO, KONVERSIO) # SO_ACQ     SO_ACQ
+111: branchLoc(EI_KOHAAN, EI_KOHAAN) # SO_ACQ     SO_ACQ
 +SO: ref(111)
 112: branchLoc(TRITO, JOURNALS) # jourBus    3. krs-vån BU Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourBus: ref(112)
 113: branchLoc(TRITO, JOURNALS) # jourTec    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourTec: ref(113)
-114: branchLoc(KONVERSIO, KONVERSIO) # jourNat    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ                                                                                                           
+114: branchLoc(EI_KOHAAN, EI_KOHAAN) # jourNat    3. krs-vån TE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ                                                                                                           
 +jourNat: ref(114)
 115: branchLoc(TRITO, JOURNALS) # jourEdu    1. krs-vån ED Tidskrifter-Lehdet-Journals EI LAIN.-LÅNAS EJ
 +jourEdu: ref(115)
@@ -237,7 +237,7 @@
 +jourSoc: ref(117)
 118: branchLoc(TRITO, JOURNEWSP) # jourGen    2. krs-vån GE Lehdet -Tidskrifter-Journals EI LAIN.-LÅNAS EJ
 +jourGen: ref(118)
-119: branchLoc(KONVERSIO, KONVERSIO) # OHbrander  ÅAV Stip. Kan ej reserveras-Ei voi varata-Can't be reserved
+119: branchLoc(EI_KOHAAN, EI_KOHAAN) # OHbrander  ÅAV Stip. Kan ej reserveras-Ei voi varata-Can't be reserved
 +OHbrander: ref(119)
 120: branchLoc(TRITO, WINST) # OHinst0    Åbo Akademi i Vasa - FOR TEACHERS ONLY                                                                                                                                 
 +OHinst0: ref(120)
@@ -247,7 +247,7 @@
 +OHpubl: ref(122)
 123: branchLoc(TRITO, VINST) # VYtietolii Vaasan yliopisto - Vaasa University, FOR TEACHERS ONLY
 +VYtietolii: ref(123)
-124: branchLoc(KONVERSIO, KONVERSIO) # ED_ACQ     ED_ACQ
+124: branchLoc(EI_KOHAAN, EI_KOHAAN) # ED_ACQ     ED_ACQ
 +ED: ref(124)
 125: branchLoc(TRITO, TWORKROOM) # oppimisk   Virkakäytössä - I tjänstebruk - FOR STAFF ONLY
 +oppimisk: ref(125)
@@ -265,31 +265,31 @@
 +SHHredov: ref(131)
 132: branchLoc(TRITO, UINST) # SHHsprak   SHH institution - SHH:n laitos, FOR TEACHERS ONLY
 +SHHsprak: ref(132)
-133: branchLoc(KONVERSIO, KONVERSIO) # Hprojects  Projekt, Kan ej reserveras-Ei voi varata-Cannot be reserved
+133: branchLoc(EI_KOHAAN, EI_KOHAAN) # Hprojects  Projekt, Kan ej reserveras-Ei voi varata-Cannot be reserved
 +Hprojects: ref(133)
-134: branchLoc(KONVERSIO, KONVERSIO) # OH-HSkursb ÅA Vasa inst., Helsingfors - ÅA Vasan laitos, Helsinki                                                                                                                 
+134: branchLoc(EI_KOHAAN, EI_KOHAAN) # OH-HSkursb ÅA Vasa inst., Helsingfors - ÅA Vasan laitos, Helsinki                                                                                                                 
 +OH-HSkursb: ref(134)
-135: branchLoc(KONVERSIO, KONVERSIO) # OH-HSref   ÅA Vasa inst., Helsingfors - ÅA Vasan laitos, Hki, LÅNAS EJ
+135: branchLoc(EI_KOHAAN, EI_KOHAAN) # OH-HSref   ÅA Vasa inst., Helsingfors - ÅA Vasan laitos, Hki, LÅNAS EJ
 +OH-HSref: ref(135)
-136: branchLoc(KONVERSIO, KONVERSIO) # studia     2. krs-vån STUDIA
+136: branchLoc(EI_KOHAAN, EI_KOHAAN) # studia     2. krs-vån STUDIA
 +studia: ref(136)
 137: branchLoc(TRITO, QPALOMAKI) # Vpalomaki  4. krs-vån SO Mauri Palomäen kokoelma
 +Vpalomaki: ref(137)
-138: branchLoc(KONVERSIO, KONVERSIO) # serTri     Katso kokoelma sarjan osan tiedoista
+138: branchLoc(EI_KOHAAN, EI_KOHAAN) # serTri     Katso kokoelma sarjan osan tiedoista
 +serTri: ref(138)
 139: branchLoc(TRITO, QPETTERBOOK) # pettersson 1. krs-vån Varasto-Magasin K114 Petterssons samling
 +pettersson: ref(139)
 140: branchLoc(TRITO, QPETTERREF) # pettersref 1. krs-vån Varasto-Magasin K114 Petterssons saml. LÅNAS EJ
 +pettersref: ref(140)
-141: branchLoc(KONVERSIO, KONVERSIO) # statSTOCK  1. krs-vån Tilastot - Statistik STOCK, EI LAINATA - LÅNAS EJ                                                                                                           
+141: branchLoc(EI_KOHAAN, EI_KOHAAN) # statSTOCK  1. krs-vån Tilastot - Statistik STOCK, EI LAINATA - LÅNAS EJ                                                                                                           
 +statSTOCK: ref(141)
-142: branchLoc(KONVERSIO, KONVERSIO) # ekenas     1. krs-vån Varasto-Magasin K114 Ekenäs saml.
+142: branchLoc(EI_KOHAAN, EI_KOHAAN) # ekenas     1. krs-vån Varasto-Magasin K114 Ekenäs saml.
 +ekenas: ref(142)
-143: branchLoc(KONVERSIO, KONVERSIO) # ekenasref  1. krs-vån Varasto-Magasin K114 Ekenäs saml., LÅNAS EJ
+143: branchLoc(EI_KOHAAN, EI_KOHAAN) # ekenasref  1. krs-vån Varasto-Magasin K114 Ekenäs saml., LÅNAS EJ
 +ekenasref: ref(143)
-144: branchLoc(KONVERSIO, KONVERSIO) # ekenasjour 1. krs-vån Varasto-Magasin K114 Ekenäs saml., LÅNAS EJ
+144: branchLoc(EI_KOHAAN, EI_KOHAAN) # ekenasjour 1. krs-vån Varasto-Magasin K114 Ekenäs saml., LÅNAS EJ
 +ekenasjour: ref(144)
-145: branchLoc(KONVERSIO, KONVERSIO) # linguaref  1. krs-vån-1st floor K127 Lingua, EI LAINATA - LÅNAS EJ
+145: branchLoc(EI_KOHAAN, EI_KOHAAN) # linguaref  1. krs-vån-1st floor K127 Lingua, EI LAINATA - LÅNAS EJ
 +linguaref: ref(145)
 146: branchLoc(TRITO, QSKOLBREF) # skolbok    1. krs-vån Varasto-Magasin K114 SB Skolböcker
 +skolbok: ref(146)
@@ -299,11 +299,11 @@
 +VYfilosofi: ref(148)
 149: branchLoc(TRITO, TVARASTO) # varasto    1. krs-vån Varasto-Magasin K114, EI LAINATA - LÅNAS EJ
 +varasto: ref(149)
-150: branchLoc(KONVERSIO, KONVERSIO) # euRefSO    4. krs-vån EU käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
+150: branchLoc(EI_KOHAAN, EI_KOHAAN) # euRefSO    4. krs-vån EU käsikirjat-referensböcker, EI LAINATA-LÅNAS EJ
 +euRefSO: ref(150)
-151: branchLoc(KONVERSIO, KONVERSIO) # xaudiovis  Raastuvankatu-Rådhusgatan / AV-aineisto - AV-material
+151: branchLoc(EI_KOHAAN, EI_KOHAAN) # xaudiovis  Raastuvankatu-Rådhusgatan / AV-aineisto - AV-material
 +xaudiovis: ref(151)
-152: branchLoc(KONVERSIO, KONVERSIO) # xbook      Raastuvankatu-Rådhusgatan / Kirjat - Böcker - Books
+152: branchLoc(EI_KOHAAN, EI_KOHAAN) # xbook      Raastuvankatu-Rådhusgatan / Kirjat - Böcker - Books
 +xbook: ref(152)
 153: branchLoc(TRITO, XINST) # XinstLM    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
 +XinstLM: ref(153)
@@ -311,23 +311,23 @@
 +XinstST: ref(154)
 155: branchLoc(TRITO, XINST) # XinstTL    Vaasan amk-Vasa yh / Osastokappale-avdelningsex.-STAFF ONLY
 +XinstTL: ref(155)
-156: branchLoc(KONVERSIO, KONVERSIO) # xjournal   Raastuvankatu-Rådhusgatan / Lehdet - Tidskrifter - Journals
+156: branchLoc(EI_KOHAAN, EI_KOHAAN) # xjournal   Raastuvankatu-Rådhusgatan / Lehdet - Tidskrifter - Journals
 +xjournal: ref(156)
-157: branchLoc(KONVERSIO, KONVERSIO) # xref       Raastuvankatu-Rådhusg. / Käsikirj.-Ref.- EI LAINATA-LÅNAS EJ
+157: branchLoc(EI_KOHAAN, EI_KOHAAN) # xref       Raastuvankatu-Rådhusg. / Käsikirj.-Ref.- EI LAINATA-LÅNAS EJ
 +xref: ref(157)
-158: branchLoc(KONVERSIO, KONVERSIO) # xREVIEW    Kysy virkailijalta-Fråga personalen (Vaasan amk TLKIRJASTO)
+158: branchLoc(EI_KOHAAN, EI_KOHAAN) # xREVIEW    Kysy virkailijalta-Fråga personalen (Vaasan amk TLKIRJASTO)
 +xREVIEW: ref(158)
-159: branchLoc(KONVERSIO, KONVERSIO) # xstock     Raastuvankatu-Rådhusgatan / Varasto - Magasin - Stock
+159: branchLoc(EI_KOHAAN, EI_KOHAAN) # xstock     Raastuvankatu-Rådhusgatan / Varasto - Magasin - Stock
 +xstock: ref(159)
-160: branchLoc(KONVERSIO, KONVERSIO) # xtextb     RAASTUVANKATU-RÅDHUSG. / Kurssikirjat-Kursböcker-Textbooks
+160: branchLoc(EI_KOHAAN, EI_KOHAAN) # xtextb     RAASTUVANKATU-RÅDHUSG. / Kurssikirjat-Kursböcker-Textbooks
 +xtextb: ref(160)
-161: branchLoc(KONVERSIO, KONVERSIO) # XthesLM    Raastuvankatu-Rådhusg. / Opinnäytteet-Lärdomsprov-Theses                                                                                                               
+161: branchLoc(EI_KOHAAN, EI_KOHAAN) # XthesLM    Raastuvankatu-Rådhusg. / Opinnäytteet-Lärdomsprov-Theses                                                                                                               
 +XthesLM: ref(161)
 162: branchLoc(TRITO, XTHES) # XthesTL    1. krs-vån Vaasan amk-Vasa yh, Opinnäytteet-Lärd.prov-Theses
 +XthesTL: ref(162)
-163: branchLoc(KONVERSIO, KONVERSIO) # yaudiovis  Seriegatan-Sarjakatu / Hälsovetenskaper - Terveystieteet
+163: branchLoc(EI_KOHAAN, EI_KOHAAN) # yaudiovis  Seriegatan-Sarjakatu / Hälsovetenskaper - Terveystieteet
 +yaudiovis: ref(163)
-164: branchLoc(KONVERSIO, KONVERSIO) # ybook      Seriegatan-Sarjakatu / Böcker - Kirjat - Books
+164: branchLoc(EI_KOHAAN, EI_KOHAAN) # ybook      Seriegatan-Sarjakatu / Böcker - Kirjat - Books
 +ybook: ref(164)
 165: branchLoc(JAKOB, YINSTKU) # YHNinstKU  YH Novia Jakobstad avdelningsex. STAFF ONLY
 +YHNinstKU: ref(165)
@@ -337,21 +337,21 @@
 +YHNinstSH: ref(167)
 168: branchLoc(TRITO, YINST) # YHNinstTK  YH Novia Vasa avdelningsex - osastokappale - STAFF ONLY
 +YHNinstTK: ref(168)
-169: branchLoc(KONVERSIO, KONVERSIO) # yjournal   Seriegatan-Sarjakatu / Tidskrifter - Lehdet - Journals
+169: branchLoc(EI_KOHAAN, EI_KOHAAN) # yjournal   Seriegatan-Sarjakatu / Tidskrifter - Lehdet - Journals
 +yjournal: ref(169)
-170: branchLoc(KONVERSIO, KONVERSIO) # yref       Seriegatan-Sarjakatu / Referens-Käsikirj.LÅNAS EJ-EI LAINATA
+170: branchLoc(EI_KOHAAN, EI_KOHAAN) # yref       Seriegatan-Sarjakatu / Referens-Käsikirj.LÅNAS EJ-EI LAINATA
 +yref: ref(170)
-171: branchLoc(KONVERSIO, KONVERSIO) # ystock     Seriegatan-Sarjakatu / Arkiv - Arkisto - Archive
+171: branchLoc(EI_KOHAAN, EI_KOHAAN) # ystock     Seriegatan-Sarjakatu / Arkiv - Arkisto - Archive
 +ystock: ref(171)
-172: branchLoc(KONVERSIO, KONVERSIO) # ytextb     Seriegatan-Sarjakatu / Kursböcker - Kurssikirjat - Textbooks
+172: branchLoc(EI_KOHAAN, EI_KOHAAN) # ytextb     Seriegatan-Sarjakatu / Kursböcker - Kurssikirjat - Textbooks
 +ytextb: ref(172)
-173: branchLoc(KONVERSIO, KONVERSIO) # ytextbSh   Seriegatan-Sarjakatu / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
+173: branchLoc(EI_KOHAAN, EI_KOHAAN) # ytextbSh   Seriegatan-Sarjakatu / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
 +ytextbSh: ref(173)
 174: branchLoc(JAKOB, YTHESKU) # YthesKU    Allegro Yrkeshögskolan Novias examensarben LÅNAS EJ                                                                                                                    
 +YthesKU: ref(174)
-175: branchLoc(KONVERSIO, KONVERSIO) # YthesSH    Seriegatan-Sarjakatu / Examensarbeten-Opinnäytteet-Theses
+175: branchLoc(EI_KOHAAN, EI_KOHAAN) # YthesSH    Seriegatan-Sarjakatu / Examensarbeten-Opinnäytteet-Theses
 +YthesSH: ref(175)
-176: branchLoc(KONVERSIO, KONVERSIO) # YthesSHref Seriegatan-Sarjakatu / Examensarbeten LÅNAS EJ - EI LAINATA
+176: branchLoc(EI_KOHAAN, EI_KOHAAN) # YthesSHref Seriegatan-Sarjakatu / Examensarbeten LÅNAS EJ - EI LAINATA
 +YthesSHref: ref(176)
 177: branchLoc(TRITO, YTHES) # YthesTK    1. krs-vån YH Novia Examensarb.-Opinnäytteet-Theses LÅNAS EJ
 +YthesTK: ref(177)
@@ -359,21 +359,21 @@
 +zbookArt: ref(178)
 179: branchLoc(JAKOB, ZBOOKMUS) # zbookMus   Jakobstad-Pietarsaari Allegro - Musik
 +zbookMus: ref(179)
-180: branchLoc(KONVERSIO, KONVERSIO) # zjourArt   Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals                                                                                                              
+180: branchLoc(EI_KOHAAN, EI_KOHAAN) # zjourArt   Jakobstad-Pietarsaari Allegro Tidskrifter-Lehdet-Journals                                                                                                              
 +zjourArt: ref(180)
-181: branchLoc(KONVERSIO, KONVERSIO) # zrefArt    Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
+181: branchLoc(EI_KOHAAN, EI_KOHAAN) # zrefArt    Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
 +zrefArt: ref(181)
-182: branchLoc(KONVERSIO, KONVERSIO) # zrefMus    Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
+182: branchLoc(EI_KOHAAN, EI_KOHAAN) # zrefMus    Jakobstad-Pietarsaari Allegro LÅNAS EJ-EI LAINATA
 +zrefMus: ref(182)
-183: branchLoc(KONVERSIO, KONVERSIO) # zstock     Jakobstad-Pietarsaari Allegro
+183: branchLoc(EI_KOHAAN, EI_KOHAAN) # zstock     Jakobstad-Pietarsaari Allegro
 +zstock: ref(183)
-184: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSRK  Lainaus Raastuvankatu
+184: branchLoc(TRITO) # LAINAUSRK  Lainaus Raastuvankatu
 +LAINAUSRK: ref(184)
-185: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSSG  Lainaus Seriegatan
+185: branchLoc(TRITO) # LAINAUSSG  Lainaus Seriegatan
 +LAINAUSSG: ref(185)
-186: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSJS  Lainaus Jakobstad
+186: branchLoc(JAKOB) # LAINAUSJS  Lainaus Jakobstad
 +LAINAUSJS: ref(186)
-187: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSNK  Lainaus Nykarleby
+187: branchLoc(JAKOB) # LAINAUSNK  Lainaus Nykarleby
 +LAINAUSNK: ref(187)
 188: branchLoc(TRITO, XPUBL) # Xpubl      1. krs-vån GE Vaasan amk-Vasa yh julk/publ,EI LAINATA-LÅN EJ
 +Xpubl: ref(188)
@@ -399,31 +399,31 @@
 +skolboknew: ref(198)
 199: branchLoc(JAKOB, ZTHES) # zthes      Jakobstad-Pietarsaari Allegro Examensarbeten LÅNAS EJ
 +zthes: ref(199)
-200: branchLoc(KONVERSIO, KONVERSIO) # yngbook    Åbo-Turku Nunnegatan / Böcker - Kirjat - Books
+200: branchLoc(EI_KOHAAN, EI_KOHAAN) # yngbook    Åbo-Turku Nunnegatan / Böcker - Kirjat - Books
 +yngbook: ref(200)
-201: branchLoc(KONVERSIO, KONVERSIO) # yngtextb   Åbo-Turku Nunnegatan / Kursböcker - Kurssikirjat - Textbooks
+201: branchLoc(EI_KOHAAN, EI_KOHAAN) # yngtextb   Åbo-Turku Nunnegatan / Kursböcker - Kurssikirjat - Textbooks
 +yngtextb: ref(201)
-202: branchLoc(KONVERSIO, KONVERSIO) # yngref     Åbo-Turku Nunnegatan / Referens LÅNAS EJ - EI LAINATA                                                                                                                  
+202: branchLoc(EI_KOHAAN, EI_KOHAAN) # yngref     Åbo-Turku Nunnegatan / Referens LÅNAS EJ - EI LAINATA                                                                                                                  
 +yngref: ref(202)
-203: branchLoc(KONVERSIO, KONVERSIO) # yngjour    Åbo-Turku Nunnegatan / Tidskrifter LÅNAS EJ - EI LAINATA
+203: branchLoc(EI_KOHAAN, EI_KOHAAN) # yngjour    Åbo-Turku Nunnegatan / Tidskrifter LÅNAS EJ - EI LAINATA
 +yngjour: ref(203)
-204: branchLoc(KONVERSIO, KONVERSIO) # YthesNG    Åbo-Turku Nunnegatan / Examensarbeten-Opinnäytteet-Theses
+204: branchLoc(EI_KOHAAN, EI_KOHAAN) # YthesNG    Åbo-Turku Nunnegatan / Examensarbeten-Opinnäytteet-Theses
 +YthesNG: ref(204)
-205: branchLoc(KONVERSIO, KONVERSIO) # YHNinstNG  YH Novia Åbo Nunnegatan avdelningsex. STAFF ONLY
+205: branchLoc(EI_KOHAAN, EI_KOHAAN) # YHNinstNG  YH Novia Åbo Nunnegatan avdelningsex. STAFF ONLY
 +YHNinstNG: ref(205)
-206: branchLoc(KONVERSIO, KONVERSIO) # ysjref     Åbo-Turku Sjöfart / Referens LÅNAS EJ - EI LAINATA
+206: branchLoc(EI_KOHAAN, EI_KOHAAN) # ysjref     Åbo-Turku Sjöfart / Referens LÅNAS EJ - EI LAINATA
 +ysjref: ref(206)
-207: branchLoc(KONVERSIO, KONVERSIO) # ysjjour    Åbo-Turku Sjöfart / Tidskrifter-Lehdet LÅNAS EJ - EI LAINATA
+207: branchLoc(EI_KOHAAN, EI_KOHAAN) # ysjjour    Åbo-Turku Sjöfart / Tidskrifter-Lehdet LÅNAS EJ - EI LAINATA
 +ysjjour: ref(207)
-208: branchLoc(KONVERSIO, KONVERSIO) # YthesSJ    Åbo-Turku Sjöfart / Examensarbeten LÅNAS EJ - EI LAINATA                                                                                                               
+208: branchLoc(EI_KOHAAN, EI_KOHAAN) # YthesSJ    Åbo-Turku Sjöfart / Examensarbeten LÅNAS EJ - EI LAINATA                                                                                                               
 +YthesSJ: ref(208)
-209: branchLoc(KONVERSIO, KONVERSIO) # YHNinstSJ  YH Novia Åbo Sjöfart avdelningsex. STAFF ONLY
+209: branchLoc(EI_KOHAAN, EI_KOHAAN) # YHNinstSJ  YH Novia Åbo Sjöfart avdelningsex. STAFF ONLY
 +YHNinstSJ: ref(209)
-210: branchLoc(KONVERSIO, KONVERSIO) # yngstock   Åbo-Turku Nunnegatan / Magasin - Varasto - Stock
+210: branchLoc(EI_KOHAAN, EI_KOHAAN) # yngstock   Åbo-Turku Nunnegatan / Magasin - Varasto - Stock
 +yngstock: ref(210)
-211: branchLoc(KONVERSIO, KONVERSIO) # YHNinstSHI Åbo Sjöhistoriska insitutet vid ÅA - YH Novia - LÄSESALSLÅN
+211: branchLoc(EI_KOHAAN, EI_KOHAAN) # YHNinstSHI Åbo Sjöhistoriska insitutet vid ÅA - YH Novia - LÄSESALSLÅN
 +YHNinstSHI: ref(211)
-212: branchLoc(KONVERSIO, KONVERSIO) # LAINAUSNG  Lainaus Nunnegatan
+212: branchLoc(TRITO) # LAINAUSNG  Lainaus Nunnegatan
 +LAINAUSNG: ref(212)
 213: branchLoc(TRITO, QJARVBOOK) # jarv       1. krs-vån Järv-kokoelma - Järv-samlingen
 +jarv: ref(213)
@@ -433,7 +433,7 @@
 +bookHe: ref(215)
 216: branchLoc(TRITO, REFHE) # refHe      4. krs-vån HE Terveyst.-Hälsov.-Health EI LAINATA-LÅNAS EJ                                                                                                             
 +refHe: ref(216)
-217: branchLoc(KONVERSIO, KONVERSIO) # serHe      4. krs-vån HE Terveystieteet-Hälsovetenskaper Sarjat-Serier
+217: branchLoc(EI_KOHAAN, EI_KOHAAN) # serHe      4. krs-vån HE Terveystieteet-Hälsovetenskaper Sarjat-Serier
 +serHe: ref(217)
 218: branchLoc(TRITO, JOURNALS) # jourHe     4. krs-vån HE Lehdet-Tidskrifter-JournalsEI LAINATA-LÅNAS EJ
 +jourHe: ref(218)
@@ -441,11 +441,11 @@
 +kouluk: ref(219)
 220: branchLoc(TRITO, QKOULUK) # koulukref  Koulukirjastot. Käsikirjat
 +koulukref: ref(220)
-221: branchLoc(KONVERSIO, KONVERSIO) # yngtextbSh Åbo-Turku Nunnegatan / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
+221: branchLoc(EI_KOHAAN, EI_KOHAAN) # yngtextbSh Åbo-Turku Nunnegatan / KursbNATTLÅN-KurssikYÖ-TextbOVERNIGHT
 +yngtextbSh: ref(221)
 222: branchLoc(TRITO, QMINLANG) # minlang    1. krs-vån Vähemmistökielikokoelma-Minoritetsspråkssamlingen
 +minlang: ref(222)
-223: branchLoc(KONVERSIO, KONVERSIO) # webpay                                                                                                                                                                            
+223: branchLoc(TRITO) # webpay                                                                                                                                                                            
 +webpay: ref(223)
 224: branchLoc(TRITO, VDATABASES) # Vdatabases Vaasan yliopiston tietokannat-University of Vaasa databases
 +Vdatabases: ref(224)
