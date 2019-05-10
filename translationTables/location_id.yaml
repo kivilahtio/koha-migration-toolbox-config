@@ -199,23 +199,23 @@
 +mettuLA: ref(98)
 99: branchLoc(METMYL) # metviLA    Viertotie lainaus, happening location, ei niteitä
 +metviLA: ref(99)
-100: branchLoc(EI_KOHAAN,EI_METAUTO) # metagAU    Agricolankatu automaatti   , ei luultavasti käytössä, tarkistetaan 12.4.19SP
+100: branchLoc(METMYL) # metagAU    Agricolankatu automaatti   , ei luultavasti käytössä, tarkistetaan 12.4.19SP
 +metagAU: ref(100)
-101: branchLoc(EI_KOHAAN,EI_METAUTOB) # metbuAU    Bulevardi automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+101: branchLoc(METMYY) # metbuAU    Bulevardi automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
 +metbuAU: ref(101)
-102: branchLoc(METESP) # metleAU    Leppävaara automaatti
+102: branchLoc(METMYY) # metleAU    Leppävaara automaatti
 +metleAU: ref(102)
 103: branchLoc(METMYY) # metmyAU    Myyrmäki automaatti
 +metmyAU: ref(103)
 104: branchLoc(EI_KOHAAN,EI_METAUTOO) # metonAU    Onnentie automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
 +metonAU: ref(104)
-105: branchLoc(EI_KOHAAN,EI_METAUTOS) # metsoAU    Sofianlehto automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+105: branchLoc(METMYL) # metsoAU    Sofianlehto automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
 +metsoAU: ref(105)
 106: branchLoc(METARA) # mettiAU    Arabia automaatti
 +mettiAU: ref(106)
-107: branchLoc(EI_KOHAAN,EI_METAUTOTY) # mettuAU1   Tukholmankatu automaatti1, ei luultavasti käytössä, tarkistetaan 12.4.19SP
+107: branchLoc(METMYL) # mettuAU1   Tukholmankatu automaatti1, ei luultavasti käytössä, tarkistetaan 12.4.19SP
 +mettuAU1: ref(107)
-108: branchLoc(EI_KOHAAN,EI_METAUTOTK) # mettuAU2   Tukholmankatu automaatti2, ei luultavasti käytössä, tarkistetaan 12.4.19SP
+108: branchLoc(METMYL) # mettuAU2   Tukholmankatu automaatti2, ei luultavasti käytössä, tarkistetaan 12.4.19SP
 +mettuAU2: ref(108)
 109: branchLoc(METVIE) # metviAU    Viertotie automaatti
 +metviAU: ref(109)
