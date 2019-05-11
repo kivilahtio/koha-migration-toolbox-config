@@ -8,7 +8,9 @@
 ## : EI_KOHAAN =voi poistaa, ei sisällä niteitä,asiakkaita
 
 ##: listassa siis ensin branchcode (esim. METARA = Metropolian Arabian kampus), LOC= shelving location eli Voyagerin kokoelma, hyllypaikka esim. käsikirjasto 
-
+##:HUOMIOITA SIIRTOLOGIIKASTA
+##happening locationit ja automaatit mapattava, vaikka toimipiste olisi lakannutkin, jos siellä on lainaustapahtumia
+## huomio lehtilokaatioista: lehtitilaukset menevätkin tilauspaikan (order location) mukaan, ei lehden 852h lokaation mukaan (jos tilattu muualla, kuin lehden nykyinen sijainti)
 
 0: branchLoc(METMYL)
 1: branchLoc(EI_KOHAAN,EI_KOHAAN) # REVIEW     REVIEW
@@ -31,7 +33,7 @@
 +metagAV: ref(9)
 10: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagKK    Agricolankatu: Ei lainata - Not for loan, ei pitäisi sisältää niteitä
 +metagKK: ref(10)
-11: branchLoc(EI_KOHAAN,EI_METLEH) # metagLEH   Agricolankatu: Lehdet | Journals
+11: branchLoc(METMYL,LEHDET) # metagLEH   Agricolankatu: Lehdet | Journals
 +metagLEH: ref(11)
 12: branchLoc(EI_KOHAAN,EI_KOHAAN) # metagTYO   Agricolankatu, EI LAINATA - NOT FOR LOAN, ei pitäisi sisältää niteitä
 +metagTYO: ref(12)
@@ -45,7 +47,7 @@
 +metbuCDROM: ref(17)
 18: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuKK    Bulevardi: Ei lainata | Not for loan, ei pitäisi sisältää niteitä
 +metbuKK: ref(18)
-20: branchLoc(EI_KOHAAN,EI_METBUL) # metbuLEH   Bulevardi: Lehdet | Journals
+20: branchLoc(METMYY_LEHDET) # metbuLEH   Bulevardi: Lehdet | Journals
 +metbuLEH: ref(20)
 21: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuTYO   Bulevardi: Henkilökunta, ei lainata | Staff, Not for loan
 +metbuTYO: ref(21), ei pitäisi sisältää niteitä
@@ -109,7 +111,7 @@
 +metsoAV: ref(53)
 54: branchLoc(METVAR,KASIKIR) # metsoKK    Sofianlehdonkatu: Ei lainata | Not for loan                                                                                                                            
 +metsoKK: ref(54)
-55: branchLoc(EI_KOHAAN,EI_KOHAAN) # metsoLEH   Sofianlehdonkatu: Lehdet | Journals
+55: branchLoc(METVIE,LEHDET) # metsoLEH   Sofianlehdonkatu: Lehdet | Journals
 +metsoLEH: ref(55)
 56: branchLoc(METVAR,YLEIS) # mettuYK    Tukholmankatu: 4 viikon laina | 4 week loan
 +mettuYK: ref(56)
@@ -125,7 +127,7 @@
 +mettuVAR: ref(61)
 62: branchLoc(METVAR,LEHDET) # mettuVARLE Tukholmankatu: Lehtivarasto | Journal storage                                                                                                                          
 +mettuVARLE: ref(62)
-63: branchLoc(EI_KOHAAN,EI_KOHAAN) # mettuLEH   Tukholmankatu: Lehdet | Journals, ei sisällä niteitä
+63: branchLoc(METVIE,LEHDET) # mettuLEH   Tukholmankatu: Lehdet | Journals, ei sisällä niteitä
 +mettuLEH: ref(63)
 64: branchLoc(METVIE,LEHDET) # mettuTYO   Tukholmankatu: Työkpl, ei lainata | Staff use, not for loan
 +mettuTYO: ref(64)
@@ -181,35 +183,35 @@
 +metmyLEH: ref(89)
 90: branchLoc(METARA,LEHDET) # mettiLEH   Arabia: Lehdet | Journals
 +mettiLEH: ref(90)
-91: branchLoc(METMYL) # metagLA    Agricolankatu lainaus, happening location, ei niteitä
+91: branchLoc(METMYL) # metagLA    Agricolankatu lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +metagLA: ref(91)
-92: branchLoc(METMYY) # metbuLA    Bulevardi lainaus happening location, ei niteitä
+92: branchLoc(METMYY) # metbuLA    Bulevardi lainaus happening location, ei niteitä, mutta lainatapatumia
 +metbuLA: ref(92)
-93: branchLoc(METMYY) # metleLA    Leppävaara lainaus, happening location, ei niteitä
+93: branchLoc(METMYY) # metleLA    Leppävaara lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +metleLA: ref(93)
-94: branchLoc(METMYY) # metmyLA    Myyrmäki lainaus, happening location, ei niteitä
+94: branchLoc(METMYY) # metmyLA    Myyrmäki lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +metmyLA: ref(94)
-95: branchLoc(METMYL) # metonLA    Onnentie lainaus, happening location, ei niteitä
+95: branchLoc(METMYL) # metonLA    Onnentie lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +metonLA: ref(95)
-96: branchLoc(METMYL) # metsoLA    Sofianlehto lainaus, happening location, ei niteitä
+96: branchLoc(METMYL) # metsoLA    Sofianlehto lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +metsoLA: ref(96)
-97: branchLoc(METARA) # mettiLA    Arabia lainaus, happening location, ei niteitä
+97: branchLoc(METARA) # mettiLA    Arabia lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +mettiLA: ref(97)
-98: branchLoc(METMYL) # mettuLA    Tukholmankatu lainaus, happening location, ei niteitä
+98: branchLoc(METMYL) # mettuLA    Tukholmankatu lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +mettuLA: ref(98)
-99: branchLoc(METMYL) # metviLA    Viertotie lainaus, happening location, ei niteitä
+99: branchLoc(METMYL) # metviLA    Viertotie lainaus, happening location, ei niteitä, mutta lainatapahtumia
 +metviLA: ref(99)
-100: branchLoc(METMYL) # metagAU    Agricolankatu automaatti   , ei luultavasti käytössä, tarkistetaan 12.4.19SP
+100: branchLoc(METMYL) # metagAU    Agricolankatu automaatti   , 
 +metagAU: ref(100)
-101: branchLoc(METMYY) # metbuAU    Bulevardi automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+101: branchLoc(METMYY) # metbuAU    Bulevardi automaatti, 
 +metbuAU: ref(101)
 102: branchLoc(METMYY) # metleAU    Leppävaara automaatti
 +metleAU: ref(102)
 103: branchLoc(METMYY) # metmyAU    Myyrmäki automaatti
 +metmyAU: ref(103)
-104: branchLoc(EI_KOHAAN,EI_METAUTOO) # metonAU    Onnentie automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+104: branchLoc(EI_KOHAAN,EI_METAUTOO) # metonAU    Onnentie automaatti, 
 +metonAU: ref(104)
-105: branchLoc(METMYL) # metsoAU    Sofianlehto automaatti, ei luultavasti käytössä, tarkistetaan 12.4.19 SP
+105: branchLoc(METMYL) # metsoAU    Sofianlehto automaatti, 
 +metsoAU: ref(105)
 106: branchLoc(METARA) # mettiAU    Arabia automaatti
 +mettiAU: ref(106)
