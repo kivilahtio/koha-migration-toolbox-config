@@ -9,16 +9,16 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-XLM: XVAMK # XLM
-XST: XVAMK # XST
-XTL: XVAMK # XTL
-XLO: XVAMK # XLO
-XTO: XVAMK # XTO
-XSO: XVAMK # XSO
-YHN: YNOVIA # Novia
+XLM: X # XLM
+XST: X # XST
+XTL: X # XTL
+XLO: X # XLO
+XTO: X # XTO
+XSO: X # XSO
+YHN: Y # Novia
 WBR: WBR # ÅA Branders
-ZCE: ZCE # Z - Centria
-WAA: WAA # ÅA Vasa
-SHH: USHH # Hanken
-VY: VY #  Vaasan yliopisto
+ZCE: Z # Z - Centria
+WAA: W # ÅA Vasa
+SHH: U # Hanken
+VY: V #  Vaasan yliopisto
 _DEFAULT_: warning() # most items have no statistical category - warning not necessary?
