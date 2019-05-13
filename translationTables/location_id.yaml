@@ -76,9 +76,9 @@
 +Cat1: ref(31)
 32: branchLoc(EI_KOHAAN,EI_KOHAAN) # Cat3       Oulunkylän kirjaston luettelointiosasto
 +Cat3: ref(32)
-33: branchLoc(EI_KOHAAN,EI_KOHAAN) # Cat4       Porvoo-Point kirjaston luettelointiosasto                                                                                                                              
+33: branchLoc(PORV) # Cat4       Porvoo-Point kirjaston luettelointiosasto                                                                                                                              
 +Cat4: ref(33)
-34: branchLoc(EI_KOHAAN,EI_KOHAAN) # Cat5       Porvoo-Pomo kirjaston luettelointiosasto
+34: branchLoc(PORV) # Cat5       Porvoo-Pomo kirjaston luettelointiosasto
 +Cat5: ref(34)
 35: branchLoc(HHPAS) # Circ1      Pasilan toimipisteen kirjasto
 +Circ1: ref(35)
@@ -184,7 +184,7 @@
 +HLI-acq: ref(85)
 86: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-cat    HLI käsittelyssä - being processed
 +HLI-cat: ref(86)
-87: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-circ   Vallilan toimipisteen kirjasto
+87: branchLoc(HHPAS) # HLI-circ   Vallilan toimipisteen kirjasto
 +HLI-circ: ref(87)
 88: branchLoc(EI_KOHAAN,EI_KOHAAN) # HLI-aut    Vallilan toimipisteen automaatti
 +HLI-aut: ref(88)
