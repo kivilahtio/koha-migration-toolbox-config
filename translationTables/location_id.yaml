@@ -47,7 +47,7 @@
 +metbuCDROM: ref(17)
 18: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuKK    Bulevardi: Ei lainata | Not for loan, ei pitäisi sisältää niteitä
 +metbuKK: ref(18)
-20: branchLoc(METMYY_LEHDET) # metbuLEH   Bulevardi: Lehdet | Journals
+20: branchLoc(METMYY,LEHDET) # metbuLEH   Bulevardi: Lehdet | Journals
 +metbuLEH: ref(20)
 21: branchLoc(EI_KOHAAN,EI_KOHAAN) # metbuTYO   Bulevardi: Henkilökunta, ei lainata | Staff, Not for loan
 +metbuTYO: ref(21), ei pitäisi sisältää niteitä
