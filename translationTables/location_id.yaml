@@ -84,9 +84,9 @@
 +Circ1: ref(35)
 36: branchLoc(EI_KOHAAN,EI_KOHAAN) # Circ3      Oulunkylän kirjaston lainausosasto
 +Circ3: ref(36)
-37: branchLoc(EI_KOHAAN,EI_KOHAAN) # Circ4      Porvoon Point toimipisteen kirjasto
+37: branchLoc(PORV) # Circ4      Porvoon Point toimipisteen kirjasto
 +Circ4: ref(37)
-38: branchLoc(EI_KOHAAN,EI_KOHAAN) # Circ5      Porvoon Pomo toimipisteen kirjasto
+38: branchLoc(PORV) # Circ5      Porvoon Pomo toimipisteen kirjasto
 +Circ5: ref(38)
 39: branchLoc(EI_KOHAAN,EI_KOHAAN) # Acq1       Pasilan kirjaston hankintaosasto
 +Acq1: ref(39)
