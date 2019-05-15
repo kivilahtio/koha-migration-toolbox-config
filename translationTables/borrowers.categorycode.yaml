@@ -27,5 +27,6 @@
 11: KAUKOPALVE # k Kaukopalvelu
 12: ULKOPUOLIS # i Henkilökunta Museoviras
 13: SIIRTO #     Peppi_paivitys
+14: LIBSTAFF # kirjaston hk
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 _DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
