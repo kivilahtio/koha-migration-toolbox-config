@@ -192,4 +192,4 @@
 97: branchLoc(KONVERSIO) # Webpay
 +Webpay: ref(97)
 
-_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
+_DEFAULT_: branchLoc(XAMK, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät

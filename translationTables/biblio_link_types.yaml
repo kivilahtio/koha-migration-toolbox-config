@@ -78,5 +78,18 @@ ALEPH2:
   do: 0
 '':
   do: 0
+EBRARY:
+  do: 0
+EBRPOIS:
+  do: 0
+MERGE:
+  do: 0
+MFHDS:
+  do: 0
+TUPLA:
+  do: 0
+ISSNCOMP:
+  do: 0
 
 _DEFAULT_: warning()
+
