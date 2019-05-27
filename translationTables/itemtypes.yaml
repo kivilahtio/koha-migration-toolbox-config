@@ -9,62 +9,34 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-#2: KI #28vrk, "Laina 28 vrk","Laina-aika 28 vrk"
-#3: KI #0vrk, "Ei kotilainaan","Ei kotilainaan"
-#4: KI #180vrk, "Erityislaina 0/28/180 vrk","180 vrk"
-#5: KI #s0vrk, "Suljettu varasto 0vrk","Suljettu varasto, ei kotilainaan"
-#6: KI #84vrk, "84vrk","Laina-aika 84 vrk"
-#7: KU #K2vrk, "Kurssikirja 2 vrk","Kurssikirja, laina-aika 2 vrk"
-#8: KI #7vrk, "7 vrk laina","Laina-aika 7 vrk"
-#9: KI #14vrk, "Laina 14 vrk","Laina-aika 14 vrk"
-#10: KI #1vrk, "1 vrk:n laina","1 vuorokauden laina"
-#11: KU #K1vrk, "Kurssikirja laina 1 vrk","Kurssikirja, laina-aika 1 vrk"
-#12: KU #K7vrk, "Kurssikirja laina 7 vrk","Kurssikirja, laina-aika 7 vrk"
-#13: KU #K14vrk, "Kurssik Hb Sk 14 vrk","Kurssikirja, laina-aika 14 vrk"
-#14: PO #P0vrk, "P0vrk","P 0 vrk"
-#15: KU #k14vrk, "Kurssikirja laina 14 vrk","Kurssikirja, laina-aika 14 vrk"
-#16: KU #K0vrk, "Kurssikirja 0 vrk","Kurssikirja, ei kotilainaan"
-#17: KU #K28vrk, "Kurssikirja laina 28 vrk","Kurssikirja, laina-aika 28 vrk"
-#18: KI #s28vrk, "Suljettu varasto laina 28","Suljettu varasto, laina-aika 28 vrk"
-#19: KI #s7vrk, "Suljettu varasto 7 vrk","Suljettu varasto, laina-aika 7 vrk"
-#20: KU #k1vrk, "Kurssikirja 1 vrk","Kurssikirja, laina-aika 1 vrk"
-#24: KU #Klukukausi, "Kurssikirja lukukausi","Kurssikirja, lukukausilaina"
-#25: KI #2vrk, "2 vrk:n laina","Laina-aika 2 vrk"
-#1: REVIEW #REVIEW, "REVIEW","REVIEW"
-#26: TK #tietokone, "Lainattava mikrotietokone","Lainattava mikrotietokone"
-#23: HC #Hctemp, "zHc temp","Laina-aika 28 vrk"
-#29: KI #s14vrk, "Suljettu varasto 14 vrk","Suljettu varasto, laina-aika 14 vrk"
-#27: ES #EsineA, "Esinelaina A","Esinelaina"
-#28: ES #EsineB, "Esinelaina B","Esinelaina"
 
-1: EI_KOHAAN
-2: KL
-3: LL
-4: KL
-5: LL
-6: KL
-7: KL
-8: KL
-9: KL
-10: KL
-11: KL
-12: KL
-13: KL
-14: KL
-15: KL
-16: LL
-17: KL
-18: KL
-19: KL
-20: KL
-23: KL
-24: KL
-25: KL
-26: EI_KOHAAN
-27: EI_KOHAAN
-28: EI_KOHAAN
-29: KL
-
+1: EI_KOHAAN #1: REVIEW #REVIEW, "REVIEW","REVIEW"
+2: KL #2: KI #28vrk, "Laina 28 vrk","Laina-aika 28 vrk"
+3: LL #3: KI #0vrk, "Ei kotilainaan","Ei kotilainaan"
+4: KL #4: KI #180vrk, "Erityislaina 0/28/180 vrk","180 vrk"
+5: LL #5: KI #s0vrk, "Suljettu varasto 0vrk","Suljettu varasto, ei kotilainaan"
+6: KL #6: KI #84vrk, "84vrk","Laina-aika 84 vrk"
+7: KL #7: KU #K2vrk, "Kurssikirja 2 vrk","Kurssikirja, laina-aika 2 vrk"
+8: KL #8: KI #7vrk, "7 vrk laina","Laina-aika 7 vrk"
+9: KL #9: KI #14vrk, "Laina 14 vrk","Laina-aika 14 vrk"
+10: KL #10: KI #1vrk, "1 vrk:n laina","1 vuorokauden laina"
+11: KL #11: KU #K1vrk, "Kurssikirja laina 1 vrk","Kurssikirja, laina-aika 1 vrk"
+12: KL #12: KU #K7vrk, "Kurssikirja laina 7 vrk","Kurssikirja, laina-aika 7 vrk"
+13: KL #13: KU #K14vrk, "Kurssik Hb Sk 14 vrk","Kurssikirja, laina-aika 14 vrk"
+14: KL #14: PO #P0vrk, "P0vrk","P 0 vrk"
+15: KL #15: KU #k14vrk, "Kurssikirja laina 14 vrk","Kurssikirja, laina-aika 14 vrk"
+16: LL #16: KU #K0vrk, "Kurssikirja 0 vrk","Kurssikirja, ei kotilainaan"
+17: KL #17: KU #K28vrk, "Kurssikirja laina 28 vrk","Kurssikirja, laina-aika 28 vrk"
+18: KL #18: KI #s28vrk, "Suljettu varasto laina 28","Suljettu varasto, laina-aika 28 vrk"
+19: KL #19: KI #s7vrk, "Suljettu varasto 7 vrk","Suljettu varasto, laina-aika 7 vrk"
+20: KL #20: KU #k1vrk, "Kurssikirja 1 vrk","Kurssikirja, laina-aika 1 vrk"
+23: KL #23: HC #Hctemp, "zHc temp","Laina-aika 28 vrk"
+24: KL #24: KU #Klukukausi, "Kurssikirja lukukausi","Kurssikirja, lukukausilaina"
+25: KL #25: KI #2vrk, "2 vrk:n laina","Laina-aika 2 vrk"
+26: EI_KOHAAN #26: TK #tietokone, "Lainattava mikrotietokone","Lainattava mikrotietokone"
+27: EI_KOHAAN #27: ES #EsineA, "Esinelaina A","Esinelaina"
+28: EI_KOHAAN #28: ES #EsineB, "Esinelaina B","Esinelaina"
+29: KL #29: KI #s14vrk, "Suljettu varasto 14 vrk","Suljettu varasto, laina-aika 14 vrk"
 
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
