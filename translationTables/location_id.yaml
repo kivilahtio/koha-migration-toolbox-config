@@ -1,7 +1,7 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-0: branchLoc(XAMK,EI_KOHAAN)
+0: branchLoc(MIK,EI_KOHAAN)
 1: branchLoc(EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
 2: branchLoc(EI_KOHAAN) # 904        Merimuseo, e-aineisto
@@ -102,17 +102,17 @@
 +SavLukul: ref(49)
 50: branchLoc(EI_KOHAAN) # SavOpint   Savonlinnan kampuskirjasto. Opinnäytetyöt. Ei kotilainaan
 +SavOpint: ref(50)
-51: branchLoc(KOT, LAINA) # VelDvd     Tietokeskus Vellamo, Kotka. Dvd:t
+51: branchLoc(EI_KOHAAN, EI_VELLAMO) # VelDvd     Tietokeskus Vellamo, Kotka. Dvd:t
 +VelDvd: ref(51)
-52: branchLoc(KOT, KASIK) # VelKasik   Tietokeskus Vellamo, Kotka. Xamk, Käsikirjat/reference book
+52: branchLoc(EI_KOHAAN, EI_VELLAMO) # VelKasik   Tietokeskus Vellamo, Kotka. Xamk, Käsikirjat/reference book
 +VelKasik: ref(52)
-53: branchLoc(KOT, LAINA) # VelLaina   Tietokeskus Vellamo, Kotka. Xamk
+53: branchLoc(EI_KOHAAN, EI_VELLAMO) # VelLaina   Tietokeskus Vellamo, Kotka. Xamk
 +VelLaina: ref(53)
-54: branchLoc(KOT, LUKUL) # VelLukul   Tietokeskus Vellamo, Kotka
+54: branchLoc(EI_KOHAAN, EI_VELLAMO) # VelLukul   Tietokeskus Vellamo, Kotka
 +VelLukul: ref(54)
-55: branchLoc(EI_KOHAAN) # VelPalme   Tietokeskus Vellamo, Kotka. Xamk
+55: branchLoc(EI_KOHAAN, EI_VELLAMO) # VelPalme   Tietokeskus Vellamo, Kotka. Xamk
 +VelPalme: ref(55)
-56: branchLoc(KOT, KASIK) # VelRarit   Tietokeskus Vellamo, Kotka. Xamk, rariteetit                                                                                                                           
+56: branchLoc(EI_KOHAAN, EI_VELLAMO) # VelRarit   Tietokeskus Vellamo, Kotka. Xamk, rariteetit                                                                                                                           
 +VelRarit: ref(56)
 57: branchLoc(EI_KOHAAN) # Yrik k     Muc-kirjasto/library, Mikkeli. Yrittäjyyskasvatus
 +Yrik: ref(57)
@@ -184,13 +184,13 @@
 +AutomKas3: ref(92)
 93: branchLoc(EI_KOHAAN) # KkansOpint Muc-kirjasto/library, Mikkeli. Ei kotilainaan/Not for loan                                                                                                             
 +KkansOpint: ref(93)
-94: branchLoc(XAMK, ELLIBS) # Ellibs     Verkkoaineistot (Ellibs)
+94: branchLoc(XAMK, EAIN) # Ellibs     Verkkoaineistot (Ellibs)
 +Ellibs: ref(94)
 95: branchLoc(XAMK, TIETOK) # Metalib
 +Metalib: ref(95)
 96: branchLoc(EI_KOHAAN) # Kaakkuri   Kaakkuri
 +Kaakkuri: ref(96)
-97: branchLoc(KONVERSIO) # Webpay
+97: branchLoc(EI_KOHAAN) # Webpay
 +Webpay: ref(97)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
