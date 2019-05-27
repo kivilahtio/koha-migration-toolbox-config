@@ -142,7 +142,7 @@
 +HankiSav: ref(69)
 70: branchLoc(EI_KOHAAN) # HankiMerim Hankinta Merimuseo
 +HankiMerim: ref(70)
-71: branchLoc(EI_KOHAAN) # LainaJyl
+71: branchLoc(KOT, EI_KOHAAN) # LainaJyl
 +LainaJyl: ref(71)
 72: branchLoc(MIK) # LainaKam                                                                                                                                                                          
 +LainaKam: ref(72)
@@ -174,7 +174,7 @@
 +AutomVel: ref(87)
 88: branchLoc(EI_KOHAAN) # Hymik
 +Hymik: ref(88)
-89: branchLoc(EI_KOHAAN) # Kkans
+89: branchLoc(MIK, EI_KOHAAN) # Kkans
 +Kkans: ref(89)
 90: branchLoc(EI_KOHAAN) # KamJopo2   Mikkelin kampuskirjasto
 +KamJopo2: ref(90)
