@@ -13,7 +13,7 @@
 1: EI_KOHAAN #1: REVIEW #REVIEW, "REVIEW","REVIEW"
 2: KL #2: KI #28vrk, "Laina 28 vrk","Laina-aika 28 vrk"
 3: RR #3: KI #0vrk, "Ei kotilainaan","Ei kotilainaan"
-4: KONVERSIO #4: KI #180vrk, "Erityislaina 0/28/180 vrk","180 vrk"
+4: EI_KOHAAN #4: KI #180vrk, "Erityislaina 0/28/180 vrk","180 vrk" Ei käytössä enää?
 5: LS #5: KI #s0vrk, "Suljettu varasto 0vrk","Suljettu varasto, ei kotilainaan"
 6: EI_KOHAAN #6: KI #84vrk, "84vrk","Laina-aika 84 vrk"
 7: EI_KOHAAN #7: KU #K2vrk, "Kurssikirja 2 vrk","Kurssikirja, laina-aika 2 vrk"
