@@ -34,34 +34,34 @@
 +124: ref(8) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
 9:   branchLoc(VARKL, SLAVARA, SLA,,,,TILATT) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
-51:  branchLoc(EI_KOHAAN, POISTETTU) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
+51:  branchLoc(EI_KOHAAN, EI_POISTETTU) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
 +126: ref(51)
-52:  branchLoc(EI_KOHAAN, POISTETTU) #"127","zKK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","127","Y","N","1","0"
+52:  branchLoc(EI_KOHAAN, EI_POISTETTU) #"127","zKK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","127","Y","N","1","0"
 +127: ref(52)
-148: branchLoc(EI KOHAAN, TEKNINEN) #"01100","KK H H ja L","Kansalliskirjasto, hankinta ja luettelointi",,,"N","1","0"
+148: branchLoc(EI KOHAAN, EI_TEKNINEN) #"01100","KK H H ja L","Kansalliskirjasto, hankinta ja luettelointi",,,"N","1","0"
 +01100: ref(148)
-158: branchLoc(EI_KOHAAN, KONVERSIO) #"HYKACQ","KK konversiov. hankinta","Kansalliskirjasto, konversiovaiheen hankintakokoelma",,,"Y","1","0"
+158: branchLoc(EI_KOHAAN, EI_KONVERSIOHANK) #"HYKACQ","KK konversiov. hankinta","Kansalliskirjasto, konversiovaiheen hankintakokoelma",,,"Y","1","0"
 +HYKACQ: ref(158)
-173: branchLoc(EI_KOHAAN, TEKNINEN) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
+173: branchLoc(EI_KOHAAN, EI_TEKNINEN) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
 +02100: ref(173) #tekninen kokoelma
-211: branchLoc(KONVERSIO, TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
+211: branchLoc(EI_KOHAAN, EI_TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
 #Käytetty voyagerissa tilapäiskokoelmana
 231: branchLoc(AVOK, TYOHUO, HUM,,,,PITK) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
 +106: ref(231) #pysyväiskäyttö
 #voisi harkita item typeä, joka piilottaa nämä työhuonekäytössä olevat OPACista, jos se toimii myös Finnassa.
-234: branchLoc(EI_KOHAAN, UUTUUS) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
+234: branchLoc(EI_KOHAAN, EI_UUTUUS) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
 +107: ref(234) # temp location
-238: branchLoc(EI_KOHAAN, KONVERSIO) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
+238: branchLoc(EI_KOHAAN, EI_TIETOPALVELU) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
-245: branchLoc(EI_KOHAAN, TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
+245: branchLoc(EI_KOHAAN, EI_TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 +02101: ref(245) #tekninen kokoelma, ei käytössä
 247: branchLoc(ERIK, HUMERI, HUM,,,,TILATT) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
 #Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129. Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
 #Poistoja varten voi Kohassa tehdä esimerkiksi yhteisen jaetun listan, johon poistetut tietueet menevät.
-253: branchLoc(EI_KOHAAN, ERROR) #"03100","KK H Poistot","Kansalliskirjasto, poistettavat niteet",,,"Y","1","0"
+253: branchLoc(EI_KOHAAN, EI_ERROR) #"03100","KK H Poistot","Kansalliskirjasto, poistettavat niteet",,,"Y","1","0"
 +03100: ref(253)
 
 281: branchLoc(ELE, EAIN, HUM,,,,ELEK) #"111","KK EL","KANSALLISKIRJASTO, ELEKTRONINEN AINEISTO",,,"N","1","5764"
@@ -69,12 +69,12 @@
 
 #Jos on projektikäytössä, olisi varmaan parempi lainata niteet projektin kortille.
 #Näiden kohtalo pitäisi katsoa tarkemmin, laitettu nyt samaan kuin mikä on default.
-295: branchLoc(KONVERSIO, KONVERSIO) #"112","KK projektikaytassa","Kansalliskirjasto, PROJEKTIKaYTaSSa",,,"N","1","0"
+295: branchLoc(EI_KOHAAN, EI_PROJEKTIK) #"112","KK projektikaytassa","Kansalliskirjasto, PROJEKTIKaYTaSSa",,,"N","1","0"
 +112: ref(295)
 
 #Jos on tutkijakäytössä, olisi varmaan parempi lainata niteet projektin kortille.
 #Näiden kohtalo pitäisi katsoa tarkemmin, laitettu nyt samaan kuin mikä on default.
-296: branchLoc(KONVERSIO, KONVERSIO) #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
+296: branchLoc(EI_KOHAAN, EI_TUTKIJAK) #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
 +113: ref(296)
 
 297: branchLoc(ERIK, KASIK, HUM,,,,TILATT) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
@@ -971,4 +971,4 @@
 477: $DELETE #"931","S EL lainattavat","SKS:n kirjasto; elektroninen aineisto","931",,"Y","1","0"
 +931: ref(477)
  
-_DEFAULT_: branchLoc(KONVERSIO, KONVCC, KON) #By default, print a warning and use defaults )
+_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO) #By default, print a warning and use defaults )
