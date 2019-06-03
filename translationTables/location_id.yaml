@@ -44,7 +44,7 @@
 +HYKACQ: ref(158)
 173: branchLoc(EI_KOHAAN, TEKNINEN) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
 +02100: ref(173) #tekninen kokoelma
-211: branchLoc(EI_KOHAAN, TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
+211: branchLoc(KONVERSIO, TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
 #Käytetty voyagerissa tilapäiskokoelmana
 231: branchLoc(AVOK, TYOHUO, HUM,,,,PITK) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
@@ -87,8 +87,6 @@
 449: branchLoc(ERIK, KONSER, FEN,,,,KONS) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"
 +119: ref(449)
 #Konservoitavat voivat kai olla eri kokoelmista, mietittävä lopulliseen versioon, kuinka mapataan.
-
-
 
 
 
