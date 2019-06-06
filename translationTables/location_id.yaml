@@ -1,6 +1,7 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
+0: branchLoc(NRL, EI_NOLLA)
 1: branchLoc(EI_KOHAAN, EI_REVIEW) # REVIEW     REVIEW
 +REVIEW: ref(1)
 2: branchLoc(NRL, VARASTO) # Varastok   Varastok
