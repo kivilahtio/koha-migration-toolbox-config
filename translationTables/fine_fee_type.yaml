@@ -21,7 +21,7 @@
 8:  FU                       #"Accrued Fine","F8"
 9:  FU                       #"Accrued Demerit","F9"
 10: F                        #"Demerit","F10"
-# Mitä näille tehdään:
+# Laitetaan muihin maksuihin:
 # 11 Sisainen lainapyynto      O1
 # 12 Postimaksu                O2
 # 13 Kaukolainamaksu           O3
