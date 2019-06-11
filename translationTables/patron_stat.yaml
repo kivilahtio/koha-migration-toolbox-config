@@ -16,20 +16,14 @@
 
 8: AK #  Ceamk henkilöstö Kokkola
 9: AO #  Ceamk henkilöstö Yka
-10: AR #  Ceamk henkilöstö Rkylä
 11: AP #  Ceamk henkilöstö Prs
 13: DK #  Ceamk opiskelija Kokkola
 14: DP #  Ceamk opiskelija Prs
-15: DR #  Ceamk opiskelija Rkylä
 16: DO #  Ceamk opiskelija Yka
 17: G #   toisen AMK:n opiskelija
 18: F #   toisen AMK:n henkilökunta
-19: K #   yo-opisk./henk. (vanha)
-20: PHH # muu henk.k. Haapajärvi
-21: PHO # muu opisk. Haapajärvi
 22: PKH # muu henk.kunta Kokkola
 23: PKO # muu opisk. Kokkola
-24: PKY # Ketek, KPAKK
 25: PYH # muu henkilök. Ylivieska
 26: PYO # muu opisk. Ylivieska
 27: S #   julkishallinnon edustaja
@@ -39,17 +33,12 @@
 31: NK #  yl. kirj. kaukop.asiakas
 32: NY #  yliopistokirj. kaukop.as.
 33: U #   muut
-34: PRH # muu henkilök. Raudaskylä
-35: PRO # muu opisk. Raudaskylä
 36: PPO # muu opisk. Pietarsaari
 37: LK #  2. asteen henkilöstö Kla
 38: LO #  2. asteen henkilöstö Yka
-39: LR #  2. asteen henkil. Rkylä
 40: LP #  2. asteen henkilöstö Prs
 41: MK #  2. asteen opisk. Kokkola
 42: MO #  2. asteen opisk. Yka
-43: MR #  2. asteen opisk. Rkylä
 44: MP #  2. asteen opisk. Prs
-45: T #   Media
 46: I #   yliopiston henkilöstö
 47: J #   yliopiston opiskelija
