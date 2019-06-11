@@ -10,12 +10,12 @@
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
 
-am: '' #  tekstiaineisto
-cm: '' #  nuotti
-em: '' #  kartta
-gm: '' #  video
-im: '' #  äänite
-km: '' #  kuva
-mm: '' #  elektroninen aineisto
-pm: '' #  moniviestin
+am: 'AM' #  tekstiaineisto
+cm: 'CM' #  nuotti
+em: 'EM' #  kartta
+gm: 'GM' #  video
+im: 'IM' #  äänite
+km: 'KM' #  kuva
+mm: 'MM' #  elektroninen aineisto
+pm: 'PM' #  moniviestin
 _DEFAULT_: warning()
