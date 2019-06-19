@@ -76,6 +76,14 @@ ALEPH:
   do: 0
 ALEPH2:
   do: 0
+ISSN2:
+  do: 0
+ISSN3:
+  do: 0
+ISSNPREC:
+  do: 0
+ISSNSUCC:
+  do: 0
 '':
   do: 0
 
