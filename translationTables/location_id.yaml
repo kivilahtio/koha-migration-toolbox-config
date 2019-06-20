@@ -1,6 +1,7 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
+0: branchLoc(TRITO, EI_KOHAAN) # Bulk imported patrons are here
 1: branchLoc(EI_KOHAAN, EI_KOHAAN) # REVIEW     Kysy virkailijalta - Fråga personalen (REVIEW)
 +REVIEW: ref(1)
 2: branchLoc(EI_KOHAAN, EI_KOHAAN) # V100       Kysy virkailijalta-Fråga personalen (VYK:n kokoelma 100)
