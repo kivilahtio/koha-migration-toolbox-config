@@ -18,21 +18,21 @@
 
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status, item.circulation_level
-2:   branchLoc(AVOK, ROTAVO, HUM,,,,ITSEP) #"101","KK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","101","Y","N","1","137348"
+2:   branchLoc(AVOK, ROTAVO, HUM) #"101","KK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","101","Y","N","1","137348"
 +101: ref(2)
-3:   branchLoc(REF, HUMREF, HUM,,,,EILAIN) #"102","KK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","102","Y","N","1","51475"
+3:   branchLoc(REF, HUMREF, HUM) #"102","KK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","102","Y","N","1","51475"
 +102: ref(3)
-4:   branchLoc(VARKL, HUMVARA, HUM,,,,TILATT) #"103","KK H s28vrk","Kansalliskirjasto Varasto, 28 vrk","103","Y","N","1","385149"
+4:   branchLoc(VARKL, HUMVARA, HUM) #"103","KK H s28vrk","Kansalliskirjasto Varasto, 28 vrk","103","Y","N","1","385149"
 +103: ref(4)
-5:   branchLoc(VARLS, HUMVARB, HUM,,,,TILATT) #"104","KK H s0vrk","Kansalliskirjasto Varasto, ei kotilainaan","104","Y","N","1","96394"
+5:   branchLoc(VARLS, HUMVARB, HUM) #"104","KK H s0vrk","Kansalliskirjasto Varasto, ei kotilainaan","104","Y","N","1","96394"
 +104: ref(5)
-6:   branchLoc(REF, SLAREF, SLA,,,,EILAIN) #"122","KK H2 0vrk","Kansalliskirjasto Slavica Avokokoelma, ei kotilainaan","122","Y","N","1","13501"
+6:   branchLoc(REF, SLAREF, SLA) #"122","KK H2 0vrk","Kansalliskirjasto Slavica Avokokoelma, ei kotilainaan","122","Y","N","1","13501"
 +122: ref(6) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
-7:   branchLoc(AVOK, SLAAVO, SLA,,,,ITSEP) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
+7:   branchLoc(AVOK, SLAAVO, SLA) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
 +121: ref(7)
-8:   branchLoc(SLALS, SLAVARB, SLA,,,,TILATT) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
+8:   branchLoc(SLALS, SLAVARB, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
 +124: ref(8) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
-9:   branchLoc(VARKL, SLAVARA, SLA,,,,TILATT) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
+9:   branchLoc(VARKL, SLAVARA, SLA) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
 51:  branchLoc(EI_KOHAAN, EI_POISTETTU) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
 +126: ref(51)
@@ -47,7 +47,7 @@
 211: branchLoc(EI_KOHAAN, EI_TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
 #Käytetty voyagerissa tilapäiskokoelmana
-231: branchLoc(AVOK, TYOHUO, HUM,,,,PITK) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
+231: branchLoc(AVOK, TYOHUO, HUM) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
 +106: ref(231) #pysyväiskäyttö
 #voisi harkita item typeä, joka piilottaa nämä työhuonekäytössä olevat OPACista, jos se toimii myös Finnassa.
 234: branchLoc(EI_KOHAAN, EI_UUTUUS) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
@@ -56,7 +56,7 @@
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
 245: branchLoc(EI_KOHAAN, EI_TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 +02101: ref(245) #tekninen kokoelma, ei käytössä
-247: branchLoc(ERIK, HUMERI, HUM,,,,TILATT) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
+247: branchLoc(ERIK, HUMERI, HUM) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
 #Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129. Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
@@ -64,7 +64,7 @@
 253: branchLoc(EI_KOHAAN, EI_ERROR) #"03100","KK H Poistot","Kansalliskirjasto, poistettavat niteet",,,"Y","1","0"
 +03100: ref(253)
 
-281: branchLoc(ELE, EAIN, HUM,,,,ELEK) #"111","KK EL","KANSALLISKIRJASTO, ELEKTRONINEN AINEISTO",,,"N","1","5764"
+281: branchLoc(ELE, EAIN, HUM) #"111","KK EL","KANSALLISKIRJASTO, ELEKTRONINEN AINEISTO",,,"N","1","5764"
 +111: ref(281)
 
 #Jos on projektikäytössä, olisi varmaan parempi lainata niteet projektin kortille.
@@ -77,14 +77,14 @@
 296: branchLoc(EI_KOHAAN, EI_TUTKIJAK) #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
 +113: ref(296)
 
-297: branchLoc(ERIK, KASIK, HUM,,,,TILATT) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
+297: branchLoc(ERIK, KASIK, HUM) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
 +115: ref(297)
 
-324: branchLoc(ERIK, UFEN, FEN,,,,TILATT) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
+324: branchLoc(ERIK, UFEN, FEN) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
 +109: ref(324)
 #Näissä suppressoiduissa Helkan tietueissa on tilaukset kiinni. Ne voi varmaan Kohassa yhdistää Fennican tietueisiin, mutta tilausten pitää säilyä.
 
-449: branchLoc(ERIK, KONSER, FEN,,,,KONS) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"
+449: branchLoc(ERIK, KONSER, FEN) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"
 +119: ref(449)
 #Konservoitavat voivat kai olla eri kokoelmista, mietittävä lopulliseen versioon, kuinka mapataan.
 
