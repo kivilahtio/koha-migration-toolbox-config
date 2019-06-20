@@ -86,6 +86,8 @@ ISSNSUCC:
   do: 0
 ISSNCOMP:
   do: 0
+ISSN:
+  do: 0
 '':
   do: 0
 
