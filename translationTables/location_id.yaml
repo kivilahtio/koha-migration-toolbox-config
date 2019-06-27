@@ -13,14 +13,14 @@
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, itemtype, notforloan-status
 1:  branchLoc(EI_KOHAAN, EI_REVIEW)    #REVIEW,"REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
-2:  branchLoc(ERIK, FENNICA, FEN,,,,TILATT)     #fennica,"fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
-3:  branchLoc(ERIK, FENLUV, FEN,,,,TILATT)      #fenluv,"fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
+2:  branchLoc(ERIK, FENNICA, FEN,, TILATT)     #fennica,"fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
+3:  branchLoc(ERIK, FENLUV, FEN,, TILATT)      #fenluv,"fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
 
 #Tämä vaikuttaa itseasiassa aineistolajilta, Mikrofilmi (MF). Veikkaisin että ovat jossain varastossa/luolassa
-4:  branchLoc(AVOK, POHLS, FEN,,,MF,ITSEP)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
+4:  branchLoc(AVOK, POHLS, FEN, MF, ITSEP)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
     
 #Kokoelma voisi olla pienpainate (PP)?
-5:  branchLoc(ERIK, PP, FEN,,,,TILATT)                #pienp,"Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
+5:  branchLoc(ERIK, PP, FEN,,TILATT)                #pienp,"Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
 
 #Nämä ovat varmaankin tilauksessa olevia tietueita tai jotain muuta mitkä eivät ole vielä saapuneet kokoelmaan? Tällöin niteen tila on hankinnassa tms.
 6:  branchLoc(EI_KOHAAN, EI_ENNAKKO) #ennt","Ennakkotiedot","Ennakkotiedot",,,"N","1","0"
@@ -45,8 +45,8 @@
 16: branchLoc(DIGI, PP, FEN,, EA,) #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
 
 #Äänitteet ja nuotit tunnistaa YKL- tai MARC-luokituksista
-17: branchLoc(ERIK, AANIT, FEN,,,, TILATT)                #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
-18: branchLoc(ERIK, NUOTIT, FEN,,,, TILATT)                #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
+17: branchLoc(KUUNT, AANIT, FEN,, TILATT)                #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
+18: branchLoc(ERIK, NUOTIT, FEN,, TILATT)                #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
 
 _DEFAULT_: branchLoc(KONVERSIO,KONVERSIO) #By default, print a warning and use defaults )
 
