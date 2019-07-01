@@ -48,5 +48,5 @@
 17: branchLoc(KUUNT, AANIT, FEN,, TILATT)                #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
 18: branchLoc(ERIK, NUOTIT, FEN,, TILATT)                #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
 
-_DEFAULT_: branchLoc(KONVERSIO,KONVERSIO) #By default, print a warning and use defaults )
+_DEFAULT_: branchLoc(FONVERSIO,FONVERSIO) #By default, print a warning and use defaults )
 
