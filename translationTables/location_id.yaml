@@ -11,40 +11,40 @@
 #location_id,location_code,       #location_name
 
 #branchLoc sets the following attributes:
-#       branchcode, shelving_location, collection_code, sub_location
+#       branchcode, shelving_location, collection_code, sub_location, item.itemtype
 1:  branchLoc(EI_KOHAAN, KONVERSIO, REVIEW) #REVIEW, "REVIEW","REVIEW","REVIEW","Y","N","1","0"
 +REVIEW: ref(1)
-2:  branchLoc(KUUNT, AANIT, VIO, undef, TILATT)      #HYKAAN, "KK Aanitteet","Kansalliskirjasto <C4><E4>nitteet",,"Y","N","1","101474"
+2:  branchLoc(KUUNT, AANIT, VIO)      #HYKAAN, "KK Aanitteet","Kansalliskirjasto <C4><E4>nitteet",,"Y","N","1","101474"
 +HYKAAN: ref(2)
-3:  branchLoc(ERIK, NUOTIT, VIO, undef, TILATT)     #HYKNUO, "KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut",,"Y","N","1","24085"
+3:  branchLoc(ERIK, NUOTIT, VIO)     #HYKNUO, "KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut",,"Y","N","1","24085"
 +HYKNUO: ref(3)
-4:  branchLoc(EI_KOHAAN, MUSARK, undef, undef)     #JAPA,   "Musiikkiarkisto","Musiikkiarkisto","JAPA","Y","N","1","30151"
+4:  branchLoc(EI_KOHAAN, EI_MUSARK)     #JAPA,   "Musiikkiarkisto","Musiikkiarkisto","JAPA","Y","N","1","30151"
 +JAPA: ref(4)
-5:  branchLoc(EI_KOHAAN, KONVERSIO, undef, undef)    #YKPER,  "X_Ei k<E4>yt<F6>ss<E4> 2","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
+5:  branchLoc(EI_KOHAAN, KONVERSIO)    #YKPER,  "X_Ei k<E4>yt<F6>ss<E4> 2","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
 +YKPER: ref(5)
-7:  branchLoc(EI_KOHAAN, KONVERSIO, undef, undef)    #JYKNUO, "X_Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
+7:  branchLoc(EI_KOHAAN, KONVERSIO)    #JYKNUO, "X_Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
 +JYKNUO: ref(7)
-8:  branchLoc(EI_KOHAAN, KONVERSIO, undef, undef)              #VIOLAK, "VIOLA-kirjasto","VIOLA-kirjasto","VIOLAK",,"N","1","0"
+8:  branchLoc(EI_KOHAAN, KONVERSIO)              #VIOLAK, "VIOLA-kirjasto","VIOLA-kirjasto","VIOLAK",,"N","1","0"
 +VIOLAK: ref(8)
-9:  branchLoc(EI_KOHAAN, KONVERSIO, undef, undef)               #LOAD,   "Fonon loadit","Fonosta loadattu",,,"N","1","0"
+9:  branchLoc(EI_KOHAAN, KONVERSIO)               #LOAD,   "Fonon loadit","Fonosta loadattu",,,"N","1","0"
 +LOAD: ref(9)
-10: branchLoc(EI_KOHAAN, KONVERSIO, undef, undef)      #GMC,    "GMC","Maailman musiikin keskus ",,,"N","1","5835"
+10: branchLoc(EI_KOHAAN, KONVERSIO)      #GMC,    "GMC","Maailman musiikin keskus ",,,"N","1","5835"
 +GMC: ref(10)
-11: branchLoc(EI_KOHAAN, KONVERSIO, undef, undef)     #GMCK,   "GMC Kirjat",,,,"Y","1","0"
+11: branchLoc(EI_KOHAAN, KONVERSIO)     #GMCK,   "GMC Kirjat",,,,"Y","1","0"
 +GMCK: ref(11)
-12: branchLoc(KUUNT, AANIT, VIO, HYKJS, TILATT)     #HYKJS,  "KK Jaakko Salo","Kansalliskirjasto Jaakko Salo",,,"N","1","1336"
+12: branchLoc(KUUNT, AANIT, VIO, HYKJS)     #HYKJS,  "KK Jaakko Salo","Kansalliskirjasto Jaakko Salo",,,"N","1","1336"
 +HYKJS: ref(12)
-13: branchLoc(DIGI, AANIT, VIO, undef, EA)     #DIGIAAN,"KK Digitoidut aanitteet","Kansalliskirjasto Digitoidut <E4><E4>nitteet",,,"N","1","10537"
+13: branchLoc(DIGI, AANIT, VIO, , EA)     #DIGIAAN,"KK Digitoidut aanitteet","Kansalliskirjasto Digitoidut <E4><E4>nitteet",,,"N","1","10537"
 +DIGIAAN: ref(13)
-14: branchLoc(KUUNT, AANIT, VIO, SULHEL, TILATT)     #HYKSH,  "KK Sulo Hellemaki","Kansalliskirjasto Sulo Hellem<E4>ki",,,"N","1","831"
+14: branchLoc(KUUNT, AANIT, VIO, SULHEL)     #HYKSH,  "KK Sulo Hellemaki","Kansalliskirjasto Sulo Hellem<E4>ki",,,"N","1","831"
 +HYKSH: ref(14)
-15: branchLoc(KUUNT, AANIT, VIO, MAHEHO, TILATT)     #HYKMHH, "KK Matti ja Helmi Holm","Kansalliskirjasto Matti ja Helmi Holm",,,"N","1","94"
+15: branchLoc(KUUNT, AANIT, VIO, MAHEHO)     #HYKMHH, "KK Matti ja Helmi Holm","Kansalliskirjasto Matti ja Helmi Holm",,,"N","1","94"
 +HYKMHH: ref(15)
-16: branchLoc(KUUNT, AANIT, VIO, KAYTTK, TILATT)     #HYKKK,  "KK K<E4>ytt<F6>kopiot","Kansalliskirjasto K<E4>ytt<F6>kopiot",,,"N","1","11489"
+16: branchLoc(KUUNT, AANIT, VIO, KAYTTK)     #HYKKK,  "KK K<E4>ytt<F6>kopiot","Kansalliskirjasto K<E4>ytt<F6>kopiot",,,"N","1","11489"
 +HYKKK: ref(16)
-17: branchLoc(ERIK, KASIK, VIO, undef, TILATT)     #HYKKAS, "KK K<E4>sikirjoitukset","Kansalliskirjasto K<E4>sikirjoitukset",,,"N","1","482"
+17: branchLoc(ERIK, VIO_KASIK, VIO)     #HYKKAS, "KK K<E4>sikirjoitukset","Kansalliskirjasto K<E4>sikirjoitukset",,,"N","1","482"
 +HYKKAS: ref(17)
-19: branchLoc(ERIK, FENNVIO, VIO, undef, undef, TILATT)    #fennica,"Fennica","Kansalliskirjasto Fennica ja Viola",,,"N","1","768"
+19: branchLoc(ERIK, FENNVIO, VIO)    #fennica,"Fennica","Kansalliskirjasto Fennica ja Viola",,,"N","1","768"
 +fennica: ref(19)
 20: branchLoc(DIGI, NUOTIT, VIO, DIGINUO, EA,)    #DIGINUO,"KK Digitoidut nuottijulk.","Kansalliskirjasto Digitoidut nuottijulkaisut",,,"N","1","21"
 +DIGINUO: ref(20)
