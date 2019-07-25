@@ -95,7 +95,7 @@
 +MASA: ref(49)
 50: branchLoc(EI_KOHAAN,EI_KOHAAN) # MAOK       Maasotakoulu Oppikirjat (vain pvn käyttöön)
 +MAOK: ref(50)
-51: branchLoc(EI_KOHAAN,EI_KOHAAN) # MAMV       MAASK Opetuspaketit (vain pv)
+51: branchLoc(MAASK,MAMV) # MAMV       MAASK Opetuspaketit (vain pv)
 +MAMV: ref(51)
 52: branchLoc(EI_KOHAAN,EI_KOHAAN) # MAVI       Maasotakoulu Videot (vain pvn käyttöön)
 +MAVI: ref(52)
