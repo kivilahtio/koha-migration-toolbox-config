@@ -16,49 +16,27 @@
 #Helka source values
 #PATRON_GROUP_ID,PATRON_GROUP_CODE,PATRON_GROUP_NAME
 
-#1: ULKOP       #"3 Ulkopuolinen henkilo","Yliopiston ulkopuoliset henkiloasiakkaat","Y","100","1","1","N","0","N"
-#2: OPISKELIJA  #"1 HY opiskelija","Helsingin yliopiston opiskelija","Y","100","1","1","N","0","N"
-#3: HENKKUNTA   #"2 HY henkilokunta","Helsingin yliopiston henkilokunta","Y","100","1","1","N","0","N"
-#4: KAUKO       #"Kaukolainakirjastot","Kaukolainakirjastot","Y","100","1","1","N",,
-#5: YHTEISOT    #"Ulkopuolinen yhteiso","Yliopiston ulkopuoliset yhteisoasiakkaat","Y","100","1","1","N",,
-#6: LAITOS      #"HY laitos","Helsingin yliopiston laitos","Y","100","1","1","N",,
-#9: B_HENKILOK  #"Museovirasto henkilokunta","Museoviraston henkilokunta","Y","100","1","1","N",,
-#10: I_HENKILOK #"Ilmatieteen lts, hlokunta","Ilmatieteen laitoksen henkilokunta","Y","100","1","1","N",,
-#11: KOTUS_VT   #"Kotuksen vier. tutkijat","Kotuksen vier. tutkijat, vain Kotus","Y","100","1","1","N",,
-#12: KOTUSHENK  #"Kotuksen henkilokunta","Kotuksen henkilokunta","Y","100","1","1","N",,
-#17: KUMPULA_VT #"Kumpulan vier. tutkijat","Kumpulan tiedekirjaston vier. tutkijat","Y","100","1","1","N",,
-#19: HYK_VT     #"HYK vierailevat tutkijat","HYK vierailevat tutkijat","Y","100","1","1","N",,
-#20: Hh_VT      #"Hh vieraileva tutkija","Hh vieraileva tutkija","Y","100","1","1","N","0","N"
-#21: ERIKOIS    #"Kirjastojen erikoiskortit","Kirjastoissa kaytettavat erikoiskortit","N","1","1","1","N","0","N"
-#22: UUTUUS     #"Uutuushyllyssa","Uutuushyllyssa","N","1","1","1","Y",,
-#23: UBTEST     #"UB-testiryhma",,"N","1","1","1","N","0","N"
-#24: SKS_HENKIL #"SKS:n henkilokunta","SKS:n henkilokunta","N","1","1","1","N","0","N"
-#25: TPROXY     #"Testi Proxyt","Testi proxyasiakas","N","1","1","1","N","0","N"
-#26: HYK_KOTIVT #"HYK kotilaina vierailijat","HYK kotilaina vierailijat","N","1","1","1","N","0","N"
-#27: VIERAS     #"International Guest","International Guest","N","1","1","1","N","150","Y"
-#28: ERITPALV   #"Erityispalveluasiakas","Erityispalvelua tarvitseva asiakas","N","1","1","1","N","0","N"
-
-1        : KOT
-2        : KOT
-3        : KOT
-4        : KAU
-5        : KOT
-6        : KOT
-9        : KOT
-10       : KOT
-11       : LUK
-12       : KOT
-17       : LUK
-19       : LUK
-20       : KOT
-21       : KK
-22       : EI_KOHAAN
-23       : EI_KOHAAN
-24       : KOT
-25       : KK
-26       : KOT
-27       : KOT
-28       : ERI
+1        : KOT #1: ULKOP       #"3 Ulkopuolinen henkilo","Yliopiston ulkopuoliset henkiloasiakkaat","Y","100","1","1","N","0","N"
+2        : KOT #2: OPISKELIJA  #"1 HY opiskelija","Helsingin yliopiston opiskelija","Y","100","1","1","N","0","N"
+3        : KOT #3: HENKKUNTA   #"2 HY henkilokunta","Helsingin yliopiston henkilokunta","Y","100","1","1","N","0","N"
+4        : KAU #4: KAUKO       #"Kaukolainakirjastot","Kaukolainakirjastot","Y","100","1","1","N",,
+5        : KOT #5: YHTEISOT    #"Ulkopuolinen yhteiso","Yliopiston ulkopuoliset yhteisoasiakkaat","Y","100","1","1","N",,
+6        : KOT #6: LAITOS      #"HY laitos","Helsingin yliopiston laitos","Y","100","1","1","N",,
+9        : KOT #9: B_HENKILOK  #"Museovirasto henkilokunta","Museoviraston henkilokunta","Y","100","1","1","N",,
+10       : KOT #10: I_HENKILOK #"Ilmatieteen lts, hlokunta","Ilmatieteen laitoksen henkilokunta","Y","100","1","1","N",,
+11       : LUK #11: KOTUS_VT   #"Kotuksen vier. tutkijat","Kotuksen vier. tutkijat, vain Kotus","Y","100","1","1","N",,
+12       : KOT #12: KOTUSHENK  #"Kotuksen henkilokunta","Kotuksen henkilokunta","Y","100","1","1","N",,
+17       : LUK #17: KUMPULA_VT #"Kumpulan vier. tutkijat","Kumpulan tiedekirjaston vier. tutkijat","Y","100","1","1","N",,
+19       : LUK #19: HYK_VT     #"HYK vierailevat tutkijat","HYK vierailevat tutkijat","Y","100","1","1","N",,
+20       : LUK #20: Hh_VT      #"Hh vieraileva tutkija","Hh vieraileva tutkija","Y","100","1","1","N","0","N"
+21       : KK #21: ERIKOIS    #"Kirjastojen erikoiskortit","Kirjastoissa kaytettavat erikoiskortit","N","1","1","1","N","0","N"
+22       : EI_KOHAAN #22: UUTUUS     #"Uutuushyllyssa","Uutuushyllyssa","N","1","1","1","Y",,
+23       : EI_KOHAAN #23: UBTEST     #"UB-testiryhma",,"N","1","1","1","N","0","N"
+24       : KOT #24: SKS_HENKIL #"SKS:n henkilokunta","SKS:n henkilokunta","N","1","1","1","N","0","N"
+25       : KK #25: TPROXY     #"Testi Proxyt","Testi proxyasiakas","N","1","1","1","N","0","N"
+26       : KOT #26: HYK_KOTIVT #"HYK kotilaina vierailijat","HYK kotilaina vierailijat","N","1","1","1","N","0","N"
+27       : KOT #27: VIERAS     #"International Guest","International Guest","N","1","1","1","N","150","Y"
+28       : ERI #28: ERITPALV   #"Erityispalveluasiakas","Erityispalvelua tarvitseva asiakas","N","1","1","1","N","0","N"
 UNKNOWN  : $DELETE             #Patrons with group id of UNKNOWN, will be removed from the migration. UNKNOWN is given when no Patron has no patron_group_id
 #_DEFAULT_: warning()           #Default value to use, if nothing matches. if this field is omitted, MMT simply warns and ignores the value.
 _DEFAULT_: KONVERSIO
