@@ -12,7 +12,7 @@
 
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, item.itemtype
-1:  branchLoc(EI_KOHAAN, KONVERSIO, REVIEW) #REVIEW, "REVIEW","REVIEW","REVIEW","Y","N","1","0"
+1:  branchLoc(EI_KOHAAN, EI_REVIEW) #REVIEW, "REVIEW","REVIEW","REVIEW","Y","N","1","0"
 +REVIEW: ref(1)
 2:  branchLoc(KUUNT, AANIT, VIO)      #HYKAAN, "KK Aanitteet","Kansalliskirjasto <C4><E4>nitteet",,"Y","N","1","101474"
 +HYKAAN: ref(2)
@@ -20,17 +20,17 @@
 +HYKNUO: ref(3)
 4:  branchLoc(EI_KOHAAN, EI_MUSARK)     #JAPA,   "Musiikkiarkisto","Musiikkiarkisto","JAPA","Y","N","1","30151"
 +JAPA: ref(4)
-5:  branchLoc(EI_KOHAAN, KONVERSIO)    #YKPER,  "X_Ei k<E4>yt<F6>ss<E4> 2","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
+5:  branchLoc(EI_KOHAAN, EI_YKPER)    #YKPER,  "X_Ei k<E4>yt<F6>ss<E4> 2","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
 +YKPER: ref(5)
-7:  branchLoc(EI_KOHAAN, KONVERSIO)    #JYKNUO, "X_Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
+7:  branchLoc(EI_KOHAAN, EI_JYKNUO)    #JYKNUO, "X_Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
 +JYKNUO: ref(7)
-8:  branchLoc(EI_KOHAAN, KONVERSIO)              #VIOLAK, "VIOLA-kirjasto","VIOLA-kirjasto","VIOLAK",,"N","1","0"
+8:  branchLoc(EI_KOHAAN, EI_VIOLAK)              #VIOLAK, "VIOLA-kirjasto","VIOLA-kirjasto","VIOLAK",,"N","1","0"
 +VIOLAK: ref(8)
-9:  branchLoc(EI_KOHAAN, KONVERSIO)               #LOAD,   "Fonon loadit","Fonosta loadattu",,,"N","1","0"
+9:  branchLoc(EI_KOHAAN, EI_LOAD)               #LOAD,   "Fonon loadit","Fonosta loadattu",,,"N","1","0"
 +LOAD: ref(9)
-10: branchLoc(EI_KOHAAN, KONVERSIO)      #GMC,    "GMC","Maailman musiikin keskus ",,,"N","1","5835"
+10: branchLoc(EI_KOHAAN, EI_GMC)      #GMC,    "GMC","Maailman musiikin keskus ",,,"N","1","5835"
 +GMC: ref(10)
-11: branchLoc(EI_KOHAAN, KONVERSIO)     #GMCK,   "GMC Kirjat",,,,"Y","1","0"
+11: branchLoc(EI_KOHAAN, EI_GMCK)     #GMCK,   "GMC Kirjat",,,,"Y","1","0"
 +GMCK: ref(11)
 12: branchLoc(KUUNT, AANIT, VIO, HYKJS)     #HYKJS,  "KK Jaakko Salo","Kansalliskirjasto Jaakko Salo",,,"N","1","1336"
 +HYKJS: ref(12)
@@ -49,7 +49,7 @@
 20: branchLoc(DIGI, NUOTIT, VIO, DIGINUO, EA,)    #DIGINUO,"KK Digitoidut nuottijulk.","Kansalliskirjasto Digitoidut nuottijulkaisut",,,"N","1","21"
 +DIGINUO: ref(20)
 
-_DEFAULT_: branchLoc(FABIAN, KONVERSIO, ERROR, ERROR) #By default, print a warning and use defaults )
+_DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #By default, print a warning and use defaults )
 
 
 #fabianissa on Käsikirjasto + varasto
