@@ -20,7 +20,7 @@
 +fenluv: ref(3)
 
 #Tämä vaikuttaa itseasiassa aineistolajilta, Mikrofilmi (MF). Veikkaisin että ovat jossain varastossa/luolassa
-4:  branchLoc(AVOK, POHLS, FEN, MF, ITSEP)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
+4:  branchLoc(AVOK, POHLS, FEN, MF)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
 +mikrof: ref(4)
     
 #Kokoelma voisi olla pienpainate (PP)?
