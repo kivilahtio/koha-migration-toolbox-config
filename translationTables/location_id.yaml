@@ -59,10 +59,10 @@
 14: branchLoc(EI_KOHAAN, EI_LAINAUS)                    #Lainaus","Fennican lainaus",,,,"Y","1","0"
 +Lainaus: ref(14)
 
-15: branchLoc(DIGI, EVAP, FEN,, EA,)  #evapaa","eVapaakappaleet","KANSALLISKOKOELMA - digitaaliset vapaakappaleet",,,"N","1","1347"
+15: branchLoc(DIGI, EVAP, FEN,, EV)  #evapaa","eVapaakappaleet","KANSALLISKOKOELMA - digitaaliset vapaakappaleet",,,"N","1","1347"
 +evapaa: ref(15)
 
-16: branchLoc(DIGI, PP, FEN,, EA,) #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
+16: branchLoc(DIGI, PP, FEN,, EA) #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
 +digi: ref(16)
 
 #Äänitteet ja nuotit tunnistaa YKL- tai MARC-luokituksista
