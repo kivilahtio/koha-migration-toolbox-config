@@ -67,7 +67,7 @@
 +RKkau: ref(37)
 40: branchLoc(EI_KOHAAN,EI_COLIBRI) # Colibri              "Call Slip"
 +Colibri: ref(40)
-41: branchLoc(EI_KOHAAN,EI_CKTK) # CKTK                   Tietokannat
+41: branchLoc(EAIN,TK) # CKTK                   Tietokannat
 +CKTK: ref(41)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
