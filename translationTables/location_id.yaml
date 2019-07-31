@@ -42,7 +42,7 @@
 +01100: ref(148)
 158: branchLoc(EI_KOHAAN, EI_KONVERSIOHANK) #"HYKACQ","KK konversiov. hankinta","Kansalliskirjasto, konversiovaiheen hankintakokoelma",,,"Y","1","0"
 +HYKACQ: ref(158)
-173: branchLoc(EI_KOHAAN, EI_TEKNINEN) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
+173: branchLoc(AVOK) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
 +02100: ref(173) #tekninen kokoelma
 211: branchLoc(EI_KOHAAN, EI_TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
@@ -54,7 +54,8 @@
 +107: ref(234) # temp location
 238: branchLoc(EI_KOHAAN, EI_TIETOPALVELU) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
-245: branchLoc(EI_KOHAAN, EI_TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
+245: branchLoc(ERIK) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
+#oletettavasti yllä oleva viittaa erikoislukusaliin
 +02101: ref(245) #tekninen kokoelma, ei käytössä
 247: branchLoc(ERIK, HUMERI, HUM) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
