@@ -12,7 +12,7 @@
 
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, itemtype, notforloan-status
-1:  branchLoc(EI_KOHAAN, EI_REVIEW)    #REVIEW,"REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
+1:  branchLoc(ERIK, FENNICA, FEN)    #REVIEW,"REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
 +REVIEW: ref(1)
 2:  branchLoc(ERIK, FENNICA, FEN)     #fennica,"fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
 +fennica: ref(2)
@@ -20,7 +20,7 @@
 +fenluv: ref(3)
 
 #Tämä vaikuttaa itseasiassa aineistolajilta, Mikrofilmi (MF). Veikkaisin että ovat jossain varastossa/luolassa
-4:  branchLoc(AVOK, POHLS, FEN, MF)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
+4:  branchLoc(MIKROF, VARMF, FEN)  #mikrof,"MF.","KANSALLISKOKOELMA - mikrofilmattu aineisto","mikrof","Y","N","1","29328"
 +mikrof: ref(4)
     
 #Kokoelma voisi olla pienpainate (PP)?
@@ -33,7 +33,7 @@
 
 #Miksi tälläinen on tarpeellinen? Jos jotain puuttuu kansalliskokoelmasta, ne saa selvillä tekemällä haun tietueista, joilla ei ole niteitä
 #ja jotka eivät ole osakohteita.
-7:  branchLoc(EI_KOHAAN, EI_PUUTEL)    #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
+7:  branchLoc(EI_KOHAAN, EI_KONVERSIO)    #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
 +puutel: ref(7)
 
 8:  branchLoc(EI_KOHAAN, EI_RV)      #rv","RV-kokoelma","Kansalliskokoelma  -  RV. Fennica",,,"N","1","0"
@@ -50,7 +50,7 @@
 +digtain: ref(11)
 
 #Äänitteen tunnistaa YKL-luokituksesta tai MARC-kontrollikentistä.
-12: branchLoc(DIGI, DIGIT, FEN)  #digiaan","digitoidut <E4><E4>nitteet","KANSALLISKOKOELMA - digitoidut <E4><E4>nitteet","digitoidut <E4><E4>nitteet",,"N","1","5"
+12: branchLoc(DIGI, DIGIAAN, FEN)  #digiaan","digitoidut <E4><E4>nitteet","KANSALLISKOKOELMA - digitoidut <E4><E4>nitteet","digitoidut <E4><E4>nitteet",,"N","1","5"
 +digiaan: ref(12)
 
 13: branchLoc(EI_KOHAAN, EI_DIGIT)                   #mikkeli","digitoitavana Mikkeliss<E4>","digitoitavana",,,"N","1","0"
@@ -62,7 +62,7 @@
 15: branchLoc(DIGI, EVAP, FEN)  #evapaa","eVapaakappaleet","KANSALLISKOKOELMA - digitaaliset vapaakappaleet",,,"N","1","1347"
 +evapaa: ref(15)
 
-16: branchLoc(DIGI, PP, FEN) #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
+16: branchLoc(DIGI, DIGIPP, FEN) #digi","digitoidut pienpainatteet","KANSALLISKOKOELMA - digitoidut pienpainatteet","digitoidut pienpainatteet",,"N","1","5004"
 +digi: ref(16)
 
 #Äänitteet ja nuotit tunnistaa YKL- tai MARC-luokituksista
