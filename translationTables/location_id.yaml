@@ -33,7 +33,7 @@
 
 #Miksi tälläinen on tarpeellinen? Jos jotain puuttuu kansalliskokoelmasta, ne saa selvillä tekemällä haun tietueista, joilla ei ole niteitä
 #ja jotka eivät ole osakohteita.
-7:  branchLoc(EI_KOHAAN, EI_KONVERSIO)    #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
+7:  branchLoc(EI_KOHAAN, EI_PUUTEL)    #puutel","Puutel","Puuttuu  kansalliskokoelmasta",,,"N","1","0"
 +puutel: ref(7)
 
 8:  branchLoc(EI_KOHAAN, EI_RV)      #rv","RV-kokoelma","Kansalliskokoelma  -  RV. Fennica",,,"N","1","0"
