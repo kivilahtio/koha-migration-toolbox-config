@@ -8,10 +8,10 @@
 ##
 
 #patron_stat_id,patron_stat_desc
-1: FAC #"Faculty"
-2: STU #"Student"
-3: STF #"Staff"
-4: AFF #"Affiliate"
-5: LIB #"Library Staff"
-6: ADM #"Univ. Admin."
+1: EI_KOHAAN #"Faculty"
+2: EI_KOHAAN #"Student"
+3: EI_KOHAAN #"Staff"
+4: EI_KOHAAN #"Affiliate"
+5: EI_KOHAAN #"Library Staff"
+6: EI_KOHAAN #"Univ. Admin."
 
