@@ -42,8 +42,6 @@
 +01100: ref(148)
 158: branchLoc(EI_KOHAAN, EI_KONVERSIOHANK) #"HYKACQ","KK konversiov. hankinta","Kansalliskirjasto, konversiovaiheen hankintakokoelma",,,"Y","1","0"
 +HYKACQ: ref(158)
-173: branchLoc(AVOK) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
-+02100: ref(173) #tekninen kokoelma
 211: branchLoc(EI_KOHAAN, EI_TILAP) #"105","KK lukusali","Kansalliskirjasto, lukusalilaina",,,"Y","1","0"
 +105: ref(211) ##Miten saadaan aikaan tilanne, jossa niteet saadaan lainaksi lukusalissa, mutta niitä ei voi lainata muualla - ja hälyytykset säilyvät!
 #Käytetty voyagerissa tilapäiskokoelmana
@@ -59,6 +57,21 @@
 +02101: ref(245) #tekninen kokoelma, ei käytössä
 247: branchLoc(ERIK, HUMERI, HUM) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
+
+#tapahtumalokaatioita
+173: branchLoc(AVOK) #"02100","KK Kansalliskirjasto","Kansalliskirjasto, lainaus",,,"Y","1","0"
++02100: ref(173) #tekninen kokoelma
+
+
+307: branchLoc(AVOK, PERINTA) #"PERINTA","Perintakokoelma","Yksi kappale perinnassa","Perintakokoelma",,"Y","1","1"
++PERINTA: ref(307)
+
+443: branchLoc(AVOK) #"02300","Hc Kaisa-talo","Kaisa-talo, lainaus","02300",,"N","1","0"
++02300: ref(443)
+
+177: branchLoc(AVOK) #"02600","Hb Viikin tiedekirjasto","Viikin kampuskirjasto, lainaus",,,"Y","1","0"
++02600: ref(177)
+
 
 #Kuten sanottu, otetaan tähän harjoitukseen vain kokoelmat koodiltaan 100 - 129. Voyagerissa on paljon teknisiä kokoelmia, joihin ei nyt kannata kiinnittää huomiota
 #Poistoja varten voi Kohassa tehdä esimerkiksi yhteisen jaetun listan, johon poistetut tietueet menevät.
@@ -403,8 +416,7 @@
 +02170: ref(175)
 176: $DELETE #"02160","Hk Minerva","Kayttaytymistieteet / Minerva, lainaus",,,"Y","1","0"
 +02160: ref(176)
-177: $DELETE #"02600","Hb Viikin tiedekirjasto","Viikin kampuskirjasto, lainaus",,,"Y","1","0"
-+02600: ref(177)
+
 178: $DELETE #"02190","Ho Oikeustiede kirjasto","Oikeustiede, lainaus","POISTETTU",,"Y","1","0"
 +02190: ref(178)
 179: $DELETE #"02400","Hs Kumpulan tiedekirjasto","Kumpulan kampuskirjasto, lainaus",,,"Y","1","0"
@@ -633,8 +645,6 @@
 +292: ref(305)
 306: $DELETE #"299","Hhyht Tyahuoneet","Hum tdk:n tyahuoneissa, saatavissa vain laitoskayttaan",,,"N","1","14677"
 +299: ref(306)
-307: $DELETE #"PERINTA","Perintakokoelma","Yksi kappale perinnassa","Perintakokoelma",,"Y","1","1"
-+PERINTA: ref(307)
 308: $DELETE #"231","Hhkou 7 vrk - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
 +231: ref(308)
 309: $DELETE #"232","Hhkou yalaina - aLa KaYTa","Metsatalo KaYTETTaVISSa 3.9.2012 ALKAEN KAISA-TALOSSA","POISTETTU",,"N","1","0"
@@ -903,8 +913,7 @@
 +363: ref(441)
 442: $DELETE #"01300","Hc H ja L","Keskustakampus, hankinta ja luettelointi","01300",,"N","1","0"
 +01300: ref(442)
-443: $DELETE #"02300","Hc Kaisa-talo","Kaisa-talo, lainaus","02300",,"N","1","0"
-+02300: ref(443)
+
 444: $DELETE #"03300","Hc Poistot 03300","Kaisa-talo, poistettu aineisto","POISTETTU",,"Y","1","0"
 +03300: ref(444)
 445: $DELETE #"249","Hc Tiedekulma","Tiedekulma, Keskustakampus","249",,"N","1","0"
