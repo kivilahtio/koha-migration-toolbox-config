@@ -15,8 +15,8 @@
 #ITEM_STAT_CODE,          ITEM_STAT_ID,      #ITEM_STAT_CODE_DESC
 
 7A1: EI_KOHAAN #25, Hc Uskontoantropologia
-PR1: KONVERSIO #29, PERINTÄ perintäehdokas
-PR2: KONVERSIO #30, PERINTÄ väliaik keskeytys
+PR1: PERINTAVOY #29, PERINTÄ perintäehdokas
+PR2: PERINTAVOY #30, PERINTÄ väliaik keskeytys
 5F1: EI_KOHAAN #1, Hs Fys, varsin kurssik
 5F2: EI_KOHAAN #2, Hs Fys, oheislukemisto
 5F3: EI_KOHAAN #3, Hs Fys, vanh vaat muk
@@ -44,7 +44,7 @@ HaM: EI_KOHAAN #23, Hankinta: maksullinen
 7A2: EI_KOHAAN #26, Hc Kristillinen taide
 7A3: EI_KOHAAN #27, Hc Patristiikka
 7A4: EI_KOHAAN #28, Hc uskonnonfilosofia
-PR3: KONVERSIO #31, PERINTÄ ei perintään
+PR3: PERINTAVOY #31, PERINTÄ ei perintään
 
 
 _DEFAULT_: warning()
