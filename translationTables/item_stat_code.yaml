@@ -9,6 +9,5 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-OST: ''  #"1","OST","Ulkofennica"
 _DEFAULT_: warning()
 
