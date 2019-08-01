@@ -34,7 +34,7 @@
 +GMCK: ref(11)
 12: branchLoc(KUUNT, AANIT, VIO, HYKJS)     #HYKJS,  "KK Jaakko Salo","Kansalliskirjasto Jaakko Salo",,,"N","1","1336"
 +HYKJS: ref(12)
-13: branchLoc(DIGI, AANIT, VIO, , EA)     #DIGIAAN,"KK Digitoidut aanitteet","Kansalliskirjasto Digitoidut <E4><E4>nitteet",,,"N","1","10537"
+13: branchLoc(DIGI, DIGIAAN, VIO)     #DIGIAAN,"KK Digitoidut aanitteet","Kansalliskirjasto Digitoidut <E4><E4>nitteet",,,"N","1","10537"
 +DIGIAAN: ref(13)
 14: branchLoc(KUUNT, AANIT, VIO, SULHEL)     #HYKSH,  "KK Sulo Hellemaki","Kansalliskirjasto Sulo Hellem<E4>ki",,,"N","1","831"
 +HYKSH: ref(14)
@@ -46,7 +46,7 @@
 +HYKKAS: ref(17)
 19: branchLoc(ERIK, FENNVIO, VIO)    #fennica,"Fennica","Kansalliskirjasto Fennica ja Viola",,,"N","1","768"
 +fennica: ref(19)
-20: branchLoc(DIGI, NUOTIT, VIO, DIGINUO, EA,)    #DIGINUO,"KK Digitoidut nuottijulk.","Kansalliskirjasto Digitoidut nuottijulkaisut",,,"N","1","21"
+20: branchLoc(DIGI, DIGINUO, VIO)    #DIGINUO,"KK Digitoidut nuottijulk.","Kansalliskirjasto Digitoidut nuottijulkaisut",,,"N","1","21"
 +DIGINUO: ref(20)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #By default, print a warning and use defaults )
