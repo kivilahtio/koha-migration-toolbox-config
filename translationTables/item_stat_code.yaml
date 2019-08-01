@@ -14,37 +14,4 @@
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_CODE,          ITEM_STAT_ID,      #ITEM_STAT_CODE_DESC
 
-7A1: EI_KOHAAN #25, Hc Uskontoantropologia
-PR1: PERINTAVOY #29, PERINTÄ perintäehdokas
-PR2: PERINTAVOY #30, PERINTÄ väliaik keskeytys
-5F1: EI_KOHAAN #1, Hs Fys, varsin kurssik
-5F2: EI_KOHAAN #2, Hs Fys, oheislukemisto
-5F3: EI_KOHAAN #3, Hs Fys, vanh vaat muk
-5G1: EI_KOHAAN #4, Hs Geo, varsin kurssik
-5G2: EI_KOHAAN #5, Hs Geo, oheislukemisto
-5G3: EI_KOHAAN #6, Hs Geo, vanh vaat muk
-5K1: EI_KOHAAN #7, Hs Kem, varsin kurssik
-5R1: EI_KOHAAN #8, Hs Maa, varsin kurssik
-5M1: EI_KOHAAN #9, Hs Mat, varsin kurssik
-5C1: EI_KOHAAN #10, Hs Tk, varsin kurssik
-5A1: EI_KOHAAN #11, Hs Th, varsin kurssik
-5K2: EI_KOHAAN #12, Hs Kem, oheislukemisto
-5R2: EI_KOHAAN #13, Hs Maa, oheislukemisto
-5M2: EI_KOHAAN #14, Hs Mat, oheislukemisto
-5C2: EI_KOHAAN #15, Hs Tk, oheislukemisto
-5A2: EI_KOHAAN #16, Hs Th, oheislukemisto
-5K3: EI_KOHAAN #17, Hs Kem, vanh vaat muk
-5R3: EI_KOHAAN #18, Hs Maa, vanh vaat muk
-5M3: EI_KOHAAN #19, Hs Mat, vanh vaat muk
-5C3: EI_KOHAAN #20, Hs Tk, vanh vaat muk
-5A3: EI_KOHAAN #21, Hs Th, vanh vaat muk
-HaI: EI_KOHAAN #22, Hankinta: ilmainen
-HaM: EI_KOHAAN #23, Hankinta: maksullinen
-6L1: EI_KOHAAN #24, Hb Lahjat VOK
-7A2: EI_KOHAAN #26, Hc Kristillinen taide
-7A3: EI_KOHAAN #27, Hc Patristiikka
-7A4: EI_KOHAAN #28, Hc uskonnonfilosofia
-PR3: PERINTAVOY #31, PERINTÄ ei perintään
-
-
 _DEFAULT_: warning()
