@@ -42,7 +42,7 @@
 +HYKMHH: ref(15)
 16: branchLoc(KUUNT, AANIT, VIO, KAYTTK)     #HYKKK,  "KK K<E4>ytt<F6>kopiot","Kansalliskirjasto K<E4>ytt<F6>kopiot",,,"N","1","11489"
 +HYKKK: ref(16)
-17: branchLoc(ERIK, VIO_KASIK, VIO)     #HYKKAS, "KK K<E4>sikirjoitukset","Kansalliskirjasto K<E4>sikirjoitukset",,,"N","1","482"
+17: branchLoc(ERIK, KASIK, VIO)     #HYKKAS, "KK K<E4>sikirjoitukset","Kansalliskirjasto K<E4>sikirjoitukset",,,"N","1","482"
 +HYKKAS: ref(17)
 19: branchLoc(ERIK, FENNVIO, VIO)    #fennica,"Fennica","Kansalliskirjasto Fennica ja Viola",,,"N","1","768"
 +fennica: ref(19)
