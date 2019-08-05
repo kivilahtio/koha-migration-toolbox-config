@@ -30,7 +30,7 @@
 +122: ref(6) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
 7:   branchLoc(AVOK, SLAAVO, SLA) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
 +121: ref(7)
-8:   branchLoc(SLALS, SLAVARB, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
+8:   branchLoc(SLAVAR, SLAVARB, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
 +124: ref(8) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
 9:   branchLoc(VARKL, SLAVARA, SLA) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
@@ -55,7 +55,7 @@
 245: branchLoc(ERIK) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 #oletettavasti yllä oleva viittaa erikoislukusaliin
 +02101: ref(245) #tekninen kokoelma, ei käytössä
-247: branchLoc(ERIK, HUMERI, HUM) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
+247: branchLoc(ERIKVAR, HUMERI, HUM) #"110","KK erikoislukusali","Kansalliskirjasto, kaytta vain erikoislukusalissa",,,"N","1","66567"
 +110: ref(247) #käyttö erikoislukusalissa, kokoelma eri puolilla taloa
 
 #tapahtumalokaatioita
@@ -91,14 +91,14 @@
 296: branchLoc(EI_KOHAAN, EI_TUTKIJAK) #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
 +113: ref(296)
 
-297: branchLoc(ERIK, KASIK, HUM) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
+297: branchLoc(ERIKVAR, KASIK, HUM) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
 +115: ref(297)
 
-324: branchLoc(ERIK, UFEN, FEN) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
+324: branchLoc(ERIKVAR, UFEN, FEN) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
 +109: ref(324)
 #Näissä suppressoiduissa Helkan tietueissa on tilaukset kiinni. Ne voi varmaan Kohassa yhdistää Fennican tietueisiin, mutta tilausten pitää säilyä.
 
-449: branchLoc(ERIK, KONSER, FEN) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"
+449: branchLoc(ERIKVAR, KONSER, FEN) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"
 +119: ref(449)
 #Konservoitavat voivat kai olla eri kokoelmista, mietittävä lopulliseen versioon, kuinka mapataan.
 
