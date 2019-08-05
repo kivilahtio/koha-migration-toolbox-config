@@ -12,11 +12,11 @@
 
 #branchLoc sets the following attributes:
 #       branchcode, shelving_location, collection_code, sub_location, itemtype, notforloan-status
-1:  branchLoc(ERIK, FENNICA, FEN)    #REVIEW,"REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
+1:  branchLoc(ERIKVAR, FENNICA, FEN)    #REVIEW,"REVIEW","Fennican tarkastettavat","REVIEW","Y","Y","1","74"
 +REVIEW: ref(1)
-2:  branchLoc(ERIK, FENNICA, FEN)     #fennica,"fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
+2:  branchLoc(ERIKVAR, FENNICA, FEN)     #fennica,"fennica","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fennica","Y","N","1","833958"
 +fennica: ref(2)
-3:  branchLoc(ERIK, FENLUV, FEN)      #fenluv,"fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
+3:  branchLoc(ERIKVAR, FENLUV, FEN)      #fenluv,"fenluv","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)","fenluv","Y","N","1","170150"
 +fenluv: ref(3)
 
 #Tämä vaikuttaa itseasiassa aineistolajilta, Mikrofilmi (MF). Veikkaisin että ovat jossain varastossa/luolassa
@@ -24,7 +24,7 @@
 +mikrof: ref(4)
     
 #Kokoelma voisi olla pienpainate (PP)?
-5:  branchLoc(ERIK, PP, FEN)                #pienp,"Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
+5:  branchLoc(ERIKVAR, PP, FEN)                #pienp,"Pienpainate","KANSALLISKOKOELMA (tilattavissa lukusalik<E4>ytt<F6><F6>n)",,,"N","1","3268"
 +pienp: ref(5)
 
 #Nämä ovat varmaankin tilauksessa olevia tietueita tai jotain muuta mitkä eivät ole vielä saapuneet kokoelmaan? Tällöin niteen tila on hankinnassa tms.
@@ -69,7 +69,7 @@
 17: branchLoc(KUUNT, AANIT, FEN)                #HYKAAN","KK <C4><E4>nitteet","Kansalliskirjasto <C4><E4>nitteet","KK <C4><E4>nitteet",,"N","1","274"
 +HYKAAN: ref(17)
 
-18: branchLoc(ERIK, NUOTIT, FEN)                #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
+18: branchLoc(ERIKVAR, NUOTIT, FEN)                #HYKNUO","KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut","KK Nuottijulkaisut",,"N","1","2"
 +HYKNUO: ref(18)
 
 _DEFAULT_: branchLoc(FONVERSIO,FONVERSIO) #By default, print a warning and use defaults )
