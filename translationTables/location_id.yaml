@@ -30,7 +30,7 @@
 +122: ref(6) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
 7:   branchLoc(AVOK, SLAAVO, SLA) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
 +121: ref(7)
-8:   branchLoc(SLAVAR, SLAVARB, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
+8:   branchLoc(SLAVARLS, SLAVARB, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
 +124: ref(8) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
 9:   branchLoc(VARKL, SLAVARA, SLA) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
