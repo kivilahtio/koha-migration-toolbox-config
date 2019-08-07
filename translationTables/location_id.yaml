@@ -18,7 +18,7 @@
 +HYKAAN: ref(2)
 3:  branchLoc(ERIKVAR, NUOTIT, VIO)     #HYKNUO, "KK Nuottijulkaisut","Kansalliskirjasto Nuottijulkaisut",,"Y","N","1","24085"
 +HYKNUO: ref(3)
-4:  branchLoc(MUSARK, MUSARK)     #JAPA,   "Musiikkiarkisto","Musiikkiarkisto","JAPA","Y","N","1","30151"
+4: $DELETE     #JAPA,   "Musiikkiarkisto","Musiikkiarkisto","JAPA","Y","N","1","30151"
 +JAPA: ref(4)
 5:  branchLoc(EI_KOHAAN, EI_YKPER)    #YKPER,  "X_Ei k<E4>yt<F6>ss<E4> 2","Ei k<E4>yt<F6>ss<E4>","Ei k<E4>yt<F6>ss<E4>","Y","Y","1","0"
 +YKPER: ref(5)
