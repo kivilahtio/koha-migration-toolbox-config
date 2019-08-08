@@ -406,7 +406,7 @@
 +0480: ref(168)
 170: $DELETE #"01600","Hb H ja L","Viikin kampuskirjasto, hankinta ja luettelointi",,,"N","1","0"
 +01600: ref(170)
-171: $DELETE #"02150","Opiskelijakirjasto (H3)","Kaisa-talo, asiakaspalvelu",,,"Y","1","0"
+171: branchLoc(AVOK) #"02150","Opiskelijakirjasto (H3)","Kaisa-talo, asiakaspalvelu",,,"Y","1","0"
 +02150: ref(171)
 172: $DELETE #"01700","Ek H ja L","Elainlaaketieteellinen kirjasto, hankinta ja luettelointi",,,"Y","1","0"
 +01700: ref(172)
@@ -419,9 +419,9 @@
 
 178: $DELETE #"02190","Ho Oikeustiede kirjasto","Oikeustiede, lainaus","POISTETTU",,"Y","1","0"
 +02190: ref(178)
-179: $DELETE #"02400","Hs Kumpulan tiedekirjasto","Kumpulan kampuskirjasto, lainaus",,,"Y","1","0"
+179: branchLoc(AVOK) #"02400","Hs Kumpulan tiedekirjasto","Kumpulan kampuskirjasto, lainaus",,,"Y","1","0"
 +02400: ref(179)
-180: $DELETE #"02500","Hl Terkko","Terkko Meilahti, lainaus",,,"Y","1","0"
+180: branchLoc(AVOK) #"02500","Hl Terkko","Terkko Meilahti, lainaus",,,"Y","1","0"
 +02500: ref(180)
 181: $DELETE #"02700","zEk Elainlaaketiet. kirj.","Elainlaaketieteellinen kirjasto, lainaus",,,"Y","1","0"
 +02700: ref(181)
@@ -441,7 +441,7 @@
 +02940: ref(189)
 190: $DELETE #"02920","SKS Lainaus","SKS:n kirjasto, lainaus",,,"Y","1","0"
 +02920: ref(190)
-191: $DELETE #"02910","Su Kotus-kirjasto","Kotimaisten kielten keskuksen kirjasto, lainaus",,,"Y","1","0"
+191: branchLoc(AVOK) #"02910","Su Kotus-kirjasto","Kotimaisten kielten keskuksen kirjasto, lainaus",,,"Y","1","0"
 +02910: ref(191)
 192: $DELETE #"02470","Hmtah Observatorion kirj.","Observatorion kirjasto, lainaus",,,"Y","1","0"
 +02470: ref(192)
@@ -495,7 +495,7 @@
 +01950: ref(219)
 220: $DELETE #"524","Hlham kurssik","Hammaslaaketieteen kirjasto kurssikirjat, 14 vrk",,,"N","1","0"
 +524: ref(220)
-221: $DELETE #"02950","TYL Tyavenliikkeen kirj.","Tyavaenliikkeen kirjasto. Sarnaisten rantatie 25.",,,"N","1","0"
+221: branchLoc(AVOK) #"02950","TYL Tyavenliikkeen kirj.","Tyavaenliikkeen kirjasto. Sarnaisten rantatie 25.",,,"N","1","0"
 +02950: ref(221)
 222: $DELETE #"506","Hl SyOp","Laaketieteellisen tdk:n opinnaytteet, ei kotilainaan",,,"N","1","4587"
 +506: ref(222)
@@ -613,7 +613,7 @@
 +01730: ref(286)
 287: $DELETE #"01951","TYL LOAD L","TYL:in vanhan aineiston luettelointikokoelma loadia varten",,,"Y","1","0"
 +01951: ref(287)
-288: $DELETE #"02730","Hxai Aleksanteri-instit.","Aleksanteri-instituutti, lainaus",,,"Y","1","0"
+288: branchLoc(AVOK) #"02730","Hxai Aleksanteri-instit.","Aleksanteri-instituutti, lainaus",,,"Y","1","0"
 +02730: ref(288)
 289: $DELETE #"9995","HY E-aineisto A-a","Elektroninen aineisto - kaytta HY:n verkossa",,,"N","1","74145"
 +9995: ref(289)
