@@ -42,7 +42,7 @@
 9:  branchLoc(EI_KOHAAN, EI_KV)      #kvenn","KV Ennakkotiedot","Ennakkotieto","KVENN",,"N","1","0"
 +kvenn: ref(9)
 
-10: branchLoc(EI_KOHAAN, EI_VAP)              #Vpkpl","Vapaakappaleet","Vapaakappaletoimisto","VPKPL",,"Y","1","1809"
+10: $DELETE              #Vpkpl","Vapaakappaleet","Vapaakappaletoimisto","VPKPL",,"Y","1","1809"
 +Vpkpl: ref(10)
 
 #Aineistolaji voisi olla digitaalinen/elektroninen aineisto (EA) tjtn?
