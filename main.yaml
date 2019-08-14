@@ -24,7 +24,7 @@ voyagerExportDir: 'VoyagerExports'
 ## Exported DB rows are mangled into Koha-objects
 
 # Enable multithreading by defining workers.
-workers: 4
+workers: 0
 
 # Load ssns to Hetula instead of storing them in Koha as plain text.
 # Boolean value
