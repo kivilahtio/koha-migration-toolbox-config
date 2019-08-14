@@ -48,7 +48,7 @@
 231: branchLoc(AVOK, TYOHUO, HUM) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
 +106: ref(231) #pysyväiskäyttö
 #voisi harkita item typeä, joka piilottaa nämä työhuonekäytössä olevat OPACista, jos se toimii myös Finnassa.
-234: branchLoc(EI_KOHAAN, EI_UUTUUS) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
+234: branchLoc(AVOK, UUTUUS) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
 +107: ref(234) # temp location
 238: branchLoc(EI_KOHAAN, EI_TIETOPALVELU) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
