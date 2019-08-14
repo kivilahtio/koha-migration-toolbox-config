@@ -53,7 +53,7 @@
 12: branchLoc(DIGI, DIGIAAN, FEN)  #digiaan","digitoidut <E4><E4>nitteet","KANSALLISKOKOELMA - digitoidut <E4><E4>nitteet","digitoidut <E4><E4>nitteet",,"N","1","5"
 +digiaan: ref(12)
 
-13: branchLoc(EI_KOHAAN, EI_DIGIT)                   #mikkeli","digitoitavana Mikkeliss<E4>","digitoitavana",,,"N","1","0"
+13: branchLoc(ERIKVAR, MIKKELI, FEN)                   #mikkeli","digitoitavana Mikkeliss<E4>","digitoitavana",,,"N","1","0"
 +mikkeli: ref(13)
 
 14: branchLoc(EI_KOHAAN, EI_LAINAUS)                    #Lainaus","Fennican lainaus",,,,"Y","1","0"
