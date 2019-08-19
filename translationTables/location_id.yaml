@@ -417,7 +417,7 @@
 176: $DELETE #"02160","Hk Minerva","Kayttaytymistieteet / Minerva, lainaus",,,"Y","1","0"
 +02160: ref(176)
 
-178: $DELETE #"02190","Ho Oikeustiede kirjasto","Oikeustiede, lainaus","POISTETTU",,"Y","1","0"
+178: branchLoc(AVOK) #"02190","Ho Oikeustiede kirjasto","Oikeustiede, lainaus","POISTETTU",,"Y","1","0"
 +02190: ref(178)
 179: branchLoc(AVOK) #"02400","Hs Kumpulan tiedekirjasto","Kumpulan kampuskirjasto, lainaus",,,"Y","1","0"
 +02400: ref(179)
@@ -429,7 +429,7 @@
 +02900: ref(182)
 183: $DELETE #"02180","Sk Soc. och komm. bibl ","Soc. och kommunalhagskolans bibliotek, lane",,,"Y","1","0"
 +02180: ref(183)
-184: $DELETE #"02200","Hh Metsatalo","Metsatalo lainaus","POISTETTU",,"Y","1","0"
+184: branchLoc(AVOK) #"02200","Hh Metsatalo","Metsatalo lainaus","POISTETTU",,"Y","1","0"
 +02200: ref(184)
 185: $DELETE #"02210","Hhu38 Topelia kirjasto","Topelia lainaus",,,"Y","1","0"
 +02210: ref(185)
@@ -439,7 +439,7 @@
 +02980: ref(187)
 189: $DELETE #"02940","TUG Baltia-kirjasto","Baltia-kirjasto, lainaus",,,"Y","1","0"
 +02940: ref(189)
-190: $DELETE #"02920","SKS Lainaus","SKS:n kirjasto, lainaus",,,"Y","1","0"
+190: branchLoc(AVOK) #"02920","SKS Lainaus","SKS:n kirjasto, lainaus",,,"Y","1","0"
 +02920: ref(190)
 191: branchLoc(AVOK) #"02910","Su Kotus-kirjasto","Kotimaisten kielten keskuksen kirjasto, lainaus",,,"Y","1","0"
 +02910: ref(191)
