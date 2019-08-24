@@ -42,19 +42,11 @@ ISBNCOMP:
 
 #Previous serial number. Add $w
 ISSNPREC:
-  do: 1
-  reverseLookup: 1
-  reverseIndex: 1
-  reverseIds: 1
-  expectedSourceField: 780
+  do: 0
 
 #Next serial number. Add $w
 ISSNSUCC:
-  do: 1
-  reverseLookup: 1
-  reverseIndex: 1
-  reverseIds: 1
-  expectedSourceField: 785
+  do: 0
 
 ISBDKONV:
   do: 0
