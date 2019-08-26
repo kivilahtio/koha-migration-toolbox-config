@@ -6,89 +6,89 @@
 
 1: branchLoc(KONVERSIO, KONVERSIO_DEFAULT) # DEFAULT    DEFAULT
 +DEFAULT: ref(1)
-2: branchLoc(KA, 1) # KA1        Kansallisarkiston kirjasto, avokokoelma, vain lukusalikäyttö
+2: branchLoc(KA, LOC1) # KA1        Kansallisarkiston kirjasto, avokokoelma, vain lukusalikäyttö
 +KA1: ref(2)
-3: branchLoc(KA, 2) # KA2        Kansallisarkiston kirjasto, varasto
+3: branchLoc(KA, LOC2) # KA2        Kansallisarkiston kirjasto, varasto
 +KA2: ref(3)
-4: branchLoc(KA, 3) # KA3        Kansallisarkiston kirjasto, kausijulkaisut, avokokoelma
+4: branchLoc(KA, LOC3) # KA3        Kansallisarkiston kirjasto, kausijulkaisut, avokokoelma
 +KA3: ref(4)
-5: branchLoc(KA, 4) # KA4        Kansallisarkiston kirjasto, kausijulkaisut, varasto
+5: branchLoc(KA, LOC4) # KA4        Kansallisarkiston kirjasto, kausijulkaisut, varasto
 +KA4: ref(5)
-6: branchLoc(KA, L) # KAL        Kansallisarkisto, luettelointi
+6: branchLoc(KA, LOCL) # KAL        Kansallisarkisto, luettelointi
 +KAL: ref(6)
-7: branchLoc(TMA, 1) # TMA1       Turun maakunta-arkiston kirjasto, avokokoelma
+7: branchLoc(TMA, LOC1) # KAT1      Kansallisarkisto Turku, avokokoelma
 +TMA1: ref(7)
-8: branchLoc(TMA, 2) # TMA2       Turun maakunta-arkiston kirjasto, varasto
+8: branchLoc(TMA, LOC2) # KAT2      Kansallisarkisto Turku, varasto
 +TMA2: ref(8)
-9: branchLoc(TMA, 3) # TMA3       Turun maakunta-arkiston kirjasto, kausijulkaisut, avokoelma
+9: branchLoc(TMA, LOC3) # KAT3      Kansallisarkisto Turku, kausijulkaisut, avokokoelma
 +TMA3: ref(9)
-10: branchLoc(TMA, 4) # TMA4       Turun maakunta-arkiston kirjasto, kausijulkaisut, varasto
+10: branchLoc(TMA, LOC4) # KAT4     Kansallisarkisto Turku, kausijulkaisut, varasto
 +TMA4: ref(10)
-11: branchLoc(TMA, L) # TMAL       Turun maakunta-arkisto, luettelointi
+11: branchLoc(TMA, LOCL) # KATL     Kansallisarkisto Turku, luettelointi
 +TMAL: ref(11)
-12: branchLoc(HMA, 1) # HMA1       H&#228;meenlinnan maakunta-arkiston kirjasto, avokok
+12: branchLoc(HMA, LOC1) # KAH1     Kansallisarkisto H&#228;meenlinna, avokokoelma
 +HMA1: ref(12)
-13: branchLoc(HMA, 2) # HMA2       H&#228;meenlinnan maakunta-arkiston kirjasto, varasto
+13: branchLoc(HMA, LOC2) # KAH2     Kansallisarkisto H&#228;meenlinna, varasto
 +HMA2: ref(13)
-14: branchLoc(HMA, 3) # HMA3       H&#228;meenlinnan maakunta-arkiston kirjasto, kj. avok.
-+HMA3: ref(14)
-15: branchLoc(HMA, 4) # HMA4       H&#228;meenlinnan maakunta-arkiston kirjasto, kj. varasto
+14: branchLoc(HMA, LOC3) # KAH3     Kansallisarkisto H&#228;meenlinna, kausijulkaisut, avokokoelma
++HMA4: ref(14)
+15: branchLoc(HMA, LOC4) # KAH4     Kansallisarkisto H&#228;meenlinna, kausijulkaisut, varasto
 +HMA4: ref(15)
-16: branchLoc(HMA, L) # HMAL       H&#228;meenlinnan maakunta-arkiston kirjasto, luettelointi
+16: branchLoc(HMA, LOCL) # KAHL     Kansallisarkisto H&#228;meenlinna, luettelointi
 +HMAL: ref(16)
-17: branchLoc(JOMA, 1) # JoMA1      Joensuun maakunta-arkiston kirjasto, avokokoelma
+17: branchLoc(JOMA, LOC1) # KAJo1   Kansallisarkisto Joensuu, avokokoelma
 +JoMA1: ref(17)
-18: branchLoc(JOMA, 2) # JoMA2      Joensuun maakunta-arkiston kirjasto, varasto
+18: branchLoc(JOMA, LOC2) # KAJo2   Kansallisarkisto Joensuu, varasto
 +JoMA2: ref(18)
-19: branchLoc(JOMA, 3) # JoMA3      Joensuun maakunta-arkiston kirjasto, kausijulk., avokokoelma
+19: branchLoc(JOMA, LOC3) # KAJo3   Kansallisarkisto Joensuu, kausijulkaisut, avokokoelma
 +JoMA3: ref(19)
-20: branchLoc(JOMA, 4) # JoMA4      Joensuun maakunta-arkiston kirjasto, kausijulk. varasto
+20: branchLoc(JOMA, LOC4) # KAJo4   Kansallisarkisto Joensuu, kausijulkaisut, varasto
 +JoMA4: ref(20)
-21: branchLoc(JOMA, L) # JoMAL      Joesuun maakunta-arkiston kirjasto, luettelointi
+21: branchLoc(JOMA, LOCL) # KAJoL   Kansallisarkisto Joesuu, luettelointi
 +JoMAL: ref(21)
-22: branchLoc(JYMA, 1) # JyMA1      Jyv&#228;skyl&#228;n maakunta-arkiston kirjasto, avokokoelma
+22: branchLoc(JYMA, LOC1) # KAJy1   Kansallisarkisto Jyv&#228;skyl&#228;, avokokoelma
 +JyMA1: ref(22)
-23: branchLoc(JYMA, 2) # JyMA2      Jyv&#228;skyl&#228;n maakunta-arkiston kirjasto, varasto
+23: branchLoc(JYMA, LOC2) # KAJy2   Kansallisarkisto Jyv&#228;skyl&#228;, varasto
 +JyMA2: ref(23)
-24: branchLoc(JYMA, 3) # JyMA3      Jyv&#228;skyl&#228;n maakunta-arkiston kirjasto, kj. avok.
+24: branchLoc(JYMA, LOC3) # KAJy3   Kansallisarkisto Jyv&#228;skyl&#228;, kausijulkaisut, avokokoelma
 +JyMA3: ref(24)
-25: branchLoc(JYMA, 4) # JyMA4      Jyv&#228;skyl&#228;n maakunta-arkiston kirjasto, kj. varasto
+25: branchLoc(JYMA, LOC4) # KAJy4   Kansallisarkisto Jyv&#228;skyl&#228;, kausijulkaisut, varasto
 +JyMA4: ref(25)
-26: branchLoc(JYMA, L) # JyMAL      Jyv&#228;skyl&#228;n maakunta-arkiston kirjasto, luett.
+26: branchLoc(JYMA, LOCL) # KAJyL   Kansallisarkisto Jyv&#228;skyl&#228;, luettelointi
 +JyMAL: ref(26)
-27: branchLoc(OMA, 1) # OMA1       Oulun maakunta-arkiston kirjasto, avokokoelma
+27: branchLoc(OMA, LOC1) # KAO1     Kansallisarkisto Oulu, avokokoelma
 +OMA1: ref(27)
-28: branchLoc(OMA, 2) # OMA2       Oulun maakunta-arkiston kirjasto, varasto
+28: branchLoc(OMA, LOC2) # KAO2     Kansallisarkisto Oulu, varasto
 +OMA2: ref(28)
-29: branchLoc(OMA, 3) # OMA3       Oulun maakunta-arkiston kirjasto, kausijulk., avokokoelma
+29: branchLoc(OMA, LOC3) # KAO3     Kansallisarkisto Oulu, kausijulkaisut, avokokoelma
 +OMA3: ref(29)
-30: branchLoc(OMA, 4) # OMA4       Oulun maakunta-arkiston kirjasto, kausijulkaisut, varasto
+30: branchLoc(OMA, LOC4) # KAO4     Kansallisarkisto Oulu, kausijulkaisut, varasto
 +OMA4: ref(30)
-31: branchLoc(OMA, L) # OMAL       Oulun maakunta-arkiston kirjasto, luettelointi
+31: branchLoc(OMA, LOCL) # KAOL     Kansallisarkisto Oulu, luettelointi
 +OMAL: ref(31)
-32: branchLoc(MMA, 1) # MMA1       Mikkelin maakunta-arkiston kirjasto, avokokoelma
+32: branchLoc(MMA, LOC1) # KAM1     Kansallisarkisto Mikkeli, avokokoelma
 +MMA1: ref(32)
-33: branchLoc(MMA, 2) # MMA2       Mikkelin maakunta-arkiston kirjasto, varasto
+33: branchLoc(MMA, LOC2) # KAM2     Kansallisarkisto Mikkeli, varasto
 +MMA2: ref(33)
-34: branchLoc(MMA, 3) # MMA3       Mikkelin maakunta-arkiston kirjasto, kausijulk., avokokoelma
+34: branchLoc(MMA, LOC3) # KAM3     Kansallisarkisto Mikkeli, kausijulkaisut, avokokoelma
 +MMA3: ref(34)
-35: branchLoc(MMA, 4) # MMA4       Mikkelin maakunta-arkiston kirjasto, kausijulkaisut, varasto
+35: branchLoc(MMA, LOC4) # KAM4     Kansallisarkisto Mikkeli, kausijulkaisut, varasto
 +MMA4: ref(35)
-36: branchLoc(MMA, L) # MMAL       Mikkelin maakunta-arkiston kirjasto, luettelointi
+36: branchLoc(MMA, LOCL) # KAML     Kansallisarkisto Mikkeli, luettelointi
 +MMAL: ref(36)
-37: branchLoc(VMA, 1) # VMA1       Vaasan maakunta-arkiston kirjasto, avokokoelma
+37: branchLoc(VMA, LOC1) # KAV1     Kansallisarkisto Vaasa, avokokoelma
 +VMA1: ref(37)
-38: branchLoc(VMA, 2) # VMA2       Vaasan maakunta-arkiston kirjasto, varasto
+38: branchLoc(VMA, LOC2) # KAV2     Kansallisarkisto Vaasa, varasto
 +VMA2: ref(38)
-39: branchLoc(VMA, 3) # VMA3       Vaasan maakunta-arkiston kirjasto, kausijulk., avokokoelma
+39: branchLoc(VMA, LOC3) # KAV3     Kansallisarkisto Vaasa, kausijulkaisut, avokokoelma
 +VMA3: ref(39)
-40: branchLoc(VMA, 4) # VMA4       Vaasan maakunta-arkiston kirjasto, kausijulkaisut, varasto
+40: branchLoc(VMA, LOC4) # KAV4     Kansallisarkisto Vaasa, kausijulkaisut, varasto
 +VMA4: ref(40)
-41: branchLoc(VMA, L) # VMAL       Vaasan maakunta-arkiston kirjasto, luettelointi
+41: branchLoc(VMA, LOCL) # KAVL     Kansallisarkisto Vaasa, luettelointi
 +VMAL: ref(41)
 42: branchLoc(KONVERSIO) # Ei Linda
 +Ei: ref(42)
-43: branchLoc(KA, 5) # KA5        Saamelaisarkisto
+43: branchLoc(KA, LOC5) # KA5        Saamelaisarkisto
 +KA5: ref(43)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
