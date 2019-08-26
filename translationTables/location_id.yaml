@@ -31,7 +31,7 @@
 13: branchLoc(HMA, LOC2) # KAH2     Kansallisarkisto H&#228;meenlinna, varasto
 +HMA2: ref(13)
 14: branchLoc(HMA, LOC3) # KAH3     Kansallisarkisto H&#228;meenlinna, kausijulkaisut, avokokoelma
-+HMA4: ref(14)
++HMA3: ref(14)
 15: branchLoc(HMA, LOC4) # KAH4     Kansallisarkisto H&#228;meenlinna, kausijulkaisut, varasto
 +HMA4: ref(15)
 16: branchLoc(HMA, LOCL) # KAHL     Kansallisarkisto H&#228;meenlinna, luettelointi
